@@ -1,12 +1,11 @@
-FROM wordpress:6.5-php8.2-apache
+FROM wordpress:6.5-php8.2-fpm
 
-# Enable Apache rewrite (usually enabled in the base image, this is safe to repeat)
-RUN a2enmod rewrite \
- && rm -f /etc/apache2/mods-enabled/mpm_event.load /etc/apache2/mods-enabled/mpm_event.conf \
-          /etc/apache2/mods-enabled/mpm_worker.load /etc/apache2/mods-enabled/mpm_worker.conf \
-          /etc/apache2/mods-enabled/mpm_prefork.load /etc/apache2/mods-enabled/mpm_prefork.conf || true \
- && a2dismod mpm_event mpm_worker mpm_prefork || true \
- && a2enmod mpm_prefork
+ENV PHP_FPM_LISTEN=9000
+
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends nginx supervisor gettext-base ca-certificates && \
+    rm -rf /var/lib/apt/lists/* && \
+    mkdir -p /run/php /var/log/supervisor
 
 # Copy project into the web root
 COPY . /var/www/html
@@ -14,5 +13,16 @@ COPY . /var/www/html
 # Ensure correct ownership for WordPress to write to wp-content
 RUN chown -R www-data:www-data /var/www/html
 
-# The base image exposes port 80 and runs Apache by default
+# Nginx config (use envsubst to inject $PORT on container start)
+COPY docker/nginx.conf.template /etc/nginx/nginx.conf.template
+
+# Supervisor config to run php-fpm and nginx together
+COPY docker/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+
+# Railway will set PORT; default to 8080 if not provided
+ENV PORT=8080
+EXPOSE 8080
+
+# Start supervisor which will render nginx.conf from template and start services
+CMD ["/usr/bin/supervisord", "-n", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
 

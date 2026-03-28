@@ -1,0 +1,44 @@
+worker_processes auto;
+events { worker_connections 1024; }
+
+http {
+    include       /etc/nginx/mime.types;
+    default_type  application/octet-stream;
+    sendfile      on;
+    keepalive_timeout 65;
+    client_max_body_size 64m;
+
+    server {
+        listen ${PORT};
+        server_name _; # Railway dynamic host
+        root /var/www/html;
+        index index.php index.html;
+
+        # WordPress permalinks
+        location / {
+            try_files $uri $uri/ /index.php?$args;
+        }
+
+        # PHP handling
+        location ~ \.php$ {
+            include        fastcgi_params;
+            fastcgi_param  SCRIPT_FILENAME $document_root$fastcgi_script_name;
+            fastcgi_pass   127.0.0.1:9000;
+            fastcgi_read_timeout 300;
+            fastcgi_buffers 16 16k;
+            fastcgi_buffer_size 32k;
+        }
+
+        # Deny access to sensitive files
+        location ~* \.(htaccess|htpasswd|ini|log|conf)$ {
+            deny all;
+        }
+
+        # Cache static assets (optional)
+        location ~* \.(?:css|js|jpg|jpeg|gif|png|svg|ico|webp)$ {
+            expires 7d;
+            access_log off;
+        }
+    }
+}
+
