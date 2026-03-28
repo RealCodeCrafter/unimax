@@ -2,7 +2,7 @@ FROM wordpress:6.5-php8.2-apache
 
 # Enable Apache rewrite (usually enabled in the base image, this is safe to repeat)
 RUN a2enmod rewrite \
- && a2dismod mpm_event mpm_worker || true \
+ && rm -f /etc/apache2/mods-enabled/mpm_event.load /etc/apache2/mods-enabled/mpm_worker.load /etc/apache2/mods-enabled/mpm_prefork.load || true \
  && a2enmod mpm_prefork
 
 # Copy project into the web root
