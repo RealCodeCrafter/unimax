@@ -1,0 +1,401 @@
+# Translation of Plugins - To Top - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - To Top - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-09-24 13:21:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - To Top - Development (trunk)\n"
+
+#: admin/inc/ctp-tabs-removal.php:62
+msgid "Permission denied!"
+msgstr "Доступ запрещен!"
+
+#: admin/inc/ctp-tabs-removal.php:59
+msgid "Invalid Nonce"
+msgstr "Недействительный Nonce (одноразовый номер)"
+
+#: admin/inc/ctp-tabs-removal.php:75
+msgid "Connection Error. Please try again."
+msgstr "Ошибка подключения. Попробуйте еще раз."
+
+#: admin/partials/to-top-admin-display.php:43
+msgid "Turn On Catch Themes & Catch Plugin tabs"
+msgstr "Включить вкладки Темы и плагины от Catch"
+
+#: admin/partials/to-top-admin-display.php:38
+msgid "If you want to turn off Catch Themes & Catch Plugins tabs option in Add Themes and Add Plugins page, please uncheck the following option."
+msgstr "Если вы хотите отключить вкладку Темы и плагины от Catch на странице Add Themes and Add Plugins, снимите флажок со следующей опции."
+
+#: admin/partials/to-top-admin-display.php:33
+msgid "Catch Themes & Catch Plugins Tabs"
+msgstr "Вкладка Темы и плагины от Catch"
+
+#: admin/inc/CatchThemesThemePlugin.php:154
+msgid "Themes by CatchThemes"
+msgstr "Темы от CatchThemes"
+
+#: admin/inc/CatchThemesThemePlugin.php:473
+msgid "You can use any of our free plugins or premium plugins from <a href=\"%s\" target=\"_blank\">Catch Plugins</a>"
+msgstr "Вы можете использовать любые наши бесплатные плагины или премиальные плагины из <a href=\"%s\" target=\"_blank\">Плагины Catch</a>"
+
+#: admin/inc/CatchThemesThemePlugin.php:434
+msgctxt "Plugin Installer"
+msgid "Catch Plugins"
+msgstr "Плагины Catch"
+
+#. Author URI of the plugin
+msgid "https://catchplugins.com/"
+msgstr "https://catchplugins.com/"
+
+#. Plugin URI of the plugin
+msgid "https://catchplugins.com/plugins/to-top/"
+msgstr "https://catchplugins.com/plugins/to-top/"
+
+#: admin/partials/to-top-admin-display.php:83
+msgid "We have a great line of support team and support documentation. You do not need to worry about how to use the plugins we provide, just refer to our Tech Support Forum. Further, if you need to do advanced customization to your website, you can always hire our theme customizer!"
+msgstr "У нас есть отличная линия поддержки и технической поддержки. Вам не нужно беспокоиться о том, как использовать предоставляемые нами плагины, просто обратитесь на наш форум технической поддержки. Кроме того, если вам нужно выполнить расширенную настройку вашего сайта, вы всегда можете нанять нашего настройщика тем!"
+
+#: admin/partials/to-top-admin-display.php:82
+msgid "Incredible Support"
+msgstr "Отличная поддержка"
+
+#: admin/partials/to-top-admin-display.php:78
+msgid "It is extremely lightweight. You do not need to worry about it affecting the space and speed of your website."
+msgstr "Он очень легкий. Вам не нужно беспокоиться о том, что это повлияет на размер и скорость вашего сайта."
+
+#: admin/partials/to-top-admin-display.php:77
+msgid "Lightweight"
+msgstr "Облегченный"
+
+#: admin/partials/to-top-admin-display.php:73
+msgid "You don’t have to worry if you have a slightly different or complicated theme installed on your website. It supports all the themes on WordPress and makes your website more striking and playful."
+msgstr "Вам не нужно беспокоиться, если на вашем сайте установлена немного другая или сложная тема. Он поддерживает все темы на WordPress и делает ваш сайт более ярким и игривым."
+
+#: admin/partials/to-top-admin-display.php:72
+msgid "Supports all themes on WordPress"
+msgstr "Поддержка всех тем WordPress"
+
+#: admin/partials/to-top-admin-display.php:25
+#: admin/partials/to-top-admin-display.php:67
+msgid "Features"
+msgstr "Возможности"
+
+#: admin/partials/to-top-admin-display.php:24
+msgid "Dashboard"
+msgstr "Панель управления"
+
+#: admin/partials/sidebar.php:36
+msgid "check our free plugins."
+msgstr "проверьте наши бесплатные плагины."
+
+#: admin/partials/sidebar.php:35
+msgid "Check out our Free WordPress Plugins and get the taste of our service without affecting your wallet."
+msgstr "Ознакомьтесь с нашими бесплатными плагинами WordPress и почувствуйте вкус нашего сервиса без ущерба для вашего кошелька."
+
+#: admin/partials/sidebar.php:34
+msgid "Free Plugins"
+msgstr "Бесплатные плагины"
+
+#: admin/partials/sidebar.php:26
+msgid "Check our premium plugins."
+msgstr "Проверьте наши премиальные плагины."
+
+#: admin/partials/sidebar.php:26
+msgid "Check out our secured Premium WordPress Plugins to enhance and add extra functionalities to your website. An exceptional way to get the most out of WordPress!"
+msgstr "Ознакомьтесь с нашими защищенными премиум-плагинами WordPress, которые улучшат и добавят дополнительные функции вашему сайту. Исключительный способ получить максимальную отдачу от WordPress!"
+
+#: admin/partials/sidebar.php:25
+msgid "Premium Plugins"
+msgstr "Премиум плагины"
+
+#: admin/partials/sidebar.php:17
+msgid "Check our free themes."
+msgstr "Проверьте наши бесплатные темы."
+
+#: admin/partials/sidebar.php:17
+msgid "Check out our collection of Free WordPress Themes that are clean, simple and feature-rich."
+msgstr "Ознакомьтесь с нашей коллекцией бесплатных тем WordPress, которые чисты, просты и многофункциональны."
+
+#: admin/partials/sidebar.php:16
+msgid "Free Themes"
+msgstr "Бесплатные темы"
+
+#: admin/partials/sidebar.php:9
+msgid "Check our premium themes."
+msgstr "Проверьте наши премиальные темы."
+
+#: admin/partials/sidebar.php:9
+msgid "Check out our simple, clean and responsive Premium WordPress Themes that come with an array of crucial features with a superior functionality."
+msgstr "Ознакомьтесь с нашими простыми, понятными и отзывчивыми темами Premium WordPress, которые включают в себя множество важных функций с превосходной функциональностью."
+
+#: admin/partials/sidebar.php:8
+msgid "Premium Themes"
+msgstr "Премиум Темы"
+
+#: admin/partials/sidebar.php:3
+msgid "Recommendations"
+msgstr "Рекомендации"
+
+#: admin/partials/footer.php:11
+msgid "Support"
+msgstr "Поддержка"
+
+#: admin/partials/footer.php:10
+msgid "View Plugins"
+msgstr "Посмотреть плагины"
+
+#: admin/partials/footer.php:9
+msgid "View Themes"
+msgstr "Посмотреть темы"
+
+#. Author of the plugin
+#: admin/partials/footer.php:4
+msgid "Catch Plugins"
+msgstr "Плагины Catch"
+
+#. Description of the plugin
+msgid "To Top plugin allows the visitor as well as admin to easily scroll back to the top of the page, with fully customizable options and ability to use image."
+msgstr "Плагин To Top позволяет посетителю, а также администратору легко прокручивать вверх страницы, с полностью настраиваемыми опциями и возможностью использовать изображение."
+
+#. Plugin Name of the plugin
+#: admin/partials/to-top-admin-display.php:17
+msgid "To Top"
+msgstr "To Top"
+
+#: public/class-to-top-public.php:145 public/class-to-top-public.php:158
+#: public/class-to-top-public.php:171
+msgid "Scroll Up"
+msgstr "Прокрутка вверх"
+
+#: admin/partials/to-top-dashboard.php:301
+msgid "Caution: All data will be lost"
+msgstr "Внимание: Все данные будут потеряны"
+
+#: admin/partials/to-top-dashboard.php:296
+msgid "Reset All Settings"
+msgstr "Сброс всех настроек"
+
+#: admin/partials/to-top-dashboard.php:265
+msgid "Hide on Small Devices?"
+msgstr "Скрыть на малых устройствах?"
+
+#: admin/partials/to-top-dashboard.php:244
+msgid "Enable Auto Hide"
+msgstr "Включить автоскрытие"
+
+#: admin/partials/to-top-dashboard.php:237
+#: admin/partials/to-top-dashboard.php:248
+#: admin/partials/to-top-dashboard.php:269
+msgid "Check to Enable"
+msgstr "Отметьте, чтобы включить"
+
+#: admin/partials/to-top-dashboard.php:233
+msgid "Show on WP-ADMIN?"
+msgstr "Показать на WP-ADMIN?"
+
+#: admin/partials/to-top-dashboard.php:169
+msgid "Change Image"
+msgstr "Изменить изображение"
+
+#: admin/partials/to-top-dashboard.php:169
+msgid "Insert Image"
+msgstr "Вставить изображение"
+
+#: admin/partials/to-top-dashboard.php:161
+msgid "Image Settings"
+msgstr "Настройки изображения"
+
+#: admin/partials/to-top-dashboard.php:96
+msgid "Icon Settings"
+msgstr "Настройки значка"
+
+#: admin/partials/to-top-dashboard.php:93
+#: admin/partials/to-top-dashboard.php:158
+#: admin/partials/to-top-dashboard.php:192
+#: admin/partials/to-top-dashboard.php:288
+#: admin/partials/to-top-dashboard.php:308
+msgid "Save Changes"
+msgstr "Сохранить"
+
+#: admin/partials/to-top-dashboard.php:38
+msgid "Want Live Preview? Change the settings from "
+msgstr "Хотите предварительный просмотр в реальном времени? Измените настройки "
+
+#: admin/partials/to-top-dashboard.php:36
+msgid "Customizer"
+msgstr "Настройка темы"
+
+#: admin/partials/to-top-dashboard.php:21
+msgid "Plugin Options Saved."
+msgstr "Параметры плагина сохранены."
+
+#: admin/class-to-top-admin.php:699
+msgid "Caution: All data will be lost. Refresh the page after save to view full effects."
+msgstr "Внимание: все данные будут потеряны. Обновите страницу после сохранения, чтобы просмотреть все эффекты."
+
+#: admin/class-to-top-admin.php:698 admin/partials/to-top-dashboard.php:300
+msgid "Check to Reset All Settings"
+msgstr "Сбросить все настройки"
+
+#: admin/class-to-top-admin.php:687 admin/partials/to-top-dashboard.php:291
+msgid "Reset Settings"
+msgstr "Восстановить установки"
+
+#: admin/class-to-top-admin.php:668 admin/partials/to-top-dashboard.php:281
+msgid "Button will be hidden on devices with lesser or equal width"
+msgstr "Кнопка будет скрыта на устройствах с меньшей или равной шириной"
+
+#: admin/class-to-top-admin.php:667 admin/partials/to-top-dashboard.php:276
+msgid "Small Device Max Width (px)"
+msgstr "Макс. ширина малого устройства (px)"
+
+#: admin/class-to-top-admin.php:653 admin/partials/to-top-dashboard.php:270
+msgid "Button will be hidden on small devices when the width below matches"
+msgstr "Кнопка будет скрыта на маленьких устройствах, если ее ширина соответствует ширине, указанной ниже"
+
+#: admin/class-to-top-admin.php:652
+msgid "Check to Hide on Small Devices"
+msgstr "Скрыть на небольших устройствах"
+
+#: admin/class-to-top-admin.php:632 admin/partials/to-top-dashboard.php:259
+msgid "Button will be auto hidden after this duration in seconds, if enabled"
+msgstr "Кнопка будет автоматически скрыта по истечении этого времени в секундах, если включено"
+
+#: admin/class-to-top-admin.php:631 admin/partials/to-top-dashboard.php:254
+msgid "Auto Hide Time (secs)"
+msgstr "Время автоматического скрытия (сек)"
+
+#: admin/class-to-top-admin.php:616
+msgid "Check to Enable Auto Hide"
+msgstr "Включить автоматическое скрытие"
+
+#: admin/class-to-top-admin.php:602 admin/partials/to-top-dashboard.php:238
+msgid "Button will be shown on admin section"
+msgstr "Кнопка будет отображаться в разделе администратора"
+
+#: admin/class-to-top-admin.php:601
+msgid "Check to show on WP-ADMIN"
+msgstr "Показать на WP-ADMIN"
+
+#: admin/class-to-top-admin.php:581 admin/partials/to-top-dashboard.php:224
+msgid "Margin Y (px)"
+msgstr "Отступ Y (px)"
+
+#: admin/class-to-top-admin.php:561 admin/partials/to-top-dashboard.php:215
+msgid "Margin X (px)"
+msgstr "Отступ X (px)"
+
+#: admin/class-to-top-admin.php:549 admin/partials/to-top-dashboard.php:208
+msgid "Top Left"
+msgstr "Слева вверху"
+
+#: admin/class-to-top-admin.php:548 admin/partials/to-top-dashboard.php:207
+msgid "Top Right"
+msgstr "Справа вверху"
+
+#: admin/class-to-top-admin.php:547 admin/partials/to-top-dashboard.php:206
+msgid "Bottom Left"
+msgstr "Слева внизу"
+
+#: admin/class-to-top-admin.php:546 admin/partials/to-top-dashboard.php:205
+msgid "Bottom Right"
+msgstr "Справа внизу"
+
+#: admin/class-to-top-admin.php:540 admin/partials/to-top-dashboard.php:200
+msgid "Location"
+msgstr "Местонахождение"
+
+#: admin/class-to-top-admin.php:529 admin/partials/to-top-dashboard.php:195
+msgid "Advanced Settings"
+msgstr "Расширенные настройки"
+
+#: admin/class-to-top-admin.php:514 admin/partials/to-top-dashboard.php:183
+msgid "Image Alt"
+msgstr "Атрибут Alt для изображений"
+
+#: admin/class-to-top-admin.php:493 admin/partials/to-top-dashboard.php:174
+msgid "Image Width (px)"
+msgstr "Ширина изображения (px)"
+
+#: admin/class-to-top-admin.php:456 admin/partials/to-top-dashboard.php:152
+msgid "0 will make the icon background square, 50 will make it a circle"
+msgstr "0 сделает фон значка квадратным, 50 - кругом"
+
+#: admin/class-to-top-admin.php:455 admin/partials/to-top-dashboard.php:147
+msgid "Border Radius (%)"
+msgstr "Радиус скругления (%)"
+
+#: admin/class-to-top-admin.php:435 admin/partials/to-top-dashboard.php:138
+msgid "Icon Size (px)"
+msgstr "Размер значка (px)"
+
+#: admin/class-to-top-admin.php:420 admin/partials/to-top-dashboard.php:128
+msgid "Icon Background Color"
+msgstr "Цвет фона значка"
+
+#: admin/class-to-top-admin.php:405 admin/partials/to-top-dashboard.php:118
+msgid "Icon Color"
+msgstr "Цвет значка"
+
+#: admin/class-to-top-admin.php:390 admin/partials/to-top-dashboard.php:101
+msgid "Select Icon Type"
+msgstr "Выбор типа значка"
+
+#: admin/class-to-top-admin.php:378 admin/class-to-top-admin.php:477
+#: admin/partials/to-top-dashboard.php:85
+#: admin/partials/to-top-dashboard.php:166
+msgid "Image"
+msgstr "Изображение"
+
+#: admin/class-to-top-admin.php:377 admin/partials/to-top-dashboard.php:84
+msgid "Icon Using Font Awesome Icons"
+msgstr "Использовать значок Font Awesome Icons"
+
+#: admin/class-to-top-admin.php:376 admin/partials/to-top-dashboard.php:83
+msgid "Icon Using Genericons"
+msgstr "Использовать значок Genericons"
+
+#: admin/class-to-top-admin.php:375 admin/partials/to-top-dashboard.php:82
+msgid "Icon Using Dashicons"
+msgstr "Использовать значок Dashicons"
+
+#: admin/class-to-top-admin.php:370 admin/partials/to-top-dashboard.php:77
+msgid "Style"
+msgstr "Стиль"
+
+#: admin/class-to-top-admin.php:350 admin/partials/to-top-dashboard.php:68
+msgid "Icon Opacity (%)"
+msgstr "Прозрачность значка (%)"
+
+#: admin/class-to-top-admin.php:330 admin/partials/to-top-dashboard.php:62
+msgid "Number of pixels to be scrolled before the button appears"
+msgstr "Кол-во пикселей, которые необходимо прокрутить до появления кнопки"
+
+#: admin/class-to-top-admin.php:329 admin/partials/to-top-dashboard.php:57
+msgid "Scroll Offset (px)"
+msgstr "Смещение прокрутки (px)"
+
+#: admin/class-to-top-admin.php:318 admin/partials/to-top-dashboard.php:52
+msgid "Basic Settings"
+msgstr "Основные настройки"
+
+#: admin/class-to-top-admin.php:311
+msgid "To Top Options"
+msgstr "Параметры To Top"
+
+#: admin/class-to-top-admin.php:157
+msgid "You do not have sufficient permissions to access this page."
+msgstr "У вас недостаточно прав для доступа к этой странице."
+
+#: admin/class-to-top-admin.php:148
+msgid "To Top Settings"
+msgstr "Настройки To Top"
+
+#: admin/class-to-top-admin.php:135 admin/partials/to-top-dashboard.php:45
+msgid "Settings"
+msgstr "Настройки"

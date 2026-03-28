@@ -1,0 +1,400 @@
+# Translation of Plugins - To Top - Development (trunk) in Japanese
+# This file is distributed under the same license as the Plugins - To Top - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-08-09 06:21:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - To Top - Development (trunk)\n"
+
+#: admin/inc/ctp-tabs-removal.php:75
+msgid "Connection Error. Please try again."
+msgstr "接続エラー 再接続してください"
+
+#: admin/partials/to-top-admin-display.php:43
+msgid "Turn On Catch Themes & Catch Plugin tabs"
+msgstr "Catch テーマと Catch プラグインタブを有効化してください"
+
+#: admin/partials/to-top-admin-display.php:38
+msgid "If you want to turn off Catch Themes & Catch Plugins tabs option in Add Themes and Add Plugins page, please uncheck the following option."
+msgstr "Cath テーマと Catch プラグインタブのオプションをオフにしたい場合は、以下のオプションのチェックを外してください"
+
+#: admin/partials/to-top-admin-display.php:33
+msgid "Catch Themes & Catch Plugins Tabs"
+msgstr "Catch テーマと Catch プラグインタブ"
+
+#: admin/inc/CatchThemesThemePlugin.php:154
+msgid "Themes by CatchThemes"
+msgstr "CatchThemes テーマ"
+
+#: admin/inc/CatchThemesThemePlugin.php:473
+msgid "You can use any of our free plugins or premium plugins from <a href=\"%s\" target=\"_blank\">Catch Plugins</a>"
+msgstr "フリープラグインとプレミアムプラグインは <a href=\"%s\" target=\"_blank\">Catch Plugins</a> でのみ利用できます"
+
+#: admin/inc/CatchThemesThemePlugin.php:434
+msgctxt "Plugin Installer"
+msgid "Catch Plugins"
+msgstr "Catch Plugins"
+
+#. Author URI of the plugin
+msgid "https://catchplugins.com/"
+msgstr "https://catchplugins.com/"
+
+#. Plugin URI of the plugin
+msgid "https://catchplugins.com/plugins/to-top/"
+msgstr "https://catchplugins.com/plugins/to-top/"
+
+#: admin/partials/to-top-admin-display.php:83
+msgid "We have a great line of support team and support documentation. You do not need to worry about how to use the plugins we provide, just refer to our Tech Support Forum. Further, if you need to do advanced customization to your website, you can always hire our theme customizer!"
+msgstr ""
+"私たちは、サポートチームとサポートドキュメントの素晴らしいラインを持っています\n"
+"私たちが提供するプラグインの使用方法については、技術サポートフォーラムを参照してください\n"
+"また、高度なカスタマイズが必要な場合には、テーマカスタマイザーをご利用ください。"
+
+#: admin/partials/to-top-admin-display.php:82
+msgid "Incredible Support"
+msgstr "素晴らしいサポート"
+
+#: admin/partials/to-top-admin-display.php:78
+msgid "It is extremely lightweight. You do not need to worry about it affecting the space and speed of your website."
+msgstr "とても軽量です。サイトの容量やスピードを気にしなくても大丈夫です。"
+
+#: admin/partials/to-top-admin-display.php:77
+msgid "Lightweight"
+msgstr "軽量"
+
+#: admin/partials/to-top-admin-display.php:73
+msgid "You don’t have to worry if you have a slightly different or complicated theme installed on your website. It supports all the themes on WordPress and makes your website more striking and playful."
+msgstr ""
+"ウェブサイトにちょっと変わったテーマや複雑なテーマをインストールしていても、心配する必要はありません\n"
+"WordPressに搭載されているすべてのテーマに対応し、あなたのウェブサイトをより印象的で遊び心のあるものにします"
+
+#: admin/partials/to-top-admin-display.php:72
+msgid "Supports all themes on WordPress"
+msgstr "すべての WordPress テーマをサポート"
+
+#: admin/partials/to-top-admin-display.php:25
+#: admin/partials/to-top-admin-display.php:67
+msgid "Features"
+msgstr "機能"
+
+#: admin/partials/to-top-admin-display.php:24
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#: admin/partials/sidebar.php:36
+msgid "check our free plugins."
+msgstr "他のプラグインを確認"
+
+#: admin/partials/sidebar.php:35
+msgid "Check out our Free WordPress Plugins and get the taste of our service without affecting your wallet."
+msgstr "無料の WordPress プラグインをチェックして、お財布に優しいサービスを実感してください"
+
+#: admin/partials/sidebar.php:34
+msgid "Free Plugins"
+msgstr "無料のプラグイン"
+
+#: admin/partials/sidebar.php:26
+msgid "Check our premium plugins."
+msgstr "プレミアムプラグインをチェック"
+
+#: admin/partials/sidebar.php:26
+msgid "Check out our secured Premium WordPress Plugins to enhance and add extra functionalities to your website. An exceptional way to get the most out of WordPress!"
+msgstr ""
+"あなたのウェブサイトを強化し、機能を追加するために、安全なプレミアムWordPress プラグインをチェックしてください\n"
+"WordPress を最大限に活用するための特別な方法です"
+
+#: admin/partials/sidebar.php:25
+msgid "Premium Plugins"
+msgstr "プレミアムプラグイン"
+
+#: admin/partials/sidebar.php:17
+msgid "Check our free themes."
+msgstr "他のプラグインを確認"
+
+#: admin/partials/sidebar.php:17
+msgid "Check out our collection of Free WordPress Themes that are clean, simple and feature-rich."
+msgstr "クリーンでシンプル、そして豊富な機能を備えた無料のWordPressテーマ をご覧ください"
+
+#: admin/partials/sidebar.php:16
+msgid "Free Themes"
+msgstr "無料テーマ"
+
+#: admin/partials/sidebar.php:9
+msgid "Check our premium themes."
+msgstr "プレミアムテーマをチェック"
+
+#: admin/partials/sidebar.php:9
+msgid "Check out our simple, clean and responsive Premium WordPress Themes that come with an array of crucial features with a superior functionality."
+msgstr "シンプル、クリーン、レスポンシブなプレミアム WordPress テーマは、優れた数々の機能を備えています"
+
+#: admin/partials/sidebar.php:8
+msgid "Premium Themes"
+msgstr "プレミアムテーマ"
+
+#: admin/partials/sidebar.php:3
+msgid "Recommendations"
+msgstr "おすすめ"
+
+#: admin/partials/footer.php:11
+msgid "Support"
+msgstr "サポート"
+
+#: admin/partials/footer.php:10
+msgid "View Plugins"
+msgstr "プラグインを表示"
+
+#: admin/partials/footer.php:9
+msgid "View Themes"
+msgstr "テーマを表示"
+
+#. Author of the plugin
+#: admin/partials/footer.php:4
+msgid "Catch Plugins"
+msgstr "Catch プラグイン"
+
+#. Description of the plugin
+msgid "To Top plugin allows the visitor as well as admin to easily scroll back to the top of the page, with fully customizable options and ability to use image."
+msgstr "To Topプラグインは、訪問者や管理者が簡単にページの先頭に戻るためのスクロールを設定するプラグインです"
+
+#. Plugin Name of the plugin
+#: admin/partials/to-top-admin-display.php:17
+msgid "To Top"
+msgstr "To Top"
+
+#: public/class-to-top-public.php:145 public/class-to-top-public.php:158
+#: public/class-to-top-public.php:171
+msgid "Scroll Up"
+msgstr "上にスクロール"
+
+#: admin/partials/to-top-dashboard.php:301
+msgid "Caution: All data will be lost"
+msgstr "警告: すべてのデータが消去されます"
+
+#: admin/partials/to-top-dashboard.php:296
+msgid "Reset All Settings"
+msgstr "すべての設定をリセットする"
+
+#: admin/partials/to-top-dashboard.php:265
+msgid "Hide on Small Devices?"
+msgstr "スモール端末で非表示にしますか?"
+
+#: admin/partials/to-top-dashboard.php:244
+msgid "Enable Auto Hide"
+msgstr "自動非表示を有効にする"
+
+#: admin/partials/to-top-dashboard.php:237
+#: admin/partials/to-top-dashboard.php:248
+#: admin/partials/to-top-dashboard.php:269
+msgid "Check to Enable"
+msgstr "チェックすると有効化"
+
+#: admin/partials/to-top-dashboard.php:233
+msgid "Show on WP-ADMIN?"
+msgstr "WP-ADMIN で表示しますか ?"
+
+#: admin/partials/to-top-dashboard.php:169
+msgid "Change Image"
+msgstr "画像を変更"
+
+#: admin/partials/to-top-dashboard.php:169
+msgid "Insert Image"
+msgstr "画像を挿入"
+
+#: admin/partials/to-top-dashboard.php:161
+msgid "Image Settings"
+msgstr "画像設定"
+
+#: admin/partials/to-top-dashboard.php:96
+msgid "Icon Settings"
+msgstr "アイコンの設定"
+
+#: admin/partials/to-top-dashboard.php:93
+#: admin/partials/to-top-dashboard.php:158
+#: admin/partials/to-top-dashboard.php:192
+#: admin/partials/to-top-dashboard.php:288
+#: admin/partials/to-top-dashboard.php:308
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: admin/partials/to-top-dashboard.php:38
+msgid "Want Live Preview? Change the settings from "
+msgstr "ライブビューで表示しますか ? 設定変更はこちらから"
+
+#: admin/partials/to-top-dashboard.php:36
+msgid "Customizer"
+msgstr "カスタマイザー"
+
+#: admin/partials/to-top-dashboard.php:21
+msgid "Plugin Options Saved."
+msgstr "プラグイン設定を保存しました。"
+
+#: admin/class-to-top-admin.php:699
+msgid "Caution: All data will be lost. Refresh the page after save to view full effects."
+msgstr "警告: すべての設定をデフォルトにリセットします。全効果を表示するには保存後ページを再読み込みしてください。"
+
+#: admin/class-to-top-admin.php:698 admin/partials/to-top-dashboard.php:300
+msgid "Check to Reset All Settings"
+msgstr "チェックをするとすべての設定がリセットされます"
+
+#: admin/class-to-top-admin.php:687 admin/partials/to-top-dashboard.php:291
+msgid "Reset Settings"
+msgstr "設定をリセット"
+
+#: admin/class-to-top-admin.php:668 admin/partials/to-top-dashboard.php:281
+msgid "Button will be hidden on devices with lesser or equal width"
+msgstr "幅が同じかそれ以下の端末では、ボタンが非表示になります"
+
+#: admin/class-to-top-admin.php:667 admin/partials/to-top-dashboard.php:276
+msgid "Small Device Max Width (px)"
+msgstr "スモール端末の最大幅 (px)"
+
+#: admin/class-to-top-admin.php:653 admin/partials/to-top-dashboard.php:270
+msgid "Button will be hidden on small devices when the width below matches"
+msgstr "ボタンは以下の幅が一致する場合、スモール端末では非表示になります"
+
+#: admin/class-to-top-admin.php:652
+msgid "Check to Hide on Small Devices"
+msgstr "チェックをするとスモール端末では非表示となります"
+
+#: admin/class-to-top-admin.php:632 admin/partials/to-top-dashboard.php:259
+msgid "Button will be auto hidden after this duration in seconds, if enabled"
+msgstr "有効な場合、ボタンはこの時間 (秒) が経過すると自動的に非表示になります"
+
+#: admin/class-to-top-admin.php:631 admin/partials/to-top-dashboard.php:254
+msgid "Auto Hide Time (secs)"
+msgstr "自動非表示時間 (秒)"
+
+#: admin/class-to-top-admin.php:616
+msgid "Check to Enable Auto Hide"
+msgstr "チェックをすると自動非表示が有効になります"
+
+#: admin/class-to-top-admin.php:602 admin/partials/to-top-dashboard.php:238
+msgid "Button will be shown on admin section"
+msgstr "ボタンは管理画面で表示されます"
+
+#: admin/class-to-top-admin.php:601
+msgid "Check to show on WP-ADMIN"
+msgstr "チェックをすると管理画面で表示されます"
+
+#: admin/class-to-top-admin.php:581 admin/partials/to-top-dashboard.php:224
+msgid "Margin Y (px)"
+msgstr "マージン Y (px)"
+
+#: admin/class-to-top-admin.php:561 admin/partials/to-top-dashboard.php:215
+msgid "Margin X (px)"
+msgstr "マージン X (px)"
+
+#: admin/class-to-top-admin.php:549 admin/partials/to-top-dashboard.php:208
+msgid "Top Left"
+msgstr "左上"
+
+#: admin/class-to-top-admin.php:548 admin/partials/to-top-dashboard.php:207
+msgid "Top Right"
+msgstr "右上"
+
+#: admin/class-to-top-admin.php:547 admin/partials/to-top-dashboard.php:206
+msgid "Bottom Left"
+msgstr "左下"
+
+#: admin/class-to-top-admin.php:546 admin/partials/to-top-dashboard.php:205
+msgid "Bottom Right"
+msgstr "右下"
+
+#: admin/class-to-top-admin.php:540 admin/partials/to-top-dashboard.php:200
+msgid "Location"
+msgstr "所在地"
+
+#: admin/class-to-top-admin.php:529 admin/partials/to-top-dashboard.php:195
+msgid "Advanced Settings"
+msgstr "高度な設定"
+
+#: admin/class-to-top-admin.php:514 admin/partials/to-top-dashboard.php:183
+msgid "Image Alt"
+msgstr "画像 Alt"
+
+#: admin/class-to-top-admin.php:493 admin/partials/to-top-dashboard.php:174
+msgid "Image Width (px)"
+msgstr "画像の幅 (px)"
+
+#: admin/class-to-top-admin.php:456 admin/partials/to-top-dashboard.php:152
+msgid "0 will make the icon background square, 50 will make it a circle"
+msgstr "0だとアイコンが四角く、50だと角が丸くなります"
+
+#: admin/class-to-top-admin.php:455 admin/partials/to-top-dashboard.php:147
+msgid "Border Radius (%)"
+msgstr "枠線の角丸 (%)"
+
+#: admin/class-to-top-admin.php:435 admin/partials/to-top-dashboard.php:138
+msgid "Icon Size (px)"
+msgstr "アイコンサイズ (px)"
+
+#: admin/class-to-top-admin.php:420 admin/partials/to-top-dashboard.php:128
+msgid "Icon Background Color"
+msgstr "アイコンの背景色"
+
+#: admin/class-to-top-admin.php:405 admin/partials/to-top-dashboard.php:118
+msgid "Icon Color"
+msgstr "アイコンの色"
+
+#: admin/class-to-top-admin.php:390 admin/partials/to-top-dashboard.php:101
+msgid "Select Icon Type"
+msgstr "アイコン形式を選択"
+
+#: admin/class-to-top-admin.php:378 admin/class-to-top-admin.php:477
+#: admin/partials/to-top-dashboard.php:85
+#: admin/partials/to-top-dashboard.php:166
+msgid "Image"
+msgstr "画像"
+
+#: admin/class-to-top-admin.php:377 admin/partials/to-top-dashboard.php:84
+msgid "Icon Using Font Awesome Icons"
+msgstr "Font Awesomes Icons を使用"
+
+#: admin/class-to-top-admin.php:376 admin/partials/to-top-dashboard.php:83
+msgid "Icon Using Genericons"
+msgstr "Genericons アイコンを使用"
+
+#: admin/class-to-top-admin.php:375 admin/partials/to-top-dashboard.php:82
+msgid "Icon Using Dashicons"
+msgstr "Dashicons を利用する"
+
+#: admin/class-to-top-admin.php:370 admin/partials/to-top-dashboard.php:77
+msgid "Style"
+msgstr "スタイル"
+
+#: admin/class-to-top-admin.php:350 admin/partials/to-top-dashboard.php:68
+msgid "Icon Opacity (%)"
+msgstr "アイコン透明度  (％)"
+
+#: admin/class-to-top-admin.php:330 admin/partials/to-top-dashboard.php:62
+msgid "Number of pixels to be scrolled before the button appears"
+msgstr "ボタンが表示されるまでにスクロールさせるピクセル数"
+
+#: admin/class-to-top-admin.php:329 admin/partials/to-top-dashboard.php:57
+msgid "Scroll Offset (px)"
+msgstr "スクロールオフセット (px)"
+
+#: admin/class-to-top-admin.php:318 admin/partials/to-top-dashboard.php:52
+msgid "Basic Settings"
+msgstr "基本設定"
+
+#: admin/class-to-top-admin.php:311
+msgid "To Top Options"
+msgstr "To Top オプション"
+
+#: admin/class-to-top-admin.php:157
+msgid "You do not have sufficient permissions to access this page."
+msgstr "このページにアクセスするために、十分なアクセス権利を持っていません"
+
+#: admin/class-to-top-admin.php:148
+msgid "To Top Settings"
+msgstr "To Top 設定"
+
+#: admin/class-to-top-admin.php:135 admin/partials/to-top-dashboard.php:45
+msgid "Settings"
+msgstr "設定"

@@ -1,0 +1,342 @@
+# Translation of Plugins - Really Simple SSL - Stable (latest release) in Danish
+# This file is distributed under the same license as the Plugins - Really Simple SSL - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-12-13 08:44:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
+"Language: da_DK\n"
+"Project-Id-Version: Plugins - Really Simple SSL - Stable (latest release)\n"
+
+#: upgrade/upgrade-to-pro.php:579
+msgid "Your license key has reached its activation limit."
+msgstr "Din licensnøgle har nået grænsen for antal aktiveringer."
+
+#: upgrade/upgrade-to-pro.php:564
+msgid "Your license key has been disabled."
+msgstr "Din licensnøgle virker ikke længere."
+
+#: upgrade/upgrade-to-pro.php:550 upgrade/upgrade-to-pro.php:582
+msgid "An error occurred, please try again."
+msgstr "Der opstod en fejl, prøv igen."
+
+#: upgrade/upgrade-to-pro.php:373
+msgid "Check your %slicense%s."
+msgstr "Tjek din %slicensnøgle%s."
+
+#: upgrade/upgrade-to-pro.php:372 upgrade/upgrade-to-pro.php:373
+msgid "An Error Occurred:"
+msgstr "Der opstod en fejl:"
+
+#: upgrade/upgrade-to-pro.php:367
+msgid "Visit Dashboard"
+msgstr "Besøg kontrolpanel"
+
+#: upgrade/upgrade-to-pro.php:356
+msgid "Installing"
+msgstr "Installerer"
+
+#: upgrade/upgrade-to-pro.php:110
+msgid "Plugin activated"
+msgstr "Plugin aktiveret"
+
+#: upgrade/upgrade-to-pro.php:90
+msgid "License invalid"
+msgstr "Licensnøglen er ugyldig"
+
+#: upgrade/upgrade-to-pro.php:102
+msgid "Installing plugin..."
+msgstr "Installerer plugin..."
+
+#: class-site-health.php:72 class-site-health.php:102 class-site-health.php:133
+#: class-site-health.php:173 security/wordpress/vulnerabilities.php:237
+#: security/wordpress/vulnerabilities.php:257
+msgid "Security"
+msgstr "Sikkerhed"
+
+#: settings/config/config.php:50 settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/src/LetsEncrypt/Installation.js:95
+#: settings/src/LetsEncrypt/Installation.js:100
+#: settings/src/LetsEncrypt/Installation.js:104
+msgid "Download"
+msgstr "Download"
+
+#: settings/config/menu.php:194 settings/config/menu.php:199
+#: settings/build/94.ffb935d73903bc062f01.js:1
+#: settings/build/772.82eb7af33aca2cee62c3.js:1
+#: settings/src/Settings/Settings.js:164
+msgid "Notifications"
+msgstr "Notifikationer"
+
+#: lets-encrypt/config/fields.php:29 settings/config/menu.php:566
+msgid "Installation"
+msgstr "Installation"
+
+#: settings/config/menu.php:545
+msgid "Hosting"
+msgstr "Hosting"
+
+#: lets-encrypt/config/fields.php:8 settings/config/menu.php:533
+msgid "System Status"
+msgstr "System status"
+
+#: lets-encrypt/config/fields.php:94 lets-encrypt/config/fields.php:97
+#: settings/config/config.php:176
+msgid "Email address"
+msgstr "Email adresse"
+
+#: lets-encrypt/config/fields.php:134 lets-encrypt/config/notices.php:50
+msgid "Domain"
+msgstr "Domæne"
+
+#: lets-encrypt/cron.php:80 security/cron.php:66
+msgid "Once every day"
+msgstr "En gang hver dag"
+
+#: lets-encrypt/cron.php:76 security/cron.php:74
+msgid "Once every week"
+msgstr "En gang hver uge"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1628
+msgid "Error code %s"
+msgstr "Fejlkode %s"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1279
+#: lets-encrypt/class-letsencrypt-handler.php:1283
+msgid "Error code %s."
+msgstr "Fejlkode: %s."
+
+#: lets-encrypt/class-letsencrypt-handler.php:274
+msgid "(unknown)"
+msgstr "(ukendt)"
+
+#: class-admin.php:1993
+msgid "Retry"
+msgstr "Prøv igen"
+
+#: class-admin.php:1804 settings/config/menu.php:321
+msgid "Open"
+msgstr "Åben"
+
+#: class-admin.php:1803 settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/src/Settings/MixedContentScan/MixedContentScan.js:58
+msgid "Warning"
+msgstr "Advarsel"
+
+#: class-admin.php:1802
+msgid "Completed"
+msgstr "Færdig"
+
+#: upgrade/upgrade-to-pro.php:190 settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPlugins.js:24
+msgid "Installed"
+msgstr "Installeret"
+
+#: onboarding/class-onboarding.php:344 upgrade/upgrade-to-pro.php:146
+#: upgrade/upgrade-to-pro.php:159 upgrade/upgrade-to-pro.php:176
+#: settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPluginsData.js:73
+msgid "Install"
+msgstr "Installer"
+
+#: settings/config/config.php:1643 settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/src/Dashboard/SslLabs/SslLabs.js:319
+#: settings/src/LetsEncrypt/DnsVerification.js:64
+msgid "Read more"
+msgstr "Læs mere"
+
+#: class-admin.php:2628 class-multisite.php:223
+#: settings/build/index.202df5c54f79be8884ed.js:1
+#: settings/build/index.17964179f4d54ec3a576.js:1 settings/src/Header.js:36
+msgid "Support"
+msgstr "HJÆLP"
+
+#: settings/config/menu.php:23 settings/config/menu.php:29
+#: settings/config/menu.php:365
+msgid "General"
+msgstr "Generelt"
+
+#. Author of the plugin
+msgid "Really Simple Plugins"
+msgstr "Really Simple Plugins"
+
+#: class-admin.php:1630
+msgid "Don't show again"
+msgstr "Vis ikke igen"
+
+#: class-admin.php:1629
+msgid "Maybe later"
+msgstr "Måske senere"
+
+#: class-admin.php:1628
+msgid "Leave a review"
+msgstr "Skriv en anmeldelse"
+
+#: class-admin.php:1622
+msgid "Hi, Really Simple SSL has kept your site secure for a month now, awesome! If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it! If you have any questions or feedback, leave us a %smessage%s."
+msgstr "Hej, du har brugt Really Simple SSL i en måned nu, fedt! Hvis du har et øjeblik, så overvej at skrive en anmeldelse på WordPress.org, for at sprede budskabet om os. Vi sætter stor pris på det! Hvis du har nogle spørgsmål eller tilbagemeldninger, så send en %sbesked%s."
+
+#: class-multisite.php:163
+msgid "Activate SSL per site or install a wildcard certificate to fix this."
+msgstr "Aktiver SSL per websted eller installer et wild card certifikat, for at fikse dette."
+
+#: class-multisite.php:162
+msgid "This leads to issues when activating SSL networkwide since subdomains will be forced over SSL as well while they don't have a valid certificate."
+msgstr "Dette fører til problemer, når du aktiver SSL på hele netværket, eftersom  subdomæner vil blive tvunget over SSL, selvom at de ikke har et gyldigt certifikat."
+
+#: class-multisite.php:161
+msgid "You run a Multisite installation with subdomains, but your site doesn't have a wildcard certificate."
+msgstr "Du kører en multisite installation med subdomæner, men dit websted har ikke et gyldigt certifikat."
+
+#: upgrade/upgrade-to-pro.php:370 modal/build/204.cd378a48efe26fc7867c.js:1
+#: modal/src/components/Modal/RssslModal.js:46
+#: settings/build/434.33f8fe1145ac390fb7ca.js:1
+#: settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/src/Settings/LimitLoginAttempts/AddIpAddressModal.js:105
+#: settings/src/Settings/LimitLoginAttempts/AddUserModal.js:83
+msgid "Cancel"
+msgstr "Annuller"
+
+#: class-admin.php:479 settings/build/94.ffb935d73903bc062f01.js:1
+#: settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/build/772.82eb7af33aca2cee62c3.js:1
+#: settings/src/Dashboard/TaskElement.js:49 settings/src/Settings/Help.js:23
+msgid "More info"
+msgstr "Mere information"
+
+#: class-admin.php:99
+msgid "Really Simple SSL and Really Simple SSL add-ons do not process any personal identifiable information, so the GDPR does not apply to these plugins or usage of these plugins on your website. You can find our privacy policy <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr "Really Simple SSL og Really Simple SSL plugins bearbejder ikke nogle personlige identificerbare oplysninger, så GDPR'en anvendes ikke til disse plugins eller brug af disse plugins på dit websted. Du kan finde vores privatlivspolitik <a href=\"%s\" target=\"_blank\">her</a>."
+
+#. Author URI of the plugin
+msgid "https://really-simple-plugins.com"
+msgstr "https://really-simple-plugins.com"
+
+#: mailer/class-mail.php:33 mailer/class-mail.php:37
+#: settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/src/Dashboard/Vulnerabilities/Vulnerabilities.js:192
+msgid "Learn more"
+msgstr "Lær mere"
+
+#: onboarding/class-onboarding.php:170
+msgid "You can also let the automatic scan of the pro version handle this for you, and get premium support, increased security with HSTS and more!"
+msgstr "Du kan også lade den automatiske skanner fra pro-versionen klare dette for dig, og få premium kundeservice, øget sikkerhed med HSTS og mere!"
+
+#: onboarding/class-onboarding.php:226
+msgid "You may need to login in again."
+msgstr "Du bliver måske nødt til at logge ind igen."
+
+#: class-site-health.php:229
+msgid "Enable 301 .htaccess redirect"
+msgstr "Aktiver 301 .htaccess omdirigering"
+
+#: class-admin.php:2073
+msgid "No 301 redirect is set. Enable the WordPress 301 redirect in the settings to get a 301 permanent redirect."
+msgstr "Ingen 301 omdirigering er indstillet. Aktiver WordPress 301 omdirigeringen i indstillingerne, for at opnå en 301 permanent omdirigering."
+
+#: class-admin.php:2069
+msgid "301 redirect to https set."
+msgstr "301 omdirigering til https er opsat."
+
+#: class-multisite.php:147
+msgid "View settings page"
+msgstr "Vis indstillingssiden"
+
+#: settings/config/menu.php:41
+msgid "Premium Support"
+msgstr "Førsteklasses support"
+
+#: class-admin.php:1965
+msgid "SSL is enabled on your site."
+msgstr "SSL er aktiveret på dit websted."
+
+#: lets-encrypt/functions.php:369 lets-encrypt/functions.php:370
+#: settings/build/94.ffb935d73903bc062f01.js:1
+#: settings/build/772.82eb7af33aca2cee62c3.js:1
+#: settings/src/Settings/SettingsGroup.js:115
+msgid "Instructions"
+msgstr "Instruktioner"
+
+#: onboarding/class-onboarding.php:176
+msgid "Almost ready to migrate to SSL!"
+msgstr "Næsten klar til at migrere til SSL!"
+
+#: class-admin.php:20 class-cache.php:10 class-certificate.php:10
+#: class-site-health.php:8 lets-encrypt/class-letsencrypt-handler.php:30
+#: onboarding/class-onboarding.php:9 security/firewall-manager.php:8
+#: security/hardening.php:9
+msgid "%s is a singleton class and you cannot create a second instance."
+msgstr "%s er en singletonklasse, og du kan ikke oprette endnu en."
+
+#: class-admin.php:1870
+msgid "Your wp-config.php has to be edited, but is not writable."
+msgstr "Din wp-config.php skal redigeres, men den er ikke skrivbar."
+
+#: onboarding/class-onboarding.php:222
+msgid "Images, stylesheets or scripts from a domain without an SSL certificate: remove them or move to your own server."
+msgstr "Billeder, stylesheets eller scripts fra et domæne uden et SSL-certifkat: Fjern dem eller flyt til din egen server."
+
+#: onboarding/class-onboarding.php:218
+msgid "Http references in your .css and .js files: change any http:// into https://"
+msgstr "HTTP-henvisninger i dine .css og .js-filer: Skift alle http:// til https://"
+
+#. Plugin Name of the plugin
+msgid "Really Simple SSL"
+msgstr "Really Simple SSL"
+
+#. Plugin URI of the plugin
+msgid "https://really-simple-ssl.com"
+msgstr "https://really-simple-ssl.com"
+
+#: settings/config/config.php:159 settings/config/config.php:706
+msgid "Stop editing the .htaccess file"
+msgstr "Hold op med at redigere .htaccess-filen"
+
+#: class-admin.php:2006
+msgid "An SSL certificate was detected on your site."
+msgstr "Et SSL-certifikat er registeret på dit websted."
+
+#: settings/config/config.php:114 modal/build/index.855f8bc8ac202db563f6.js:1
+#: modal/src/components/DeactivationModal/DeactivationModal.js:123
+msgid "Mixed content fixer"
+msgstr "Blandet-indhold funktion"
+
+#: class-admin.php:1742 class-admin.php:2620 class-admin.php:2623
+#: class-multisite.php:87 class-multisite.php:220 settings/config/menu.php:17
+#: settings/config/menu.php:375 settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/src/Dashboard/Vulnerabilities/Vulnerabilities.js:237
+#: settings/src/Dashboard/Vulnerabilities/VulnerabilitiesFooter.js:24
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: class-admin.php:1908
+msgid "Check again"
+msgstr "Tjek igen"
+
+#: class-multisite.php:132
+msgid "Because the $_SERVER[\"HTTPS\"] variable is not set, your website may experience redirect loops."
+msgstr "Fordi $_SERVER[\"HTTPS\"] variablen ikke er opsat, kan dit websted opleve omdirigeringsløkker."
+
+#: class-multisite.php:131
+msgid "You run a Multisite installation with subfolders, which prevents this plugin from fixing your missing server variable in the wp-config.php."
+msgstr "Du kører en multisite installation med undermapper, hvilket forhindrer dette plugin fra at ordne den manglende servervariabel i wp-config.php."
+
+#: class-multisite.php:133
+msgid "Activate networkwide to fix this."
+msgstr "Aktiver på hele netværket for at ordne dette."

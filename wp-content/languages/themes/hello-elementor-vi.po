@@ -1,0 +1,491 @@
+# Translation of Themes - Hello Elementor in Vietnamese
+# This file is distributed under the same license as the Themes - Hello Elementor package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-05-24 04:25:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Themes - Hello Elementor\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Hello Elementor is a lightweight and minimalist WordPress theme that was built specifically to work seamlessly with the Elementor site builder plugin. The theme is free, open-source, and designed for users who want a flexible, easy-to-use, and customizable website. The theme, which is optimized for performance, provides a solid foundation for users to build their own unique designs using the Elementor drag-and-drop site builder. Its simplicity and flexibility make it a great choice for both beginners and experienced Web Creators."
+msgstr "Hello Elementor là một chủ đề WordPress nhẹ và tối giản được xây dựng đặc biệt để hoạt động liền mạch với plugin xây dựng trang web Elementor. Chủ đề này miễn phí, mã nguồn mở và được thiết kế cho những người dùng muốn có một trang web linh hoạt, dễ sử dụng và có thể tùy chỉnh. Chủ đề được tối ưu hóa về hiệu suất, cung cấp nền tảng vững chắc để người dùng xây dựng các thiết kế độc đáo của riêng họ bằng cách sử dụng trình tạo trang web kéo và thả Elementor. Tính đơn giản và linh hoạt của nó khiến nó trở thành sự lựa chọn tuyệt vời cho cả người mới bắt đầu và Người tạo web có kinh nghiệm."
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Hello Elementor"
+msgstr "Hello Elementor"
+
+#: includes/settings/settings-footer.php:524
+#: includes/settings/settings-header.php:546
+msgid "Elementor Pro"
+msgstr "Elementor Pro"
+
+#: includes/settings/settings-footer.php:514
+#: includes/settings/settings-header.php:536
+msgid "Get Elementor Pro"
+msgstr "Nhận Elementor Pro"
+
+#: includes/customizer/customizer-action-links.php:57
+#: includes/customizer/customizer-action-links.php:76
+#: includes/customizer/customizer-action-links.php:86
+#: includes/customizer/customizer-action-links.php:96
+#: assets/js/hello-admin.js:172 assets/js/hello-admin.js:180
+#: assets/js/hello-admin.js:188 assets/js/hello-admin.js:196
+msgid "Elementor"
+msgstr "Elementor"
+
+#: includes/settings/settings-header.php:23
+msgid "Hello Theme Header"
+msgstr "Hello Theme Header"
+
+#. translators: %s: Link that opens the theme settings page.
+#: includes/settings/settings-footer.php:100
+#: includes/settings/settings-header.php:86
+msgid "Note: Hiding all the elements, only hides them visually. To disable them completely go to <a href=\"%s\">Theme Settings</a> ."
+msgstr "Ẩn tất cả các phần tử, chỉ ẩn phần hiển thị. Để ẩn hoàn toàn chúng đi tới <a href=\"%s\">Thiết lập giao diện</a> ."
+
+#: includes/settings/settings-footer.php:21
+msgid "Hello Theme Footer"
+msgstr "Hello Theme Footer"
+
+#: includes/elementor-functions.php:224
+msgid "Learn More"
+msgstr "Xem thêm"
+
+#: includes/elementor-functions.php:222
+msgid "Customize and style the builtin Hello Theme’s cross-site header & footer from the Elementor \"Site Settings\" panel."
+msgstr "Tùy chỉnh và tạo kiểu cho cross-site header & footer của Hello Theme tích hợp từ bảng \"Cài đặt trang\" của Elementor."
+
+#: includes/customizer/customizer-action-links.php:99
+#: assets/js/hello-admin.js:199
+msgid "Start Designing"
+msgstr "Bắt đầu thiết kế"
+
+#: includes/customizer/customizer-action-links.php:98
+#: assets/js/hello-admin.js:198
+msgid "Customize your cross-site header & footer from Elementor’s \"Site Settings\" panel."
+msgstr "Tuỳ biến cross-site header & footer từ  bảng \"Cài đặt trang\" của Elementor."
+
+#: includes/customizer/customizer-action-links.php:97
+#: assets/js/hello-admin.js:197
+msgid "Style cross-site header & footer"
+msgstr "Tạo kiểu cross-site header & footer"
+
+#: includes/customizer/customizer-action-links.php:89
+#: assets/js/hello-admin.js:191
+msgid "Activate header & footer experiment"
+msgstr "Kích hoạt thử nghiệm header & footer"
+
+#: includes/customizer/customizer-action-links.php:88
+#: assets/js/hello-admin.js:190
+msgid "Design your cross-site header & footer from Elementor’s \"Site Settings\" panel."
+msgstr "Thiết kế cross-site header & footer từ bảng \"Cài đặt trang\" của Elementor."
+
+#: includes/customizer/customizer-action-links.php:87
+#: assets/js/hello-admin.js:189
+msgid "Style using Elementor"
+msgstr "Tạo kiểu bằng Elementor"
+
+#: includes/customizer/customizer-action-links.php:59
+#: includes/customizer/customizer-action-links.php:78
+#: assets/js/hello-admin.js:174 assets/js/hello-admin.js:182
+msgid "Create cross-site header & footer using Elementor."
+msgstr "Tạo cross-site header & footer sử dụng Elementor."
+
+#: includes/customizer-functions.php:18
+msgid "Header & Footer"
+msgstr "Header & Footer"
+
+#: includes/admin-functions.php:49
+msgid "Once you download and activate the plugin, you are only one click away from building an amazing website."
+msgstr "Sau khi tải xuống và kích hoạt plugin, bạn chỉ cần một cú nhấp chuột là có thể xây dựng một trang web tuyệt vời."
+
+#: includes/admin-functions.php:40
+msgid "Once you activate the plugin, you are only one click away from building an amazing website."
+msgstr "Sau khi kích hoạt plugin, bạn chỉ cần một cú nhấp chuột là có thể xây dựng một trang web tuyệt vời."
+
+#: includes/admin-functions.php:33
+msgid "The Hello Theme is a lightweight starter theme that works perfectly with the Elementor award-winning site builder plugin."
+msgstr "Hello Theme là một chủ đề khởi đầu nhẹ, hoạt động hoàn hảo với plugin xây dựng trang web từng đoạt giải thưởng Elementor."
+
+#: includes/settings-functions.php:19
+msgid "Theme Settings"
+msgstr "Thiết lập giao diện"
+
+#: includes/settings-functions.php:18 assets/js/hello-admin.js:140
+#: assets/js/hello-admin.js:234
+msgid "Hello Theme Settings"
+msgstr "Thiết lập Hello Theme"
+
+#. translators: %s: Link that opens Elementor's "Site Identity" panel.
+#: includes/settings/settings-footer.php:299
+#: includes/settings/settings-header.php:288
+#: includes/settings/settings-header.php:305
+msgid "Go to <a href=\"%s\">Site Identity</a> to manage your site's title"
+msgstr "Đi tới <a href=\"%s\">Nhận dạng trang Web</a> để quản lý Tiêu đề website"
+
+#: includes/admin-functions.php:137
+msgid "Explore Elementor Site Builder Plugin"
+msgstr "Khám phá Plugin trình xây dựng Website Elementor"
+
+#: includes/settings/settings-footer.php:518
+#: includes/settings/settings-header.php:540
+msgid "Upgrade"
+msgstr "Nâng cấp"
+
+#: header.php:31
+msgid "Skip to content"
+msgstr "Chuyển đến nội dung"
+
+#: includes/settings/settings-header.php:550
+msgid "Create Header"
+msgstr "Tạo Header"
+
+#: includes/settings/settings-header.php:547
+msgid "Create a custom header with the Theme Builder"
+msgstr "Tạo một header tuỳ chỉnh với Trình xây dựng giao diện"
+
+#: includes/settings/settings-header.php:537
+msgid "Create a custom header with multiple options"
+msgstr "Tạo header tuỳ chỉnh với nhiều tuỳ chọn"
+
+#: includes/settings/settings-header.php:486
+msgid "Toggle Color"
+msgstr "Chuyển đổi Màu"
+
+#: includes/settings/settings-header.php:460
+msgid "None"
+msgstr "Không dùng"
+
+#. translators: %d: Breakpoint number.
+#: includes/settings/settings-header.php:459
+msgid "Tablet (< %dpx)"
+msgstr "Tablet (< %dpx)"
+
+#. translators: %d: Breakpoint number.
+#: includes/settings/settings-header.php:457
+msgid "Mobile (< %dpx)"
+msgstr "Mobile (< %dpx)"
+
+#: includes/settings/settings-header.php:452
+msgid "Breakpoint"
+msgstr "Khung thay đổi"
+
+#: includes/settings/settings-header.php:441
+msgid "Dropdown"
+msgstr "Thả xuống"
+
+#: includes/settings/settings-header.php:440
+msgid "Horizontal"
+msgstr "Theo chiều ngang"
+
+#: includes/settings/settings-header.php:436
+msgid "Menu Layout"
+msgstr "Bố cục trình đơn"
+
+#: includes/settings/settings-footer.php:528
+msgid "Create Footer"
+msgstr "Tạo Footer"
+
+#: includes/settings/settings-footer.php:526
+#: includes/settings/settings-header.php:548
+msgid "With the Theme Builder you can jump directly into each part of your site"
+msgstr "Với Trình xây dựng giao diện, bạn có thể chuyển trực tiếp tới từng phần website"
+
+#: includes/settings/settings-footer.php:525
+msgid "Create a custom footer with the Theme Builder"
+msgstr "Tạo một footer tuỳ chỉnh với Trình xây dựng giao diện"
+
+#: includes/settings/settings-footer.php:516
+#: includes/settings/settings-header.php:538
+msgid "Upgrade to Elementor Pro and enjoy free design and many more features"
+msgstr "Nâng cấp Elementor Pro và tận hưởng thiết kế miễn phí cùng nhiều tính năng khác"
+
+#: includes/settings/settings-footer.php:515
+msgid "Create a custom footer with multiple options"
+msgstr "Tạo footer tuỳ chỉnh với nhiều tuỳ chọn"
+
+#: includes/settings/settings-footer.php:458
+msgid "All rights reserved"
+msgstr "Đã đăng ký Bản quyền."
+
+#: includes/settings/settings-footer.php:416
+#: includes/settings/settings-header.php:472
+msgid "Color"
+msgstr "Màu sắc"
+
+#: includes/settings/settings-footer.php:408
+#: includes/settings/settings-header.php:428
+msgid "Changes will be reflected in the preview only after the page reloads."
+msgstr "Các thay đổi sẽ chỉ được phản ánh trong bản xem trước sau khi tải lại trang."
+
+#: includes/settings/settings-footer.php:400
+#: includes/settings/settings-header.php:420
+msgid "Go to the <a href=\"%s\" target=\"_blank\">Menus screen</a> to manage your menus."
+msgstr "Tới <a href=\"%s\" target=\"_blank\">Màn hình trình đơn</a> để quản lý các trình đơn của bạn."
+
+#: includes/settings/settings-footer.php:387
+#: includes/settings/settings-header.php:407
+msgid "Go to <a href=\"%s\" target=\"_blank\">Menus screen</a> to create one."
+msgstr "Tới <a href=\"%s\" target=\"_blank\">Màn hình trình đơn</a> để tạo một trình đơn."
+
+#: includes/settings/settings-footer.php:387
+#: includes/settings/settings-header.php:407
+msgid "There are no menus in your site."
+msgstr "Không có trình đơn nào trên Website của bạn."
+
+#: includes/settings/settings-footer.php:377
+#: includes/settings/settings-header.php:397
+msgid "— Select a Menu —"
+msgstr "— Chọn Một Trình Đơn —"
+
+#. translators: %s: Link that opens Elementor's "Site Identity" panel.
+#: includes/settings/settings-footer.php:355
+#: includes/settings/settings-header.php:368
+msgid "Go to <a href=\"%s\">Site Identity</a> to manage your site's tagline"
+msgstr "Đi tới <a href=\"%s\">Nhận dạng trang Web</a> để quản lý mô tả website của bạn"
+
+#: includes/settings/settings-footer.php:283
+#: includes/settings/settings-footer.php:341
+#: includes/settings/settings-footer.php:428
+#: includes/settings/settings-footer.php:480
+#: includes/settings/settings-header.php:285
+#: includes/settings/settings-header.php:354
+#: includes/settings/settings-header.php:501
+msgid "Typography"
+msgstr "Kiểu chữ"
+
+#: includes/settings/settings-footer.php:267
+#: includes/settings/settings-footer.php:326
+#: includes/settings/settings-footer.php:465
+#: includes/settings/settings-header.php:269
+#: includes/settings/settings-header.php:339
+msgid "Text Color"
+msgstr "Màu chữ"
+
+#. translators: %s: Link that opens Elementor's "Site Identity" panel.
+#: includes/settings/settings-footer.php:239
+#: includes/settings/settings-header.php:241
+msgid "Go to <a href=\"%s\">Site Identity</a> to manage your site's logo"
+msgstr "Đi tới <a href=\"%s\">Nhận dạng trang Web</a> để quản lý logo website của bạn"
+
+#: includes/settings/settings-footer.php:236
+#: includes/settings/settings-header.php:238
+msgid "Logo Width"
+msgstr "Chiều rộng Logo"
+
+#: includes/settings/settings-footer.php:226
+#: includes/settings/settings-header.php:228
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: includes/settings/settings-footer.php:225
+#: includes/settings/settings-header.php:227
+msgid "Logo"
+msgstr "Logo"
+
+#: includes/settings/settings-footer.php:221
+#: includes/settings/settings-header.php:223
+msgid "Type"
+msgstr "Loại"
+
+#: includes/settings/settings-footer.php:199
+#: includes/settings/settings-header.php:194
+msgid "Background"
+msgstr "Màu nền"
+
+#: includes/settings/settings-footer.php:173
+#: includes/settings/settings-header.php:158
+msgid "Gap"
+msgstr "Khoảng cách"
+
+#: includes/settings/settings-footer.php:147
+#: includes/settings/settings-header.php:132
+msgid "Content Width"
+msgstr "Chiều rộng nội dung"
+
+#: includes/settings/settings-footer.php:136
+#: includes/settings/settings-header.php:121
+msgid "Full Width"
+msgstr "Chiều rộng đầy đủ"
+
+#: includes/settings/settings-footer.php:135
+#: includes/settings/settings-header.php:120
+msgid "Boxed"
+msgstr "Đóng khung"
+
+#: includes/settings/settings-footer.php:133
+#: includes/settings/settings-header.php:118
+msgid "Width"
+msgstr "Rộng"
+
+#: includes/settings/settings-footer.php:121
+#: includes/settings/settings-header.php:106
+msgid "Centered"
+msgstr "Căn giữa"
+
+#: includes/settings/settings-footer.php:120
+#: includes/settings/settings-header.php:105
+msgid "Inverted"
+msgstr "Đảo ngược"
+
+#: includes/settings/settings-footer.php:119
+#: includes/settings/settings-header.php:104
+msgid "Default"
+msgstr "Mặc định"
+
+#: includes/settings/settings-footer.php:117
+#: includes/settings/settings-header.php:102
+msgid "Layout"
+msgstr "Bố cục"
+
+#: includes/settings/settings-footer.php:86
+#: includes/settings/settings-footer.php:440
+msgid "Copyright"
+msgstr "Bản quyền"
+
+#: includes/settings/settings-footer.php:74
+#: includes/settings/settings-footer.php:368
+#: includes/settings/settings-footer.php:396
+#: includes/settings/settings-header.php:73
+#: includes/settings/settings-header.php:381
+#: includes/settings/settings-header.php:416
+#: template-parts/dynamic-header.php:59
+msgid "Menu"
+msgstr "Trình đơn"
+
+#: includes/settings/settings-footer.php:62
+#: includes/settings/settings-footer.php:316
+#: includes/settings/settings-header.php:62
+#: includes/settings/settings-header.php:322
+msgid "Tagline"
+msgstr "Khẩu hiệu trang"
+
+#: includes/settings/settings-footer.php:53
+#: includes/settings/settings-footer.php:65
+#: includes/settings/settings-footer.php:77
+#: includes/settings/settings-footer.php:89
+#: includes/settings/settings-header.php:54
+#: includes/settings/settings-header.php:65
+#: includes/settings/settings-header.php:76
+msgid "Hide"
+msgstr "Ẩn"
+
+#: includes/settings/settings-footer.php:52
+#: includes/settings/settings-footer.php:64
+#: includes/settings/settings-footer.php:76
+#: includes/settings/settings-footer.php:88
+#: includes/settings/settings-header.php:53
+#: includes/settings/settings-header.php:64
+#: includes/settings/settings-header.php:75
+msgid "Show"
+msgstr "Hiện"
+
+#: includes/settings/settings-footer.php:50
+#: includes/settings/settings-footer.php:211
+#: includes/settings/settings-header.php:51
+#: includes/settings/settings-header.php:206
+msgid "Site Logo"
+msgstr "Logo của Trang"
+
+#: includes/elementor-functions.php:219
+msgid "Hello Theme Header & Footer"
+msgstr "Hello Theme Header & Footer"
+
+#: includes/admin-functions.php:132
+msgid "Get Elementor"
+msgstr "Nhận Elementor"
+
+#: functions.php:31 includes/settings/settings-footer.php:42
+msgid "Footer"
+msgstr "Footer"
+
+#: functions.php:30 includes/settings/settings-header.php:43
+msgid "Header"
+msgstr "Header"
+
+#: includes/admin-functions.php:135
+msgid "Thanks for installing the Hello Theme!"
+msgstr "Cảm ơn đã cài đặt Hello Theme!"
+
+#: includes/admin-functions.php:51
+#: includes/customizer/customizer-action-links.php:58
+#: includes/customizer/customizer-action-links.php:60
+#: assets/js/hello-admin.js:173 assets/js/hello-admin.js:175
+msgid "Install Elementor"
+msgstr "Cài đặt Elementor"
+
+#: includes/admin-functions.php:42
+#: includes/customizer/customizer-action-links.php:77
+#: includes/customizer/customizer-action-links.php:79
+#: assets/js/hello-admin.js:181 assets/js/hello-admin.js:183
+msgid "Activate Elementor"
+msgstr "Kích hoạt Elementor"
+
+#. translators: 1: number of comments
+#: comments.php:39
+msgctxt "comments title"
+msgid "%1$s Response"
+msgid_plural "%1$s Responses"
+msgstr[0] "%1$s bình luận"
+
+#: comments.php:35
+msgctxt "comments title"
+msgid "One Response"
+msgstr "Một bình luận"
+
+#. Translators: HTML arrow
+#: template-parts/archive.php:51 template-parts/search.php:57
+msgid "newer %s"
+msgstr "Mới hơn: %s"
+
+#. Translators: HTML arrow
+#: template-parts/archive.php:49 template-parts/search.php:55
+msgid "%s older"
+msgstr "cũ hơn %s"
+
+#: template-parts/search.php:43
+msgid "It seems we can't find what you're looking for."
+msgstr "Không tìm thấy điều bạn cần."
+
+#: template-parts/search.php:17
+msgid "Search results for: "
+msgstr "Kết quả tìm kiếm:"
+
+#: template-parts/dynamic-footer.php:33 template-parts/dynamic-header.php:36
+#: template-parts/header.php:29
+msgid "Home"
+msgstr "Trang chủ"
+
+#: template-parts/single.php:27
+msgid "Tagged "
+msgstr "Thẻ"
+
+#: template-parts/404.php:21
+msgid "It looks like nothing was found at this location."
+msgstr "Không tìm thấy."
+
+#: template-parts/404.php:16
+msgid "The page can&rsquo;t be found."
+msgstr "Không tìm thấy trang."
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "Elementor Team"
+msgstr "Nhóm Elementor"

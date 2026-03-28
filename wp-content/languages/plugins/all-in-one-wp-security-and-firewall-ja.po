@@ -1,0 +1,4201 @@
+# Translation of Plugins - All-In-One Security (AIOS) – Security and Firewall - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - All-In-One Security (AIOS) – Security and Firewall - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-03-29 14:10:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - All-In-One Security (AIOS) – Security and Firewall - Stable (latest release)\n"
+
+#: templates/wp-admin/spam-prevention/comment-spam.php:12
+msgid "Follow this %s to know more."
+msgstr "詳細については、この%sをご覧ください。"
+
+#: templates/wp-admin/spam-prevention/comment-spam.php:10
+msgid "link"
+msgstr "リンク"
+
+#: templates/wp-admin/spam-prevention/comment-spam.php:12
+msgid "If your visitors have either cookies or JavaScript disabled, their comments will automatically be discarded or marked as spam."
+msgstr "訪問者が Cookie または JavaScript を無効にしている場合、コメントは自動的に破棄されるか、スパムとしてマークされます。"
+
+#: templates/wp-admin/spam-prevention/comment-spam.php:12
+msgid "This feature uses cookies and JavaScript."
+msgstr "この機能は Cookie と JavaScript を使用しています。"
+
+#: templates/wp-admin/spam-prevention/comment-spam.php:12
+msgid "In other words, if the comment was not submitted by a human, the request will be discarded or marked as spam."
+msgstr "つまり、コメントが人間によって投稿されたものでない場合、そのリクエストは破棄されるか、スパムとしてマークさ れます。"
+
+#: admin/wp-security-admin-menu.php:178
+msgid "The selected record(s) has been deleted successfully."
+msgstr "選択したレコードは正常に削除されました。"
+
+#: templates/wp-admin/scanner/file-change-detect.php:51
+msgid "Scan now"
+msgstr "今すぐスキャン"
+
+#: templates/wp-admin/scanner/file-change-detect.php:46
+msgid "Time now"
+msgstr "現在の時間"
+
+#: templates/wp-admin/scanner/file-change-detect.php:35
+msgid "No previous scan results"
+msgstr "過去のスキャン結果はありません"
+
+#: templates/wp-admin/firewall/partials/blank-ref-and-useragent.php:19
+msgid "This feature will check whether the user-agent and referer HTTP headers are blank."
+msgstr "この機能は、user-agent と referer HTTP ヘッダが空白かどうかをチェックします。"
+
+#: templates/wp-admin/firewall/partials/blank-ref-and-useragent.php:15
+msgid "Check this if you want to ban POST requests that have a blank user-agent and referer."
+msgstr "空白の user-agent と referer を持つ POST リクエストを禁止したい場合はチェックを入れてください。"
+
+#: templates/wp-admin/firewall/partials/blank-ref-and-useragent.php:12
+msgid "Ban POST requests that have a blank user-agent and referer"
+msgstr "空白の user-agent と referer を持つ POST リクエストの禁止"
+
+#: admin/wp-security-admin-menu.php:188
+msgid "The selected record(s) have failed to delete."
+msgstr "選択したレコードの削除に失敗しました。"
+
+#: admin/wp-security-admin-menu.php:165
+msgid "The settings have been successfully updated."
+msgstr "設定が正常に更新されました。"
+
+#: admin/wp-security-admin-init.php:372
+msgid "Processing..."
+msgstr "処理中…"
+
+#: admin/wp-security-admin-init.php:94 admin/wp-security-admin-init.php:95
+#: admin/wp-security-user-security-menu.php:19
+msgid "User Security"
+msgstr "ユーザーセキュリティ"
+
+#: templates/wp-admin/scanner/file-change-detect.php:33
+msgid "View the last file scan results"
+msgstr "最後のスキャン結果を表示する"
+
+#: templates/wp-admin/scanner/file-change-detect.php:27
+msgid "Previous file scan results"
+msgstr "前回のスキャン結果を表示する"
+
+#: templates/wp-admin/scanner/file-change-detect.php:17
+msgid "Next file scan"
+msgstr "次回のスキャン"
+
+#: templates/wp-admin/scanner/file-change-detect.php:5
+msgid "View the scan results and clear this message"
+msgstr "スキャン結果を表示し、このメッセージを消去"
+
+#: templates/wp-admin/user-security/user-enumeration.php:13
+msgid "This feature allows you to prevent external users/bots from fetching the user info with URLs like \"%s\", \"%s\", oEmbed request."
+msgstr "この機能により、外部ユーザ/ボットが\"%s\"、\"%s\"、oEmbed リクエストのような URL でユーザ情報を取得することを防止できます。"
+
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:36
+msgid "This will enable protection against WordPress pingback vulnerabilities."
+msgstr "これにより、WordPress の pingback 脆弱性に対する保護が有効になります。"
+
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:36
+msgid "If you use Jetpack or WP iOS or other apps which need WP XML-RPC functionality then check this."
+msgstr "Jetpack や WP iOS など、WP XML-RPC 機能を必要とするアプリを使用している場合は、こちらをチェックしてください。"
+
+#: templates/wp-admin/firewall/partials/block-debug-log.php:19
+msgid "WordPress has an option to turn on the debug logging to a file located in wp-content/debug.log."
+msgstr "WordPress には、wp-content/debug.log にあるファイルへのデバッグログをオンにするオプションがあります。"
+
+#: templates/wp-admin/firewall/partials/blank-ref-and-useragent.php:20
+msgid "If they are both blank, the IP address associated with the request will be added to your permanent block list."
+msgstr "両方が空白の場合、リクエストに関連する IP アドレスが永久ブロックリストに追加されます。"
+
+#: templates/wp-admin/firewall/partials/blank-ref-and-useragent.php:3
+msgid "Blank HTTP headers"
+msgstr "空白の HTTP ヘッダー"
+
+#: templates/wp-admin/firewall/partials/block-debug-log.php:19
+msgid "This file may contain sensitive information."
+msgstr "このファイルにはセキュリティ情報が含まれている可能性があります。"
+
+#: classes/wp-security-audit-text-handler.php:173
+msgid "Configure this rule"
+msgstr "このルールを設定する"
+
+#: classes/wp-security-audit-text-handler.php:160
+msgid "'%s [%s]' rule is not active."
+msgstr "ルール '%s [%s]' は有効ではありません。"
+
+#: classes/wp-security-audit-text-handler.php:157
+msgid "'%s [%s]' rule is active."
+msgstr "ルール '%s [%s]' は有効です。"
+
+#: templates/wp-admin/general/moved.php:14
+msgid "This page will be removed in a future release."
+msgstr "このページは将来的に削除される予定です。"
+
+#: templates/wp-admin/general/moved.php:14
+msgid "The %s feature is now located %s."
+msgstr "%s機能は現在%sにあります。"
+
+#: templates/wp-admin/firewall/partials/allowlist.php:23
+msgid "Save allow list"
+msgstr "許可リストを保存"
+
+#: templates/wp-admin/firewall/partials/allowlist.php:2
+msgid "Allow list"
+msgstr "許可リスト"
+
+#: includes/simba-tfa/simba-tfa.php:1177
+msgid "Attempts"
+msgstr "試行"
+
+#: templates/wp-admin/brute-force/honeypot.php:4
+msgid "This will only be visible to robots and not humans."
+msgstr "これはロボットのみに表示され、人間には表示されません。"
+
+#: includes/simba-tfa/simba-tfa.php:1183
+msgid "Please change your password urgently."
+msgstr "早急にパスワードを変更してください。"
+
+#: includes/simba-tfa/simba-tfa.php:1182
+msgid "TFA codes are checked only after the password has been successfully checked."
+msgstr "TFA コードは、パスワードのチェックが成功した後にのみチェックされます。"
+
+#: includes/simba-tfa/simba-tfa.php:1181
+msgid "If the above attempts were not by you then someone else has your password."
+msgstr "上記の試みがあなたによるものではない場合は、他の誰かがあなたのパスワードを知っていることになります。"
+
+#: other-includes/wp-security-rename-login-feature.php:952
+msgid "Save Password"
+msgstr "パスワードを保存"
+
+#: other-includes/wp-security-rename-login-feature.php:951
+msgid "Generate Password"
+msgstr "パスワードを生成する"
+
+#: other-includes/wp-security-rename-login-feature.php:906
+msgid "Enter your new password below or generate one."
+msgstr "以下に新しいパスワードを入力するか、生成してください。"
+
+#: other-includes/wp-security-rename-login-feature.php:882
+msgid "<strong>Error:</strong> The passwords do not match."
+msgstr "<strong>エラー:</strong> パスワードが一致しません。"
+
+#: other-includes/wp-security-rename-login-feature.php:877
+msgid "The password cannot be a space or all spaces."
+msgstr "パスワードをスペースのみにすることはできません。"
+
+#: other-includes/wp-security-rename-login-feature.php:810
+msgid "Get New Password"
+msgstr "新しいパスワードを取得"
+
+#. translators: Hidden accessibility text.
+#: other-includes/wp-security-rename-login-feature.php:320
+msgid "Language"
+msgstr "言語"
+
+#: includes/simba-tfa/simba-tfa.php:178
+msgid "Two Factor Authentication Settings"
+msgstr "2要素認証設定"
+
+#: includes/simba-tfa/templates/admin-settings.php:130
+msgid "This feature cannot be turned off."
+msgstr "この機能はオフにすることはできません。"
+
+#: templates/wp-admin/firewall/partials/fake-googlebots.php:16
+#: templates/wp-admin/settings/advanced-settings.php:11
+msgid "Attention"
+msgstr "注意"
+
+#: templates/admin/incompatible-plugin.php:12
+#: templates/admin/incompatible-plugin.php:16
+msgid "Two factor authentication in All In One WP Security is currently disabled because the incompatible plugin %s is active."
+msgstr "互換性のないプラグイン %s が有効化中のため、All In One WP Security の2要素認証は現在無効になっています。"
+
+#: admin/wp-security-tools-menu.php:36
+msgid "WHOIS lookup"
+msgstr "WHOIS 検索"
+
+#: wp-security.php:46
+msgid "Your current PHP version is %s."
+msgstr "現在の PHP バージョンは %s です。"
+
+#: wp-security.php:44
+msgid "All In One WP Security and Firewall plugin has been deactivated."
+msgstr "All In One WP Security and Firewall プラグインが無効化されました。"
+
+#: admin/wp-security-firewall-setup-notice.php:659
+msgid "Set up now"
+msgstr "今すぐ設定"
+
+#: includes/simba-tfa/providers/totp/loader.php:223
+#: includes/simba-tfa/providers/totp/loader.php:573
+msgid "TOTP (time based - most common algorithm; used by Google Authenticator)"
+msgstr "TOTP (時間ベース - Google Authenticatorで使用される最も一般的なアルゴリズム)"
+
+#: includes/simba-tfa/providers/totp/loader.php:224
+#: includes/simba-tfa/providers/totp/loader.php:573
+msgid "HOTP (event based)"
+msgstr "HOTP (イベントベース)"
+
+#: classes/wp-security-general-init-tasks.php:500
+#: includes/simba-tfa/simba-tfa.php:420 includes/simba-tfa/simba-tfa.php:1280
+msgid "Disabled"
+msgstr "無効"
+
+#: includes/simba-tfa/templates/settings-intro-notices.php:5
+msgid "These are your personal settings."
+msgstr "これらはあなたの個人設定です。"
+
+#: includes/simba-tfa/templates/settings-intro-notices.php:5
+msgid "Nothing you change here will have any effect on other users."
+msgstr "ここを変更しても、他のユーザーには影響しません。"
+
+#: includes/simba-tfa/providers/totp/loader.php:410
+msgid "Setting up - either scan the code, or type in the private key"
+msgstr "セットアップ - コードをスキャンするか、秘密鍵を入力します"
+
+#: includes/simba-tfa/providers/totp/loader.php:482
+msgid "Private key:"
+msgstr "秘密鍵:"
+
+#: includes/simba-tfa/providers/totp/loader.php:343
+#: includes/simba-tfa/providers/totp/loader.php:436
+msgid "Reset private key"
+msgstr "秘密鍵をリセット"
+
+#: includes/simba-tfa/includes/login-form-integrations.php:124
+#: includes/simba-tfa/simba-tfa.php:1034
+msgid "The one-time password (TFA code) you entered was incorrect."
+msgstr "入力したワンタイムパスワード（TFAコード）が間違っています。"
+
+#: includes/simba-tfa/providers/totp/loader.php:448
+msgid "One-time emergency codes are a feature of the Premium version of this plugin."
+msgstr "1回限りの緊急コードは、プラグインのプレミアム バージョンの機能です。"
+
+#: includes/simba-tfa/templates/admin-settings.php:189
+msgid "provide your users with one-time codes to use in case they lose their device."
+msgstr "デバイスを紛失した場合に使用するワンタイム コードをユーザーに提供します。"
+
+#: includes/simba-tfa/providers/totp/loader.php:209
+msgid "(update)"
+msgstr "(更新)"
+
+#: includes/simba-tfa/providers/totp/loader.php:196
+msgid "Updating..."
+msgstr "更新中..."
+
+#: templates/wp-admin/user-security/login-lockout.php:69
+msgid "Set the maximum time period in minutes of lockout."
+msgstr "ロックアウトの最大時間を分単位で設定します。"
+
+#: templates/wp-admin/user-security/login-lockout.php:57
+msgid "Set the minimum time period in minutes of lockout."
+msgstr "ロックアウトの最小時間を分単位で設定します。"
+
+#: templates/wp-admin/user-security/login-lockout.php:64
+msgid "Maximum lockout time length"
+msgstr "最大ロックアウト時間"
+
+#: templates/wp-admin/user-security/login-lockout.php:51
+msgid "Minimum lockout time length"
+msgstr "最小ロックアウト時間"
+
+#: templates/wp-admin/user-security/login-lockout.php:69
+msgid "No IP address will be blocked for more than this time period after making a failed login attempt."
+msgstr "ログイン試行が失敗した後、この時間以上にIPアドレスがブロックされることはありません。"
+
+#: includes/simba-tfa/providers/totp/loader.php:343
+msgid "Warning: if you reset this key you will have to update your apps with the new one. Are you sure you want this?"
+msgstr "警告: このキーをリセットすると、新しいキーでアプリを更新する必要があります。本当にリセットしますか？"
+
+#: templates/wp-admin/firewall/partials/block-debug-log.php:20
+msgid "You can still access this file by logging into your site via FTP."
+msgstr "FTP経由でサイトにログインすることで、このファイルに引き続きアクセスできます。"
+
+#: templates/wp-admin/firewall/partials/block-debug-log.php:20
+msgid "Using this option will block external access to this file."
+msgstr "このオプションを使用すると、このファイルへの外部アクセスがブロックされます。"
+
+#: templates/wp-admin/spam-prevention/comment-spam.php:56
+msgid "Trash spam comments"
+msgstr "スパムコメントをゴミ箱に移動"
+
+#: templates/wp-admin/spam-prevention/comment-spam.php:65
+msgid "Move spam comments to trash after %s days."
+msgstr "%s 日後にスパムコメントをゴミ箱に移動します。"
+
+#: templates/wp-admin/spam-prevention/comment-spam.php:78
+msgid "Enable this feature in order to move the spam comments to trash after the given number of days."
+msgstr "この機能を有効にすると、指定した日数後にスパムコメントをゴミ箱に移動できます。"
+
+#: admin/wp-security-spam-menu.php:71
+msgid "You entered a non numeric value for the \"move spam comments to trash after number of days\" field."
+msgstr "\"日数経過後にスパムコメントをゴミ箱に移動\" フィールドに数値以外の値を入力しました。"
+
+#: templates/info/ip-address-ip-range-info.php:2
+#: templates/wp-admin/brute-force/captcha-settings.php:315
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:75
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:112
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:135
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:157
+#: templates/wp-admin/firewall/6g.php:29 templates/wp-admin/firewall/6g.php:70
+#: templates/wp-admin/firewall/partials/advanced-character-filter.php:17
+#: templates/wp-admin/firewall/partials/advanced-settings-6g.php:15
+#: templates/wp-admin/firewall/partials/bad-query-strings.php:17
+#: templates/wp-admin/firewall/partials/basic-firewall-settings.php:15
+#: templates/wp-admin/firewall/partials/blank-ref-and-useragent.php:16
+#: templates/wp-admin/firewall/partials/block-debug-log.php:16
+#: templates/wp-admin/firewall/partials/disable-rss-atom.php:15
+#: templates/wp-admin/firewall/partials/disable-trace.php:16
+#: templates/wp-admin/firewall/partials/fake-googlebots.php:34
+#: templates/wp-admin/firewall/partials/firewall-setup.php:15
+#: templates/wp-admin/firewall/partials/listing-directory-contents.php:16
+#: templates/wp-admin/firewall/partials/proxy-comment.php:17
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:16
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:37
+#: templates/wp-admin/miscellaneous/salt.php:35
+#: templates/wp-admin/scanner/file-change-detect.php:94
+#: templates/wp-admin/scanner/file-change-detect.php:112
+#: templates/wp-admin/settings/advanced-settings.php:65
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:39
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:75
+#: templates/wp-admin/spam-prevention/comment-spam.php:25
+#: templates/wp-admin/spam-prevention/comment-spam.php:70
+#: templates/wp-admin/spam-prevention/comment-spam.php:75
+#: templates/wp-admin/user-security/login-lockout.php:115
+msgid "More info"
+msgstr "詳細"
+
+#: templates/wp-admin/spam-prevention/comment-spam.php:39
+msgid "Comment processing"
+msgstr "コメント処理"
+
+#: admin/wp-security-firewall-setup-notice.php:461
+msgid "You may have to wait 5 minutes for the changes to take effect."
+msgstr "変更が有効になるまで5分程度待つ必要がある場合があります。"
+
+#: templates/wp-admin/database-security/database-prefix.php:42
+msgid "Generate new database table prefix"
+msgstr "データベースのテーブル接頭語を新しく生成"
+
+#: includes/simba-tfa/templates/admin-settings.php:204
+msgid "Translations"
+msgstr "翻訳"
+
+#: templates/wp-admin/database-security/database-prefix.php:19
+msgid "database backup"
+msgstr "データベースのバックアップ"
+
+#: admin/wp-security-database-menu.php:91
+msgid "Database backup"
+msgstr "データベースのバックアップ"
+
+#: admin/wp-security-database-menu.php:49
+msgid "UpdraftPlus is installed but currently not active."
+msgstr "UpdraftPlusはインストールされていますが、現在有効ではありません。"
+
+#: admin/wp-security-database-menu.php:49
+msgid "Follow this link to activate UpdraftPlus, to take a backup."
+msgstr "このリンクでUpdraftPlusを有効化し、バックアップを作成します。"
+
+#: templates/wp-admin/user-security/additional.php:5
+msgid "This feature allows you to disable application passwords as they can leave your site vulnerable to social engineering and phishing scams."
+msgstr "この機能を使用すると、サイトがソーシャル エンジニアリングやフィッシング詐欺に対して脆弱になる可能性があるため、アプリケーション パスワードを無効にすることができます。"
+
+#: templates/wp-admin/user-security/additional.php:22
+msgid "Check this if you want to disable the application password."
+msgstr "アプリケーションパスワードを無効にする場合は、これにチェックしてください。"
+
+#: templates/wp-admin/user-security/login-lockout.php:120
+msgid "The valid email address format is userid@example.com"
+msgstr "有効なメールアドレスの形式は userid@example.com です"
+
+#: includes/simba-tfa/templates/user-settings.php:25
+msgid "Settings saved."
+msgstr "設定を保存しました。"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:97
+#: templates/wp-admin/user-security/additional.php:19
+msgid "Disable application password"
+msgstr "アプリケーションパスワードを無効化"
+
+#: templates/wp-admin/database-security/database-prefix.php:9
+msgid "Database prefix options"
+msgstr "データベースの接頭辞設定"
+
+#: admin/wp-security-database-menu.php:86
+#: classes/grade-system/wp-security-feature-item-manager.php:139
+msgid "Database prefix"
+msgstr "データベースの接頭辞"
+
+#: templates/wp-admin/database-security/database-prefix.php:29
+msgid "Current database table prefix"
+msgstr "現在のテーブル接頭辞"
+
+#: templates/wp-admin/database-security/database-backup.php:26
+msgid "Automate backup in the UpdraftPlus plugin"
+msgstr "UpdraftPlus プラグインでバックアップを自動化"
+
+#: includes/simba-tfa/templates/admin-settings.php:23
+#: templates/admin/incompatible-plugin.php:10
+msgid "Two Factor Authentication currently disabled"
+msgstr "2要素認証は現在無効になっています"
+
+#: classes/wp-security-two-factor-login.php:146
+msgid "Two factor authentication"
+msgstr "2要素認証"
+
+#: includes/simba-tfa/providers/totp/loader.php:524
+msgid "Two Factor Authentication re-sync needed"
+msgstr "2要素認証の再同期が必要です"
+
+#: includes/simba-tfa/templates/admin-settings.php:8
+msgid "Two Factor Authentication - Admin Settings"
+msgstr "2要素認証 - 管理者設定"
+
+#: includes/simba-tfa/simba-tfa.php:159
+#: includes/simba-tfa/templates/user-settings.php:20
+#: templates/admin/incompatible-plugin.php:6
+msgid "Two Factor Authentication"
+msgstr "2要素認証"
+
+#: classes/wp-security-two-factor-login.php:123
+msgid "Two Factor Auth"
+msgstr "2要素認証"
+
+#: templates/info/ip-address-ip-range-info.php:12
+msgid "Example 5: 2001:db8:1263::/48"
+msgstr "例5: 2001:db8:1263::/48"
+
+#: templates/info/ip-address-ip-range-info.php:11
+msgid "Example 4: 2401:4900:54c3:af15:2:2:5dc0:0/112"
+msgstr "例4: 2401:4900:54c3:af15:2:2:5dc0:0/112"
+
+#: templates/info/ip-address-ip-range-info.php:10
+msgid "To specify an IPv6 range use CIDR format as shown in the examples below:"
+msgstr "IPv6 の範囲を指定するには、以下の例に示すように CIDR 形式を使用します:"
+
+#: includes/simba-tfa/templates/user-settings.php:41
+msgid "N.B. Getting your TFA app/device to generate the correct code depends upon a) you first setting it up by entering or scanning the code below into it, and b) upon your web-server and your TFA app/device agreeing upon the UTC time (within a minute or so). The current UTC time according to the server when this page loaded: %s, and in the time-zone you have configured in your WordPress settings: %s"
+msgstr "備考: TFA アプリ/デバイスで正しいコードを生成するには、a) まず以下のコードを入力するかスキャンして設定し、b) Web サーバーと TFA アプリ/デバイスの UTC 時間が揃っている (1分以内程度) ことが必要です。このページがロードされた時のサーバーの UTC 時間: %s、WordPress で設定したタイムゾーンの時間: %s"
+
+#: includes/simba-tfa/templates/user-settings.php:36
+msgid "Activate two factor authentication"
+msgstr "2要素認証の有効化"
+
+#: includes/simba-tfa/templates/shortcode-tfa-user-settings.php:8
+msgid "Two factor authentication is not available for your user."
+msgstr "あなたのユーザーでは、2要素認証は利用できません。"
+
+#: includes/simba-tfa/templates/settings-intro-notices.php:28
+msgid "You should also bookmark the FAQs, which explain how to de-activate the plugin even if you cannot log in."
+msgstr "また、ログインできない場合でもプラグインを無効化する方法を説明した FAQ をブックマークしておくとよいでしょう。"
+
+#: includes/simba-tfa/templates/settings-intro-notices.php:25
+msgid "If you activate two-factor authentication, then verify that your two-factor application and this page show the same One-Time Password (within a minute of each other) before you log out."
+msgstr "2要素認証を有効にした場合、ログアウトする前に、2要素アプリケーションとこのページが同じワンタイムパスワードを表示していることを確認してください (互いに1分以内であること) 。"
+
+#: admin/wp-security-firewall-setup-notice.php:648
+msgid "Our PHP-based firewall has been created to give you even greater protection."
+msgstr "PHP ベースのファイアウォールは、さらに高い保護性能を発揮するように作成されています。"
+
+#: admin/wp-security-firewall-setup-notice.php:649
+msgid "To ensure the PHP-based firewall runs before any potentially vulnerable code in your WordPress site can be reached, it will need to be set up."
+msgstr "WordPress サイト内の潜在的に脆弱なコードにたどり着く前に PHP ベースのファイアウォールを確実に実行するためには、この設定が必要です。"
+
+#: admin/wp-security-firewall-setup-notice.php:653
+msgid "If you already have our .htaccess-based firewall enabled, you will still need to set up the PHP-based firewall to benefit from its protection."
+msgstr ".htaccess ベースのファイアウォールをすでに有効にしている場合でも PHP ベースのファイアウォールを設定し、その保護機能を利用する必要があります。"
+
+#: admin/wp-security-firewall-setup-notice.php:656
+msgid "To set up the PHP-based firewall, press the 'Set up now' button below:"
+msgstr "PHP ベースのファイアウォールを設定するには、下の「今すぐ設定」 ボタンを押します :"
+
+#: includes/simba-tfa/simba-tfa.php:417 includes/simba-tfa/simba-tfa.php:1270
+msgid "Enabled"
+msgstr "有効化"
+
+#: includes/simba-tfa/templates/settings-intro-notices.php:13
+#: includes/simba-tfa/templates/settings-intro-notices.php:17
+msgid "The site-wide administration options are here."
+msgstr "サイト全体の管理設定はここにあります。"
+
+#: templates/wp-admin/tools/whois-lookup.php:3
+msgid "The WHOIS lookup feature gives you a way to look up who owns an IP address or domain name."
+msgstr "WHOIS検索機能を使用すると、IPアドレスまたはドメイン名の所有者を検索できます。"
+
+#: admin/wp-security-database-menu.php:54
+msgid "Follow this link to install UpdraftPlus, to take a database backup."
+msgstr "このリンクで UpdraftPlus をインストールし、データベースのバックアップを取ることができます。"
+
+#: templates/wp-admin/user-security/login-lockout.php:114
+msgid "Fill in one email address per line."
+msgstr "一行にひとつのメールアドレスを入力してください。"
+
+#: templates/wp-admin/user-security/login-lockout.php:118
+msgid "Each email address must be on a new line."
+msgstr "一つのメールアドレスごとに改行する必要があります。"
+
+#: templates/wp-admin/user-security/login-lockout.php:119
+msgid "If a valid email address has not been filled in, it will not be saved."
+msgstr "有効なメールアドレスが入力されていない場合、保存されません。"
+
+#: admin/wp-security-firewall-setup-notice.php:460
+msgid "Your firewall has been installed with the highest level of protection."
+msgstr "最高レベルの保護でファイアウォールがインストールされています。"
+
+#: templates/wp-admin/user-security/login-lockout.php:132
+msgid "Check this if you want to include the PHP backtrace in notification emails."
+msgstr "通知メールに PHP バックトレースを含めたい場合は、これをチェックしてください。"
+
+#: templates/wp-admin/brute-force/login-whitelist.php:59
+#: templates/wp-admin/user-security/login-lockout.php:177
+msgid "Enter one or more IP addresses or IP ranges you wish to include in your whitelist."
+msgstr "ホワイトリストに含める IP アドレスまたは IP 範囲を1つ以上入力します。"
+
+#: templates/wp-admin/user-security/login-lockout.php:177
+msgid "The addresses specified here will never be blocked by the login lockout feature."
+msgstr "ここで指定したアドレスは、ログインロックアウト機能によってブロックされることはありません。"
+
+#: templates/wp-admin/user-security/additional.php:4
+msgid "WordPress 5.6 introduced a new feature called \"Application passwords\"."
+msgstr "WordPress 5.6 では「アプリケーション パスワード」という新機能が導入されました。"
+
+#: templates/wp-admin/user-security/additional.php:5
+msgid "This allows you to create a token from the WordPress dashboard which then can be used in the authorization header."
+msgstr "これにより、WordPress ダッシュボードからトークンを作成し、authorization ヘッダーで使用できるようになります。"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:297
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:71
+msgid "Enable brute force attack prevention"
+msgstr "ブルートフォース攻撃対策を有効化"
+
+#: wp-security-core.php:334
+msgid "template not found"
+msgstr "テンプレートが見つかりません"
+
+#: classes/wp-security-ajax.php:136
+msgid "Options can only be saved by network admin"
+msgstr "設定を保存できるのはネットワーク管理者だけです"
+
+#: templates/notices/thanks-for-using-main-dash.php:32
+msgid "Premium WooCommerce plugins"
+msgstr "プレミアム WooCommerce プラグイン"
+
+#: templates/notices/thanks-for-using-main-dash.php:32
+msgid "More quality plugins"
+msgstr "他の高品質なプラグイン"
+
+#: templates/notices/thanks-for-using-main-dash.php:28
+msgid "%s is a WordPress subscription extension for WooCommerce store owners."
+msgstr "%s は、WooCommerce ストアオーナーのための WordPress サブスクリプション拡張機能です。"
+
+#: templates/notices/thanks-for-using-main-dash.php:24
+msgid "%s is a highly efficient way to manage, optimize, update and backup multiple websites from one place."
+msgstr "%s は、複数のサイトを一箇所で管理、最適化、更新、バックアップするための非常に効率的な方法です。"
+
+#: admin/wp-security-database-menu.php:134
+#: admin/wp-security-database-menu.php:137
+#: admin/wp-security-database-menu.php:141
+#: includes/simba-tfa/includes/login-form-integrations.php:124
+#: includes/simba-tfa/simba-tfa.php:1034 includes/simba-tfa/simba-tfa.php:1433
+#: includes/simba-tfa/simba-tfa.php:1470 includes/simba-tfa/simba-tfa.php:1484
+#: includes/simba-tfa/simba-tfa.php:1627 wp-security-core.php:334
+msgid "Error:"
+msgstr "エラー:"
+
+#: admin/wp-security-firewall-setup-notice.php:665
+#: templates/notices/custom-notice.php:10
+#: templates/notices/custom-notice.php:12
+#: templates/notices/horizontal-notice.php:50
+#: templates/notices/horizontal-notice.php:52
+#: templates/notices/htaccess-to-php-feature-notice.php:10
+#: templates/notices/htaccess-to-php-feature-notice.php:12
+msgid "Dismiss"
+msgstr "閉じる"
+
+#: templates/wp-admin/settings/general-settings.php:75
+#: templates/wp-admin/settings/general-settings.php:88
+msgid "Reset settings"
+msgstr "設定をリセット"
+
+#: templates/wp-admin/settings/general-settings.php:83
+msgid "In addition to the settings it will also delete any directives which were added to the .htaccess file by the All In One WP Security & Firewall Plugin."
+msgstr "設定に加えて、All In One WP Security & Firewall プラグインによって .htaccess ファイルに追加されたディレクティブも削除されます。"
+
+#: templates/wp-admin/settings/general-settings.php:80
+msgid "This feature will delete all of your settings related to the All In One WP Security & Firewall Plugin."
+msgstr "この機能は、All In One WP Security & Firewall Plugin に関連するすべての設定が削除されます。"
+
+#: templates/wp-admin/dashboard/may-also-like.php:40
+#: templates/wp-admin/dashboard/may-also-like.php:43
+#: templates/wp-admin/dashboard/may-also-like.php:54
+#: templates/wp-admin/dashboard/may-also-like.php:57
+#: templates/wp-admin/dashboard/may-also-like.php:68
+#: templates/wp-admin/dashboard/may-also-like.php:71
+#: templates/wp-admin/dashboard/may-also-like.php:91
+#: templates/wp-admin/dashboard/may-also-like.php:103
+#: templates/wp-admin/dashboard/may-also-like.php:115
+#: templates/wp-admin/dashboard/may-also-like.php:127
+#: templates/wp-admin/dashboard/may-also-like.php:139
+#: templates/wp-admin/dashboard/may-also-like.php:151
+#: templates/wp-admin/dashboard/may-also-like.php:168
+#: templates/wp-admin/dashboard/may-also-like.php:171
+#: templates/wp-admin/dashboard/may-also-like.php:183
+#: templates/wp-admin/dashboard/may-also-like.php:195
+#: templates/wp-admin/dashboard/may-also-like.php:207
+#: templates/wp-admin/dashboard/may-also-like.php:219
+#: templates/wp-admin/dashboard/may-also-like.php:231
+#: templates/wp-admin/dashboard/may-also-like.php:243
+#: templates/wp-admin/dashboard/may-also-like.php:252
+#: templates/wp-admin/dashboard/may-also-like.php:255
+#: templates/wp-admin/dashboard/may-also-like.php:264
+#: templates/wp-admin/dashboard/may-also-like.php:267
+#: templates/wp-admin/dashboard/may-also-like.php:279
+#: templates/wp-admin/dashboard/may-also-like.php:297
+#: templates/wp-admin/dashboard/may-also-like.php:309
+#: templates/wp-admin/dashboard/may-also-like.php:327
+#: templates/wp-admin/dashboard/may-also-like.php:339
+#: templates/wp-admin/dashboard/may-also-like.php:351
+#: templates/wp-admin/dashboard/may-also-like.php:368
+#: templates/wp-admin/dashboard/may-also-like.php:380
+msgid "Yes"
+msgstr "はい"
+
+#: templates/notices/custom-notice.php:27
+#: templates/wp-admin/dashboard/may-also-like.php:88
+#: templates/wp-admin/dashboard/may-also-like.php:100
+#: templates/wp-admin/dashboard/may-also-like.php:112
+#: templates/wp-admin/dashboard/may-also-like.php:124
+#: templates/wp-admin/dashboard/may-also-like.php:136
+#: templates/wp-admin/dashboard/may-also-like.php:148
+#: templates/wp-admin/dashboard/may-also-like.php:180
+#: templates/wp-admin/dashboard/may-also-like.php:192
+#: templates/wp-admin/dashboard/may-also-like.php:204
+#: templates/wp-admin/dashboard/may-also-like.php:216
+#: templates/wp-admin/dashboard/may-also-like.php:228
+#: templates/wp-admin/dashboard/may-also-like.php:240
+#: templates/wp-admin/dashboard/may-also-like.php:276
+#: templates/wp-admin/dashboard/may-also-like.php:294
+#: templates/wp-admin/dashboard/may-also-like.php:306
+#: templates/wp-admin/dashboard/may-also-like.php:324
+#: templates/wp-admin/dashboard/may-also-like.php:336
+#: templates/wp-admin/dashboard/may-also-like.php:348
+#: templates/wp-admin/dashboard/may-also-like.php:365
+#: templates/wp-admin/dashboard/may-also-like.php:377
+msgid "No"
+msgstr "いいえ"
+
+#: admin/wp-security-user-security-menu.php:209
+msgid "Edit user"
+msgstr "ユーザーを編集"
+
+#: classes/wp-security-general-init-tasks.php:605
+msgid "<strong>ERROR</strong>: Your IP address is currently locked please contact the administrator!"
+msgstr "<strong>エラー</strong>: お使いの IP アドレスは現在ロックされています。詳細は管理者にお問い合わせください。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1357
+#: other-includes/wp-security-rename-login-feature.php:1299
+msgid "Recovery Mode Initialized. Please log in to continue."
+msgstr "リカバリーモードを初期化しました。ログインして継続してください。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1163
+#: other-includes/wp-security-rename-login-feature.php:1105
+msgid "Missing confirm key."
+msgstr "確認キーがありません。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1159
+#: other-includes/wp-security-rename-login-feature.php:1101
+msgid "Missing request ID."
+msgstr "リクエスト ID がありません。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:149
+#: other-includes/wp-security-rename-login-feature.php:150
+msgid "Usage of the title attribute on the login logo is not recommended for accessibility reasons. Use the link text instead."
+msgstr "ログインのロゴのタイトル属性の利用はアクセシビリティの理由から推奨できません。代わりにテキストリンクを使ってください。"
+
+#. translators: %s: Login screen title.
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:76
+#: other-includes/wp-security-rename-login-feature.php:77
+msgid "Recovery Mode &#8212; %s"
+msgstr "リカバリーモード &#8212; %s"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1253
+#: other-includes/wp-security-rename-login-feature.php:1195
+msgid "https://wordpress.org/support/article/cookies/#enable-cookies-in-your-browser"
+msgstr "https://ja.wordpress.org/support/article/cookies/#enable-cookies-in-your-browser"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1242
+#: other-includes/wp-security-rename-login-feature.php:1184
+msgid "https://wordpress.org/support/article/cookies/"
+msgstr "https://ja.wordpress.org/support/article/cookies/"
+
+#. translators: %s: site title
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:253
+msgctxt "site"
+msgid "&larr; Back to %s"
+msgstr "&larr; %s に戻る"
+
+#: classes/wp-security-general-init-tasks.php:682
+msgid "You are not authorized to perform this action."
+msgstr "この操作を実行する権限がありません。"
+
+#: classes/wp-security-process-renamed-login-page.php:153
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:850
+msgid "Invalid key"
+msgstr "無効なキー"
+
+#. translators: %s: site name
+#. translators: %s: Site name.
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:371
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:428
+msgid "Site Name: %s"
+msgstr "サイト名: %s"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:841
+msgid "Invalid request."
+msgstr "無効なリクエスト。"
+
+#. translators: Login screen title. 1: Login screen name, 2: Network or site
+#. name
+#. translators: Login screen title. 1: Login screen name, 2: Network or site
+#. name.
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:60
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:72
+#: other-includes/wp-security-rename-login-feature.php:73
+msgid "%1$s &lsaquo; %2$s &#8212; WordPress"
+msgstr "%1$s &lsaquo; %2$s &#8212; WordPress"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:707
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:985
+#: other-includes/wp-security-rename-login-feature.php:926
+msgid "Confirm use of weak password"
+msgstr "脆弱なパスワードの使用を確認"
+
+#: classes/wp-security-process-renamed-login-page.php:161
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:872
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1191
+#: other-includes/wp-security-rename-login-feature.php:1133
+msgid "User action confirmed."
+msgstr "ユーザーの操作を確認しました。"
+
+#: templates/wp-admin/brute-force/captcha-settings.php:237
+msgid "Check this if you want to insert a CAPTCHA field on the bbPress new topic forms."
+msgstr "BBPress の新規トピックフォームに CAPTCHA フィールドを挿入したい場合はこれをチェック"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:975
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1346
+#: other-includes/wp-security-rename-login-feature.php:1288
+msgid "Your session has expired. Please log in to continue where you left off."
+msgstr "セッションの有効期限が切れています。前回行った操作の時点からまた続けるにはログインしてください。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:593
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1030
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:863
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1416
+#: other-includes/wp-security-rename-login-feature.php:796
+#: other-includes/wp-security-rename-login-feature.php:1363
+msgid "Username or Email Address"
+msgstr "ユーザー名またはメールアドレス"
+
+#: other-includes/wp-security-unlock-request.php:93
+msgid "Please enter your email address and you will receive an email with instructions on how to unlock yourself."
+msgstr "メールアドレスを入力してください。自分でロックを解除する方法が記載されたメールが届きます。"
+
+#: other-includes/wp-security-unlock-request.php:92
+msgid "You are here because you have been locked out due to too many incorrect login attempts."
+msgstr "ログインに失敗した回数が多すぎるため管理画面をロックしました。"
+
+#: classes/wp-security-process-renamed-login-page.php:139
+msgid "Not available."
+msgstr "利用できません。"
+
+#: classes/wp-security-general-init-tasks.php:663
+msgid "Your registration is pending approval."
+msgstr "あなたのユーザー登録は承認待ちです。"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:130
+msgid "Enable registration honeypot"
+msgstr "ユーザー登録ハニーポットを有効化"
+
+#: templates/wp-admin/brute-force/honeypot.php:37
+msgid "Enable honeypot on registration page"
+msgstr "ユーザー登録ページでハニーポット機能を有効化する"
+
+#: templates/wp-admin/brute-force/honeypot.php:29
+msgid "Registration form honeypot settings"
+msgstr "ユーザー登録ハニーポット設定"
+
+#: templates/wp-admin/user-security/account-activity-logs.php:4
+msgid "This tab displays the activity for accounts registered with your site that have logged in using the WordPress login form."
+msgstr "このタブは、WordPress ログインフォームを使ってログイン中のユーザーのアクティビティを表示します。"
+
+#: templates/wp-admin/user-security/login-lockout.php:91
+msgid "Instantly lockout specific usernames"
+msgstr "特定のユーザー名を即座にロックする"
+
+#: templates/wp-admin/brute-force/honeypot.php:40
+msgid "Check this if you want to enable the honeypot feature for the registration page"
+msgstr "ユーザー登録ページでハニーポット機能を有効化したい場合はこれをチェック"
+
+#: other-includes/wp-security-unlock-request.php:75
+msgid "An email has been sent to you with the unlock instructions."
+msgstr "ロック解除の手順を含むメールを送信しました。"
+
+#: other-includes/wp-security-unlock-request.php:107
+msgid "Send unlock request"
+msgstr "ロック解除リクエストを送信"
+
+#: classes/wp-security-user-login.php:520
+msgid "Unlock link: %s"
+msgstr "ロック解除リンク: %s"
+
+#: classes/wp-security-user-login.php:115
+msgid "Service temporarily unavailable"
+msgstr "サービスは一時的にご利用いただけません"
+
+#: templates/wp-admin/user-security/login-lockout.php:165
+msgid "Enable login lockout IP whitelist"
+msgstr "Login Lockdown IP ホワイトリストを有効化"
+
+#: templates/wp-admin/user-security/login-lockout.php:155
+msgid "Login lockout IP whitelist settings"
+msgstr "Login Lockdown IP ホワイトリスト設定"
+
+#: other-includes/wp-security-unlock-request.php:103
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:115
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:123
+#: other-includes/wp-security-rename-login-feature.php:124
+msgid "https://wordpress.org/"
+msgstr "https://ja.wordpress.org/"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1006
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1389
+#: other-includes/wp-security-rename-login-feature.php:1331
+msgid "Log In"
+msgstr "ログイン"
+
+#. translators: %s: user login
+#. translators: %s: User login.
+#: classes/wp-security-user-login.php:391
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:373
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:430
+msgid "Username: %s"
+msgstr "ユーザー名: %s"
+
+#: templates/wp-admin/user-security/logged-in-users.php:7
+msgid "Refresh data"
+msgstr "データを更新"
+
+#: classes/grade-system/wp-security-feature-item.php:60
+msgid "Basic"
+msgstr "基本"
+
+#: classes/grade-system/wp-security-feature-item.php:62
+msgid "Intermediate"
+msgstr "中級"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:611
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:737
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:823
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1064
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:886
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1019
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1110
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1472
+#: other-includes/wp-security-rename-login-feature.php:819
+#: other-includes/wp-security-rename-login-feature.php:961
+#: other-includes/wp-security-rename-login-feature.php:1052
+#: other-includes/wp-security-rename-login-feature.php:1419
+msgid "Register"
+msgstr "登録"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:608
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:677
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:734
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:827
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1047
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:882
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:957
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1015
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1115
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1440
+#: other-includes/wp-security-rename-login-feature.php:815
+#: other-includes/wp-security-rename-login-feature.php:898
+#: other-includes/wp-security-rename-login-feature.php:957
+#: other-includes/wp-security-rename-login-feature.php:1057
+#: other-includes/wp-security-rename-login-feature.php:1387
+msgid "Log in"
+msgstr "ログイン"
+
+#. translators: Password reset email subject. %s: Site name
+#. translators: Password reset notification email subject. %s: Site title.
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:379
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:445
+msgid "[%s] Password Reset"
+msgstr "[%s] パスワードのリセット"
+
+#: templates/wp-admin/user-security/force-logout.php:10
+msgid "Force user logout options"
+msgstr "強制ユーザーログアウトオプション"
+
+#: templates/wp-admin/user-security/manual-approval.php:2
+msgid "User registration settings"
+msgstr "ユーザー登録設定"
+
+#: classes/wp-security-user-login.php:248
+msgid "<strong>ERROR</strong>: Invalid login credentials."
+msgstr "<strong>エラー</strong>: ログイン情報が正しくありません。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:116
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:152
+#: other-includes/wp-security-rename-login-feature.php:153
+#: other-includes/wp-security-unlock-request.php:14
+msgid "Powered by WordPress"
+msgstr "Powered by WordPress"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:677
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:957
+#: other-includes/wp-security-rename-login-feature.php:898
+msgid "Password Reset"
+msgstr "パスワードのリセット"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:685
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:965
+msgid "Enter your new password below."
+msgstr "新しいパスワードを以下に入力してください。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:800
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1084
+#: other-includes/wp-security-rename-login-feature.php:1026
+msgid "Registration Form"
+msgstr "登録フォーム"
+
+#. translators: 1: Browser cookie documentation URL, 2: Support forums URL
+#. translators: 1: Browser cookie documentation URL
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:916
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:920
+msgid "https://codex.wordpress.org/Cookies"
+msgstr "http://wpdocs.osdn.jp/Cookies"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:979
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1351
+#: other-includes/wp-security-rename-login-feature.php:1293
+msgid "You are now logged out."
+msgstr "ログアウトしました。"
+
+#: templates/wp-admin/user-security/logged-in-users.php:20
+msgid "Currently logged in users"
+msgstr "ログイン中のユーザー"
+
+#: other-includes/wp-security-unlock-request.php:13
+msgid "http://wordpress.org/"
+msgstr "https://ja.wordpress.org/"
+
+#: other-includes/wp-security-unlock-request.php:31
+msgid "ERROR: Unable to process your request!"
+msgstr "エラー: リクエストを処理できません。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:662
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:941
+msgid "The passwords do not match."
+msgstr "パスワードが一致しません。"
+
+#: other-includes/wp-security-unlock-request.php:56
+msgid "User account not found!"
+msgstr "ユーザーアカウントが見つかりません。"
+
+#: other-includes/wp-security-unlock-request.php:70
+msgid "Error: No locked entry was found in the database with your IP address range."
+msgstr "エラー: IP アドレス範囲の DB にロックされた項目が見つかりませんでした。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:989
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1355
+#: other-includes/wp-security-rename-login-feature.php:1297
+msgid "<strong>You have successfully updated WordPress!</strong> Please log back in to see what&#8217;s new."
+msgstr "<strong>お使いの WordPress は正常に更新されました。</strong>新機能を見るには再びログインしてください。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:685
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:965
+#: other-includes/wp-security-rename-login-feature.php:906
+msgid "Reset Password"
+msgstr "パスワードをリセット"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:677
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:957
+#: other-includes/wp-security-rename-login-feature.php:898
+msgid "Your password has been reset."
+msgstr "パスワードをリセットしました。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:581
+msgid "Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr "ユーザー名またはメールアドレスを入力してください。新しいパスワードを作成するためのリンクをメールでお送りします。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:560
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:826
+msgid "Your password reset link has expired. Please request a new link below."
+msgstr "パスワードリセット用リンクの期限が切れています。以下から新しいリンクをリクエストしてください。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:558
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:824
+msgid "Your password reset link appears to be invalid. Please request a new link below."
+msgstr "パスワードリセット用リンクが無効のようです。以下から新しいリンクをリクエストしてください。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:409
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr "ホスティングサービス上で mail() 関数が無効になっている可能性があります。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:409
+msgid "The email could not be sent."
+msgstr "メールを送信できませんでした。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:375
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:432
+msgid "To reset your password, visit the following address:"
+msgstr "パスワードをリセットするには、以下へアクセスしてください。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:374
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "もしこれが間違いだった場合は、このメールを無視すれば何も起こりません。"
+
+#: classes/wp-security-user-login.php:744
+msgid "Request unlock"
+msgstr "ロック解除をリクエスト"
+
+#: classes/wp-security-user-login.php:519
+msgid "Unlock request notification"
+msgstr "ロック解除リクエスト通知"
+
+#: classes/wp-security-user-login.php:387
+msgid "Site Lockout Notification"
+msgstr "サイトロックアウト通知"
+
+#: classes/wp-security-file-scan.php:322 classes/wp-security-file-scan.php:330
+#: classes/wp-security-file-scan.php:339
+msgid "modified on: "
+msgstr "最終更新日: "
+
+#: classes/wp-security-utility-ip-address.php:145
+msgid "You cannot ban your own IP address: "
+msgstr "自分の IP アドレスを禁止することはできません:"
+
+#: classes/wp-security-utility-ip-address.php:139
+msgid " is not a valid ip address format."
+msgstr "は有効な IP アドレス形式ではありません。"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:232
+msgid "Deny bad queries"
+msgstr "不正なクエリーを拒否"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:224
+msgid "Forbid proxy comments"
+msgstr "プロキシを使ったコメントを禁止"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:337
+msgid "Enable login honeypot"
+msgstr "ログインハニーポットを有効化"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:289
+msgid "Enable rename login page"
+msgstr "ログイン画面名称変更を有効化"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:71
+msgid "Change display name"
+msgstr "表示名を変更"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:329
+msgid "Login IP whitelisting"
+msgstr "ログイン IP ホワイトリスト"
+
+#: classes/wp-security-user-login.php:711
+#: classes/wp-security-user-login.php:715
+msgid "Please log back in to continue."
+msgstr "続けるには再度ログインしてください。"
+
+#: classes/wp-security-user-registration.php:80
+msgid "<strong>ERROR</strong>: You are not allowed to register because your IP address is currently locked!"
+msgstr "<strong>エラー</strong>: IP アドレスが現在ロックされているため、登録が許可されていません。"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:184
+msgid "Enable basic firewall"
+msgstr "基本ファイアウォールを有効化"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:166
+msgid "WordPress files access"
+msgstr "WordPress ファイルへのアクセス"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:114
+msgid "Registration approval"
+msgstr "登録承認"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:53
+msgid "Remove WP generator meta tag"
+msgstr "WP Generator メタタグを消去"
+
+#: admin/wp-security-user-security-menu.php:46
+msgid "Manual approval"
+msgstr "手動承認"
+
+#: classes/wp-security-user-login.php:520
+msgid "After pressing the above link you will be able to login to the WordPress administration panel."
+msgstr "このリンクをクリックすると、WordPress の管理画面にログインすることができます。"
+
+#: classes/wp-security-user-login.php:714
+msgid "You were logged out because you just changed the \"admin\" username."
+msgstr "「管理者」のユーザー名が変更されたので、ログアウトしました。"
+
+#: classes/wp-security-general-init-tasks.php:483
+msgid "Enter something special:"
+msgstr "特別な何かを入力してください:"
+
+#: classes/wp-security-general-init-tasks.php:472
+#: classes/wp-security-general-init-tasks.php:561
+#: classes/wp-security-general-init-tasks.php:612
+#: classes/wp-security-user-registration.php:86
+msgid "<strong>ERROR</strong>: Your answer was incorrect - please try again."
+msgstr "<strong>エラー</strong>: 回答が誤っています。 - もう一度お試しください。"
+
+#: classes/wp-security-captcha.php:739
+#: classes/wp-security-general-init-tasks.php:596
+msgid "Your CAPTCHA answer was incorrect - please try again."
+msgstr "CAPTCHA の回答が間違っています。もう一度お試しください。"
+
+#: classes/wp-security-file-scan.php:84
+msgid "Login to your site to view the scan details."
+msgstr "サイトにログインして、スキャンの詳細を見てください。"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:272
+msgid "Enable IP blocking for 404 detection"
+msgstr "404探知 IP ブロックを有効化"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:192
+msgid "Enable pingback vulnerability protection"
+msgstr "ピンバック脆弱性保護を有効化"
+
+#: classes/wp-security-file-scan.php:81
+msgid "A summary of the scan results is shown below:"
+msgstr "以下にスキャン結果の概要を表示します:"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:175
+msgid "IP and user agent blacklisting"
+msgstr "IP とユーザーエージェントのブラックリスト"
+
+#: classes/wp-security-file-scan.php:80
+msgid "A file change was detected on your system for site URL"
+msgstr "サイト URL のファイル変更が検出されました。"
+
+#: classes/wp-security-file-scan.php:80
+msgid ". Scan was generated on"
+msgstr ". スキャン実施"
+
+#: templates/wp-admin/user-security/manual-approval.php:4
+msgid "Manually approve new registrations"
+msgstr "新規登録の手動承認"
+
+#: classes/wp-security-user-login.php:410
+msgid "Log into your site WordPress administration panel to see the duration of the lockout or to unlock the user."
+msgstr "ロックアウト期間を見たり、ユーザーのロックを解除したりするにはサイトの WordPress 管理画面にログインしてください。"
+
+#: classes/wp-security-file-scan.php:328
+msgid "The following files were removed from your host"
+msgstr "ホストから以下のファイルを削除しました"
+
+#: classes/wp-security-file-scan.php:320
+msgid "The following files were added to your host"
+msgstr "ホストに以下のファイルを追加しました"
+
+#: templates/wp-admin/user-security/manual-approval.php:34
+msgid "Approve registered users"
+msgstr "登録ユーザーの承認"
+
+#: templates/wp-admin/user-security/manual-approval.php:21
+msgid "Enable manual approval of new registrations"
+msgstr "新規登録の手動承認を有効にする"
+
+#: templates/wp-admin/user-security/manual-approval.php:10
+msgid "You can view all accounts which have been newly registered via the handy table below and you can also perform bulk activation/deactivation/deletion tasks on each account."
+msgstr "以下の便利な新規登録済みのすべてのアカウントの表を表示することができ、各アカウントに一斉有効化/無効化/削除を行うこともできます。"
+
+#: templates/wp-admin/user-security/logged-in-users.php:15
+msgid "You can also instantly log them out by pressing on the \"Force logout\" link when you hover over the row in the user id column."
+msgstr "User Idにカーソルをもってきたときに \"強制ログアウト\" リンクをクリックして、それらを直ちにログアウトすることもできます。"
+
+#: templates/wp-admin/user-security/logged-in-users.php:14
+msgid "If you suspect there is a user or users who are logged in which should not be, you can block them by inspecting the IP addresses from the data below and adding them to your blacklist."
+msgstr "もしログイン中 であってはならない疑わしいユーザーもしくはユーザー達がいた場合は、以下のデータから IP アドレスを調べ、ブラックリストに追加してブロックすることができます。"
+
+#: templates/wp-admin/user-security/logged-in-users.php:13
+msgid "This tab displays all users who are currently logged into your site."
+msgstr "このタブには、現在ログインしているすべてのユーザーが表示されます。"
+
+#: templates/wp-admin/user-security/logged-in-users.php:3
+msgid "Refresh logged in user data"
+msgstr "ログインユーザーのデータ更新"
+
+#: templates/wp-admin/user-security/account-activity-logs.php:5
+msgid "The information below can be handy if you need to do security investigations because it will show you the last 100 recent login events by username, IP address and time/date."
+msgstr "以下の情報は、ユーザー名、 IP アドレス、時間/日付別に過去50回のログインイベントが表示されるため、セキュリティ調査が必要な場合に便利です。"
+
+#: templates/wp-admin/user-security/force-logout.php:28
+msgid "Logout the user after XX minutes"
+msgstr "ユーザーは XX 分後にログアウトします。"
+
+#: templates/wp-admin/user-security/force-logout.php:30
+msgid "(Minutes) The user will be forced to log back in after this time period has elapased."
+msgstr "(分) 経過したのち、ユーザーは強制的に再ログインになります。"
+
+#: templates/wp-admin/user-security/force-logout.php:23
+msgid "Check this if you want to force a user to be logged out after a configured amount of time"
+msgstr "設定時間が経過後にユーザーを強制ログアウトさせたい場合は、チェックしてください。"
+
+#: templates/wp-admin/user-security/force-logout.php:20
+msgid "Enable force user logout"
+msgstr "ユーザーの強制ログアウトを有効化"
+
+#: templates/wp-admin/user-security/force-logout.php:5
+msgid "This feature allows you to specify a time period in minutes after which the admin session will expire and the user will be forced to log back in."
+msgstr "この機能は管理セッションの有効期限切れまでの時間を分単位で指定して、ユーザーを強制再ログインさせます。"
+
+#: classes/wp-security-captcha.php:152 classes/wp-security-captcha.php:294
+msgid "Please enter an answer in digits:"
+msgstr "数字で答えを入力してください:"
+
+#: classes/wp-security-captcha.php:389
+msgid "one"
+msgstr "one"
+
+#: classes/wp-security-captcha.php:390
+msgid "two"
+msgstr "two"
+
+#: classes/wp-security-captcha.php:391
+msgid "three"
+msgstr "three"
+
+#: classes/wp-security-captcha.php:392
+msgid "four"
+msgstr "four"
+
+#: classes/wp-security-captcha.php:393
+msgid "five"
+msgstr "five"
+
+#: classes/wp-security-captcha.php:394
+msgid "six"
+msgstr "six"
+
+#: classes/wp-security-captcha.php:395
+msgid "seven"
+msgstr "seven"
+
+#: classes/wp-security-captcha.php:396
+msgid "eight"
+msgstr "eight"
+
+#: classes/wp-security-captcha.php:397
+msgid "nine"
+msgstr "nine"
+
+#: classes/wp-security-captcha.php:398
+msgid "ten"
+msgstr "ten"
+
+#: classes/wp-security-captcha.php:399
+msgid "eleven"
+msgstr "eleven"
+
+#: classes/wp-security-captcha.php:400
+msgid "twelve"
+msgstr "twelve"
+
+#: classes/wp-security-captcha.php:401
+msgid "thirteen"
+msgstr "thirteen"
+
+#: classes/wp-security-captcha.php:402
+msgid "fourteen"
+msgstr "fourteen"
+
+#: classes/wp-security-captcha.php:403
+msgid "fifteen"
+msgstr "fifteen"
+
+#: classes/wp-security-captcha.php:404
+msgid "sixteen"
+msgstr "sixteen"
+
+#: classes/wp-security-captcha.php:405
+msgid "seventeen"
+msgstr "seventeen"
+
+#: classes/wp-security-captcha.php:406
+msgid "eighteen"
+msgstr "eighteen"
+
+#: classes/wp-security-captcha.php:407
+msgid "nineteen"
+msgstr "nineteen"
+
+#: classes/wp-security-captcha.php:408
+msgid "twenty"
+msgstr "twenty"
+
+#: classes/wp-security-file-scan.php:78
+msgid "All In One WP Security - File change detected"
+msgstr "All In One WP Security- ファイルの変化を検出しました!"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:321
+msgid "<strong>ERROR</strong>: Enter a username or email address."
+msgstr "<strong>エラー</strong>: ユーザー名かメールアドレスを入力してください。"
+
+#. translators: 1: Browser cookie documentation URL, 2: Support forums URL
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:916
+msgid "<strong>ERROR</strong>: Cookies are blocked due to unexpected output. For help, please see <a href=\"%1$s\">this documentation</a> or try the <a href=\"%2$s\">support forums</a>."
+msgstr "<strong>エラー</strong>: 予期しない出力により Cookies がブロックされました。ヘルプが必要な場合は<a href=\"%1$s\">こちらのドキュメンテーション</a>を読むか、<a href=\"%2$s\">サポートフォーラム</a>をご利用ください。"
+
+#. translators: 1: Browser cookie documentation URL
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:920
+msgid "<strong>ERROR</strong>: Cookies are blocked or not supported by your browser. You must <a href=\"%s\">enable cookies</a> to use WordPress."
+msgstr "<strong>エラー</strong>: Cookies がブロックされているか、お使いのブラウザーで未対応のようです。WordPress を使うには <a href=\"%s\">Cookie を有効化</a>する必要があります。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:346
+msgid "<strong>ERROR</strong>: Invalid username or email."
+msgstr "<strong>エラー</strong>: 無効なユーザー名またはメールアドレスです。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:325
+msgid "<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr "<strong>エラー</strong>: そのメールアドレスのユーザーは登録されておりません。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:983
+msgid "Check your email for the confirmation link."
+msgstr "確認用のリンクをメールで送信しましたので、ご確認ください。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:985
+msgid "Check your email for your new password."
+msgstr "新しいパスワードをメールで送信しましたので、ご確認ください。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:604
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:877
+msgid "Get new password"
+msgstr "新しいパスワードを取得"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:581
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:851
+#: other-includes/wp-security-rename-login-feature.php:784
+msgid "Lost Password"
+msgstr "パスワード紛失"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:692
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:972
+#: other-includes/wp-security-rename-login-feature.php:913
+msgid "New password"
+msgstr "新規パスワード"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:800
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1084
+#: other-includes/wp-security-rename-login-feature.php:1026
+msgid "Register For This Site"
+msgstr "このブログに登録"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:987
+msgid "Registration complete. Please check your email."
+msgstr "登録が完了しました。メールを確認してください。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:820
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1105
+#: other-includes/wp-security-rename-login-feature.php:1047
+msgid "Registration confirmation will be emailed to you."
+msgstr "登録確認のメールが送信されます。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1045
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1438
+#: other-includes/wp-security-rename-login-feature.php:1385
+msgid "Remember Me"
+msgstr "ログイン状態を保存する"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:702
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:981
+#: other-includes/wp-security-rename-login-feature.php:922
+msgid "Strength indicator"
+msgstr "強度表示器"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:938
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1273
+#: other-includes/wp-security-rename-login-feature.php:1215
+msgid "You have logged in successfully."
+msgstr "ログインに成功しました。"
+
+#. translators: 1: Browser cookie documentation URL, 2: Support forums URL
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:916
+msgid "https://wordpress.org/support/"
+msgstr "https://ja.wordpress.org/support/"
+
+#: classes/grade-system/wp-security-feature-item.php:64
+msgid "Advanced"
+msgstr "高度な設定"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:829
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1072
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1117
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1481
+#: other-includes/wp-security-rename-login-feature.php:1059
+#: other-includes/wp-security-rename-login-feature.php:1427
+msgid "Lost your password?"
+msgstr "パスワードをお忘れですか ?"
+
+#: classes/wp-security-file-scan.php:337
+msgid "The following files were changed on your host"
+msgstr "ホスト上で次のファイルが変更されました"
+
+#: templates/wp-admin/user-security/force-logout.php:4
+msgid "Setting an expiry period for your administration session is a simple way to protect against unauthorized access to your site from your computer."
+msgstr "WP 管理セッションの有効期限を設定することは、コンピューターからサイトへの不正アクセスから保護する簡単な方法です。"
+
+#: templates/wp-admin/brute-force/captcha-settings.php:128
+msgid "Check this if you want to insert a CAPTCHA form on the WordPress user registration page (if you allow user registration)."
+msgstr "ユーザー登録を許可しており、WordPress ユーザー登録ページに CAPTCHA フォームを追加したい場合はこれをチェックしてください。"
+
+#: templates/wp-admin/user-security/manual-approval.php:24
+msgid "Check this if you want to automatically disable all newly registered accounts so that you can approve them manually."
+msgstr "手動で承認をするために新しいアカウント登録はすべて無効化したい場合は、これをチェックしてください。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:981
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1353
+msgid "User registration is currently not allowed."
+msgstr "現在、ユーザー登録はできません。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:369
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:426
+msgid "Someone has requested a password reset for the following account:"
+msgstr "どなたかが次のアカウントのパスワードリセットをリクエストしました:"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:712
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:990
+#: other-includes/wp-security-rename-login-feature.php:931
+msgid "Confirm new password"
+msgstr "新しいパスワードを確認"
+
+#: other-includes/wp-security-unlock-request.php:44
+msgid "Please enter a valid email address"
+msgstr "有効なメールアドレスを入力してください"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:1034
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1421
+#: other-includes/wp-security-rename-login-feature.php:1368
+msgid "Password"
+msgstr "パスワード"
+
+#: templates/wp-admin/user-security/wp-username.php:14
+msgid "List of administrator accounts"
+msgstr "管理者アカウントの一覧"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:62
+#: templates/wp-admin/user-security/wp-username.php:23
+msgid "Change admin username"
+msgstr "管理者ユーザー名の変更"
+
+#: admin/wp-security-tools-menu.php:32
+#: templates/wp-admin/tools/password-tool.php:2
+msgid "Password tool"
+msgstr "パスワードツール"
+
+#: templates/wp-admin/user-security/wp-username.php:41
+msgid "Change username"
+msgstr "ユーザー名の変更"
+
+#: templates/wp-admin/tools/password-tool.php:21
+msgid "1 sec"
+msgstr "1秒"
+
+#: templates/wp-admin/user-security/login-lockout.php:106
+msgid "Notify by email"
+msgstr "メールで通知"
+
+#: templates/wp-admin/user-security/login-lockout.php:74
+msgid "Display generic error message"
+msgstr "一般的なエラーメッセージを表示"
+
+#: templates/wp-admin/user-security/login-lockout.php:38
+msgid "Max login attempts"
+msgstr "最大ログイン試行回数"
+
+#: templates/wp-admin/user-security/login-lockout.php:12
+msgid "Login lockout options"
+msgstr "ログインのロックダウン設定"
+
+#: admin/wp-security-user-security-menu.php:200
+msgid "Account login name"
+msgstr "アカウントログイン名"
+
+#: templates/wp-admin/tools/password-tool.php:26
+msgid "Password Strength"
+msgstr "パスワード強度"
+
+#: templates/wp-admin/tools/password-tool.php:17
+msgid "Start typing a password."
+msgstr "パスワードを入力してください。"
+
+#: templates/wp-admin/tools/password-tool.php:12
+msgid "Password strength tool"
+msgstr "パスワード強度ツール"
+
+#: templates/wp-admin/user-security/display-name.php:36
+msgid "No action required."
+msgstr "操作は必要ありません。"
+
+#: templates/wp-admin/user-security/wp-username.php:48
+msgid "No action required! "
+msgstr "操作は必要ありません。"
+
+#: templates/wp-admin/user-security/wp-username.php:35
+msgid "New admin username"
+msgstr "新規管理ユーザー名"
+
+#: templates/wp-admin/user-security/login-lockout.php:6
+msgid "Brute force login attack"
+msgstr "ブルートフォースログイン攻撃"
+
+#: templates/wp-admin/user-security/login-lockout.php:22
+msgid "Enable login lockout feature"
+msgstr "ログインロックダウン機能を有効化"
+
+#: admin/wp-security-user-security-menu.php:171
+msgid "Please enter a value for your username. "
+msgstr "ユーザー名の値を入力してください。"
+
+#: admin/wp-security-user-security-menu.php:168
+msgid "You entered an invalid username, please enter another value."
+msgstr "無効なユーザー名を入力しました。 別の値を入力してください。"
+
+#: admin/wp-security-user-security-menu.php:140
+msgid "The database update operation of the user account failed."
+msgstr "ユーザーアカウントのデータベース更新操作に失敗しました。"
+
+#: templates/wp-admin/user-security/login-lockout.php:144
+msgid "Currently locked out IP address ranges"
+msgstr "現在ロックアウトされている IP アドレス範囲"
+
+#: templates/wp-admin/user-security/login-lockout.php:110
+msgid "Check this if you want to receive an email when someone has been locked out due to maximum failed login attempts"
+msgstr "もし、ログインを試して失敗した回数が最大となったために誰かがロックアウトされたとき、メールを受け取りたいと思うならチェックしてください。"
+
+#: templates/wp-admin/user-security/login-lockout.php:82
+msgid "Instantly lockout invalid usernames"
+msgstr "ただちにロックアウトする無効なユーザー名"
+
+#: templates/wp-admin/user-security/login-lockout.php:44
+msgid "Login retry time period (min)"
+msgstr "ログイン再試行時間 (分)"
+
+#: templates/wp-admin/user-security/login-lockout.php:46
+msgid "If the maximum number of failed login attempts for a particular IP address occur within this time period the plugin will lock out that address"
+msgstr "特定のIPアドレスがログインを試して失敗した最大数がこの時間内に発生した場合、プラグインがそのアドレスをロックアウトします。"
+
+#: templates/wp-admin/user-security/login-lockout.php:40
+msgid "Set the value for the maximum login retries before IP address is locked out"
+msgstr "IP アドレスがロックアウトされるまでのログインリトライの最大値を設定する。"
+
+#: templates/wp-admin/user-security/login-lockout.php:25
+msgid "Check this if you want to enable the login lockout feature and apply the settings below"
+msgstr "ログインロックダウン機能を有効にして、以下の設定を適用する場合には、これをチェックしてください。"
+
+#: templates/wp-admin/user-security/login-lockout.php:8
+msgid "You may also want to checkout our %s feature for another secure way to protect against these types of attacks."
+msgstr "これらの攻撃の種類に対する別のセキュリティ対策をするために %s 機能をチェックアウトすることもできます。"
+
+#: templates/wp-admin/user-security/login-lockout.php:6
+msgid "This is where attackers use repeated login attempts until they guess the password."
+msgstr "これは、パスワードが推測できるまで攻撃者が繰り返しログインを試すために使用するところです。"
+
+#: templates/wp-admin/user-security/login-lockout.php:7
+msgid "Apart from choosing strong passwords, monitoring and blocking IP addresses which are involved in repeated login failures in a short period of time is a very effective way to stop these types of attacks."
+msgstr "強力なパスワードの選択は別として、短期間のうちにログイン失敗を繰り返した IP アドレスの監視とブロックは、これらの攻撃を阻止するために非常に効果的です。"
+
+#: templates/wp-admin/user-security/login-lockout.php:6
+msgid "One of the ways hackers try to compromise sites is via a "
+msgstr "ハッカーがサイトに不正アクセスを試みる方法のひとつは、"
+
+#: templates/wp-admin/user-security/login-lockout.php:2
+msgid "Login lockout configuration"
+msgstr "ログインロックダウン設定"
+
+#: templates/wp-admin/tools/password-tool.php:20
+msgid "It would take a desktop PC approximately"
+msgstr "デスクトップ PC はパスワードを解読するのに約"
+
+#: templates/wp-admin/tools/password-tool.php:8
+msgid "This section contains a useful password strength tool which you can use to check whether your password is sufficiently strong enough."
+msgstr "このセクションには、パスワードが十分強いかチェックできるパスワード強度ツールが含まれています。"
+
+#: templates/wp-admin/tools/password-tool.php:7
+msgid "The longer and more complex your password is the harder it is for hackers to \"crack\" because more complex passwords require much greater computing power and time."
+msgstr "長くて複雑なパスワードは、大きなマシンパワーと時間を必要とし、ハッカーが \"クラック\" することが難しくなります。"
+
+#: templates/wp-admin/user-security/display-name.php:36
+msgid "Your site does not have a user account where the display name is identical to the username."
+msgstr "サイトには、表示名がユーザー名と同じユーザーアカウントはありません。"
+
+#: templates/wp-admin/tools/password-tool.php:5
+msgid "Poor password selection is one of the most common weak points of many sites and is usually the first thing a hacker will try to exploit when attempting to break into your site."
+msgstr "弱いパスワードが選ばれることは、多くのサイトの最も一般的な弱点のひとつであり、通常ハッカーがサイトに侵入しようとするときに最初につけこもうとします。"
+
+#: templates/wp-admin/user-security/display-name.php:21
+msgid "Your site currently has the following accounts which have an identical login name and display name."
+msgstr "サイトには現在、以下のログイン名と表示名が同じアカウントがあります。"
+
+#: templates/wp-admin/user-security/display-name.php:13
+msgid "Modify accounts with identical login name and display name"
+msgstr "ログイン名と表示名が同じアカウント修正"
+
+#: templates/wp-admin/user-security/display-name.php:2
+msgid "Display name security"
+msgstr "表示名のセキュリティ"
+
+#: templates/wp-admin/user-security/wp-username.php:37
+msgid "Choose a new username for admin."
+msgstr "管理者の新しいユーザー名を選択します。"
+
+#: templates/wp-admin/user-security/display-name.php:7
+msgid "From a security perspective, leaving your nickname the same as your user name is bad practice because it gives a hacker at least half of your account's login credentials."
+msgstr "セキュリティの観点から、ニックネームとユーザー名が同じままにすることは、ハッカーにアカウントのログインする資格の半分を与える悪い習慣です。"
+
+#: templates/wp-admin/brute-force/captcha-settings.php:211
+msgid "Check this if you want to insert a CAPTCHA field on the BuddyPress registration forms."
+msgstr "BuddyPress の登録フォームにキャプチャを入れたい場合は、これをチェックしてください。"
+
+#: templates/wp-admin/tools/password-tool.php:21
+msgid "to crack your password!"
+msgstr "かかります。"
+
+#: templates/wp-admin/user-security/login-lockout.php:77
+msgid "Check this if you want to show a generic error message when a login attempt fails"
+msgstr "ログイン試行に失敗した際、一般的なエラーメッセージを表示したい場合はこれをチェック"
+
+#: templates/wp-admin/user-security/login-lockout.php:85
+msgid "Check this if you want to instantly lockout login attempts with usernames which do not exist on your system"
+msgstr "システムに存在しないユーザー名でのログイン試行を即座にロックアウトしたい場合はこれをチェック"
+
+#: templates/wp-admin/user-security/login-lockout.php:149
+msgid "To see a list of all locked IP addresses and ranges go to the %s tab in the dashboard menu."
+msgstr "ロックされた IP アドレスと範囲の全一覧を表示するには、ダッシュボードメニューの「%s」タブに移動してください。"
+
+#: templates/wp-admin/user-security/login-lockout.php:30
+msgid "Allow unlock requests"
+msgstr "ロック解除リクエストを許可"
+
+#: templates/wp-admin/user-security/login-lockout.php:33
+msgid "Check this if you want to allow users to generate an automated unlock request link which will unlock their account"
+msgstr "ユーザーがアカウントのロックを解除するための自動ロック解除リンクを生成できるようにしたい場合は、これをチェックしてください"
+
+#: templates/wp-admin/user-security/wp-username.php:2
+msgid "Admin user security"
+msgstr "管理者ユーザーのセキュリティ"
+
+#: templates/wp-admin/user-security/wp-username.php:51
+msgid "This is good security practice."
+msgstr "これは良いセキュリティ慣行です。"
+
+#: templates/wp-admin/user-security/wp-username.php:50
+msgid "Your site does not have any account which uses the \"admin\" username. "
+msgstr "サイトには、デフォルトの \"admin\" ユーザー名を使用してるアカウントがありません。"
+
+#: templates/wp-admin/user-security/display-name.php:8
+msgid "Therefore to further tighten your site's security you are advised to change your <strong>nickname</strong> and <strong>Display name</strong> to be different from your <strong>Username</strong>."
+msgstr "そのため、サイトのセキュリティをさらに強化するためには、<strong>ニックネーム</strong>と<strong>表示名</strong>を<strong>ユーザー名</strong>とは異なるものに変更することをおすすめします。"
+
+#: templates/wp-admin/user-security/wp-username.php:8
+msgid "This feature will allow you to change your \"admin\" username to a more secure name of your choosing."
+msgstr "この機能を使うと、デフォルトの \"admin\" ユーザー名をより安全な名前に変更することができます。"
+
+#: templates/wp-admin/user-security/display-name.php:5
+msgid "When you submit a post or answer a comment, WordPress will usually display your \"nickname\"."
+msgstr "投稿を送信するかコメントに答えると、通常、WordPress はあなたの「ニックネーム」を表示します。"
+
+#: templates/wp-admin/user-security/display-name.php:6
+msgid "By default the nickname is set to the login (or user) name of your account."
+msgstr "デフォルトでは、ニックネームはアカウントのログイン (またはユーザー) 名に設定されています。"
+
+#: templates/wp-admin/user-security/wp-username.php:7
+msgid "From a security perspective, changing the username \"admin\" is one of the first and smartest things you should do on your site."
+msgstr "セキュリティの観点から、デフォルトの \"admin\" ユーザー名を変更することは、サイトで最初に行うべき最良策の1つです。"
+
+#: templates/wp-admin/user-security/wp-username.php:6
+msgid "Hackers can try to take advantage of this information by attempting \"Brute force login attacks\" where they repeatedly try to guess the password by using \"admin\" for username."
+msgstr "多くのハッカーは、ユーザー名を \"admin\" にしてパスワードを繰り返し入力する「ブルートフォースログイン攻撃」を試みます。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1424
+#: other-includes/wp-security-rename-login-feature.php:1371
+msgid "Show password"
+msgstr "パスワードを表示"
+
+#. translators: %s: Browser cookie documentation URL.
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1252
+#: other-includes/wp-security-rename-login-feature.php:1194
+msgid "<strong>Error</strong>: Cookies are blocked or not supported by your browser. You must <a href=\"%s\">enable cookies</a> to use WordPress."
+msgstr "<strong>エラー</strong>: Cookie がブロックされているか、お使いのブラウザーで未対応のようです。WordPress を使うには <a href=\"%s\">Cookie を有効化</a>する必要があります。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1243
+#: other-includes/wp-security-rename-login-feature.php:1185
+msgid "https://wordpress.org/support/forums/"
+msgstr "https://ja.wordpress.org/support/forums/"
+
+#. translators: 1: Browser cookie documentation URL, 2: Support forums URL.
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1241
+#: other-includes/wp-security-rename-login-feature.php:1183
+msgid "<strong>Error</strong>: Cookies are blocked due to unexpected output. For help, please see <a href=\"%1$s\">this documentation</a> or try the <a href=\"%2$s\">support forums</a>."
+msgstr "<strong>エラー</strong>: 予期しない出力により Cookie がブロックされました。ヘルプが必要な場合は<a href=\"%1$s\">こちらのドキュメンテーション</a>を参照するか、<a href=\"%2$s\">サポートフォーラム</a>をご利用ください。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1153
+#: other-includes/wp-security-rename-login-feature.php:1095
+msgid "Check your email"
+msgstr "メールをご確認ください"
+
+#. translators: %s: Link to the login page.
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1143
+#: other-includes/wp-security-rename-login-feature.php:1085
+msgid "Registration complete. Please check your email, then visit the <a href=\"%s\">login page</a>."
+msgstr "登録が完了しました。メールを確認し、<a href=\"%s\">ログインページ</a>を開いてください。"
+
+#. translators: %s: Link to the login page.
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1133
+#: other-includes/wp-security-rename-login-feature.php:1075
+msgid "Check your email for the confirmation link, then visit the <a href=\"%s\">login page</a>."
+msgstr "メールの確認リンクをクリックし、<a href=\"%s\">ログインページ</a>を開いてください。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:978
+#: other-includes/wp-security-rename-login-feature.php:919
+msgid "Hide password"
+msgstr "パスワードを非表示"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:851
+#: other-includes/wp-security-rename-login-feature.php:784
+msgid "Please enter your username or email address. You will receive an email message with instructions on how to reset your password."
+msgstr "ユーザー名、またはメールアドレスを入力してください。パスワードのリセット手順が記されたメールが送信されます。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:737
+#: other-includes/wp-security-rename-login-feature.php:670
+msgid "Remind me later"
+msgstr "後で通知"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:722
+#: other-includes/wp-security-rename-login-feature.php:655
+msgid "The email is correct"
+msgstr "正しいメールアドレスです"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:721
+#: other-includes/wp-security-rename-login-feature.php:654
+msgid "Update"
+msgstr "更新する"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:711
+#: other-includes/wp-security-rename-login-feature.php:644
+msgid "This email may be different from your personal email address."
+msgstr "このメールアドレスはあなた個人のメールアドレスとは異なるかもしれません。"
+
+#. translators: %s: Admin email address.
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:705
+#: other-includes/wp-security-rename-login-feature.php:638
+msgid "Current administration email: %s"
+msgstr "現在の管理者メールアドレス: %s"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:695
+#: other-includes/wp-security-rename-login-feature.php:628
+msgid "Why is this important?"
+msgstr "これが重要な理由"
+
+#. translators: Accessibility text.
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:690
+#: other-includes/wp-security-rename-login-feature.php:623
+msgid "(opens in a new tab)"
+msgstr "(新しいタブで開く)"
+
+#. translators: URL to the WordPress help section about admin email.
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:687
+#: other-includes/wp-security-rename-login-feature.php:620
+msgid "https://wordpress.org/support/article/settings-general-screen/#email-address"
+msgstr "https://ja.wordpress.org/support/article/settings-general-screen/#email-address"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:683
+#: other-includes/wp-security-rename-login-feature.php:616
+msgid "Please verify that the <strong>administration email</strong> for this website is still correct."
+msgstr "このサイトの<strong>管理者メールアドレス</strong>が、現在も正しいことを確認してください。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:653
+#: other-includes/wp-security-rename-login-feature.php:586
+msgid "Confirm your administration email"
+msgstr "管理者メールアドレスの確認"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:680
+#: other-includes/wp-security-rename-login-feature.php:613
+msgid "Administration email verification"
+msgstr "管理者メールアドレスの検証"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:480
+msgid "https://wordpress.org/support/article/resetting-your-password/"
+msgstr "https://ja.wordpress.org/support/article/resetting-your-password/"
+
+#: classes/wp-security-user-login.php:710
+msgid "Your session has expired because it has been over %d minutes since your last login."
+msgstr "最後のログインから%d分以上経過しているため、セッションの有効期限が切れています。"
+
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:361
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:403
+msgid "<strong>Error</strong>: There is no account with that username or email address."
+msgstr "<strong>エラー</strong>: そのユーザー名またはメールアドレスのアカウントは存在しません。"
+
+#: classes/wp-security-user-login.php:388
+msgid "User login lockout events had occurred due to too many failed login attempts or invalid username:"
+msgstr "ログインに失敗した回数が多いか、ユーザー名が無効なため、ロックダウンイベントが発生しました:"
+
+#: templates/wp-admin/user-security/manual-approval.php:8
+msgid "If your site allows people to create their own accounts via the WordPress registration form, then you can minimize spam or bogus registrations by manually approving each registration."
+msgstr "あなたのサイトで WordPress 登録フォーム から自身のアカウントを作成できるようになっているのであれば、手動でそれぞれの登録を承認することで  SPAM や偽の登録について最小限に抑えることができます。"
+
+#: templates/wp-admin/firewall/partials/basic-firewall-settings.php:31
+msgid "Max file upload size (MB)"
+msgstr "最大ファイルアップロードサイズ (MB)"
+
+#: templates/wp-admin/firewall/partials/basic-firewall-settings.php:33
+msgid "The value for the maximum file upload size used in the .htaccess file. (Defaults to %sMB if left blank)"
+msgstr ".htaccess ファイルで使用する最大ファイルアップロードサイズの値。(空欄の場合のデフォルトは10MB)"
+
+#: admin/wp-security-admin-init.php:249 admin/wp-security-list-404.php:120
+msgid "Attempted URL"
+msgstr "攻撃を試みられたURL"
+
+#: admin/wp-security-list-404.php:118
+msgid "Event type"
+msgstr "イベント種別"
+
+#: admin/wp-security-list-comment-spammer-ip.php:82
+msgid "Block"
+msgstr "ブロック"
+
+#: admin/wp-security-list-comment-spammer-ip.php:62
+msgid "Status"
+msgstr "ステータス"
+
+#: admin/wp-security-list-comment-spammer-ip.php:61
+msgid "Number of spam comments from this IP"
+msgstr "この IP アドレスからのスパムコメント数"
+
+#: admin/wp-security-list-comment-spammer-ip.php:60
+msgid "Spammer IP"
+msgstr "スパマーの IP アドレス"
+
+#: admin/wp-security-admin-init.php:250 admin/wp-security-list-404.php:121
+msgid "Referer"
+msgstr "リファラー"
+
+#: admin/wp-security-list-404.php:123
+msgid "Lock status"
+msgstr "ロック状況"
+
+#: admin/wp-security-list-404.php:119
+#: admin/wp-security-list-logged-in-users.php:59
+#: admin/wp-security-list-registered-users.php:97
+msgid "IP address"
+msgstr "IP アドレス"
+
+#: admin/wp-security-list-logged-in-users.php:58
+#: admin/wp-security-list-registered-users.php:93
+msgid "Login name"
+msgstr "ログイン名"
+
+#: admin/wp-security-list-registered-users.php:96
+msgid "Account status"
+msgstr "アカウントの状態"
+
+#: admin/wp-security-list-registered-users.php:95
+msgid "Register date"
+msgstr "登録日"
+
+#: templates/wp-admin/settings/settings-file-operations.php:38
+msgid "Select your import settings file"
+msgstr "インポートする設定ファイルを選択してください。"
+
+#: admin/wp-security-list-404.php:56 admin/wp-security-list-404.php:65
+#: admin/wp-security-list-404.php:147 admin/wp-security-list-audit.php:60
+#: admin/wp-security-list-locked-ip.php:65
+#: admin/wp-security-list-locked-ip.php:160
+#: admin/wp-security-list-registered-users.php:49
+#: admin/wp-security-list-registered-users.php:116
+#: templates/wp-admin/filesystem-security/partials/wp-file-access.php:30
+msgid "Delete"
+msgstr "削除"
+
+#: admin/wp-security-list-locked-ip.php:64
+#: admin/wp-security-list-locked-ip.php:159
+msgid "Unlock"
+msgstr "ロック解除"
+
+#: admin/wp-security-list-locked-ip.php:131
+msgid "Release date"
+msgstr "リリース日"
+
+#: admin/wp-security-list-locked-ip.php:130
+msgid "Date locked"
+msgstr "ロック日"
+
+#: admin/wp-security-list-locked-ip.php:126
+msgid "Locked IP/range"
+msgstr "ロックした IP アドレス/範囲"
+
+#: admin/wp-security-list-404.php:55
+#: admin/wp-security-list-permanent-blocked-ip.php:91
+msgid "Unblock"
+msgstr "ブロック解除"
+
+#: admin/wp-security-list-locked-ip.php:129
+#: admin/wp-security-list-permanent-blocked-ip.php:73
+msgid "Reason"
+msgstr "理由"
+
+#: admin/wp-security-list-permanent-blocked-ip.php:72
+msgid "Blocked IP"
+msgstr "ブロックされた IP"
+
+#: admin/wp-security-list-locked-ip.php:127
+#: admin/wp-security-list-logged-in-users.php:57
+#: admin/wp-security-list-registered-users.php:92
+msgid "User ID"
+msgstr "ユーザー ID"
+
+#: admin/wp-security-dashboard-menu.php:312
+msgid "Give us a good rating"
+msgstr "良い評価をください"
+
+#: admin/wp-security-dashboard-menu.php:308
+msgid "Post to Twitter"
+msgstr "Twitter へ投稿"
+
+#: templates/wp-admin/dashboard/audit-logs.php:13
+#: templates/wp-admin/dashboard/permanent-block.php:18
+#: templates/wp-admin/firewall/404-detection.php:86
+#: templates/wp-admin/user-security/account-activity-logs.php:22
+#: templates/wp-admin/user-security/manual-approval.php:44
+msgid "Search"
+msgstr "検索"
+
+#: templates/wp-admin/brute-force/rename-login.php:7
+msgid "Login page white list"
+msgstr "ログインページのホワイトリスト"
+
+#: templates/wp-admin/firewall/blacklist.php:37
+msgid "must read this message"
+msgstr "こちらのメッセージをご確認ください。"
+
+#: templates/wp-admin/filesystem-security/host-system-logs.php:11
+msgid "Please press the button below to view the latest system logs"
+msgstr "最新のシステムログを見るには下のボタンをクリックしてください。"
+
+#: templates/wp-admin/firewall/internet-bots.php:6
+msgid "What is an Internet Bot"
+msgstr "インターネットボットとは"
+
+#: templates/wp-admin/brute-force/login-whitelist.php:15
+msgid "Cookie-Based brute force login prevention"
+msgstr "クッキーベースのブルートフォースログイン防御"
+
+#: admin/wp-security-dashboard-menu.php:304
+msgid "Follow us on"
+msgstr "フォローしてください:"
+
+#: admin/wp-security-dashboard-menu.php:522
+msgid "Number of users currently logged in site-wide (including you) is:"
+msgstr "現在サイト全体でログインしているユーザー数 (あなたを含む):"
+
+#: templates/wp-admin/brute-force/captcha-settings.php:277
+msgid "Check this if you want to insert CAPTCHA on a WooCommerce lost password form."
+msgstr "Captcha を Woocommerce のパスワード紛失フォームに追加するには、チェックをしてください。"
+
+#: admin/general/wp-security-list-table.php:890
+msgid "Last page"
+msgstr "最後のページ"
+
+#: admin/general/wp-security-list-table.php:879
+msgid "Next page"
+msgstr "次のページ"
+
+#: admin/general/wp-security-list-table.php:854
+msgid "Previous page"
+msgstr "前のページ"
+
+#: admin/general/wp-security-list-table.php:806
+#: admin/general/wp-security-list-table.php:1391
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s個の項目"
+
+#: admin/general/wp-security-list-table.php:730
+msgid "No pending comments"
+msgstr "承認待ちのコメントはありません"
+
+#: admin/general/wp-security-list-table.php:707
+msgid "No approved comments"
+msgstr "承認済みのコメントはありません"
+
+#: admin/general/wp-security-list-table.php:677
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s件のコメント"
+
+#: admin/general/wp-security-list-table.php:611
+msgid "All dates"
+msgstr "すべての日付"
+
+#: admin/general/wp-security-list-table.php:471
+msgid "Select bulk action"
+msgstr "一括操作を選択"
+
+#: admin/general/wp-security-list-table.php:843
+msgid "First page"
+msgstr "最初の固定ページ"
+
+#: admin/general/wp-security-list-table.php:541
+#: admin/general/wp-security-list-table.php:1367
+msgid "Show more details"
+msgstr "詳細を追加表示"
+
+#: admin/general/wp-security-list-table.php:679
+msgid "%s pending comment"
+msgid_plural "%s pending comments"
+msgstr[0] "%s件の承認待ちコメント"
+
+#: admin/general/wp-security-list-table.php:678
+msgid "%s approved comment"
+msgid_plural "%s approved comments"
+msgstr[0] "%s件の承認済みコメント"
+
+#: admin/general/wp-security-list-table.php:685
+#: admin/general/wp-security-list-table.php:707
+#: admin/general/wp-security-list-table.php:730
+msgid "No comments"
+msgstr "コメントはありません"
+
+#: admin/general/wp-security-list-table.php:609
+msgid "Filter by date"
+msgstr "日付で絞り込む"
+
+#: templates/wp-admin/brute-force/captcha-settings.php:51
+#: templates/wp-admin/brute-force/captcha-settings.php:86
+msgid "Secret key"
+msgstr "シークレットキー"
+
+#: templates/wp-admin/brute-force/captcha-settings.php:45
+#: templates/wp-admin/brute-force/captcha-settings.php:80
+msgid "Site key"
+msgstr "サイトキー"
+
+#: templates/wp-admin/brute-force/captcha-settings.php:21
+msgid "You have the option of using either %s, %s or a plain maths CAPTCHA form."
+msgstr "%s または単純な計算 CAPTCHA フォームを使用するオプションがあります。"
+
+#: templates/wp-admin/brute-force/captcha-settings.php:20
+msgid "This feature allows you to add a CAPTCHA form on various WordPress login pages and forms."
+msgstr "この機能を使用すると、さまざまな WordPress ログインページやフォームに CAPTCHA フォームを追加できます。"
+
+#: templates/wp-admin/firewall/wp-rest-api.php:14
+msgid "When enabled this feature will only allow REST requests to be processed if the user is logged in."
+msgstr "この機能を有効にすると、ユーザーがログインしている場合にのみ REST リクエストが処理されます。"
+
+#: templates/wp-admin/firewall/wp-rest-api.php:13
+msgid "This feature allows you to block WordPress REST API access for unauthorized requests."
+msgstr "この機能を使用すると、許可されていないリクエストに対する WordPress REST API へのアクセスをブロックできます。"
+
+#: admin/wp-security-firewall-menu.php:55
+msgid "WP REST API"
+msgstr "WP REST API"
+
+#: admin/wp-security-dashboard-menu.php:218
+msgid "View all"
+msgstr "すべて表示"
+
+#: admin/wp-security-dashboard-menu.php:209
+msgid "Brute force prevention login page"
+msgstr "ログインページのブルートフォース防止"
+
+#: admin/wp-security-firewall-menu.php:488
+msgid "WP REST API Security feature settings saved!"
+msgstr "WP REST API セキュリティ機能の設定を保存しました。"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:404
+#: templates/wp-admin/firewall/wp-rest-api.php:26
+msgid "Disallow unauthorized REST requests"
+msgstr "未認証の REST リクエストを禁止"
+
+#: templates/wp-admin/firewall/wp-rest-api.php:29
+msgid "Check this if you want to stop REST API access for non-logged in requests."
+msgstr "ログインしていないリクエストに対する REST API アクセスを停止したい場合にチェックを入れます。"
+
+#: templates/wp-admin/settings/advanced-settings.php:63
+msgid "Choose a $_SERVER variable you would like to detect visitors' IP address using."
+msgstr "訪問者の IP アドレス を取得する $_SERVER 変数を選びます。"
+
+#: templates/wp-admin/filesystem-security/file-permissions.php:13
+msgid "This feature is not applicable for Windows server installations."
+msgstr "この機能は Windows サーバーにインストールする場合には適用されません。"
+
+#: templates/wp-admin/filesystem-security/file-permissions.php:12
+msgid "This plugin has detected that your site is running on a Windows server."
+msgstr "このプラグインは、サイトが Windows サーバー上で実行されていることを検出しました。"
+
+#: templates/wp-admin/tools/custom-htaccess.php:38
+msgid "Place custom rules at the top"
+msgstr "トップにカスタムルールを配置"
+
+#: templates/wp-admin/tools/custom-htaccess.php:41
+msgid "Check this if you want to place your custom rules at the beginning of all the rules applied by this plugin"
+msgstr "このプラグインによって適用されたすべてのルールの先頭にカスタムルールを配置したい場合はこれをチェック"
+
+#: templates/wp-admin/brute-force/captcha-settings.php:288
+msgid "Enable CAPTCHA on WooCommerce registration form"
+msgstr "Woocommerce 登録フォームでキャプチャを有効にする"
+
+#: templates/wp-admin/brute-force/captcha-settings.php:291
+msgid "Check this if you want to insert CAPTCHA on a WooCommerce registration form."
+msgstr "WooCommerce 登録フォームに CAPTCHA を追加したい場合はこれをチェック"
+
+#: templates/wp-admin/brute-force/captcha-settings.php:263
+msgid "Check this if you want to insert CAPTCHA on a WooCommerce login form."
+msgstr "WooCommerce ログインフォームに CAPTCHA を追加したい場合はこれをチェック"
+
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:38
+msgid "Specify the minimum number of spam comments for an IP address before it is permanently blocked."
+msgstr "スパムコメント送信元の IP アドレスをブロックする最小のコメント回数を指定してください。"
+
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:36
+msgid "Minimum number of spam comments"
+msgstr "スパムコメントの最小回数"
+
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:31
+msgid "Check this box if you want this plugin to automatically block IP addresses which submit spam comments."
+msgstr "ここをチェックするとスパムコメントを送信してきた IP アドレスを自動的にブロックします。"
+
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:28
+msgid "Enable auto block of spam comment IPs"
+msgstr "スパムコメントの IP を自動ブロック"
+
+#: admin/wp-security-spam-menu.php:200
+msgid "Spammer IPs added to permanent block list today: "
+msgstr "今日永久ブロックリストに追加されたスパマーの IP :"
+
+#: admin/wp-security-spam-menu.php:188
+msgid "You currently have no IP addresses permanently blocked due to spam."
+msgstr "スパムによって永久にブロックされた IP アドレスはありません。"
+
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:17
+msgid "This feature allows you to automatically and permanently block IP addresses which have exceeded a certain number of spam comments."
+msgstr "この機能は、コメントが指定の回数スパムとマークされた送信元 IP アドレスを自動的に、かつ永久的にブロックします。"
+
+#: templates/wp-admin/settings/wp-version-info.php:10
+msgid "This feature will allow you to remove the WP generator meta info and other version info from your site's pages."
+msgstr "この機能では、WordPress ジェネレータのメタ情報とその他のバージョン情報をサイトのページから削除します。"
+
+#: templates/wp-admin/settings/general-settings.php:117
+msgid "Save debug settings"
+msgstr "デバッグ設定を保存する"
+
+#: templates/wp-admin/settings/general-settings.php:109
+msgid "Enable debug"
+msgstr "デバッグを有効化"
+
+#: templates/wp-admin/settings/general-settings.php:104
+msgid "This setting allows you to enable/disable debug for this plugin."
+msgstr "この設定ではこのプラグインのデバッグを有効化 / 無効化することができます。"
+
+#: templates/wp-admin/settings/general-settings.php:98
+msgid "Debug settings"
+msgstr "デバッグ設定"
+
+#: templates/wp-admin/user-security/user-enumeration.php:14
+msgid "When enabled, this feature will print a \"forbidden\" error rather than the user information."
+msgstr "この機能を有効化すると、ユーザー情報の代わりに403エラー Forbidden を返します。"
+
+#: templates/wp-admin/filesystem-security/copy-protection.php:14
+msgid "When admin user is logged in, the feature is automatically disabled for his session."
+msgstr "管理者ユーザーがログインしているときは、この機能は管理者に対しては無効になります。"
+
+#: admin/wp-security-list-registered-users.php:69
+msgid "blocked"
+msgstr "ブロック中"
+
+#: admin/wp-security-spam-menu.php:200
+msgid "All time total: "
+msgstr "合計回数: "
+
+#: classes/grade-system/wp-security-feature-item-manager.php:396
+#: templates/wp-admin/user-security/user-enumeration.php:19
+msgid "Disable users enumeration"
+msgstr "ユーザー番号を無効化"
+
+#: admin/wp-security-settings-menu.php:52
+msgid "WP version info"
+msgstr "WP バージョン情報"
+
+#: admin/wp-security-list-registered-users.php:290
+#: admin/wp-security-list-registered-users.php:298
+msgid "View Blocked IPs"
+msgstr "ブロック中の IP を表示"
+
+#: templates/wp-admin/user-security/user-enumeration.php:3
+msgid "Prevent users enumeration"
+msgstr "ユーザー番号無効化"
+
+#: admin/wp-security-user-security-menu.php:94
+msgid "User Enumeration Prevention feature settings saved!"
+msgstr "ユーザー番号無効化の設定を保存しました。"
+
+#: templates/wp-admin/user-security/user-enumeration.php:22
+msgid "Check this if you want to stop users enumeration."
+msgstr "ユーザー番号を無効化したい場合にはこれをチェックしてください。"
+
+#: templates/wp-admin/settings/wp-version-info.php:28
+msgid "Check this if you want to remove the version and meta info produced by WP from all pages"
+msgstr "WordPress が生成するバージョンとメタ情報をすべてのページから削除したい場合はこれをチェック"
+
+#: admin/wp-security-list-audit.php:257
+#: templates/wp-admin/firewall/404-detection.php:98
+#: templates/wp-admin/firewall/404-detection.php:107
+#: templates/wp-admin/user-security/account-activity-logs.php:33
+#: templates/wp-admin/user-security/account-activity-logs.php:42
+msgid "Export to CSV"
+msgstr "CSV にエクスポート"
+
+#: templates/wp-admin/firewall/404-detection.php:104
+#: templates/wp-admin/user-security/account-activity-logs.php:39
+msgid "Press this button if you wish to download this log in CSV format."
+msgstr "このログを CSV 形式でダウンロードするにはこのボタンをクリックしてください。"
+
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:43
+msgid "Example 2: Setting this value to \"5\" will block only those IP addresses which were used to submit 5 spam comments or more on your site."
+msgstr "例2:この値を「5」に設定すると、サイトで5件以上のスパムコメントを送信するために使用された IP アドレスのみをブロックされます。"
+
+#: templates/wp-admin/firewall/404-detection.php:39
+msgid "Enable 404 IP detection and lockout"
+msgstr "404エラー検出と IP ブロック"
+
+#: templates/wp-admin/firewall/6g.php:66
+msgid "Enable legacy 5G firewall protection"
+msgstr "レガシーな 5G ファイアウォール保護を有効化"
+
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:41
+msgid "The feature will still allow XMLRPC functionality on your site but will disable the pingback methods."
+msgstr "この機能はピンバックを無効化しますが、XMLRPC はそのまま残します。"
+
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:12
+msgid "Completely block access to XMLRPC"
+msgstr "XML-RPC へのアクセスを完全にブロック"
+
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:15
+msgid "Check this if you are not using the WP XML-RPC functionality and you want to completely block external access to XMLRPC."
+msgstr "XML-RPC 機能を使っておらず、外部からの XML-RPC へのアクセスを完全にブロックしたい場合はチェックしてください。"
+
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:33
+msgid "Disable pingback functionality from XMLRPC"
+msgstr "XML-RPC のピンバック機能を無効化"
+
+#: templates/wp-admin/firewall/partials/xmlrpc-warning-notice.php:12
+msgid "If you still need XMLRPC then uncheck the \"Completely Block Access To XMLRPC\" checkbox and enable only the \"Disable Pingback Functionality From XMLRPC\" checkbox."
+msgstr "XML-RPC の機能が必要な場合は「XML-RPC へのアクセスを完全にブロック」のチェックを外し、「XML-RPC のピンバック機能を無効化」のみチェックしてください。"
+
+#: templates/wp-admin/scanner/malware-scan.php:18
+msgid "We provide advice for malware cleanup"
+msgstr "マルウェアの駆除についてのアドバイスを提供します。"
+
+#: templates/wp-admin/scanner/file-change-detect.php:134
+msgid "Enter one or more email addresses on a new line."
+msgstr "1行につきメールアドレス1件を入力してください。メールアドレスは複数指定できます。"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:200
+#: templates/wp-admin/firewall/partials/block-debug-log.php:3
+msgid "Block access to debug log file"
+msgstr "デバッグログファイルへのアクセスをブロック"
+
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:42
+msgid "This feature will also remove the \"X-Pingback\" header if it is present."
+msgstr "この機能は、\"X-Pingback\" ヘッダーが存在する場合にはそれも削除します。"
+
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:26
+msgid "Leave this feature disabled and use the feature below if you want pingback protection but you still need XMLRPC."
+msgstr "XMLRPC を必須にし、かつピンバックは無効化したい場合は、以下の機能を使用してください。"
+
+#: templates/wp-admin/dashboard/permanent-block.php:8
+msgid "Permanently blocked IP addresses"
+msgstr "永久ブロックされた IP アドレス"
+
+#: admin/wp-security-database-menu.php:396
+msgid "Update of the following MySQL view definition failed: %s"
+msgstr "以下の MySQL ビュー定義の更新に失敗しました。: %s"
+
+#: admin/wp-security-database-menu.php:379
+msgid "Checking for MySQL tables of type \"view\"....."
+msgstr "\"view\" タイプの MySQL テーブルをチェックしています....."
+
+#: templates/wp-admin/dashboard/permanent-block.php:4
+msgid "This tab displays the list of all permanently blocked IP addresses."
+msgstr "このタブは永久にブロックしたすべての IP アドレス のリストを表示します。"
+
+#: templates/wp-admin/dashboard/locked-ip.php:5
+msgid "This tab displays the list of all IP addresses which are currently temporarily locked out due to the login lockout feature:"
+msgstr "このタブは、ログインロックダウン機能によって現在一時的にロックされているすべての IP アドレスのリストが表示されます。"
+
+#: admin/wp-security-dashboard-menu.php:202
+msgid "Get to know the developers"
+msgstr "開発者について"
+
+#: admin/wp-security-dashboard-menu.php:38
+msgid "Permanent block list"
+msgstr "永久ブロックリスト"
+
+#: admin/wp-security-filescan-menu.php:102
+msgid "The following address was removed because it is not a valid email address: "
+msgstr "次のアドレスは有効なメールアドレスではないため、削除されました:"
+
+#: templates/wp-admin/dashboard/permanent-block.php:4
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:17
+msgid "NOTE: This feature does NOT use the .htaccess file to permanently block the IP addresses so it should be compatible with all web servers running WordPress."
+msgstr "注: この機能は .htaccess ファイルを使用して IP アドレスを恒久的にブロックしないため、WordPress を実行しているすべてのウェブサーバーと互換性があります。"
+
+#: templates/wp-admin/firewall/404-detection.php:17
+#: templates/wp-admin/firewall/blacklist.php:17
+msgid "You may also be interested in %s."
+msgstr "%s も気に入っていただけるかもしれません。"
+
+#: admin/wp-security-admin-init.php:226 admin/wp-security-list-audit.php:142
+#: admin/wp-security-list-locked-ip.php:128
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:805
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1088
+#: other-includes/wp-security-rename-login-feature.php:1030
+msgid "Username"
+msgstr "ユーザー名"
+
+#. Plugin Name of the plugin
+#: wp-security.php
+msgid "All In One WP Security"
+msgstr "All In One WP Security"
+
+#. Description of the plugin
+#: wp-security.php
+msgid "All round best WordPress security plugin!"
+msgstr "すべての面において最高の WordPress セキュリティプラグイン !"
+
+#: admin/wp-security-list-registered-users.php:94
+#: other-includes/wp-security-rename-login-feature-pre-5-2.php:809
+#: other-includes/wp-security-rename-login-feature-pre-5-7.php:1092
+#: other-includes/wp-security-rename-login-feature.php:1034
+msgid "Email"
+msgstr "メール"
+
+#: admin/wp-security-settings-menu.php:56
+msgid "Import/Export"
+msgstr "インポート/エクスポート"
+
+#: admin/wp-security-settings-menu.php:34
+msgid "General settings"
+msgstr "一般設定"
+
+#: templates/wp-admin/firewall/404-detection.php:2
+msgid "404 detection configuration"
+msgstr "404 検出の設定"
+
+#: templates/wp-admin/firewall/404-detection.php:28
+msgid "404 detection options"
+msgstr "404 検出オプション"
+
+#: templates/wp-admin/firewall/404-detection.php:74
+msgid "404 event logs"
+msgstr "404 イベントログ"
+
+#: templates/wp-admin/tools/custom-htaccess.php:2
+msgid "Custom .htaccess rules settings"
+msgstr "カスタム .htaccess ルール設定"
+
+#: admin/wp-security-tools-menu.php:40
+#: templates/wp-admin/tools/custom-htaccess.php:26
+msgid "Custom .htaccess rules"
+msgstr "カスタム .htaccess ルール"
+
+#: templates/wp-admin/tools/custom-htaccess.php:46
+msgid "Enter custom .htaccess rules:"
+msgstr "カスタム .htaccess ルールを入力:"
+
+#: templates/wp-admin/tools/custom-htaccess.php:55
+msgid "Save custom rules"
+msgstr "カスタムルールを保存する"
+
+#: templates/wp-admin/tools/visitor-lockout.php:23
+msgid "Enter a message:"
+msgstr "メッセージを入力:"
+
+#: admin/wp-security-filesystem-menu.php:45
+msgid "Copy protection"
+msgstr "コピー・プロテクション"
+
+#: templates/wp-admin/filesystem-security/copy-protection.php:19
+msgid "Enable copy protection"
+msgstr "コピープロテクションを有効にする"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:388
+#: templates/wp-admin/filesystem-security/frames.php:19
+msgid "Enable iFrame protection"
+msgstr "iFrame プロテクションを有効にする"
+
+#: templates/wp-admin/settings/general-settings.php:12
+msgid "WP Security plugin"
+msgstr "WP セキュリティプラグイン"
+
+#: templates/wp-admin/settings/general-settings.php:35
+msgid "Backup your database"
+msgstr "データベースのバックアップ"
+
+#: templates/wp-admin/settings/general-settings.php:36
+#: templates/wp-admin/settings/htaccess-file-operations.php:17
+msgid "Backup .htaccess file"
+msgstr ".htaccess ファイルのバックアップ"
+
+#: templates/wp-admin/settings/general-settings.php:37
+#: templates/wp-admin/settings/wp-config-file-operations.php:17
+msgid "Backup wp-config.php file"
+msgstr "wp-config.php ファイルのバックアップ"
+
+#: admin/wp-security-settings-menu.php:169
+msgid "htaccess backup failed."
+msgstr "htaccess のバックアップに失敗しました。"
+
+#: templates/wp-admin/settings/htaccess-file-operations.php:2
+msgid ".htaccess file operations"
+msgstr ".htaccess ファイル操作"
+
+#: templates/wp-admin/settings/htaccess-file-operations.php:12
+msgid "Save the current .htaccess file"
+msgstr "現在の .htaccess ファイルを保存する"
+
+#: templates/wp-admin/settings/htaccess-file-operations.php:22
+msgid "Restore from a backed up .htaccess file"
+msgstr "バックアップの.htaccessファイルから復元する"
+
+#: templates/wp-admin/settings/wp-config-file-operations.php:2
+msgid "wp-config.php file operations"
+msgstr "wp-config.php ファイル操作"
+
+#: templates/wp-admin/settings/wp-config-file-operations.php:12
+msgid "Save the current wp-config.php file"
+msgstr "現在の wp-config.php ファイルを保存する"
+
+#: templates/wp-admin/settings/wp-version-info.php:15
+msgid "WP generator meta info"
+msgstr "WP Generator メタ情報"
+
+#: templates/wp-admin/settings/wp-version-info.php:25
+msgid "Remove WP generator meta info"
+msgstr "WP Generator メタ情報の削除"
+
+#: admin/wp-security-settings-menu.php:321
+msgid "Please choose a file to import your settings from."
+msgstr "設定をインポートするファイルを選んでください。"
+
+#: templates/wp-admin/settings/settings-file-operations.php:13
+#: templates/wp-admin/settings/settings-file-operations.php:22
+msgid "Export AIOS settings"
+msgstr "AIOWPS 設定のエクスポート"
+
+#: templates/wp-admin/settings/settings-file-operations.php:27
+msgid "Import AIOS settings"
+msgstr "AIOWPS 設定のインポート"
+
+#: admin/wp-security-spam-menu.php:34
+msgid "Comment spam IP monitoring"
+msgstr "コメントスパムの IP モニタリング"
+
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:71
+msgid "Minimum number of spam comments per IP"
+msgstr "IP あたりのスパムコメントの最小数"
+
+#: templates/wp-admin/brute-force/captcha-settings.php:200
+msgid "Add CAPTCHA to BuddyPress registration form"
+msgstr "BuddyPress 登録フォームに Captcha を追加する"
+
+#: templates/wp-admin/settings/wp-config-file-operations.php:22
+msgid "Restore from a backed up wp-config file"
+msgstr "バックアップした wp-config.php ファイルから復元"
+
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:85
+msgid "Find IP addresses"
+msgstr "IP アドレスを探す"
+
+#: admin/wp-security-filesystem-menu.php:49
+msgid "Frames"
+msgstr "フレーム"
+
+#: admin/wp-security-tools-menu.php:45
+msgid "Visitor lockout"
+msgstr "訪問者ロックアウト"
+
+#: templates/wp-admin/firewall/404-detection.php:112
+#: templates/wp-admin/firewall/404-detection.php:121
+msgid "Delete all 404 event logs"
+msgstr "404 イベントログをすべて削除"
+
+#: templates/wp-admin/firewall/404-detection.php:48
+msgid "Enable 404 event logging"
+msgstr "404 イベントログを有効化"
+
+#: templates/wp-admin/filesystem-security/copy-protection.php:28
+msgid "Save copy protection settings"
+msgstr "コピー防止設定を保存"
+
+#: templates/wp-admin/settings/general-settings.php:43
+msgid "Disable security features"
+msgstr "セキュリティ機能を無効にする"
+
+#: templates/wp-admin/settings/settings-file-operations.php:2
+msgid "Export or import your AIOS settings"
+msgstr "AIOWPS の設定をエクスポートまたはインポートする"
+
+#: classes/wp-security-utility.php:257
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:95
+msgid "The plugin has detected that you are using a Multi-Site WordPress installation."
+msgstr "プラグインが、マルチサイト WordPress インストールを使用していることを検出しました。"
+
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:95
+msgid "Only the \"superadmin\" can block IP addresses from the main site."
+msgstr "\"superadmin\" だけがメインサイトの IP アドレスをブロックすることができます。"
+
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:95
+msgid "Take note of the IP addresses you want blocked and ask the superadmin to add these to the blacklist using the \"Blacklist Manager\" on the main site."
+msgstr "ブロックしたい IP アドレスのメモをとって、メインサイトの \"ブラックリストマネージャー\" を使ってブラックリストに追加するように superadmin に依頼してください。"
+
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:74
+msgid "This field allows you to list only those IP addresses which have been used to post X or more spam comments."
+msgstr ""
+"このフィールドでは、 X 個以上のスパムコメントを投稿するために使用された IP\n"
+" アドレスだけを一覧表示できます。"
+
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:64
+msgid "This information can be handy for identifying the most persistent IP addresses or ranges used by spammers."
+msgstr "この情報は、スパム発信者が使用した最もしつこい IP アドレスまたは範囲を識別するのに便利です。"
+
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:78
+msgid "Example 1: Setting this value to \"0\" or \"1\" will list ALL IP addresses which were used to submit spam comments."
+msgstr "Example 1: この値を \"0\" または \"1\" に設定すると、スパムコメントを送信するために使用されたすべての IP アドレスがリストされます。"
+
+#: admin/wp-security-spam-menu.php:163
+msgid "Displaying results for IP addresses which have posted a minimum of %s spam comments."
+msgstr "%s 件以上のスパムコメントを投稿した IP アドレスの結果を表示する。"
+
+#: templates/wp-admin/brute-force/captcha-settings.php:188
+msgid "Check this if you want to insert a CAPTCHA field on the comment forms."
+msgstr "コメントフォームに captcha フィールドを入れる場合は、これをチェックします。"
+
+#: templates/wp-admin/spam-prevention/comment-spam.php:12
+msgid "A large portion of WordPress blog comment spam is produced by automated bots and rather than by humans."
+msgstr "WordPress のコメントスパムの大部分は、主に自動化されたボットによって作成され、必ずしも人間によって作られるものではありません。"
+
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:64
+msgid "To add one or more of the IP addresses displayed in the table below to your blacklist, simply press the \"Block\" link for the individual row or select more than one address using the checkboxes and then choose the \"block\" option from the Bulk Actions dropdown list and press the \"Apply\" button."
+msgstr ""
+"下の表に表示されている1つ以上のIPアドレスをブラックリストに追加するには、その行の \"ブロック\" リンクをクリックするか、複数のアドレスを選択するだけです\n"
+"                            チェックボックスを使って、一括処理ドロップダウンリストから \"ブロック\" オプションを選択し、 \"適用\" ボタンをクリックします。"
+
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:64
+msgid "By inspecting the IP address data coming from spammers you will be in a better position to determine which addresses or address ranges you should block by adding them to the permanent block list."
+msgstr "スパムによる IP アドレスのデータを調べることで、ブラックリストに追加してブロックする必要があるアドレスやアドレス範囲を決めることがでるでしょう。"
+
+#: templates/wp-admin/settings/settings-file-operations.php:19
+msgid "To export your All In One WP Security & Firewall settings press the button below."
+msgstr "All In One WP Security & Firewall の設定をエクスポートするには、以下のボタンを押してください。"
+
+#: templates/wp-admin/settings/wp-config-file-operations.php:28
+msgid "wp-config file to restore from"
+msgstr "復元する wp-config ファイル"
+
+#: templates/wp-admin/settings/settings-file-operations.php:8
+msgid "For Example: If a settings item relies on the domain URL then it may not work correctly when imported into a site with a different domain."
+msgstr "例: 設定項目がドメイン URL に依存している場合、異なるドメインのサイトにインポートしたときに正しく機能しないことがあります。"
+
+#: templates/wp-admin/settings/settings-file-operations.php:6
+msgid "This can be handy if you wanted to save time by applying the settings from one site to another site."
+msgstr "これは、あるサイトの設定を別のサイトに適用して時間を節約したい場合に便利です。"
+
+#: templates/wp-admin/settings/settings-file-operations.php:5
+msgid "This section allows you to export or import your All In One WP Security & Firewall settings."
+msgstr "このセクションでは、 All In One WP Security & Firewall の設定をエクスポートまたはインポートできます。"
+
+#: templates/wp-admin/settings/wp-config-file-operations.php:16
+msgid "Press the button below to backup and download the contents of the currently active wp-config.php file."
+msgstr "下のボタンをクリックすると、現在アクティブな wp-config.php ファイルの内容がバックアップされ、ダウンロードされます。"
+
+#: templates/wp-admin/settings/wp-config-file-operations.php:7
+msgid "You can also restore your site's wp-config.php settings using a backed up wp-config.php file."
+msgstr "バックアップされた wp-config.php ファイルを使用して、サイトの wp-config.php の設定を復元することもできます。"
+
+#: templates/wp-admin/settings/htaccess-file-operations.php:28
+msgid ".htaccess file to restore from"
+msgstr "復元する .htaccess ファイル"
+
+#: templates/wp-admin/settings/htaccess-file-operations.php:16
+msgid "Press the button below to backup and save the currently active .htaccess file."
+msgstr "下のボタンをクリックすると、現在アクティブな .htaccess ファイルがバックアップされ保存されます。"
+
+#: templates/wp-admin/settings/htaccess-file-operations.php:7
+msgid "You can also restore your site's .htaccess settings using a backed up .htaccess file."
+msgstr "バックアップされた .htaccess ファイルを使用して、サイトの .htaccess 設定を復元することもできます。"
+
+#: templates/wp-admin/settings/general-settings.php:49
+msgid "If you think that some plugin functionality on your site is broken due to a security feature you enabled in this plugin, then use the following option to turn off all the security features of this plugin."
+msgstr "このプラグインで有効にしたセキュリティ機能によりサイトの一部のプラグイン機能が壊れていると思われる場合は、次のオプションを使用するとこのプラグインのすべてのセキュリティ機能がオフになります。"
+
+#: templates/wp-admin/filesystem-security/frames.php:14
+msgid "When enabled, this feature will set the \"X-Frame-Options\" parameter to \"sameorigin\" in the HTTP header."
+msgstr "有効にしたときに、この機能は HTTP ヘッダの \"X-Frame-Options\" パラメータを \"sameorigin\" に設定します。"
+
+#: templates/wp-admin/filesystem-security/copy-protection.php:22
+msgid "Check this if you want to disable the \"Right click\", \"Text selection\" and \"Copy\" option on the front end of your site."
+msgstr "サイトのフロントエンドで \"右クリック\"、\"テキスト選択\"、\"コピー\" オプションを無効にする場合は、これをチェックします。"
+
+#: templates/wp-admin/filesystem-security/copy-protection.php:13
+msgid "This feature allows you to disable the ability to select and copy text from your front end."
+msgstr "この機能を使用すると、フロントエンドからテキストを選択してコピーする機能を無効にすることができます。"
+
+#: templates/wp-admin/tools/visitor-lockout.php:40
+msgid "Save site lockout settings"
+msgstr "サイトのロックアウト設定を保存する"
+
+#: templates/wp-admin/tools/visitor-lockout.php:35
+msgid "Enter a message you wish to display to visitors when your site is in maintenance mode."
+msgstr "サイトがメンテナンスモードのときに訪問者に表示するメッセージを入力します。"
+
+#: templates/wp-admin/tools/visitor-lockout.php:18
+msgid "Check this if you want all visitors except those who are logged in as an administrator to be locked out of the front-end of your site."
+msgstr "管理者としてログインしているユーザーを除くすべての訪問者をサイトのフロントエンドから締め出すようにする場合、これをチェックします。"
+
+#: templates/wp-admin/tools/visitor-lockout.php:15
+msgid "Enable front-end lockout"
+msgstr "フロントエンドのロックアウト有効化"
+
+#: templates/wp-admin/tools/visitor-lockout.php:10
+msgid "Locking your site down to general visitors can be useful if you are investigating some issues on your site or perhaps you might be doing some maintenance and wish to keep out all traffic for security reasons."
+msgstr "一般的な訪問者に対してサイトをロックすることは、サイトのいくつかの問題を調査している場合や、保守を行っている可能性があり、セキュリティ上の理由ですべてのトラフィックを防ぎたい場合に役立ちます。"
+
+#: templates/wp-admin/tools/visitor-lockout.php:3
+msgid "General visitor lockout"
+msgstr "一般訪問者のロックアウト"
+
+#: admin/wp-security-list-registered-users.php:228
+msgid " is now active"
+msgstr "は現在有効です"
+
+#: admin/wp-security-list-404.php:159 admin/wp-security-list-404.php:167
+#: admin/wp-security-list-404.php:174 admin/wp-security-list-audit.php:208
+#: admin/wp-security-list-comment-spammer-ip.php:103
+#: admin/wp-security-list-locked-ip.php:176
+#: admin/wp-security-list-locked-ip.php:184
+#: admin/wp-security-list-permanent-blocked-ip.php:103
+#: admin/wp-security-list-registered-users.php:134
+#: admin/wp-security-list-registered-users.php:142
+#: admin/wp-security-list-registered-users.php:150
+msgid "Please select some records using the checkboxes"
+msgstr "チェックボックスでレコードを選択してください"
+
+#: templates/wp-admin/tools/custom-htaccess.php:33
+msgid "Check this if you want to enable custom rules entered in the text box below"
+msgstr "下のテキストボックスに入力したカスタムルールを有効にする場合は、これをチェックします"
+
+#: templates/wp-admin/tools/custom-htaccess.php:20
+msgid "If you break your site you will need to access your server via FTP or something similar and then edit your .htaccess file and delete the changes you made."
+msgstr "もしサイトを壊してしまった場合は、FTPなどでサーバーにアクセスし、 .htaccess ファイルを編集して変更を削除する必要があります。"
+
+#: templates/wp-admin/tools/custom-htaccess.php:18
+msgid "Incorrect .htaccess rules or directives can break or prevent access to your site."
+msgstr "不適切な .htaccess のルールまたは命令は、サイトへのアクセスを壊したり妨げたりする可能性があります。"
+
+#: templates/wp-admin/tools/custom-htaccess.php:10
+msgid "It is useful for when you want to tweak our existing firewall rules or when you want to add your own."
+msgstr "既存のファイアウォールルールを微調整したいときや、独自のファイアウォールルールを追加する場合に便利です。"
+
+#: templates/wp-admin/tools/custom-htaccess.php:9
+msgid "This feature can be used to apply your own custom .htaccess rules and directives."
+msgstr "この機能を使用して、独自の .htaccess ルールとディレクティブを適用できます。"
+
+#: templates/wp-admin/firewall/404-detection.php:118
+msgid "Press this button if you wish to purge all 404 event logs from the DB."
+msgstr "DB からすべての 404 イベントログをパージする場合は、このボタンをクリックしてください。"
+
+#: templates/wp-admin/firewall/404-detection.php:64
+msgid "A blocked visitor will be automatically redirected to this URL."
+msgstr "ブロックされた訪問者は自動的にこの URL にリダイレクトされます。"
+
+#: templates/wp-admin/firewall/404-detection.php:58
+msgid "Set the length of time for which a blocked IP address will be prevented from visiting your site"
+msgstr "ブロックされた IP アドレスによるアクセスを防ぐ時間の長さを設定"
+
+#: templates/wp-admin/firewall/404-detection.php:51
+msgid "Check this if you want to enable the logging of 404 events"
+msgstr "404 イベントのロギングを有効にする場合は、これをチェックします。"
+
+#: templates/wp-admin/firewall/404-detection.php:42
+msgid "Check this if you want to enable the lockout of selected IP addresses."
+msgstr "選択した IP アドレスのロックアウトを有効化したい場合は、これをチェックします。"
+
+#: templates/wp-admin/firewall/404-detection.php:8
+msgid "Such behaviour can mean that a hacker might be trying to find a particular page or URL for sinister reasons."
+msgstr "このような動作は、ハッカーが悪意のある理由で特定のページや URL を見つけようとしている可能性があることを意味します。"
+
+#: templates/wp-admin/firewall/404-detection.php:6
+msgid "Typically, most 404 errors happen quite innocently when people have mis-typed a URL or used an old link to page which doesn't exist anymore."
+msgstr "一般的に、たいていの 404 エラーは、人々が URL を間違って入力したり、もはや存在しないページへの古いリンクを使用したりしたときに、まったく無意識に起こります。"
+
+#: admin/wp-security-brute-force-menu.php:422
+msgid "You entered an incorrect format for the \"Redirect URL\" field. It has been set to the default value."
+msgstr "\"リダイレクト URL\" フィールドに不正な形式を入力しました。デフォルト値に設定されています。"
+
+#: templates/wp-admin/filesystem-security/partials/prevent-hotlinks.php:21
+msgid "Check this if you want to prevent hotlinking to images on your site."
+msgstr "サイトの画像への直リンクを防止する場合は、これをチェックします。"
+
+#: admin/wp-security-brute-force-menu.php:416
+msgid "You entered a non numeric value for the lockout time length field. It has been set to the default value."
+msgstr "ロックアウト時間の長さフィールドに数値以外の値を入力しました。初期値に設定されています。"
+
+#: templates/wp-admin/filesystem-security/partials/prevent-hotlinks.php:3
+msgid "Prevent hotlinking"
+msgstr "直リンクの防止"
+
+#: templates/wp-admin/tools/custom-htaccess.php:50
+msgid "Enter your custom .htaccess rules/directives."
+msgstr "カスタム .htaccess ルール/ディレクティブを入力してください。"
+
+#: admin/wp-security-list-logged-in-users.php:104
+msgid "Nonce check failed for force user logout operation"
+msgstr "強制ログアウト操作のための nonce チェックに失敗しました。"
+
+#: admin/wp-security-list-registered-users.php:228
+msgid "Your account with username: "
+msgstr "ユーザー名のアカウント:"
+
+#: admin/wp-security-list-registered-users.php:195
+msgid "The following accounts failed to update successfully: "
+msgstr "以下のアカウントは更新できませんでした。"
+
+#: admin/wp-security-list-registered-users.php:227
+msgid "Your account is now active"
+msgstr "アカウントが利用可能になりました"
+
+#: admin/wp-security-settings-menu.php:234
+msgid "Your wp-config.php file has successfully been restored."
+msgstr "wp-config.php ファイルを復元しました。"
+
+#: templates/wp-admin/firewall/404-detection.php:56
+msgid "Time length of 404 lockout (minutes)"
+msgstr "404ロックアウト時間の長さ (分)"
+
+#: admin/wp-security-list-locked-ip.php:210
+msgid "The selected IP entries were unlocked successfully."
+msgstr "選択した IP のロックを解除しました。"
+
+#: admin/wp-security-settings-menu.php:221
+msgid "Please choose a wp-config.php file to restore from."
+msgstr "復元元の wp-config.php ファイルを選択してください。"
+
+#: admin/wp-security-settings-menu.php:181
+msgid "Please choose a valid .htaccess to restore from."
+msgstr "復元元の .htaccess を選択してください。"
+
+#: templates/wp-admin/filesystem-security/copy-protection.php:3
+msgid "Disable the ability to copy text"
+msgstr "テキストをコピーする機能を無効化"
+
+#: templates/wp-admin/settings/general-settings.php:53
+msgid "Disable all security features"
+msgstr "セキュリティ機能をすべて無効化"
+
+#: templates/wp-admin/settings/general-settings.php:59
+#: templates/wp-admin/settings/general-settings.php:69
+msgid "Disable all firewall rules"
+msgstr "ファイアウォールのルールをすべて無効化"
+
+#: templates/wp-admin/firewall/404-detection.php:62
+msgid "404 lockout redirect URL"
+msgstr "404ロックアウト転送 URL"
+
+#: admin/wp-security-settings-menu.php:193
+msgid "Your .htaccess file has successfully been restored."
+msgstr ".htaccess ファイルを復元しました。"
+
+#: admin/wp-security-settings-menu.php:161
+msgid "Your .htaccess file was successfully backed up! Using an FTP program go to the \"/wp-content/aiowps_backups\" directory to save a copy of the file to your computer."
+msgstr ".htaccess ファイルのバックアップに成功しました。FTP プログラムを使用して \"/wp-content/aiowps_backups\" ディレクトリに移動し、ファイルのコピーをコンピューターに保存してください。"
+
+#: admin/wp-security-filesystem-menu.php:213
+msgid "Frame Display Prevention feature settings saved!"
+msgstr "フレーム表示防止機能の設定を保存しました。"
+
+#: admin/wp-security-spam-menu.php:147
+msgid "Nonce check failed for list spam comment IPs."
+msgstr "スパムコメント IP 一覧表示のための nonce チェックに失敗しました。"
+
+#: templates/wp-admin/tools/custom-htaccess.php:30
+msgid "Enable custom .htaccess rules"
+msgstr "カスタム .htaccess ルールを有効化"
+
+#: templates/wp-admin/settings/wp-config-file-operations.php:6
+msgid "This feature allows you to backup and save your currently active wp-config.php file should you need to re-use the the backed up file in the future."
+msgstr "この機能を使用すると、将来バックアップするファイルを再利用する必要がある場合に、現在使用中の wp-config.php ファイルをバックアップして保存することができます。"
+
+#: templates/wp-admin/settings/htaccess-file-operations.php:6
+msgid "This feature allows you to backup and save your currently active .htaccess file should you need to re-use the the backed up file in the future."
+msgstr "この機能を使用すると、将来バックアップファイルを再利用する必要がある場合は、現在使用中の .htaccess ファイルをバックアップして保存することができます。"
+
+#: templates/wp-admin/filesystem-security/frames.php:3
+msgid "Prevent your site from being displayed in a frame"
+msgstr "サイトがフレームで表示されないようにする"
+
+#: admin/wp-security-list-logged-in-users.php:113
+msgid "The selected user was logged out successfully"
+msgstr "選択したユーザーは正常にログアウトされました。"
+
+#: templates/wp-admin/filesystem-security/partials/prevent-hotlinks.php:8
+msgid "Due to the fact that the image being displayed on the other person's site is coming from your server, this can cause leaking of bandwidth and resources for you because your server has to present this image for the people viewing it on someone elses's site."
+msgstr "他者のサイトに表示されている画像は、自分のサーバーからのものであるため、画像の表示に伴い、帯域幅とリソースのリークが発生する可能性があります。"
+
+#: admin/wp-security-filesystem-menu.php:185
+msgid "Copy Protection feature settings saved!"
+msgstr "コピー防止機能の設定を保存しました。"
+
+#: admin/wp-security-list-404.php:261
+msgid "The selected IP addresses have been added to the blacklist and will be permanently blocked."
+msgstr "選択した IP アドレスはブラックリストに追加されました。永久にブロックされます。"
+
+#: templates/wp-admin/settings/htaccess-file-operations.php:5
+msgid "Your \".htaccess\" file is a key component of your website's security and it can be modified to implement various levels of protection mechanisms."
+msgstr "“.htaccess” ファイルはサイトのセキュリティの重要な要素であり、様々なレベルの保護メカニズムを実装するために変更できます。"
+
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:64
+msgid "This section displays a list of the IP addresses of the people or bots who have left spam comments on your site."
+msgstr "ここでは、サイトにスパムコメントを残した人やボットの IP アドレスの一覧が表示されます。"
+
+#: templates/wp-admin/filesystem-security/partials/prevent-hotlinks.php:9
+msgid "This feature will prevent people from directly hotlinking images from your site's pages by writing some directives in your .htaccess file."
+msgstr "この機能は、.htaccess ファイルにいくつかのディレクティブを書き込むことにより、サイトのページから他人が画像を直リンクするのを防ぎます。"
+
+#: templates/wp-admin/tools/visitor-lockout.php:9
+msgid "This feature allows you to put your site into \"maintenance mode\" by locking down the front-end to all visitors except logged in users with super admin privileges."
+msgstr "この機能により、特権管理者権限を持つログインユーザー以外のすべての訪問者に対してフロントエンドをロックダウンすることで、サイトを「メンテナンスモード」にすることができます。"
+
+#: templates/wp-admin/filesystem-security/frames.php:13
+msgid "This feature allows you to prevent other sites from displaying any of your content via a frame or iframe."
+msgstr "この機能を使用すると、他のサイト上に frame または iframe を通じてこのサイトのコンテンツが表示されるのを防止できます。"
+
+#: templates/wp-admin/settings/wp-version-info.php:7
+msgid "The above meta information shows which version of WordPress your site is currently running and thus can help hackers or crawlers scan your site to see if you have an older version of WordPress or one with a known exploit."
+msgstr "上記のメタ情報は、あなたのサイトが現在どのバージョンの WordPress を実行しているかを示しているので、ハッカーやクローラーがあなたのサイトをスキャンして、古いバージョンの WordPress や既知のエクスプロイトを持っている WordPress があるかどうかを確認するのに役立ちます。"
+
+#: templates/wp-admin/firewall/404-detection.php:7
+msgid "However, in some cases you may find many repeated 404 errors which occur in a relatively short space of time and from the same IP address which are all attempting to access a variety of non-existent page URLs."
+msgstr "しかし、一部のケースでは、比較的短い時間で同じ IP アドレスから存在しないさまざまなページの URL にアクセスしようとする404エラーが繰り返し発生することがあります。"
+
+#: classes/wp-security-settings-tasks.php:44
+msgid "All the security features have been disabled successfully."
+msgstr "すべてのセキュリティ機能を無効化しました。"
+
+#: classes/wp-security-settings-tasks.php:66
+msgid "All firewall rules have been disabled successfully."
+msgstr "すべてのファイアウォールルールを無効化しました。"
+
+#: templates/wp-admin/firewall/404-detection.php:5
+msgid "A 404 or Not Found error occurs when somebody tries to access a non-existent page on your website."
+msgstr "404または Not Found エラーは、誰かがサイトの存在しないページにアクセスしようとすると発生します。"
+
+#: templates/wp-admin/brute-force/captcha-settings.php:208
+msgid "Enable CAPTCHA on BuddyPress registration form"
+msgstr "BuddyPress 登録フォームで CAPTCHA を有効化"
+
+#: templates/wp-admin/database-security/database-prefix.php:47
+msgid "OR"
+msgstr "OR"
+
+#: admin/wp-security-dashboard-menu.php:340
+#: admin/wp-security-dashboard-menu.php:343
+#: admin/wp-security-dashboard-menu.php:355
+#: admin/wp-security-dashboard-menu.php:358
+#: admin/wp-security-dashboard-menu.php:372
+#: admin/wp-security-dashboard-menu.php:375
+#: admin/wp-security-dashboard-menu.php:387
+#: admin/wp-security-dashboard-menu.php:390
+msgid "On"
+msgstr "オン"
+
+#: admin/wp-security-dashboard-menu.php:341
+#: admin/wp-security-dashboard-menu.php:344
+#: admin/wp-security-dashboard-menu.php:356
+#: admin/wp-security-dashboard-menu.php:359
+#: admin/wp-security-dashboard-menu.php:373
+#: admin/wp-security-dashboard-menu.php:376
+#: admin/wp-security-dashboard-menu.php:388
+#: admin/wp-security-dashboard-menu.php:391
+msgid "Off"
+msgstr "オフ"
+
+#: templates/wp-admin/scanner/scan-result.php:20
+msgid "File"
+msgstr "ファイル"
+
+#: templates/wp-admin/scanner/file-change-detect.php:82
+msgid "Days"
+msgstr "日"
+
+#: templates/wp-admin/filesystem-security/host-system-logs.php:2
+msgid "System logs"
+msgstr "システムログ"
+
+#: templates/wp-admin/scanner/file-change-detect.php:83
+msgid "Weeks"
+msgstr "週"
+
+#: templates/wp-admin/scanner/scan-result.php:21
+msgid "File size"
+msgstr "ファイルサイズ"
+
+#: admin/wp-security-filescan-menu.php:40
+msgid "Malware scan"
+msgstr "マルウェアスキャン"
+
+#: templates/wp-admin/scanner/file-change-detect.php:78
+msgid "Scan time interval"
+msgstr "スキャン時間の間隔"
+
+#: templates/wp-admin/database-security/database-backup.php:3
+msgid "Manual backup"
+msgstr "手動バックアップ"
+
+#: templates/wp-admin/database-security/database-prefix.php:5
+msgid "This feature allows you to easily change the prefix to a value of your choice or to a random value set by this plugin."
+msgstr "この機能はデータベースの接頭辞を任意の文字列に変更することができます。または、プラグインにランダムな文字列を設定させることができます。"
+
+#: templates/wp-admin/database-security/database-prefix.php:5
+msgid "The database is also a target for hackers via methods such as SQL injections and malicious and automated code which targets certain tables."
+msgstr "クラッカーは SQL インジェクションや悪意の自動実行コードでデータベースの特定のテーブルを攻撃します。"
+
+#: templates/wp-admin/database-security/database-prefix.php:2
+#: templates/wp-admin/database-security/database-prefix.php:54
+msgid "Change database prefix"
+msgstr "データベース接頭辞を変更"
+
+#: admin/wp-security-database-menu.php:129
+msgid "Please enter a value for the DB prefix."
+msgstr "テーブル接頭辞を入力してください。"
+
+#: templates/wp-admin/dashboard/locked-ip.php:9
+msgid "Currently locked out IP addresses and ranges"
+msgstr "現在ロックされている IP アドレスと範囲"
+
+#: templates/wp-admin/database-security/database-backup.php:21
+msgid "Automated scheduled backups"
+msgstr "自動スケジュールバックアップ"
+
+#: admin/wp-security-database-menu.php:243
+msgid "%s table name update failed"
+msgstr "%s テーブル名の更新に失敗しました"
+
+#: templates/wp-admin/database-security/database-prefix.php:46
+msgid "Check this if you want the plugin to generate a random 6 character string for the table prefix"
+msgstr "プラグインがテーブル接頭辞をランダムな6文字で生成する場合には、これをチェックしてください。"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:264
+#: templates/wp-admin/filesystem-security/partials/prevent-hotlinks.php:18
+msgid "Prevent image hotlinking"
+msgstr "画像の直リンクを防止する"
+
+#: templates/wp-admin/firewall/internet-bots.php:7
+msgid "%s?"
+msgstr "%s?"
+
+#: admin/wp-security-brute-force-menu.php:52
+msgid "404 detection"
+msgstr "404 検出"
+
+#: admin/wp-security-firewall-menu.php:45
+msgid "Internet bots"
+msgstr "オンラインのボット"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:256
+#: templates/wp-admin/firewall/partials/fake-googlebots.php:3
+#: templates/wp-admin/firewall/partials/fake-googlebots.php:30
+msgid "Block fake Googlebots"
+msgstr "偽の Googlebots をブロック"
+
+#: templates/wp-admin/firewall/internet-bots.php:20
+msgid "Save internet bot settings"
+msgstr "オンラインボットの設定を保存する"
+
+#: templates/wp-admin/scanner/file-change-detect.php:89
+msgid "File types to ignore"
+msgstr "無視するファイルの種類"
+
+#: templates/wp-admin/scanner/file-change-detect.php:70
+msgid "Enable automated file change detection scan"
+msgstr "自動ファイル変更検知スキャンを有効化する"
+
+#: templates/wp-admin/scanner/file-change-detect.php:61
+msgid "File change detection settings"
+msgstr "ファイル変更検知設定"
+
+#: templates/wp-admin/scanner/malware-scan.php:9
+msgid "Scanning for malware"
+msgstr "マルウェアをスキャン"
+
+#: templates/wp-admin/scanner/file-change-detect.php:125
+msgid "Send email when change detected"
+msgstr "変更を検知したらメールする"
+
+#: templates/wp-admin/scanner/scan-result.php:9
+msgid "The following files were removed from your website."
+msgstr "以下のファイルがホストから削除されました。"
+
+#: templates/wp-admin/scanner/scan-result.php:8
+msgid "The following files were added to your website."
+msgstr "以下のファイルがホストに追加されました。"
+
+#: templates/wp-admin/scanner/scan-result.php:3
+msgid "Latest file change scan results"
+msgstr "最新のファイル変更スキャン結果"
+
+#: templates/wp-admin/scanner/malware-scan.php:19
+msgid "Blacklist removal"
+msgstr "ブラックリスト削除"
+
+#: templates/wp-admin/scanner/malware-scan.php:17
+msgid "Site response time monitoring"
+msgstr "サイト反応時間モニタリング"
+
+#: templates/wp-admin/scanner/malware-scan.php:16
+msgid "Site uptime monitoring"
+msgstr "サイト連続稼働時間監視"
+
+#: templates/wp-admin/scanner/malware-scan.php:15
+msgid "Automatic email alerting"
+msgstr "自動メールアラート"
+
+#: templates/wp-admin/filesystem-security/file-permissions.php:35
+#: templates/wp-admin/filesystem-security/file-permissions.php:51
+msgid "Recommended permissions"
+msgstr "推奨パーミッション"
+
+#: templates/wp-admin/filesystem-security/file-permissions.php:34
+#: templates/wp-admin/filesystem-security/file-permissions.php:50
+msgid "Current permissions"
+msgstr "現在のパーミッション"
+
+#: templates/wp-admin/filesystem-security/file-permissions.php:2
+msgid "File permissions scan"
+msgstr "ファイルパーミッションスキャン"
+
+#: admin/wp-security-filesystem-menu.php:86
+msgid "The permissions for %s were successfully changed to %s"
+msgstr "%sのパーミッションは%sに変更されました。"
+
+#: admin/wp-security-filesystem-menu.php:40
+msgid "Host system logs"
+msgstr "ホストシステムログ"
+
+#: templates/wp-admin/scanner/scan-result.php:10
+msgid "The following files were changed on your website."
+msgstr "ホスト上で次のファイルが変更されました。"
+
+#: templates/wp-admin/firewall/internet-bots.php:2
+msgid "Internet bot settings"
+msgstr "オンラインのボットの設定"
+
+#: admin/wp-security-firewall-menu.php:334
+msgid "The Internet bot settings were successfully saved"
+msgstr "ボットの設定が保存されました。"
+
+#: templates/wp-admin/scanner/malware-scan.php:4
+msgid "What is malware?"
+msgstr "マルウェアとは ?"
+
+#: templates/wp-admin/filesystem-security/host-system-logs.php:22
+msgid "Loading..."
+msgstr "読み込み中…"
+
+#: templates/wp-admin/filesystem-security/file-permissions.php:32
+#: templates/wp-admin/filesystem-security/file-permissions.php:48
+msgid "Name"
+msgstr "名前"
+
+#: templates/wp-admin/scanner/file-change-detect.php:81
+msgid "Hours"
+msgstr "時"
+
+#: admin/wp-security-database-menu.php:218
+msgid "A backup copy of your wp-config.php file was created successfully!"
+msgstr "wp-config.php ファイルのバックアップコピーを作成しました。"
+
+#: admin/wp-security-firewall-menu.php:249
+msgid "You have successfully saved the 5G/6G Firewall Protection configuration"
+msgstr "5G/6G ファイアウォール保護設定を保存しました"
+
+#: admin/wp-security-database-menu.php:275
+msgid "wp-config.php file was updated successfully!"
+msgstr "wp-config.php ファイルを更新しました。"
+
+#: templates/wp-admin/filesystem-security/file-permissions.php:19
+msgid "WP directory and file permissions scan results"
+msgstr "WP ディレクトリとファイルパーミッションのスキャン結果"
+
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:3
+msgid "WordPress XMLRPC and pingback vulnerability protection"
+msgstr "WordPress XMLRPC とピンバック脆弱性保護"
+
+#: templates/wp-admin/filesystem-security/host-system-logs.php:9
+msgid "View system logs"
+msgstr "システムログを表示"
+
+#: admin/wp-security-firewall-menu.php:99 admin/wp-security-spam-menu.php:91
+#: admin/wp-security-user-security-menu.php:476
+msgid "Settings were successfully saved"
+msgstr "設定を保存しました"
+
+#: templates/wp-admin/scanner/file-change-detect.php:85
+msgid "Set the value for how often you would like a scan to occur"
+msgstr "スキャンを実行する頻度の値を設定"
+
+#: classes/wp-security-commands.php:157
+msgid "The scan is complete - There were no file changes detected."
+msgstr "スキャンが完了しました - ファイルの変更は検出されませんでした。"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:208
+#: templates/wp-admin/firewall/partials/listing-directory-contents.php:12
+msgid "Disable index views"
+msgstr "インデックスビューを無効化"
+
+#: templates/wp-admin/filesystem-security/partials/php-file-editing.php:16
+msgid "Disable ability to edit PHP files"
+msgstr "PHP ファイル編集機能を無効化"
+
+#: classes/wp-security-notices.php:48
+#: templates/wp-admin/firewall/partials/bad-query-strings.php:13
+msgid "Deny bad query strings"
+msgstr "不正なクエリー文字列を拒否"
+
+#: templates/wp-admin/filesystem-security/partials/prevent-hotlinks.php:7
+msgid "A hotlink is where someone displays an image on their site which is actually located on your site by using a direct link to the source of the image on your server."
+msgstr "直リンクとは、他者のサーバー上の画像のソースを使用して、自分のサイトに画像を表示する方法です。"
+
+#: templates/wp-admin/firewall/6g.php:37 templates/wp-admin/firewall/6g.php:78
+msgid "....and much more."
+msgstr "....そしてもっとたくさん。"
+
+#: templates/wp-admin/firewall/6g.php:25
+msgid "Enable 6G firewall protection"
+msgstr "6G ファイアウォール保護を有効化"
+
+#: templates/wp-admin/firewall/partials/advanced-character-filter.php:13
+msgid "Enable advanced character string filter"
+msgstr "高度な文字列フィルターを有効化"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:240
+#: templates/wp-admin/firewall/partials/advanced-character-filter.php:3
+msgid "Advanced character string filter"
+msgstr "高度な文字列フィルター"
+
+#: templates/wp-admin/firewall/partials/proxy-comment.php:22
+msgid "By forbidding proxy comments you are in effect eliminating some spam and other proxy requests."
+msgstr "プロキシコメントを禁止することにより、事実上、一部のスパムやその他のプロキシリクエストを排除することになります。"
+
+#: templates/wp-admin/firewall/partials/proxy-comment.php:21
+msgid "This setting will deny any requests that use a proxy server when posting comments."
+msgstr "この設定では、コメント投稿時にプロキシサーバーを使用した場合、すべての要求を拒否します。"
+
+#: templates/wp-admin/firewall/partials/proxy-comment.php:16
+msgid "Check this if you want to forbid proxy comment posting."
+msgstr "プロキシ経由のコメント投稿を禁止する場合は、これをチェックしてください。"
+
+#: classes/wp-security-notices.php:45
+#: templates/wp-admin/firewall/partials/proxy-comment.php:13
+msgid "Forbid proxy comment posting"
+msgstr "プロキシ経由のコメント投稿を禁止"
+
+#: templates/wp-admin/firewall/partials/proxy-comment.php:3
+msgid "Proxy comment posting"
+msgstr "プロキシ経由のコメント投稿"
+
+#: templates/wp-admin/firewall/partials/listing-directory-contents.php:22
+msgid "This feature will prevent the listing of contents for all directories."
+msgstr "この機能により、すべてのディレクトリのコンテンツが一覧表示されなくなります。"
+
+#: templates/wp-admin/firewall/partials/listing-directory-contents.php:15
+msgid "Check this if you want to disable directory and file listing."
+msgstr "ディレクトリとファイルの一覧表示を無効にする場合は、これをチェックしてください。"
+
+#: templates/wp-admin/firewall/partials/basic-firewall-settings.php:14
+msgid "Check this if you want to apply basic firewall protection to your site."
+msgstr "基本的なファイアウォール保護をサイトに適用する場合は、これをチェックしてください。"
+
+#: templates/wp-admin/firewall/partials/basic-firewall-settings.php:3
+msgid "Basic firewall settings"
+msgstr "基本的なファイアウォール設定"
+
+#: templates/wp-admin/firewall/6g.php:2
+msgid "Firewall settings"
+msgstr "ファイアウォール設定"
+
+#: templates/wp-admin/filesystem-security/host-system-logs.php:15
+msgid "Enter System Log File Name"
+msgstr "システムログファイル名を入力します"
+
+#: templates/wp-admin/filesystem-security/host-system-logs.php:5
+msgid "By occasionally viewing the contents of these logs files you can keep informed of any underlying problems on your system which you might need to address."
+msgstr "​これらのログファイルの内容を時々確認することによって、システム上の根本的な問題を把握しておくことができます。"
+
+#: templates/wp-admin/filesystem-security/partials/php-file-editing.php:7
+msgid "This is often the first tool an attacker will use if able to login, since it allows code execution."
+msgstr "これはコードの実行を可能にするため、不正にログインされた場合に攻撃に利用されることがよくあります。"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:158
+msgid "File editing"
+msgstr "ファイル編集"
+
+#: templates/wp-admin/filesystem-security/file-permissions.php:33
+#: templates/wp-admin/filesystem-security/file-permissions.php:49
+msgid "File/Folder"
+msgstr "ファイル/フォルダ"
+
+#: templates/wp-admin/scanner/malware-scan.php:14
+msgid "Automatic malware and blacklist monitoring"
+msgstr "自動でマルウェアとブラックリストを監視"
+
+#: templates/wp-admin/scanner/malware-scan.php:10
+msgid "This is why we have created an easy-to-use scanning service which is hosted off our own server which will scan your site for malware once every day and notify you if it finds anything."
+msgstr "これが、独自のサーバー上で動作する使いやすいスキャンサービスを作成した理由です。このサービスは、サイトを1日1回マルウェアスキャンし、何かが見つかった場合は通知します。"
+
+#: templates/wp-admin/scanner/malware-scan.php:5
+msgid "Often when malware code has been inserted into your site you will normally not notice anything out of the ordinary based on appearances, but it can have a dramatic effect on your site's search ranking."
+msgstr "多くの場合、マルウェアコードがサイトに挿入されていても、見た目で変化に気付くことはできません。しかしサイトの検索ランキングに劇的な影響を与える可能性があります。"
+
+#: templates/wp-admin/scanner/file-change-detect.php:129
+msgid "Check this if you want the system to email you if a file change was detected"
+msgstr "ファイルの変更が検出された場合にシステムからメールを送信する場合は、これをチェックしてください"
+
+#: templates/wp-admin/scanner/file-change-detect.php:118
+msgid "somedirectory"
+msgstr "somedirectory"
+
+#: templates/wp-admin/scanner/file-change-detect.php:111
+msgid "Enter each file or directory on a new line which you wish to exclude from the file change detection scan."
+msgstr "ファイル変更検出スキャンから除外するファイルまたはディレクトリを1行ごとに入力します。"
+
+#: templates/wp-admin/scanner/file-change-detect.php:93
+msgid "Enter each file type or extension on a new line which you wish to exclude from the file change detection scan."
+msgstr "ファイル変更検出スキャンから除外するファイルタイプまたは拡張子を1行ごとに入力します。"
+
+#: templates/wp-admin/scanner/file-change-detect.php:73
+msgid "Check this if you want the system to automatically/periodically scan your files to check for file changes based on the settings below"
+msgstr "ファイルを自動で定期的にスキャンして、以下の設定に基づいてファイルの変更を確認する場合は、これをチェックしてください"
+
+#: templates/wp-admin/scanner/file-change-detect.php:10
+msgid "If given an opportunity hackers can insert their code or files into your system which they can then use to carry out malicious acts on your site."
+msgstr "脆弱性があると、ハッカーは自分のコードやファイルをシステムに挿入し、サイトで悪意のある行為を実行することができます。"
+
+#: admin/wp-security-filesystem-menu.php:301
+msgid "Set recommended permissions"
+msgstr "推奨パーミッションを設定"
+
+#: templates/wp-admin/scanner/file-change-detect.php:107
+msgid "Files/Directories to ignore"
+msgstr "無視するファイルとディレクトリ"
+
+#: templates/wp-admin/scanner/scan-result.php:22
+msgid "File modified"
+msgstr "変更ファイル"
+
+#: templates/wp-admin/filesystem-security/partials/php-file-editing.php:3
+msgid "Disable PHP file editing"
+msgstr "PHP ファイル編集を無効化"
+
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:22
+msgid "2) Hacking internal routers."
+msgstr "2) 内部ルーターをハッキングする。"
+
+#: admin/wp-security-filesystem-menu.php:89
+msgid "Unable to change permissions for %s"
+msgstr "%s のパーミッションを変更できません。"
+
+#: templates/wp-admin/filesystem-security/file-permissions.php:5
+msgid "Your WP installation already comes with reasonably secure file permission settings for the filesystem."
+msgstr "この WP のインストールには、ファイルシステムを適度に安全にするファイル権限設定がすでに適用されています。"
+
+#: admin/wp-security-database-menu.php:210
+msgid "Your WordPress system has a total of %s tables and your new DB prefix will be: %s"
+msgstr "この WordPress システムには合計%s個のテーブルがあり、新しい DB 接頭辞は以下になります: %s"
+
+#: templates/wp-admin/filesystem-security/file-permissions.php:5
+msgid "Your WordPress file and folder permission settings govern the accessibility and read/write privileges of the files and folders which make up your WP installation."
+msgstr "WordPress のファイルとフォルダーのアクセス権限設定は、WP インストールを構成するファイルとフォルダーのアクセス権限と読み書き権限を管理しています。"
+
+#: templates/wp-admin/firewall/partials/basic-firewall-settings.php:24
+msgid "You are still advised to take a backup of your active .htaccess file just in case."
+msgstr "それでも万が一に備えて、使用中の .htaccess ファイルのバックアップを取ることをおすすめします。"
+
+#: templates/wp-admin/filesystem-security/host-system-logs.php:20
+msgid "View latest system logs"
+msgstr "最新のシステムログを表示"
+
+#: admin/wp-security-database-menu.php:285
+#: admin/wp-security-database-menu.php:301
+msgid "Update of table %s failed: unable to change %s to %s"
+msgstr "テーブル %s の更新失敗: %s を %s に変更できません"
+
+#: templates/wp-admin/firewall/partials/disable-trace.php:3
+msgid "Trace and track"
+msgstr "TRACE と TRACK"
+
+#: templates/wp-admin/firewall/partials/bad-query-strings.php:16
+msgid "This will help protect you against malicious queries via XSS."
+msgstr "これは、XSS を通じた悪意のあるクエリーからユーザーを保護するのに役立ちます。"
+
+#: templates/wp-admin/firewall/partials/advanced-character-filter.php:22
+msgid "This setting matches for common malicious string patterns and exploits and will produce a 403 error for the hacker attempting the query."
+msgstr "この設定は、一般的な悪意のある文字列パターンとエクスプロイトにマッチし、クエリーを試みようとするハッカーに403エラーを発生させます。"
+
+#: templates/wp-admin/scanner/malware-scan.php:5
+msgid "This is because the bots and spiders from search engines such as Google have the capability to detect malware when they are indexing the pages on your site, and consequently they can blacklist your website which will in turn affect your search rankings."
+msgstr "これは、Google などの検索エンジンからのボットやスパイダーは、サイトのページをインデックスしている際にマルウェアを検出する能力を持っているため、結果的にあなたのサイトをブラックリストに登録して、検索順位に影響を与えることができるからです。"
+
+#: templates/wp-admin/firewall/partials/advanced-character-filter.php:21
+msgid "This is an advanced character string filter to prevent malicious string attacks on your site coming from Cross Site Scripting (XSS)."
+msgstr "これは、クロスサイトスクリプティング (XSS) から来るサイトへの悪意のある文字列攻撃を防ぐための高度な文字列フィルターです。"
+
+#: templates/wp-admin/firewall/partials/disable-trace.php:22
+msgid "This hacking technique is usually used together with cross site scripting attacks (XSS)."
+msgstr "このハッキング手法は通常、クロスサイトスクリプティング攻撃 (XSS) と一緒に使用されます。"
+
+#: templates/wp-admin/filesystem-security/file-permissions.php:5
+msgid "This feature will scan the critical WP core folders and files and will highlight any permission settings which are insecure."
+msgstr "この機能は、重要な WP コアフォルダとファイルをスキャンし、安全ではないパーミッション設定を強調表示します。"
+
+#: templates/wp-admin/filesystem-security/partials/php-file-editing.php:7
+msgid "This feature will disable the ability for people to edit PHP files via the dashboard."
+msgstr "この機能により、ダッシュボードから PHP ファイルを編集する機能が無効になります。"
+
+#: templates/wp-admin/firewall/partials/fake-googlebots.php:37
+msgid "This feature will check if the User Agent information of a bot contains the string \"Googlebot\"."
+msgstr "この機能は、ボットのユーザーエージェント情報に文字列 “Googlebot” が含まれているかどうかを確認します。"
+
+#: templates/wp-admin/filesystem-security/partials/wp-file-access.php:7
+msgid "This feature allows you to prevent access to files such as %s, %s and %s which are delivered with all WP installations."
+msgstr "この機能により、すべての WP インストールで配信されている %s、%s、%s などのファイルへのアクセスを防ぐことができます。"
+
+#: templates/wp-admin/firewall/partials/fake-googlebots.php:9
+msgid "This feature allows you to block bots which are impersonating as a Googlebot but actually aren't. (In other words they are fake Google bots)"
+msgstr "この機能により、Google ボットになりすましていても実際には Google ボットではないボット(言い換えれば、偽の Google ボット) をブロックできます。"
+
+#: templates/wp-admin/filesystem-security/partials/php-file-editing.php:7
+msgid "The WordPress Dashboard by default allows administrators to edit PHP files, such as plugin and theme files."
+msgstr "デフォルトの WordPress ダッシュボードでは、管理者がプラグインやテーマファイルなどの PHP ファイルを編集することができます。"
+
+#: admin/wp-security-database-menu.php:330
+msgid "The usermeta table records which had references to the old DB prefix were updated successfully!"
+msgstr "古い DB 接頭辞への参照があった usermeta テーブルのレコードを更新しました。"
+
+#: templates/wp-admin/scanner/file-change-detect.php:10
+msgid "This feature also allows you to exclude certain files or folders from the scan in cases where you know that they change often as part of their normal operation. (For example log files and certain caching plugin files may change often and hence you may choose to exclude such files from the file change detection scan)"
+msgstr "この機能を使用すると、特定のファイルやフォルダが通常の操作の一部として頻繁に変更されることが分かっている場合にスキャンから除外することもできます (例えば、ログファイルや特定のキャッシングプラグインファイルは頻繁に変更される可能性があるため、そういったファイルをファイル変更検出スキャンから除外できます)。"
+
+#: admin/wp-security-database-menu.php:288
+msgid "The options table records which had references to the old DB prefix were updated successfully!"
+msgstr "古い DB 接頭辞への参照があった options テーブルのレコードを更新しました。"
+
+#: templates/wp-admin/firewall/partials/basic-firewall-settings.php:23
+msgid "The above firewall features will be applied via your .htaccess file and should not affect your site's overall functionality."
+msgstr "上記のファイアウォール機能は .htaccess ファイルを通じて適用され、サイト全体の機能に影響を与えることはありません。"
+
+#: admin/wp-security-database-menu.php:304
+msgid "The %s table records which had references to the old DB prefix were updated successfully!"
+msgstr "古い DB 接頭辞への参照があった %s テーブルのレコードを更新しました。"
+
+#: templates/wp-admin/scanner/file-change-detect.php:10
+msgid "The \"File Change Detection Feature\" will notify you of any file change which occurs on your system, including the addition and deletion of files by performing a regular automated or manual scan of your system's files."
+msgstr "「ファイル変更検出機能」は、システムのファイルを定期的に自動または手動でスキャンすることで、ファイルの追加や削除など、システム上で発生したファイルの変更を通知します。"
+
+#: admin/wp-security-database-menu.php:208
+msgid "Starting DB prefix change operations....."
+msgstr "DB 接頭辞変更操作を開始中…"
+
+#: templates/wp-admin/filesystem-security/host-system-logs.php:5
+msgid "Sometimes your hosting platform will produce error or warning logs in a file called \"error_log\"."
+msgstr "時折、ホスティングプラットフォームは \"error_log\" と呼ばれるファイルにエラーや警告のログを生成する場合があります。"
+
+#: templates/wp-admin/filesystem-security/file-permissions.php:36
+#: templates/wp-admin/filesystem-security/file-permissions.php:52
+msgid "Recommended action"
+msgstr "推奨操作"
+
+#: templates/wp-admin/filesystem-security/partials/wp-file-access.php:17
+msgid "Prevent access to WP default install files"
+msgstr "WP デフォルトのインストールファイルへのアクセスを防止"
+
+#: templates/wp-admin/filesystem-security/partials/wp-file-access.php:3
+msgid "Prevent access to default WP files"
+msgstr "デフォルトの WP ファイルへのアクセスを防止"
+
+#: admin/wp-security-database-menu.php:253
+msgid "Please change the prefix manually for the above tables to: %s"
+msgstr "上記のテーブルの接頭辞を手動で以下に変更してください: %s"
+
+#: templates/wp-admin/database-security/database-prefix.php:5
+msgid "One way to add a layer of protection for your DB is to change the default WordPress table prefix from \"wp_\" to something else which will be difficult for hackers to guess."
+msgstr "DB を保護するレイヤーを追加する方法の1つは、WordPress のデフォルトテーブル接頭辞を、”wp_” からハッカーが推測しにくい他のものに変更することです。"
+
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:25
+msgid "NOTE: You should only enable this feature if you are not currently using the XML-RPC functionality on your WordPress installation."
+msgstr "注: この機能は、現在の WordPress インストールで XML-RPC 機能を使用していない場合にのみ有効にしてください。"
+
+#: templates/wp-admin/firewall/partials/advanced-character-filter.php:23
+msgid "NOTE: Some strings for this setting might break some functionality."
+msgstr "注: この設定の文字列の中には、一部の機能に支障をきたすものがあります。"
+
+#: templates/wp-admin/firewall/partials/bad-query-strings.php:22
+msgid "NOTE: Some of these strings might be used for plugins or themes and hence this might break some functionality."
+msgstr "注意: これらの文字列の中にはプラグインやテーマに使用されるものがあるため、一部の機能に支障をきたす可能性があります。"
+
+#: admin/wp-security-filesystem-menu.php:255
+msgid "No system logs were found."
+msgstr "システムログが見つかりませんでした。"
+
+#: templates/wp-admin/scanner/malware-scan.php:20
+msgid "No contract (cancel anytime)"
+msgstr "契約期間なし (いつでもキャンセル可)"
+
+#: admin/wp-security-filesystem-menu.php:304
+msgid "No action required"
+msgstr "アクション不要"
+
+#: templates/wp-admin/firewall/partials/listing-directory-contents.php:3
+msgid "Listing of directory contents"
+msgstr "ディレクトリ内容のリスティング"
+
+#: templates/wp-admin/firewall/partials/fake-googlebots.php:10
+msgid "Googlebots have a unique identity which cannot easily be forged and this feature will identify any fake Google bots and block them from reading your site's pages."
+msgstr "Googlebot には簡単には偽造できない独自のアイデンティティがあります。この機能は偽の Googlebot を識別し、サイトのページの読み取りをブロックします。"
+
+#: templates/wp-admin/filesystem-security/host-system-logs.php:17
+msgid "Enter your system log file name. (Defaults to error_log)"
+msgstr "システムログファイル名を入力します (デフォルトは error_log)。"
+
+#: templates/wp-admin/firewall/partials/basic-firewall-settings.php:11
+msgid "Enable basic firewall protection"
+msgstr "基本的なファイアウォール保護を有効化"
+
+#: classes/grade-system/wp-security-feature-item-manager.php:216
+#: templates/wp-admin/firewall/partials/disable-trace.php:12
+msgid "Disable trace and track"
+msgstr "TRACE と TRACKを無効化"
+
+#: templates/wp-admin/firewall/partials/disable-trace.php:15
+msgid "Check this if you want to disable trace and track."
+msgstr "HTTP メソッドの TRACE と TRACK を無効化する場合は、これをチェックしてください。"
+
+#: templates/wp-admin/firewall/partials/block-debug-log.php:12
+msgid "Block access to debug.log file"
+msgstr "debug.log ファイルへのアクセスをブロック"
+
+#: templates/wp-admin/firewall/partials/bad-query-strings.php:3
+msgid "Bad query strings"
+msgstr "不正なクエリー文字列"
+
+#: templates/wp-admin/firewall/6g.php:36 templates/wp-admin/firewall/6g.php:77
+msgid "4) Stop attackers from manipulating query strings by disallowing illicit characters."
+msgstr "4) 不正な文字を許可しないようにすることで、攻撃者がクエリー文字列を操作するのを防ぎます。"
+
+#: templates/wp-admin/firewall/partials/basic-firewall-settings.php:22
+msgid "4) Protect your wp-config.php file by denying access to it."
+msgstr "4) wp-config.php ファイルへのアクセスを拒否することで保護します."
+
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:23
+msgid "3) Scanning ports in internal networks to get info from various hosts."
+msgstr "3) 内部ネットワークのポートをスキャンして、様々なホストから情報を取得します。"
+
+#: templates/wp-admin/firewall/partials/basic-firewall-settings.php:21
+msgid "3) Limit file upload size (%sMB)."
+msgstr "3) アップロードサイズを制限します (10MB)。"
+
+#: templates/wp-admin/firewall/6g.php:35 templates/wp-admin/firewall/6g.php:76
+msgid "3) Guard against the common patterns and specific exploits in the root portion of targeted URLs."
+msgstr "3) 標的にされた URL のルート部分にある一般的なパターンと特定の悪用からガードします。"
+
+#: templates/wp-admin/firewall/partials/basic-firewall-settings.php:20
+msgid "2) Disable the server signature."
+msgstr "2) サーバーの署名を無効化します。"
+
+#: templates/wp-admin/firewall/6g.php:34 templates/wp-admin/firewall/6g.php:75
+msgid "2) Block malicious encoded URL characters such as the \".css(\" string."
+msgstr "2) \".css(\" 文字列など悪意のあるエンコードされた URL 文字をブロックします。"
+
+#: templates/wp-admin/firewall/partials/basic-firewall-settings.php:19
+msgid "1) Protect your htaccess file by denying access to it."
+msgstr "1) .htaceessファイルへのアクセスを拒否することで保護します."
+
+#: templates/wp-admin/firewall/partials/xmlrpc-pingback-protection.php:21
+msgid "1) Denial of Service (DoS) attacks"
+msgstr "1) サービス拒否(DoS) 攻撃"
+
+#: templates/wp-admin/firewall/6g.php:33 templates/wp-admin/firewall/6g.php:74
+msgid "1) Block forbidden characters commonly used in exploitative attacks."
+msgstr "1) 悪意ある攻撃で一般的に使用される禁止文字をブロックします。"
+
+#: admin/wp-security-database-menu.php:255
+msgid "%s tables had their prefix updated successfully!"
+msgstr "%s テーブルの接頭辞を更新しました。"
+
+#: templates/wp-admin/firewall/partials/fake-googlebots.php:18
+msgid "All other bots from other organizations such as \"Yahoo\", \"Bing\" etc will not be affected by this feature."
+msgstr "\"Yahoo\"、\"Bing\" などの他の組織の他のすべてのボットは、この機能の影響を受けません。"
+
+#: templates/wp-admin/database-security/database-prefix.php:5
+msgid "Your WordPress database is the most important asset of your website because it contains a lot of your site's precious information."
+msgstr "WordPress データベースにはサイトの重要な情報が数多く含まれており、非常に重要な資産です。"
+
+#: templates/wp-admin/firewall/partials/basic-firewall-settings.php:18
+msgid "This setting will implement the following basic firewall protection mechanisms on your site:"
+msgstr "この設定により、サイトに次の基本的なファイアウォール保護メカニズムが実装されます。"
+
+#: admin/wp-security-admin-init.php:86 admin/wp-security-admin-init.php:87
+#: admin/wp-security-settings-menu.php:23
+#: includes/simba-tfa/templates/user-settings.php:20 wp-security.php:62
+msgid "Settings"
+msgstr "設定"
+
+#: includes/simba-tfa/includes/tfa_frontend.php:136
+#: includes/simba-tfa/includes/tfa_frontend.php:150
+msgid "Save Settings"
+msgstr "設定を保存"
+
+#: admin/wp-security-dashboard-menu.php:425
+#: admin/wp-security-list-permanent-blocked-ip.php:74
+msgid "Date"
+msgstr "日付"
+
+#: admin/wp-security-admin-init.php:227
+#: admin/wp-security-dashboard-menu.php:426
+#: admin/wp-security-list-audit.php:143
+msgid "IP"
+msgstr "IP"
+
+#: admin/wp-security-admin-init.php:78 admin/wp-security-admin-init.php:79
+#: admin/wp-security-dashboard-menu.php:19
+#: admin/wp-security-dashboard-menu.php:30
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#: admin/general/wp-security-list-table.php:1112
+msgid "Select all"
+msgstr "すべて選択"
+
+#: admin/general/wp-security-list-table.php:489
+msgid "Apply"
+msgstr "適用"
+
+#: admin/general/wp-security-list-table.php:473
+msgid "Bulk actions"
+msgstr "一括操作"
+
+#: admin/general/wp-security-list-table.php:861
+#: admin/general/wp-security-list-table.php:865
+msgid "Current page"
+msgstr "現在のページ"
+
+#: admin/wp-security-admin-init.php:127 admin/wp-security-admin-init.php:128
+msgid "Brute Force"
+msgstr "総当たり攻撃"
+
+#: admin/wp-security-admin-init.php:135 admin/wp-security-admin-init.php:136
+msgid "Spam Prevention"
+msgstr "スパム防止"
+
+#: admin/wp-security-admin-init.php:143 admin/wp-security-admin-init.php:144
+#: admin/wp-security-filescan-menu.php:25
+msgid "Scanner"
+msgstr "スキャナー"
+
+#: admin/wp-security-dashboard-menu.php:424
+msgid "User"
+msgstr "ユーザー"
+
+#: admin/wp-security-dashboard-menu.php:452
+msgid "Maintenance mode"
+msgstr "メンテナンスモード"
+
+#: templates/wp-admin/firewall/blacklist.php:52
+#: templates/wp-admin/firewall/partials/allowlist.php:14
+msgid "Enter IP addresses:"
+msgstr "IP アドレスを入力:"
+
+#: admin/wp-security-dashboard-menu.php:255
+msgid "Current Score of Your Site: "
+msgstr "現在のスコア:"
+
+#: templates/wp-admin/brute-force/rename-login.php:19
+msgid "Your current login URL is:"
+msgstr "現在のログインURL:"
+
+#: admin/wp-security-brute-force-menu.php:57
+msgid "Honeypot"
+msgstr "ハニーポット"
+
+#: admin/wp-security-brute-force-menu.php:48
+#: templates/wp-admin/brute-force/login-whitelist.php:2
+msgid "Login whitelist"
+msgstr "ログインのホワイトリスト"
+
+#: admin/general/wp-security-list-table.php:177
+msgid "Excerpt view"
+msgstr "抜粋表示"
+
+#: admin/wp-security-dashboard-menu.php:420
+msgid "Last 5 logins summary:"
+msgstr "直近5件のログイン概要:"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:99
+msgid "Secret word"
+msgstr "秘密の言葉"
+
+#: templates/wp-admin/brute-force/rename-login.php:26
+msgid "Rename login page settings"
+msgstr "ログインページの名称変更設定"
+
+#: admin/wp-security-brute-force-menu.php:35
+#: admin/wp-security-dashboard-menu.php:488
+#: templates/wp-admin/brute-force/login-whitelist.php:16
+msgid "Rename login page"
+msgstr "ログインページの名称を変更"
+
+#: templates/wp-admin/firewall/blacklist.php:61
+msgid "Enter user agents:"
+msgstr "ユーザーエージェントを入力:"
+
+#: templates/info/ip-address-ip-range-info.php:9
+msgid "Example 3: 195.*.*.*"
+msgstr "例 3: 195.*.*.*"
+
+#: templates/info/ip-address-ip-range-info.php:8
+msgid "Example 2: 195.47.*.*"
+msgstr "例 2: 195.47.*.*"
+
+#: templates/info/ip-address-ip-range-info.php:7
+msgid "Example 1: 195.47.89.*"
+msgstr "例 1: 195.47.89.*"
+
+#: admin/wp-security-dashboard-menu.php:201
+msgid "Spread the word"
+msgstr "評判を広める"
+
+#: templates/wp-admin/brute-force/login-whitelist.php:36
+msgid "Enable IP whitelisting"
+msgstr "IP ホワイトリストを有効化"
+
+#: templates/wp-admin/brute-force/login-whitelist.php:26
+msgid "Login IP whitelist settings"
+msgstr "ログイン IP ホワイトリストの設定"
+
+#: templates/wp-admin/brute-force/login-whitelist.php:44
+msgid "Your current IP address"
+msgstr "現在の IP アドレス"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:173
+msgid "Save feature settings"
+msgstr "機能設定を保存"
+
+#: admin/wp-security-admin-init.php:539
+#: classes/wp-security-two-factor-login.php:121
+msgid "WP Security"
+msgstr "WP セキュリティ"
+
+#: admin/wp-security-admin-init.php:102 admin/wp-security-admin-init.php:103
+msgid "Database Security"
+msgstr "データベースセキュリティ"
+
+#: admin/wp-security-admin-init.php:119 admin/wp-security-admin-init.php:120
+#: admin/wp-security-firewall-menu.php:19
+#: templates/wp-admin/firewall/partials/firewall-setup.php:12
+msgid "Firewall"
+msgstr "ファイアウォール"
+
+#: templates/info/ip-address-ip-range-info.php:5
+msgid "Each IP address must be on a new line."
+msgstr "1行ごとに IP アドレスを入力してください。"
+
+#: admin/wp-security-brute-force-menu.php:90
+msgid "Please enter a value for your login page slug."
+msgstr "ログインページスラッグを入力してください。"
+
+#: admin/wp-security-brute-force-menu.php:94
+msgid "You cannot use the value \"wp-admin\" for your login page slug."
+msgstr "ログインページスラッグに、 \"wp-admin\" を使うことはできません。"
+
+#: templates/wp-admin/brute-force/rename-login.php:9
+msgid "You may also be interested in the following alternative brute force prevention features:"
+msgstr "次の別の総当たり攻撃防止機能にも興味があるかもしれません。"
+
+#: admin/wp-security-brute-force-menu.php:177
+msgid "You have successfully enabled the cookie based brute force prevention feature"
+msgstr "Cookieに基づく総当たり攻撃機能を正常に有効化しました。"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:2
+msgid "Brute force prevention firewall settings"
+msgstr "総当たり攻撃防止ファイアウォールの設定"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:6
+msgid "A Brute Force Attack is when a hacker tries many combinations of usernames and passwords until they succeed in guessing the right combination."
+msgstr "総当たり攻撃は、ハッカーがユーザー名とパスワードの正しい組み合わせを推測することに成功するまで、数多く試行されます。"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:74
+msgid "Check this if you want to protect your login page from Brute Force Attack."
+msgstr "ログインページを総当たり攻撃から保護したければ、これをチェックしてください。"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:79
+msgid "This feature will deny access to your WordPress login page for all people except those who have a special cookie in their browser."
+msgstr "この機能は、ブラウザに特別な cookie を保持していない人が、WordPress のログインページへアクセスすることを拒否します。"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:81
+msgid "To use this feature do the following:"
+msgstr "この機能を使うには、次のことを行ってください。"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:83
+msgid "1) Enable the checkbox."
+msgstr "1) チェックボックスを有効化する"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:91
+msgid "Any person trying to access your login page who does not have the special cookie in their browser will be automatically blocked."
+msgstr "ブラウザに特別な cookie を保持していない人がログインページにアクセスしようとしても、自動的にブロックされます。"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:109
+msgid "Specify a URL to redirect a hacker to when they try to access your WordPress login page."
+msgstr "ハッカーがWordPress のログインページにアクセスしようとするときに、転送するための URL を指定してください。"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:118
+msgid "This field will default to: http://127.0.0.1 if you do not enter a value."
+msgstr "値を入力しなければ、http://127.0.0.1 が初期値になります。"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:120
+msgid "Useful Tip:"
+msgstr "役に立つヒント:"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:134
+msgid "Check this if you are using the native WordPress password protection feature for some or all of your blog posts or pages."
+msgstr "ブログの投稿や固定ページにパスワード保護をを使っている場合は、これをチェックしてください。"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:143
+msgid "Helpful Tip:"
+msgstr "役に立つヒント:"
+
+#: templates/wp-admin/brute-force/login-whitelist.php:5
+msgid "The All In One WP Security Whitelist feature gives you the option of only allowing certain IP addresses or ranges to have access to your WordPress login page."
+msgstr "All In One WP Security ホワイトリスト機能では、特定の IPアドレスまたは範囲にのみ、WordPress のログインページにアクセスを許可するオプションがあります。"
+
+#: templates/wp-admin/brute-force/login-whitelist.php:51
+msgid "You can copy and paste the above address(es) in the text box below if you want to include it in your login whitelist."
+msgstr "ホワイトリストにこのアドレスを含めたければ、下のテキストボックスにコピーアンドペーストしてください。"
+
+#: templates/wp-admin/brute-force/login-whitelist.php:55
+#: templates/wp-admin/user-security/login-lockout.php:173
+msgid "Enter whitelisted IP addresses:"
+msgstr "ホワイトリストに登録する IP アドレスを入力:"
+
+#: templates/wp-admin/brute-force/honeypot.php:4
+msgid "Since robots usually fill in every input field on a form, they will also submit a value for the special hidden honeypot field."
+msgstr "ロボットは通常ログインフォームのどのインプットフィールドにも入力するので、特別に隠されたハニーポットに対しても値を送信するでしょう。"
+
+#: templates/wp-admin/brute-force/honeypot.php:18
+msgid "Enable honeypot on login page"
+msgstr "ログインフォームのハニーポットを有効化"
+
+#: templates/wp-admin/settings/general-settings.php:3
+msgid "For information, updates and documentation, please visit the"
+msgstr "情報、アップデート、ドキュメントは、次のページを参照してください:"
+
+#: admin/wp-security-dashboard-menu.php:199
+msgid "Security strength meter"
+msgstr "セキュリティ強度メーター"
+
+#: admin/wp-security-dashboard-menu.php:253
+msgid "Total Achievable Points: "
+msgstr "総合達成ポイント:"
+
+#: admin/wp-security-dashboard-menu.php:200
+msgid "Security points breakdown"
+msgstr "セキュリティポイントの内訳"
+
+#: admin/wp-security-dashboard-menu.php:203
+msgid "Critical feature status"
+msgstr "重要な機能のステータス"
+
+#: admin/wp-security-dashboard-menu.php:336
+msgid "Admin username"
+msgstr "管理者のユーザー名"
+
+#: admin/wp-security-dashboard-menu.php:368
+msgid "File permission"
+msgstr "ファイルパーミッション"
+
+#: admin/wp-security-dashboard-menu.php:383
+msgid "Basic firewall"
+msgstr "基本的なファイアウォール"
+
+#: admin/wp-security-dashboard-menu.php:204
+msgid "Last 5 logins"
+msgstr "最近5回のログイン"
+
+#: admin/wp-security-dashboard-menu.php:205
+msgid "Maintenance mode status"
+msgstr "メンテナンスモードのステータス"
+
+#: admin/wp-security-dashboard-menu.php:448
+msgid "Maintenance mode is currently off."
+msgstr "メンテナンスモードは現在無効です。"
+
+#: admin/wp-security-dashboard-menu.php:473
+#: admin/wp-security-dashboard-menu.php:491
+msgid "The %s feature is currently active."
+msgstr " %s 機能は現在有効です。"
+
+#: admin/wp-security-dashboard-menu.php:523
+msgid "There are no other site-wide users currently logged in."
+msgstr "現在、サイト全体でログインしているユーザーはいません。"
+
+#: admin/wp-security-dashboard-menu.php:508
+msgid "There are no other users currently logged in."
+msgstr "現在ログインしているユーザーはいません。"
+
+#: admin/wp-security-dashboard-menu.php:548
+msgid "There are no IP addresses currently locked out."
+msgstr "現在、ロックアウトされた IP アドレスはありません。"
+
+#: admin/wp-security-brute-force-menu.php:96
+msgid "You must use alpha numeric characters for your login page slug."
+msgstr "ログインページのスラッグには半角英数のみを使用してください。"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:105
+msgid "Re-direct URL"
+msgstr "転送先 URL"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:65
+msgid "Perform cookie test"
+msgstr "Cookie テストを実行"
+
+#: admin/wp-security-dashboard-menu.php:417
+msgid "No data found."
+msgstr "データはありません。"
+
+#: templates/wp-admin/brute-force/captcha-settings.php:149
+msgid "Check this if you want to insert a CAPTCHA form on the lost password page."
+msgstr "パスワード再設定フォームに CAPTCHA を追加したい場合は、これをチェックしてください。"
+
+#: templates/wp-admin/brute-force/rename-login.php:45
+msgid "Check this if you want to enable the rename login page feature"
+msgstr "ログインページ機能の名称を変更したい場合はこれをチェック"
+
+#: templates/wp-admin/brute-force/captcha-settings.php:109
+msgid "Check this if you want to insert a CAPTCHA form on the login page."
+msgstr "ログインページに CAPTCHA フォームを追加したい場合はこれをチェック"
+
+#: templates/wp-admin/brute-force/honeypot.php:21
+msgid "Check this if you want to enable the honeypot feature for the login page"
+msgstr "ログインページ用のハニーポット機能を有効にしたい場合はこれをチェック"
+
+#: templates/wp-admin/brute-force/honeypot.php:4
+msgid "Therefore, if the plugin detects that this field has a value when the form is submitted, then the robot which is attempting to submit the form on your site will be redirected to its localhost address - http://127.0.0.1."
+msgstr "したがって、登録フォームが送信されたときにこのフィールドに値があることをプラグインが検出した場合、サイトに登録しようとしているロボットは、そのローカルホストアドレス (http://127.0.0.1) にリダイレクトされます。"
+
+#. translators: 1: month name, 2: 4-digit year
+#: admin/general/wp-security-list-table.php:626
+msgid "%1$s %2$d"
+msgstr "%2$d年%1$s"
+
+#: admin/general/wp-security-list-table.php:342
+msgid "No items found."
+msgstr "項目は見つかりませんでした。"
+
+#: templates/wp-admin/settings/general-settings.php:3
+msgid "Page"
+msgstr "固定ページ"
+
+#: admin/general/wp-security-list-table.php:871
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%1$s / %2$s"
+
+#: templates/wp-admin/brute-force/rename-login.php:18
+msgid "Your WordPress login page URL has been renamed."
+msgstr "WordPress ログインページの URL が変更されました。"
+
+#: admin/wp-security-dashboard-menu.php:474
+#: admin/wp-security-dashboard-menu.php:492
+msgid "Your new WordPress login URL is now:"
+msgstr "新しい WordPress ログイン URL はこちらになりました:"
+
+#: admin/wp-security-brute-force-menu.php:185
+msgid "You have successfully saved cookie based brute force prevention feature settings."
+msgstr "Cookie に基づく総当たり攻撃防止機能の設定を保存しました。"
+
+#: admin/wp-security-dashboard-menu.php:507
+msgid "Number of users currently logged into your site (including you) is:"
+msgstr "現在サイトにログインしているユーザー数 (あなたを含む):"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:22
+msgid "Cookie based brute force login prevention"
+msgstr "Cookie ベースの総当たりログインの防止"
+
+#: admin/wp-security-dashboard-menu.php:469
+msgid "Cookie-based brute force"
+msgstr "Cookie ベースの総当たり攻撃"
+
+#: admin/wp-security-brute-force-menu.php:39
+#: templates/wp-admin/brute-force/rename-login.php:6
+msgid "Cookie based brute force prevention"
+msgstr "Cookie ベースの総当たり攻撃の防止"
+
+#: templates/wp-admin/brute-force/rename-login.php:50
+msgid "Login page URL"
+msgstr "ログインページ URL"
+
+#: admin/wp-security-brute-force-menu.php:163
+msgid "Settings have not been saved - your secret word must consist only of alphanumeric characters, i.e., letters and/or numbers only."
+msgstr "設定は保存されていません。秘密の単語は英数字のみ、つまり文字や数字のみで構成されている必要があります。"
+
+#: templates/wp-admin/brute-force/honeypot.php:10
+msgid "Login form honeypot settings"
+msgstr "ログインフォームのハニーポット設定"
+
+#: templates/wp-admin/firewall/blacklist.php:74
+msgid "Example 2 - A list of more than 1 user agent strings to block"
+msgstr "例 2 - ブロックする複数のユーザーエージェント文字列のリスト"
+
+#: templates/wp-admin/brute-force/rename-login.php:42
+msgid "Enable rename login page feature"
+msgstr "ログインページの名前変更機能を有効化"
+
+#: templates/wp-admin/firewall/blacklist.php:26
+msgid "IP hosts and user agent blacklist settings"
+msgstr "IP ホストとユーザーエージェントのブラックリスト設定"
+
+#: templates/wp-admin/firewall/blacklist.php:66
+msgid "Enter one or more user agent strings."
+msgstr "1つ以上のユーザーエージェント文字列を入力してください。"
+
+#: templates/wp-admin/brute-force/captcha-settings.php:20
+msgid "Adding a CAPTCHA form on a login page or form is another effective yet simple \"Brute Force\" prevention technique."
+msgstr "ログインページやフォームにキャプチャフォームを追加することは、シンプルで効果的な「ブルートフォース」防止手法の1つです。"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:131
+msgid "My site has posts or pages which are password protected"
+msgstr "サイトにパスワードで保護された投稿またはページがある"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:122
+msgid "It's a good idea to not redirect attempted brute force login attempts to your site because it increases the load on your server."
+msgstr "サーバーの負荷が増加するため、ブルートフォースログインの試行をサイトにリダイレクトしないことをお勧めします。"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:6
+msgid "Due to the fact that at any one time there may be many concurrent login attempts occurring on your site via malicious automated robots, this also has a negative impact on your server's memory and performance."
+msgstr "悪意のある自動ロボットを介してサイトで同時に多くのログイン試行が発生する可能性があり、これはサーバーのメモリとパフォーマンスにも悪影響を及ぼします。"
+
+#: admin/general/wp-security-list-table.php:176
+msgid "List view"
+msgstr "リスト表示"
+
+#: templates/wp-admin/firewall/blacklist.php:67
+msgid "More Info"
+msgstr "詳細"
+
+#: templates/wp-admin/firewall/blacklist.php:6
+msgid "This feature will deny total site access for users which have IP addresses or user agents matching those which you have configured in the settings below."
+msgstr "この機能は、以下で設定したものと一致する IP アドレスまたはユーザーエージェントを持つユーザーのサイトアクセスをすべて拒否します。"
+
+#: templates/wp-admin/brute-force/login-whitelist.php:5
+msgid "This feature will deny login access for all IP addresses which are not in your whitelist as configured in the settings below."
+msgstr "この機能は、以下で設定されているホワイトリストにないすべての IP アドレスからのログインアクセスを拒否します。"
+
+#: templates/wp-admin/brute-force/rename-login.php:4
+msgid "This feature allows you to change the login URL by setting your own slug and renaming the last portion of the login URL which contains the <strong>wp-login.php</strong> to any string that you like."
+msgstr "この機能は、<strong>wp-login.php</strong> を含むログイン URL の最後の部分のスラッグを任意の文字列に変更することで、独自のスラッグを設定してログイン URL を変更できます。"
+
+#: templates/wp-admin/firewall/blacklist.php:5
+msgid "The All In One WP Security Blacklist feature gives you the option of banning certain host IP addresses or ranges and also user agents."
+msgstr "All In One WP Security ブラックリスト機能は、特定のホスト IP アドレスまたは範囲、およびユーザーエージェントをアクセス拒否するオプションを提供します。"
+
+#: admin/wp-security-brute-force-menu.php:181
+msgid "simply remember to add a \"?%s=1\" to your current site URL address."
+msgstr "現在のサイトの URL アドレスに ?%s=1\" を追加するだけです。"
+
+#: admin/wp-security-dashboard-menu.php:551
+msgid "Number of temporarily locked out IP addresses: "
+msgstr "一時的にロックアウトする IP アドレスの数: "
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:153
+msgid "My site has a theme or plugins which use AJAX"
+msgstr "サイトに AJAX を使用するテーマまたはプラグインがある"
+
+#: admin/wp-security-dashboard-menu.php:536
+#: admin/wp-security-dashboard-menu.php:552
+msgid "Go to the %s menu to see more details"
+msgstr "詳細を表示するには %s メニューに移動します"
+
+#: admin/wp-security-brute-force-menu.php:178
+msgid "From now on you will need to log into your WP Admin using the following URL:"
+msgstr "今後は、次の URL を使って wp-admin にログインする必要があります。"
+
+#: templates/wp-admin/firewall/blacklist.php:56
+#: templates/wp-admin/firewall/partials/allowlist.php:18
+msgid "Enter one or more IP addresses or IP ranges."
+msgstr "1つ以上の IP アドレスまたは IP 範囲を入力します。"
+
+#: templates/wp-admin/firewall/blacklist.php:44
+msgid "Enable IP or user agent blacklisting"
+msgstr "IP またはユーザーエージェントのブラックリストを有効化"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:156
+msgid "Check this if your site uses AJAX functionality."
+msgstr "サイトで AJAX 機能を使用している場合は、これをチェックしてください。"
+
+#: templates/wp-admin/brute-force/rename-login.php:4
+msgid "An effective Brute Force prevention technique is to change the default WordPress login page URL."
+msgstr "効果的なブルートフォース対策のテクニックは、WordPress のデフォルトのログインページの URL を変更することです。"
+
+#: admin/wp-security-dashboard-menu.php:333
+msgid "Below is the current status of the critical features that you should activate on your site to achieve a minimum level of recommended security"
+msgstr "以下は、推奨される最低限のセキュリティレベルを達成するために、サイト上で有効化すべき重要な機能のステータスです"
+
+#: templates/wp-admin/brute-force/captcha-settings.php:169
+msgid "Check this if you want to insert CAPTCHA on a custom login form generated by the following WP function: wp_login_form()"
+msgstr "次の WP 関数によって生成されたカスタムログインフォームに CAPTCHA を追加したい場合は、これをチェックしてください: wp_login_form()"
+
+#: admin/wp-security-dashboard-menu.php:319
+msgid "Wanna know more about the developers behind this plugin?"
+msgstr "このプラグインの開発者についてもっと知りたいですか ?"
+
+#: templates/wp-admin/database-security/database-prefix.php:20
+msgid "It is recommended that you perform a %s before using this feature"
+msgstr "この機能を使用する前に、%sを実行することをお勧めします"
+
+#: admin/wp-security-firewall-menu.php:59
+#: admin/wp-security-settings-menu.php:60
+#: includes/simba-tfa/providers/totp/loader.php:245
+#: templates/wp-admin/firewall/advanced-settings.php:2
+msgid "Advanced settings"
+msgstr "高度な設定"
+
+#: templates/wp-admin/firewall/blacklist.php:2
+msgid "Ban IPs or user agents"
+msgstr "IP またはユーザーエージェントを追放"
+
+#: templates/wp-admin/filesystem-security/partials/wp-file-access.php:20
+msgid "Check this if you want to prevent access to readme.html, license.txt and wp-config-sample.php."
+msgstr "readme.html、license.txt、wp-config-sample.php へのアクセスをブロックしたい場合は、これをチェックしてください。"
+
+#: templates/wp-admin/filesystem-security/partials/wp-file-access.php:8
+msgid "By preventing access to these files you are hiding some key pieces of information (such as WordPress version info) from potential hackers."
+msgstr "これらのファイルへのアクセスを防止することで、重要な情報 (WordPressのバージョン情報など) を潜在的なハッカーから隠しています。"
+
+#: templates/wp-admin/firewall/internet-bots.php:11
+msgid "Although most of the bots out there are relatively harmless sometimes website owners want to have more control over which bots they allow into their site."
+msgstr "世の中に出回っているボットのほとんどは比較的無害ですが、Webサイトの所有者は、サイトにどのボットを許可するかをより細かく制御したいと考えることがあります。"
+
+#: templates/wp-admin/firewall/partials/fake-googlebots.php:17
+msgid "Just be aware that if you activate this feature the plugin will block all bots which use the \"Googlebot\" string in their User Agent information but are NOT officially from Google (irrespective whether they are malicious or not)."
+msgstr "この機能を有効にすると、プラグインはユーザー エージェント情報に「Googlebot」文字列を使用しているが、Google から公式に提供されたものではないすべてのボットを (悪意があるかどうかに関係なく) ブロックすることに注意してください。"
+
+#: templates/wp-admin/tools/custom-htaccess.php:17
+msgid "<strong>Warning</strong>: Only use this feature if you know what you are doing."
+msgstr "<strong>警告</strong>: この機能は、自分が何をしているのかわかっている場合にのみ使用してください。"
+
+#: templates/wp-admin/spam-prevention/comment-spam-ip-monitoring.php:79
+msgid "Example 2: Setting this value to \"5\" will list only those IP addresses which were used to submit 5 spam comments or more on your site."
+msgstr "例2:この値を「5」に設定すると、サイトで5件以上のスパムコメントを送信するために使用された IP アドレスのみをリストに表示されます。"
+
+#: admin/wp-security-list-locked-ip.php:217
+msgid "The selected IP entry was unlocked successfully."
+msgstr "選択した IP エントリーのロックを解除しました。"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:124
+msgid "Redirecting a hacker or malicious bot back to \"http://127.0.0.1\" is ideal because it deflects them back to their own local host and puts the load on their server instead of yours."
+msgstr "ハッカーや悪意のあるボットを「http://127.0.0.1」にリダイレクトすることは、彼らのローカルホストに戻して、あなたのサーバーではなく、彼らのサーバーに負荷をかけることになるので理想的です。"
+
+#: templates/wp-admin/firewall/blacklist.php:47
+msgid "Check this if you want to enable the banning (or blacklisting) of selected IP addresses and/or user agents specified in the settings below"
+msgstr "以下の設定で入力した IP アドレスやユーザーエージェントを追放(またはブラックリストへの登録)する場合は、これをオンにします。"
+
+#: templates/wp-admin/filesystem-security/file-permissions.php:5
+msgid "However, sometimes people or other plugins modify the various permission settings of certain core WP folders or files such that they end up making their site less secure because they chose the wrong permission values."
+msgstr "ただし、人や他のプラグインが特定のコア WordPress フォルダまたはファイルのさまざまな権限設定を変更して、間違ったパーミッションを選択することでサイトの安全性が低下することがあります。"
+
+#: templates/wp-admin/firewall/6g.php:5
+msgid "This feature allows you to activate the %s (or legacy %s) firewall security protection rules designed and produced by %s."
+msgstr "この機能を使用すると、%s によって設計および作成された %s (または従来の %s) のファイアウォールセキュリティ保護ルールを有効にすることができます。"
+
+#: templates/wp-admin/firewall/6g.php:73
+msgid "This setting will implement the 5G security firewall protection mechanisms on your site which include the following things:"
+msgstr "この設定により、サイトに 5G セキュリティファイアウォール保護メカニズムが実装されます。これには、次のものが含まれます。"
+
+#: templates/wp-admin/firewall/6g.php:32
+msgid "This setting will implement the 6G security firewall protection mechanisms on your site which include the following things:"
+msgstr "この設定により、次のような 6G セキュリティファイアウォール保護メカニズムがサイトに実装されます。"
+
+#: templates/wp-admin/firewall/internet-bots.php:10
+msgid "A lot of bots are legitimate and non-malicious but not all bots are good and often you will find some which try to impersonate legitimate bots such as \"Googlebot\" but in reality they have nohing to do with Google at all."
+msgstr "多くのボットは正当で悪意はありませんが、すべてのボットが優れているわけではなく、「Googlebot」などの正当なボットになりすまそうとするものもよくありますが、実際には Google とはまったく関係がありません。"
+
+#: templates/wp-admin/firewall/partials/fake-googlebots.php:33
+msgid "Check this if you want to block all fake Googlebots."
+msgstr "チェックを入れると偽の Googlebot をすべてブロックします。"
+
+#: templates/wp-admin/tools/custom-htaccess.php:19
+msgid "It is your responsibility to ensure that you are entering the correct code!"
+msgstr "正しいコードを入力していることを確認するのは、あなたの責任です !"
+
+#: templates/wp-admin/brute-force/cookie-based-brute-force-prevention.php:12
+msgid "To learn more about how to use this feature, please read the following %s."
+msgstr "この機能の使い方についてもっと知るために、次の %s をご覧ください。"
+
+#: templates/wp-admin/brute-force/rename-login.php:37
+msgid "NOTE: If you are hosting your site on WPEngine or a provider which performs server caching, you will need to ask the host support people to NOT cache your renamed login page."
+msgstr "注:  WPEngine やサーバーキャッシュを実行するプロバイダーでサイトをホストしている場合は、名前を変更したログインページをキャッシュしないようにサーバー担当者に依頼する必要があります。"
+
+#: templates/wp-admin/firewall/partials/fake-googlebots.php:39
+msgid "If the bot fails the checks then the plugin will mark it as being a fake Googlebot and it will block it"
+msgstr "ボットがチェックに失敗した場合、プラグインはそれを偽の Googlebot としてマークし、ブロックします。"
+
+#: templates/wp-admin/firewall/partials/fake-googlebots.php:38
+msgid "It will then perform a few tests to verify if the bot is legitimately from Google and if so it will allow the bot to proceed."
+msgstr "次に、いくつかのテストを実行して、ボットが合法的に Google からのものであるかどうかを確認し、そうである場合はボットの続行を許可します。"
+
+#: templates/wp-admin/scanner/file-change-detect.php:10
+msgid "Being informed of any changes in your files can be a good way to quickly prevent a hacker from causing damage to your website."
+msgstr "ファイル変更を通知すると、ハッカーがWebサイトに損害を与えるのを速やかに防ぐことができます。"
+
+#: templates/wp-admin/scanner/file-change-detect.php:10
+msgid "In general, WordPress core and plugin files and file types such as \".php\" or \".js\" should not change often and when they do, it is important that you are made aware when a change occurs and which file was affected."
+msgstr "一般に、WordPress のコアファイルとプラグインファイル、および「.php」や「.js」などのファイルタイプは頻繁に変更されるべきではありません。変更が行われた場合は、いつ変更され、どのファイルが影響を受けたかを知ることが重要です。"
+
+#: templates/wp-admin/scanner/file-change-detect.php:98
+msgid "Example: If you want the scanner to ignore files of type %s, %s, and %s, then you would enter the following:"
+msgstr "例: スキャナが%s、%sや%s の形式のファイルを無視するようにするには、次のように入力します。"
+
+#: templates/wp-admin/scanner/file-change-detect.php:116
+msgid "Example: If you want the scanner to ignore certain files in different directories or whole directories, then you would enter the following:"
+msgstr "例: スキャナが別のディレクトリまたはディレクトリ全体にある特定のファイルを無視するようにするには、次のように入力します。"
+
+#: templates/wp-admin/brute-force/rename-login.php:4
+msgid "Normally if you wanted to login to WordPress you would type your site's home URL followed by wp-login.php."
+msgstr "通常、WordPress にログインする場合は、サイトの WordPress アドレス (URL) に続いて wp-login.php を入力します。"
+
+#: templates/wp-admin/brute-force/rename-login.php:4
+msgid "By doing this, malicious bots and hackers will not be able to access your login page because they will not know the correct login page URL."
+msgstr "これにより、悪意のあるボットやハッカーは正しいログインページの URL がわからないため、ログインページにアクセスできなくなります。"

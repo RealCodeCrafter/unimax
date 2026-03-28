@@ -1,0 +1,2809 @@
+# Translation of Plugins - Really Simple SSL - Stable (latest release) in Greek
+# This file is distributed under the same license as the Plugins - Really Simple SSL - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-11-15 13:11:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
+"Language: el_GR\n"
+"Project-Id-Version: Plugins - Really Simple SSL - Stable (latest release)\n"
+
+#: settings/config/menu.php:221
+msgid "You can choose to automate the most common actions for a vulnerability. Each action is set to a minimum risk level, similar to the notifications. Please read the instructions to learn more about the process."
+msgstr "Μπορείτε να επιλέξετε να αυτοματοποιήσετε τις πιο συνηθισμένες ενέργειες για μια ευπάθεια. Κάθε ενέργεια ορίζεται σε ένα ελάχιστο επίπεδο κινδύνου, παρόμοιο με τις ειδοποιήσεις. Παρακαλώ διαβάστε τις οδηγίες για να μάθετε περισσότερα σχετικά με τη διαδικασία."
+
+#: settings/config/menu.php:215 settings/config/menu.php:220
+msgid "Measures"
+msgstr "Μέτρα"
+
+#: settings/config/menu.php:207
+msgid "This is the vulnerability overview. Here you will find current known vulnerabilities on your system. You can find more information and helpful, actionable insights for every vulnerability under details."
+msgstr "Αυτή είναι η επισκόπηση ευπαθειών. Εδώ θα βρείτε τις τρέχουσες γνωστές ευπάθειες στο σύστημά σας. Μπορείτε να βρείτε περισσότερες πληροφορίες και χρήσιμες-αξιοποιήσιμες πληροφορίες για κάθε ευπάθεια στην ενότητα λεπτομέρειες."
+
+#: settings/config/menu.php:206
+msgid "Overview"
+msgstr "Επισκόπηση"
+
+#: settings/config/menu.php:200
+msgid "These notifications are set to the minimum risk level that triggers a notification. For example, the default site-wide notification triggers on high-risk and critical vulnerabilities."
+msgstr "Αυτές οι ειδοποιήσεις ορίζονται στο ελάχιστο επίπεδο κινδύνου που ενεργοποιεί μια ειδοποίηση. Για παράδειγμα, η προεπιλεγμένη ειδοποίηση για ολόκληρο τον ιστότοπο ενεργοποιεί ευπάθειες υψηλού κινδύνου και κρίσιμες ευπάθειες."
+
+#: settings/config/menu.php:187
+msgid "Here you can configure vulnerability detection, notifications and measures. To learn more about the features displayed, please use the instructions linked in the top-right corner."
+msgstr "Εδώ μπορείτε να ρυθμίζεται τις παραμέτρους για τον εντοπισμό ευπαθειών, τις ειδοποιήσεις και τα μέτρα. Για να μάθετε περισσότερα σχετικά με τις λειτουργίες που εμφανίζονται, παρακαλώ χρησιμοποιήστε τις οδηγίες που συνδέονται στην επάνω δεξιά γωνία."
+
+#: settings/config/config.php:1642
+msgid "I have read and understood the risks to intervene with these measures."
+msgstr "Έχω διαβάσει και κατανοήσει τους κινδύνους να παρέμβω σε αυτά τα μέτρα."
+
+#: settings/config/config.php:331 settings/config/config.php:378
+#: settings/config/config.php:467 settings/config/config.php:1572
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: settings/config/config.php:1579 settings/config/config.php:1622
+msgid "Risk"
+msgstr "Κίνδυνος"
+
+#: settings/config/config.php:1564
+msgid "Component"
+msgstr "Τμήμα"
+
+#: settings/config/config.php:1552
+msgid "Vulnerabilities Overview"
+msgstr "Επισκόπηση ευπαθειών"
+
+#: settings/config/config.php:1535
+msgid "Test notifications can be used to test email delivery and shows how vulnerabilities will be reported on your WordPress installation."
+msgstr "Οι δοκιμαστικές ειδοποιήσεις μπορούν να χρησιμοποιηθούν για τη δοκιμή παράδοσης μηνύματος ηλεκτρονικού ταχυδρομείου και δείχνουν πώς θα αναφερθούν οι ευπάθειες στην εγκατάσταση του WordPress."
+
+#: settings/config/config.php:1534 settings/config/config.php:1537
+#: settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/src/Settings/RiskConfiguration/NotificationTester.js:39
+msgid "Test notifications"
+msgstr "Δοκιμαστικές ειδοποιήσεις"
+
+#: settings/config/config.php:1514
+msgid "This will send emails about vulnerabilities directly from your server. Make sure you can receive emails by the testing a preview below. If this feature is disabled, please enable notifications under general settings."
+msgstr "Αυτό θα στέλνει μηνύματα ηλεκτρονικού ταχυδρομείου σχετικά με ευπάθειες απευθείας από τον διακομιστή σας. Βεβαιωθείτε ότι μπορείτε να λαμβάνετε μηνύματα ηλεκτρονικού ταχυδρομείου δοκιμάζοντας μια προεπισκόπηση παρακάτω. Εάν αυτή η λειτουργία είναι απενεργοποιημένη, παρακαλώ ενεργοποιήστε τις ειδοποιήσεις στις γενικές ρυθμίσεις."
+
+#: settings/config/config.php:1513 settings/config/menu.php:299
+msgid "Email"
+msgstr "Ηλεκτρονικό ταχυδρομείο"
+
+#: settings/config/config.php:1511
+msgid "Critical (default)"
+msgstr "Κρίσιμo (προεπιλογή)"
+
+#: settings/config/config.php:1508 settings/config/config.php:1601
+msgid "Low-risk"
+msgstr "Χαμηλού κινδύνου"
+
+#: settings/config/config.php:1491
+msgid "Site-wide, admin notification"
+msgstr "Για ολόκληρο τον ιστότοπο, ειδοποίηση διαχειριστή"
+
+#: settings/config/config.php:1488
+msgid "High-risk (default)"
+msgstr "Υψηλού κινδύνου (προεπιλογή)"
+
+#: settings/config/config.php:1486
+msgid "Low-risk "
+msgstr "Χαμηλού κινδύνου "
+
+#: settings/config/config.php:1469
+msgid "Really Simple SSL dashboard"
+msgstr "Πίνακας ελέγχου του Really Simple SSL"
+
+#: settings/config/config.php:1467 settings/config/config.php:1489
+#: settings/config/config.php:1604
+msgid "Critical"
+msgstr "Κρίσιμο"
+
+#: settings/config/config.php:1466 settings/config/config.php:1510
+#: settings/config/config.php:1603
+msgid "High-risk"
+msgstr "Υψηλού κινδύνου"
+
+#: settings/config/config.php:1465 settings/config/config.php:1487
+#: settings/config/config.php:1509 settings/config/config.php:1602
+msgid "Medium-risk"
+msgstr "Μέτριου κινδύνου"
+
+#: settings/config/config.php:1464
+msgid "Low-risk (default)"
+msgstr "Χαμηλού κινδύνου (προεπιλογή)"
+
+#: settings/config/config.php:1463 settings/config/config.php:1485
+#: settings/config/config.php:1507 settings/config/config.php:1600
+msgid "None"
+msgstr "Κανένα"
+
+#: settings/config/config.php:1446
+msgid "Feedback in plugin overview"
+msgstr "Σχόλια στην επισκόπηση πρόσθετων"
+
+#: settings/config/config.php:1443
+msgid "If there's a vulnerability, you will also get feedback on the themes and plugin overview."
+msgstr "Εάν εντοπιστεί ευπάθεια, θα λάβετε επίσης σχόλια σχετικά με τα θέματα και τα πρόσθετα."
+
+#: settings/config/config.php:1427
+msgid "Really Simple SSL collects information about plugins, themes, and core vulnerabilities from our database powered by WPVulnerability. Anonymized data about these vulnerable components will be sent to Really Simple SSL for statistical analysis to improve open-source contributions. For more information, please read our privacy statement."
+msgstr "Το Really Simple SSL συλλέγει πληροφορίες σχετικά με πρόσθετα, θέματα και βασικές ευπάθειες από τη βάση δεδομένων μας με την υποστήριξη του WPVulnerability. Ανώνυμα δεδομένα σχετικά με αυτά τα ευπαθή τμήματα θα αποστέλλονται στο Really Simple SSL για στατιστική ανάλυση για τη βελτίωση των συνεισφορών ανοιχτού κώδικα. Για περισσότερες πληροφορίες, παρακαλώ διαβάστε τη δήλωση απορρήτου μας."
+
+#: settings/config/config.php:1426
+msgid "About Vulnerabilities"
+msgstr "Σχετικά με τις ευπάθειες"
+
+#: settings/config/config.php:1419
+msgid "This feature depends on multiple standard background processes. If a process fails or is unavailable on your system, detection might not work. We run frequent tests for this purpose. We will notify you accordingly if there are any issues."
+msgstr "Αυτή η λειτουργία εξαρτάται από πολλές τυπικές διεργασίες παρασκηνίου. Εάν μια διεργασία αποτύχει ή δεν είναι διαθέσιμη στο σύστημά σας, ο εντοπισμός ενδέχεται να μην λειτουργήσει. Εκτελούμε συχνές δοκιμές για τον σκοπό αυτό. Θα σας ειδοποιήσουμε αναλόγως εάν υπάρχουν ζητήματα."
+
+#: settings/config/config.php:1418 modal/build/index.7baa22d2f235f90d6196.js:1
+#: modal/build/index.855f8bc8ac202db563f6.js:1
+#: modal/src/components/DeactivationModal/DeactivationModal.js:71
+#: modal/src/components/DeactivationModal/DeactivationModal.js:113
+msgid "Vulnerability detection"
+msgstr "Εντοπισμός ευπαθειών"
+
+#: security/wordpress/vulnerabilities.php:1495
+msgid "Get more information from the Really Simple SSL dashboard on %s"
+msgstr "Λάβετε περισσότερες πληροφορίες από τον πίνακα ελέγχου του Really Simple SSL στο %s"
+
+#: security/wordpress/vulnerabilities.php:1494
+msgid "Based on your settings, Really Simple SSL will take appropriate action, or you will need to solve it manually."
+msgstr "Με βάση τις ρυθμίσεις σας, το Really Simple SSL θα λάβει τα κατάλληλα μέτρα ή θα πρέπει να το λύσετε χειροκίνητα."
+
+#: security/wordpress/vulnerabilities.php:1489
+msgid "Multiple %s vulnerabilities have been found."
+msgstr "Πολλαπλές ευπάθειες %s έχουν εντοπιστεί."
+
+#: security/wordpress/vulnerabilities.php:1489
+msgid "A %s vulnerability is found in %s."
+msgstr "Μία ευπάθεια %s έχει εντοπιστεί στο %s."
+
+#: security/wordpress/vulnerabilities.php:1456
+msgid "This is a vulnerability alert from Really Simple SSL for %s. "
+msgstr "Αυτή είναι μια ειδοποίηση ευπάθειας από το Really Simple SSL για %s. "
+
+#: security/wordpress/vulnerabilities.php:1454
+msgid "Vulnerability Alert: %s"
+msgstr "Ειδοποίηση ευπάθειας: %s"
+
+#: security/wordpress/vulnerabilities.php:1121
+msgid "Vulnerability: %s"
+msgstr "Ευπάθεια: %s"
+
+#: security/wordpress/vulnerabilities.php:657
+#: security/wordpress/vulnerabilities.php:1138
+msgid "Quarantined"
+msgstr "Σε καραντίνα"
+
+#: security/wordpress/vulnerabilities.php:585
+msgid "Components will be quarantined if the update process fails."
+msgstr "Τα τμήματα θα τεθούν σε καραντίνα εάν αποτύχει η διαδικασία ενημέρωσης."
+
+#: security/wordpress/vulnerabilities.php:583
+msgid "Quarantine"
+msgstr "Καραντίνα"
+
+#: security/wordpress/vulnerabilities.php:579
+msgid "Will run a frequent update process on vulnerable components."
+msgstr "Θα εκτελέσει μια συχνή διαδικασία ενημέρωσης σε ευπαθή τμήματα."
+
+#: security/wordpress/vulnerabilities.php:577
+msgid "Force update"
+msgstr "Αναγκαστική ενημέρωση"
+
+#: security/wordpress/vulnerabilities.php:562 settings/config/menu.php:181
+#: settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/src/Dashboard/Vulnerabilities/VulnerabilitiesHeader.js:15
+msgid "Vulnerabilities"
+msgstr "Ευπάθειες"
+
+#: security/wordpress/vulnerabilities.php:361
+msgid "Dashboard - Test Notification"
+msgstr "Πίνακας Ελέγχου - Δοκιμαστική Ειδοποίηση"
+
+#: security/wordpress/vulnerabilities.php:340
+#: security/wordpress/vulnerabilities.php:362
+msgid "This is a test notification from Really Simple SSL. You can safely dismiss this message."
+msgstr "Αυτή είναι μία δοκιμαστική ειδοποίηση από το Really Simple SSL. Μπορείτε να παραβλέψετε αυτό το μήνυμα με ασφάλεια."
+
+#: security/wordpress/vulnerabilities.php:339
+msgid "Site wide - Test Notification"
+msgstr "Για ολόκληρο τον ιστότοπο - Δοκιμαστική Ειδοποίηση"
+
+#: security/hardening.php:16 security/wordpress/vulnerabilities.php:55
+msgid "critical"
+msgstr "κρίσιμο"
+
+#: security/hardening.php:15 security/wordpress/vulnerabilities.php:54
+msgid "high-risk"
+msgstr "υψηλού κινδύνου"
+
+#: security/hardening.php:14 security/wordpress/vulnerabilities.php:53
+msgid "medium-risk"
+msgstr "μέτριου κινδύνου"
+
+#: security/hardening.php:13 security/wordpress/vulnerabilities.php:52
+msgid "low-risk"
+msgstr "χαμηλού κινδύνου"
+
+#: security/cron.php:70
+msgid "Every three hours"
+msgstr "Κάθε τρεις ώρες"
+
+#: mailer/class-mail.php:140
+msgid "Email could not be sent. No message or subject set."
+msgstr "Δεν ήταν δυνατή η αποστολή μηνύματος ηλεκτρονικού ταχυδρομείου. Δεν έχει οριστεί μήνυμα ή θέμα."
+
+#: mailer/class-mail.php:38
+msgid "Why did I receive this email?"
+msgstr "Γιατί έλαβα αυτό το μήνυμα ηλεκτρονικού ταχυδρομείου;"
+
+#: class-admin.php:2089
+msgid "The 301 redirect with .htaccess to HTTPS is now enabled."
+msgstr "Η ανακατεύθυνση 301 με .htaccess στο HTTPS είναι πλέον ενεργοποιημένη."
+
+#: settings/config/config.php:95
+msgid "Settings update: .htaccess redirect"
+msgstr "Ενημέρωση ρυθμίσεων: ανακατεύθυνση .htaccess"
+
+#: onboarding/class-onboarding.php:184
+msgid "Add your email address below."
+msgstr "Προσθέστε τη διεύθυνση ηλεκτρονικού ταχυδρομείου σας παρακάτω."
+
+#: onboarding/class-onboarding.php:184
+msgid "We use email notification to explain important updates in plugin settings."
+msgstr "Χρησιμοποιούμε την ειδοποίηση μέσω ηλεκτρονικού ταχυδρομείου για να εξηγήσουμε σημαντικές ενημερώσεις στις ρυθμίσεις του πρόσθετου."
+
+#: onboarding/class-onboarding.php:183
+msgid "Get notified!"
+msgstr "Λάβετε ειδοποιήσεις!"
+
+#: class-admin.php:2305
+msgid "Our vulnerability reporting is in beta. Signup for the beta to discover the new features!"
+msgstr "Η αναφορά ευπαθειών είναι σε έκδοση beta. Εγγραφείτε στην έκδοση beta για να ανακαλύψετε τις νέες δυνατότητες!"
+
+#: settings/config/menu.php:325 settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/src/Settings/DynamicDataTable/DynamicDataTable.js:169
+#: settings/src/Settings/EventLog/EventLogDataTable.js:233
+#: settings/src/Settings/LearningMode/LearningMode.js:332
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:388
+#: settings/src/Settings/LimitLoginAttempts/IpAddressDatatable.js:396
+#: settings/src/Settings/LimitLoginAttempts/UserDatatable.js:304
+#: settings/src/Settings/PermissionsPolicy.js:205
+#: settings/src/Settings/RiskConfiguration/VulnerabilitiesOverview.js:128
+#: settings/src/Settings/RolesDropDown.js:89
+#: settings/src/Settings/TwoFA/TwoFaDataTable.js:290
+#: settings/src/Settings/TwoFA/TwoFaRolesDropDown.js:112
+msgid "Disabled"
+msgstr "Απενεργοποιημένο"
+
+#: settings/config/config.php:962
+msgid "Users trying to enter via /wp-admin or /wp-login.php will be redirected to this URL."
+msgstr "Οι χρήστες που προσπαθούν να συνδεθούν μέσω /wp-admin ή /wp-login.php θα ανακατευθύνονται σε αυτήν τη διεύθυνση URL."
+
+#: settings/config/config.php:945
+msgid "Custom login URL"
+msgstr "Προσαρμοσμένη διεύθυνση URL σύνδεσης"
+
+#: settings/config/config.php:944
+msgid "Example: If you want to change your login page from /wp-admin/ to /control/ answer: control"
+msgstr "Παράδειγμα: Εάν θέλετε να αλλάξετε τη σελίδα σύνδεσής σας από /wp-admin/ σε /control/ απάντησε: control"
+
+#: settings/config/config.php:943
+msgid "Enter a custom login URL. This allows you to log in via this custom URL instead of /wp-admin or /wp-login.php"
+msgstr "Εισαγάγετε μια προσαρμοσμένη διεύθυνση URL σύνδεσης. Αυτό σας επιτρέπει να συνδεθείτε μέσω αυτής της προσαρμοσμένης διεύθυνσης URL αντί για /wp-admin ή /wp-login.php"
+
+#: settings/config/config.php:932
+msgid "Your login URL has changed to {login_url} to prevent common bot attacks on standard login URLs. Learn more about this feature, common questions and measures to prevent any issues."
+msgstr "Η διεύθυνση URL σύνδεσης έχει αλλάξει σε {login_url} για την αποτροπή συνηθισμένων επιθέσεων bot σε τυπικές διευθύνσεις URL σύνδεσης. Μάθετε περισσότερα σχετικά με αυτήν τη λειτουργία, συνήθεις ερωτήσεις και μέτρα για την αποτροπή τυχόν ζητημάτων."
+
+#: settings/config/config.php:931
+msgid "You have changed your login URL"
+msgstr "Έχετε αλλάξει τη διεύθυνση URL σύνδεσης"
+
+#: settings/config/config.php:929
+msgid "Enable Custom login URL"
+msgstr "Ενεργοποίηση προσαρμοσμένης διεύθυνσης URL σύνδεσης"
+
+#: settings/config/config.php:928
+msgid "Allows you to enter a custom login URL."
+msgstr "Σας επιτρέπει να εισαγάγετε μια προσαρμοσμένη διεύθυνση URL σύνδεσης."
+
+#: lets-encrypt/class-letsencrypt-handler.php:206
+msgid "Please adjust the CAA records via your DNS provider to allow Let’s Encrypt SSL certificates"
+msgstr "Παρακαλώ προσαρμόστε τις εγγραφές CAA μέσω του παρόχου DNS σας για να επιτρέψετε τα πιστοποιητικά Let's Encrypt SSL"
+
+#: mailer/class-mail.php:31
+msgid "This email is part of the Really Simple SSL Notification System"
+msgstr "Αυτό το μήνυμα ηλεκτρονικού ταχυδρομείου είναι μέρος του Συστήματος Ειδοποιήσεων του Really Simple SSL"
+
+#: mailer/class-mail.php:36
+msgid "This email was sent to"
+msgstr "Αυτό το μήνυμα ηλεκτρονικού ταχυδρομείου στάλθηκε στη διεύθυνση"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1523
+msgid "This is a multisite configuration with subdomains. You should generate a wildcard certificate on the root domain."
+msgstr "Αυτή είναι μια ρύθμιση παραμέτρων multisite με υποτομείς. Θα πρέπει να δημιουργήσετε ένα πιστοποιητικό wildcard στον ριζικό τομέα."
+
+#: settings/config/config.php:96
+msgid "The .htaccess redirect has been enabled on your site. If the server configuration is non-standard, this might cause issues. Please check if all pages on your site are functioning properly."
+msgstr "Η ανακατεύθυνση μέσω του .htaccess έχει ενεργοποιηθεί στον ιστότοπό σας. Εάν η ρύθμιση παραμέτρων του διακομιστή δεν είναι η τυπική, αυτό μπορεί να προκαλέσει ζητήματα. Παρακαλώ ελέγξτε αν όλες οι σελίδες στον ιστότοπό σας λειτουργούν σωστά."
+
+#: settings/config/disable-fields-filter.php:19
+msgid "Enable .htaccess only if you know how to regain access in case of issues."
+msgstr "Ενεργοποίηση μέσω του .htaccess μόνο εάν γνωρίζετε πώς να ανακτήσετε την πρόσβαση σε περίπτωση ζητημάτων."
+
+#: settings/config/disable-fields-filter.php:15
+msgid "On Apache you can use a .htaccess redirect, which is usually faster, but may cause issues on some configurations. Read the instructions in the sidebar first."
+msgstr "Στον Apache μπορείτε να χρησιμοποιήσετε την ανακατεύθυνση μέσω του .htaccess, η οποία είναι συνήθως πιο γρήγορη, αλλά ενδέχεται να προκαλέσει ζητήματα για ορισμένες ρυθμίσεις παραμέτρων. Διαβάστε πρώτα τις οδηγίες στην πλευρική μπάρα."
+
+#: settings/config/config.php:889
+msgid "From now on, the debug.log won’t be publicly accessible whenever wp-debugging is enabled. The debug log will be stored in a randomly named folder in /wp-content/. This prevents possible leakage of sensitive debugging information."
+msgstr "Από εδώ και στο εξής, το debug.log δεν θα είναι δημόσια προσβάσιμο όποτε είναι ενεργοποιημένο το wp-debugging. Το αρχείο καταγραφής εντοπισμού σφαλμάτων θα αποθηκευτεί σε έναν φάκελο με τυχαίο όνομα στον κατάλογο /wp-content/. Αυτό αποτρέπει πιθανή διαρροή ευαίσθητων πληροφοριών εντοπισμού σφαλμάτων."
+
+#: settings/config/config.php:888
+msgid "Settings update: Debug.log file relocated"
+msgstr "Ενημέρωση ρυθμίσεων: Το αρχείο Debug.log μεταφέρθηκε"
+
+#: settings/config/config.php:886
+msgid "A debug.log is publicly accessibile and has a standard location. This will change the location to a randomly named folder in /wp-content/"
+msgstr "Ένα debug.log είναι δημόσια προσβάσιμο και έχει μια τυπική τοποθεσία. Αυτό θα αλλάξει την τοποθεσία του σε έναν φάκελο με τυχαία ονομασία στον κατάλογο /wp-content/"
+
+#: settings/config/config.php:874 settings/config/config.php:875
+msgid "This will permanently change your database prefixes and you can NOT rollback this feature. Please make sure you have a back-up."
+msgstr "Αυτό θα αλλάξει οριστικά τα προθέματα της βάσης δεδομένων σας και ΔΕΝ θα μπορείτε να επαναφέρετε αυτήν τη λειτουργία. Παρακαλώ βεβαιωθείτε ότι έχετε αντίγραφο ασφαλείας."
+
+#: settings/config/config.php:871
+msgid "Security through obscurity. Your site is no longer using the default wp_ prefix for database tables. The process has been designed to only complete and replace the tables after all wp_ tables are successfully renamed. In the unlikely event that this does lead to database issues on your site, please navigate to our troubleshooting article."
+msgstr "Ασφάλεια μέσω αφάνειας. Ο ιστότοπός σας δεν χρησιμοποιεί πλέον το προεπιλεγμένο πρόθεμα wp_ στους πίνακες της βάσης δεδομένων. Η διαδικασία έχει σχεδιαστεί για να συμπληρώνει και να αντικαθιστά τους πίνακες μόνο αφού μετονομαστούν επιτυχώς όλοι οι πίνακες wp_. Στην απίθανη περίπτωση που αυτό οδηγήσει σε ζητήματα της βάσης δεδομένων στον ιστότοπό σας, μεταβείτε στο άρθρο μας για την αντιμετώπιση προβλημάτων."
+
+#: settings/config/config.php:870
+msgid "Settings update: Database prefix changed"
+msgstr "Ενημέρωση ρυθμίσεων: Το πρόθεμα βάσης δεδομένων άλλαξε"
+
+#: settings/config/config.php:860
+msgid "This will limit or fully disable HTTP requests that are not needed, but could be used with malicious intent."
+msgstr "Αυτό θα περιορίσει ή θα απενεργοποιήσει πλήρως τα αιτήματα HTTP τα οποία δεν είναι απαραίτητα, όμως ενδέχεται να χρησιμοποιηθεί σε κακόβουλη πρόθεση."
+
+#: settings/config/config.php:808
+msgid "If the username 'admin' currently exists, you can rename it here. Please note that you can no longer use this username, and should use the new username or an email address"
+msgstr "Εάν το όνομα χρήστη 'admin' προς το παρόν υπάρχει, μπορείτε να το μετονομάσετε εδώ. Παρακαλώ λάβετε υπόψη ότι δεν μπορείτε πλέον να χρησιμοποιήσετε αυτό το όνομα χρήστη και θα πρέπει να χρησιμοποιήσετε το νέο όνομα χρήστη ή μια διεύθυνση email"
+
+#: settings/config/config.php:804
+msgid "As a security precaution, the username ‘admin’ has been changed on %s. From now on, you can login with '%s' or an email address."
+msgstr "Για λόγους ασφαλείας, το όνομα χρήστη 'admin' έχει αλλάξει στο %s. Από εδώ και στο εξής, μπορείτε να συνδεθείτε με '%s' ή με τη διεύθυνση ηλεκτρονικού ταχυδρομείου."
+
+#: settings/config/config.php:803
+msgid "Settings update: Username 'admin' renamed"
+msgstr "Ενημέρωση ρυθμίσεων: Το όνομα χρήστη 'admin' μετονομάστηκε"
+
+#: settings/config/config.php:801
+msgid "Block the username 'admin'"
+msgstr "Αποκλεισμός του ονόματος χρήστη 'admin'"
+
+#: settings/config/config.php:770
+msgid "Prevent login feedback"
+msgstr "Αποτροπή ανατροφοδότησης συνδέσεων"
+
+#: settings/config/config.php:769
+msgid "By default, WordPress shows if a username or email address exists when a login fails. This will change it to generic feedback."
+msgstr "Από προεπιλογή, το WordPress δείχνει εάν υπάρχει ένα όνομα χρήστη ή μια διεύθυνση ηλεκτρονικού ταχυδρομείου όταν αποτυγχάνεται μια σύνδεση. Αυτό θα το αλλάξει σε γενική ανατροφοδότηση."
+
+#: settings/config/config.php:40
+msgid "Dismiss all notifications"
+msgstr "Παράβλεψη όλων των ειδοποιήσεων"
+
+#: settings/config/config.php:198
+msgid "Get notified of important changes, updates and settings. Recommended when using security features."
+msgstr "Λάβετε ειδοποιήσεις για σημαντικές αλλαγές, ενημερώσεις και ρυθμίσεις. Προτείνεται όταν εφαρμόζονται οι λειτουργίες ασφαλείας."
+
+#: settings/config/config.php:197
+msgid "Notifications by email"
+msgstr "Ειδοποιήσεις μέσω ηλεκτρονικού ταχυδρομείου"
+
+#: settings/config/config.php:92 settings/config/disable-fields-filter.php:19
+msgid "Redirects your site to https with a SEO friendly 301 redirect if it is requested over http."
+msgstr "Ανακατεύθυνση 301 του ιστότοπού σας εάν ζητηθεί από http σε https με γνώμονα το SEO."
+
+#: settings/config/config.php:87
+msgid "301 .htaccess redirect (read instructions first)"
+msgstr "Ανακατεύθυνση 301 μέσω του .htaccess (διαβάστε πρώτα τις οδηγίες)"
+
+#: settings/config/config.php:81
+msgid "Changing redirect methods should be done with caution. Please make sure you have read our instructions beforehand at the right-hand side."
+msgstr "Η αλλαγή των μεθόδων ανακατεύθυνσης πρέπει να γίνεται με προσοχή. Παρακαλώ βεβαιωθείτε ότι έχετε διαβάσει τις οδηγίες μας εκ των προτέρων στη δεξιά πλευρά."
+
+#: mailer/class-mail.php:35
+msgid "Learn more about our features!"
+msgstr "Μάθετε περισσότερα σχετικά με τις λειτουργίες μας!"
+
+#: mailer/class-mail.php:211
+msgid "An error occurred:"
+msgstr "Παρουσιάστηκε σφάλμα:"
+
+#: mailer/class-mail.php:209
+msgid "Email could not be sent."
+msgstr "Δεν ήταν δυνατή η αποστολή μηνυμάτων ηλεκτρονικού ταχυδρομείου."
+
+#: mailer/class-mail.php:204
+msgid "Email sent! Please check your mail"
+msgstr "Το μήνυμα ηλεκτρονικού ταχυδρομείου εστάλη! Παρακαλώ ελέγξτε την αλληλογραφία σας"
+
+#: mailer/class-mail.php:68
+msgid "Email notifications are only sent for important updates, security notices or when certain features are enabled."
+msgstr "Οι ειδοποιήσεις μέσω ηλεκτρονικού ταχυδρομείου αποστέλλονται μόνο για σημαντικές ενημερώσεις, ειδοποιήσεις ασφαλείας ή όταν είναι ενεργοποιημένες ορισμένες λειτουργίες."
+
+#: mailer/class-mail.php:67
+msgid "About notifications"
+msgstr "Σχετικά με τις ειδοποιήσεις"
+
+#: mailer/class-mail.php:32
+msgid "Notification by Really Simple SSL"
+msgstr "Ειδοποίηση από το Really Simple SSL"
+
+#: mailer/class-mail.php:64
+msgid "This email is confirmation that any security notices are likely to reach your inbox."
+msgstr "Αυτό το μήνυμα ηλεκτρονικού ταχυδρομείου αποτελεί επιβεβαίωση ότι τυχόν ειδοποιήσεις ασφαλείας είναι πιθανό να φτάσουν στα εισερχόμενά σας."
+
+#: mailer/class-mail.php:63
+msgid "Really Simple SSL - Notification Test"
+msgstr "Really Simple SSL - Δοκιμή Ειδοποιήσεων"
+
+#: mailer/class-mail.php:60 mailer/class-mail.php:99 mailer/class-mail.php:144
+msgid "Email address not valid"
+msgstr "Η διεύθυνση ηλεκτρονικού ταχυδρομείου δεν είναι έγκυρη"
+
+#: class-admin.php:2292
+msgid "Please check if your REST API is loading correctly. Your site currently is using the slower Ajax fallback method to load the settings."
+msgstr "Παρακαλώ ελέγξτε εάν το REST API φορτώνεται σωστά. Ο ιστότοπός σας αυτή τη στιγμή χρησιμοποιεί την πιο αργή εναλλακτική μέθοδο Ajax για να φορτώσει τις ρυθμίσεις."
+
+#: mailer/class-mail.php:41
+msgid "You have enabled a feature on %s. We think it's important to let you know a little bit more about this feature so you can use it without worries."
+msgstr "Έχετε ενεργοποιήσει μια λειτουργία στο %s. Πιστεύουμε ότι είναι σημαντικό να σας ενημερώσουμε περαιτέρω για αυτήν τη λειτουργία, ώστε να μπορέσετε να τη χρησιμοποιείται άφοβα."
+
+#: lets-encrypt/config/notices.php:142
+msgid "You are using the Really Simple SSL Shell Exec add on, but your current version needs to be updated."
+msgstr "Χρησιμοποιείτε την επέκταση Really Simple SSL Shell Exec, αλλά η τρέχουσα έκδοση σας πρέπει να ενημερωθεί."
+
+#: settings/config/config.php:509
+msgid "(recommended)"
+msgstr "(προτείνεται)"
+
+#: class-admin.php:1952
+msgid "SSL is now activated. Follow the three steps in this article to check if your website is secure."
+msgstr "Το SSL είναι πλέον ενεργοποιημένο. Ακολουθήστε τα τρία βήματα σε αυτό το άρθρο, για να ελέγξετε αν ο ιστότοπός σας είναι ασφαλής."
+
+#: security/wordpress/file-editing.php:28
+msgid "The DISALLOW_FILE_EDIT constant is defined and set to false. You can remove it from your wp-config.php."
+msgstr "Η σταθερά DISALLOW_FILE_EDIT ορίζεται και ρυθμίζεται σε false. Μπορείτε να το αφαιρέσετε από το wp-config.php."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:111
+msgid "Login credentials incorrect. Please check your login credentials for cPanel."
+msgstr "Λανθασμένα διαπιστευτήρια σύνδεσης. Ελέγξτε τα διαπιστευτήρια σύνδεσής σας για το cPanel."
+
+#: lets-encrypt/class-letsencrypt-handler.php:792
+msgid "Failed retrieving account."
+msgstr "Αποτυχία ανάκτησης λογαριασμού."
+
+#: security/notices.php:176
+msgid "Rename admin user enabled: Please choose a new username of at least 3 characters, which is not in use yet."
+msgstr "Ενεργοποίηση μετονομασίας χρήστη διαχειριστή: Επιλέξτε ένα νέο όνομα χρήστη τουλάχιστον 3 χαρακτήρων, το οποίο δεν χρησιμοποιείται ακόμη."
+
+#: upgrade/upgrade-to-pro.php:450
+msgid "Could not rename folder!"
+msgstr "Δεν ήταν δυνατή η μετονομασία του φακέλου!"
+
+#: settings/config/config.php:818
+msgid "Choose new username to replace 'admin'"
+msgstr "Επιλέξτε νέο όνομα χρήστη για να αντικαταστήσετε το 'admin'"
+
+#: settings/config/menu.php:96
+msgid "Recommended Security Headers"
+msgstr "Προτεινόμενες Κεφαλίδες Ασφαλείας"
+
+#: lets-encrypt/config/fields.php:111
+msgid "Terms & Conditions."
+msgstr "Όροι και Προϋποθέσεις."
+
+#: settings/config/config.php:186 settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/src/Settings/Support.js:43
+msgid "Send"
+msgstr "Αποστολή"
+
+#: class-admin.php:479 settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/src/Dashboard/TaskElement.js:51
+#: settings/src/Dashboard/TaskElement.js:52
+#: settings/src/Settings/MixedContentScan/MixedContentScan.js:80
+msgid "View"
+msgstr "Προβολή"
+
+#: settings/config/config.php:508
+msgid "disabled"
+msgstr "απενεργοποιημένο"
+
+#: settings/config/config.php:304 settings/config/config.php:350
+#: settings/config/config.php:396 settings/config/menu.php:496
+#: settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/src/Settings/LearningMode/LearningMode.js:141
+msgid "Blocked"
+msgstr "Αποκλεισμένο"
+
+#: settings/config/menu.php:475 settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/src/Settings/EventLog/EventLogDataTable.js:214
+#: settings/src/Settings/LearningMode/LearningMode.js:139
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:369
+#: settings/src/Settings/LimitLoginAttempts/IpAddressDatatable.js:375
+msgid "All"
+msgstr "Όλα"
+
+#: settings/config/config.php:325 settings/config/config.php:372
+#: settings/config/config.php:432 settings/config/config.php:1140
+#: settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/src/Dashboard/SslLabs/SslLabsHeader.js:5
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: settings/config/config.php:1396
+msgid "Source"
+msgstr "Πηγή"
+
+#: settings/config/config.php:1391
+msgid "Directive"
+msgstr "Directive"
+
+#: settings/config/config.php:1353
+msgid "Add additional domains which can embed your website, if needed. Comma seperated."
+msgstr "Εάν χρειάζεται, προσθέστε επιπλέον τομείς που μπορούν να ενσωματώσουν τον ιστότοπό σας. Διαχωρισμένοι με κόμμα."
+
+#: settings/config/config.php:1344
+msgid "Allow your domain to be embedded"
+msgstr "Επιτρέψτε την ενσωμάτωση του τομέα σας"
+
+#: settings/config/config.php:1340
+msgid "Disable (Default)"
+msgstr "Απενεργοποίηση (Προεπιλογή)"
+
+#: settings/config/config.php:1325
+msgid "The content security policy has many options, so we always recommend starting in ‘learning mode’ to see what files and scripts are loaded."
+msgstr "Η πολιτική ασφαλείας περιεχομένου έχει πολλές επιλογές, επομένως συνιστούμε πάντα να ξεκινάτε σε 'λειτουργία εκμάθησης' για να δείτε ποια αρχεία και scripts φορτώνονται."
+
+#: settings/config/config.php:1324
+msgid "About the Content Security Policy"
+msgstr "Σχετικά με την Πολιτική Ασφάλειας Περιεχομένου"
+
+#: settings/config/config.php:1318
+msgid "Serve encrypted and authenticated responses"
+msgstr "Εξυπηρέτηση κρυπτογραφημένων και επαληθευμένων αποκρίσεων"
+
+#: settings/config/config.php:1309
+msgid "Enable Permissions Policy"
+msgstr "Ενεργοποίηση Πολιτικής Αδειών"
+
+#: settings/config/config.php:1231
+msgid "Feature"
+msgstr "Λειτουργία"
+
+#: settings/config/config.php:222 settings/config/config.php:1227
+#: settings/config/config.php:1663
+msgid "They might be misused if you don’t actively tell the browser to disable these features."
+msgstr "Ενδέχεται να χρησιμοποιηθούν καταχρηστικά εάν δεν ρυθμίσετε το πρόγραμμα περιήγησης να απενεργοποιήσει αυτές τις λειτουργίες."
+
+#: settings/config/config.php:1227
+msgid "Browser features are plentiful, but most are not needed on your website."
+msgstr "Οι λειτουργίες του προγράμματος περιήγησης είναι άφθονες, αλλά οι περισσότερες δεν χρειάζονται στον ιστότοπό σας."
+
+#: settings/config/config.php:1226
+msgid "About the Permission Policy"
+msgstr "Σχετικά με την Πολιτική Αδειών"
+
+#: settings/config/config.php:1220
+msgid "Self (Default)"
+msgstr "Self (Προεπιλογή)"
+
+#: settings/config/config.php:1220 settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/src/Settings/LearningMode/LearningMode.js:290
+#: settings/src/Settings/LearningMode/LearningMode.js:296
+#: settings/src/Settings/PermissionsPolicy.js:200
+msgid "Disable"
+msgstr "Απενεργοποίηση"
+
+#: settings/config/config.php:1220 settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/src/Settings/LearningMode/ChangeStatus.js:7
+#: settings/src/Settings/LearningMode/LearningMode.js:240
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:231
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:242
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:251
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:325
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:336
+#: settings/src/Settings/LimitLoginAttempts/CountryDatatable.js:343
+msgid "Allow"
+msgstr "Να επιτραπεί"
+
+#: settings/config/config.php:1192 settings/config/config.php:1386
+msgid "Location"
+msgstr "Τοποθεσία"
+
+#: settings/config/config.php:1186 settings/config/config.php:1628
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: settings/config/config.php:1179
+msgid "Type"
+msgstr "Τύπος"
+
+#: settings/config/config.php:1175 settings/config/menu.php:82
+msgid "The extensive mixed content scan will list all current and future issues and provide a fix, or instructions to fix manually."
+msgstr "Η εκτεταμένη σάρωση μεικτού περιεχομένου θα καταγράψει όλα τα τρέχοντα και μελλοντικά ζητήματα και θα παράσχει μια επιδιόρθωση ή οδηγίες για χειροκίνητη επιδιόρθωση."
+
+#: settings/config/config.php:1174
+msgid "About the Mixed Content Scan"
+msgstr "Σχετικά με τη Σάρωση Μεικτού Περιεχομένου"
+
+#: settings/config/config.php:1170 modal/build/index.855f8bc8ac202db563f6.js:1
+#: modal/src/components/DeactivationModal/DeactivationModal.js:86
+msgid "Mixed content scan"
+msgstr "Σάρωση μεικτού περιεχομένου"
+
+#: settings/config/config.php:697
+msgid "Cross Origin Embedder Policy"
+msgstr "Πολιτική Ενσωμάτωσης Cross Origin"
+
+#: settings/config/config.php:682
+msgid "Cross Origin Resource Policy"
+msgstr "Πολιτική Πόρων Cross Origin"
+
+#: settings/config/config.php:667
+msgid "Cross Origin Opener Policy"
+msgstr "Πολιτική Ανοίγματος Cross Origin"
+
+#: settings/config/config.php:664
+msgid "One of the most powerful features, and therefore the most complex are the Cross-Origin headers that can isolate your website so any data leaks are minimized."
+msgstr "Μια από τα πιο σημαντικές λειτουργίες και επομένως οι πιο περίπλοκες είναι οι κεφαλίδες Cross-Origin οι οποίες μπορούν να απομονώσουν τον ιστότοπό σας ώστε να ελαχιστοποιούνται τυχόν διαρροές δεδομένων."
+
+#: settings/config/config.php:663
+msgid "About Cross Origin Policies"
+msgstr "Σχετικά με τις Πολιτικές Cross Origin"
+
+#: settings/config/config.php:639
+msgid "Choose the max-age for HSTS"
+msgstr "Επιλέξτε την max-age για HSTS"
+
+#: settings/config/config.php:637
+msgid "Two years (required for preload)"
+msgstr "Δύο χρόνια (απαιτείται για προφόρτιση)"
+
+#: settings/config/config.php:636
+msgid "One year"
+msgstr "Ένα έτος"
+
+#: settings/config/config.php:635
+msgid "One day (for testing only)"
+msgstr "Μία ημέρα (μόνο για δοκιμές)"
+
+#: settings/config/config.php:619
+msgid "Include subdomains"
+msgstr "Συμπερίληψη υποτομέων"
+
+#: settings/config/config.php:595
+msgid "After enabling this feature, you can submit your site to %shstspreload.org%s"
+msgstr "Αφού ενεργοποιήσετε αυτήν τη λειτουργία, μπορείτε να υποβάλετε τον ιστότοπό σας στο %shstspreload.org%s"
+
+#: settings/config/config.php:594
+msgid "Include preload"
+msgstr "Συμπερίληψη προφόρτωσης"
+
+#: settings/config/config.php:579
+msgid "Leveraging your SSL certificate with HSTS is a staple for every website. Force your website over SSL, mitigating risks of malicious counterfeit websites in your name."
+msgstr "Η αξιοποίηση του πιστοποιητικού σας SSL με HSTS αποτελεί βασικό στοιχείο για κάθε ιστότοπο. Επιβάλετε τον ιστότοπό σας μέσω SSL, μετριάζοντας τους κινδύνους κακόβουλων ιστότοπων να αποτελούν την απομίμησή του."
+
+#: settings/config/config.php:578
+msgid "About HTTP Strict Transport Security"
+msgstr "Σχετικά με το HTTP Strict Transport Security"
+
+#: settings/config/config.php:563
+msgid "Referrer Policy"
+msgstr "Πολιτική παραπομπής"
+
+#: settings/config/config.php:553
+msgid "recommended"
+msgstr "συνιστάται"
+
+#: settings/config/config.php:542
+msgid "X-Frame options"
+msgstr "Επιλογές X-Frame"
+
+#: settings/config/config.php:538 settings/config/config.php:552
+#: settings/config/config.php:655 settings/config/config.php:677
+#: settings/config/config.php:692
+msgid "Off"
+msgstr "Εκτός λειτουργίας"
+
+#: settings/config/config.php:528
+msgid "X-Content-Type options"
+msgstr "Επιλογές X-Content-Type"
+
+#: settings/config/config.php:519
+msgid "These security headers are the fundamental security measures to protect your website visitors while visiting your website."
+msgstr "Αυτές οι κεφαλίδες ασφαλείας είναι τα θεμελιώδη μέτρα ασφαλείας για την προστασία των επισκεπτών σας κατά την επίσκεψή τους στον ιστότοπό σας."
+
+#: settings/config/config.php:518
+msgid "About Recommended Security Headers"
+msgstr "Σχετικά με τις Προτεινόμενες Κεφαλίδες Ασφαλείας"
+
+#: settings/config/config.php:506
+msgid "X-XSS-Protection"
+msgstr "Προστασία X-XSS"
+
+#: settings/config/config.php:1401 settings/config/config.php:1616
+msgid "Action"
+msgstr "Ενέργεια"
+
+#: settings/config/config.php:1027
+msgid "Count"
+msgstr "Καταμέτρηση"
+
+#: settings/config/config.php:1021
+msgid "Login status"
+msgstr "Κατάσταση σύνδεσης"
+
+#: settings/config/config.php:1015
+msgid "Method"
+msgstr "Μέθοδος"
+
+#: settings/config/config.php:901
+msgid "Disable application passwords"
+msgstr "Απενεργοποίηση κωδικών πρόσβασης εφαρμογών"
+
+#: settings/config/config.php:892
+msgid "Change debug.log file location"
+msgstr "Αλλαγή τοποθεσίας του αρχείου debug.log"
+
+#: settings/config/config.php:877
+msgid "Rename and randomize your database prefix"
+msgstr "Μετονομασία και τυχαιοποίηση του προθέματος (prefix) της βάσης δεδομένων"
+
+#: settings/config/config.php:861
+msgid "Disable HTTP methods"
+msgstr "Απενεργοποίηση μεθόδων HTTP"
+
+#: settings/config/config.php:851
+msgid "Block user registrations when login and display name are the same"
+msgstr "Αποκλεισμός εγγραφών χρηστών όταν η όνομα σύνδεσης και το εμφανιζόμενο όνομα είναι τα ίδια"
+
+#: settings/config/config.php:842
+msgid "Disable XML-RPC"
+msgstr "Απενεργοποίηση του XML-RPC"
+
+#: settings/config/config.php:790
+msgid "Disable user enumeration"
+msgstr "Απενεργοποίηση απαρίθμησης χρηστών"
+
+#: settings/config/config.php:780
+msgid "Disable directory browsing"
+msgstr "Απενεργοποίηση περιήγησης καταλόγων"
+
+#: settings/config/config.php:759
+msgid "Hide your WordPress version"
+msgstr "Απόκρυψη της έκδοσης του WordPress"
+
+#: settings/config/config.php:749
+msgid "Prevent code execution in the public 'Uploads' folder"
+msgstr "Αποτροπή εκτέλεσης κώδικα στον δημόσιο φάκελο 'Uploads'"
+
+#: settings/config/config.php:739
+msgid "Disable the built-in file editors"
+msgstr "Απενεργοποίηση ενσωματωμένων επεξεργαστών αρχείων"
+
+#: settings/config/config.php:730
+msgid "Hardening features limit the possibility of potential weaknesses and vulnerabilities which can be misused."
+msgstr "Οι λειτουργίες Ενδυνάμωσης περιορίζουν την πιθανότητα δυνητικών αδυναμιών και ευαλωτοτήτων που μπορούν να χρησιμοποιηθούν καταχρηστικά."
+
+#: settings/config/config.php:729
+msgid "About Hardening"
+msgstr "Σχετικά με την Ενδυνάμωση"
+
+#: settings/config/config.php:723
+msgid "Disable \"anyone can register\""
+msgstr "Απενεργοποίηση του 'Όλοι μπορούν να δημιουργήσουν λογαριασμό'"
+
+#: settings/config/config.php:207
+msgid "Premium support"
+msgstr "Υποστήριξη Premium"
+
+#: settings/config/config.php:60
+msgid "Delete all data on plugin deletion"
+msgstr "Διαγραφή όλων των δεδομένων με τη διαγραφή του πρόσθετου"
+
+#: settings/config/config.php:51
+msgid "System status"
+msgstr "Κατάσταση συστήματος"
+
+#: settings/config/config.php:147
+msgid "Mixed content fixer - back-end"
+msgstr "Επιδιορθωτής μεικτού περιεχομένου - backend"
+
+#: settings/config/config.php:123 settings/config/config.php:126
+msgid "Mixed content fixer - init hook"
+msgstr "Επιδιορθωτής μεικτού περιεχομένου - hook 'init'"
+
+#: class-admin.php:2088 class-admin.php:2094
+msgid "301 .htaccess redirect"
+msgstr "Ανακατεύθυνση 301 στο .htaccess"
+
+#: settings/config/config.php:86
+msgid "301 PHP redirect"
+msgstr "Ανακατεύθυνση 301 στην PHP"
+
+#: settings/config/config.php:85
+msgid "No redirect"
+msgstr "Χωρίς ανακατεύθυνση"
+
+#: settings/config/config.php:82 settings/config/config.php:91
+#: settings/config/disable-fields-filter.php:18
+msgid "Redirect method"
+msgstr "Μέθοδος ανακατεύθυνσης"
+
+#: settings/config/menu.php:556
+msgid "DNS verification"
+msgstr "Επαλήθευση DNS"
+
+#: settings/config/menu.php:541
+msgid "General Settings"
+msgstr "Γενικές Ρυθμίσεις"
+
+#: settings/config/menu.php:59 settings/build/index.202df5c54f79be8884ed.js:1
+#: settings/build/index.17964179f4d54ec3a576.js:1 settings/src/Header.js:31
+msgid "Let's Encrypt"
+msgstr "Let's Encrypt"
+
+#: settings/config/menu.php:127
+msgid "Content Security Policy"
+msgstr "Πολιτική Ασφάλειας Περιεχομένου"
+
+#: settings/config/config.php:1221
+msgid "Permissions Policy"
+msgstr "Πολιτική Αδειών"
+
+#: settings/config/config.php:572
+msgid "HTTP Strict Transport Security"
+msgstr "HTTP Strict Transport Security"
+
+#: settings/config/menu.php:79 settings/config/menu.php:81
+msgid "Mixed Content Scan"
+msgstr "Σάρωση Μεικτού Περιεχομένου"
+
+#: settings/config/config.php:998 settings/config/menu.php:258
+msgid "XML-RPC"
+msgstr "XML-RPC"
+
+#: settings/config/menu.php:251
+msgid "Advanced Hardening"
+msgstr "Προηγμένη Ενδυνάμωση"
+
+#: settings/config/menu.php:235 settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/src/Dashboard/Vulnerabilities/VulnerabilitiesHeader.js:15
+msgid "Hardening"
+msgstr "Ενδυνάμωση"
+
+#: settings/config/menu.php:48
+msgid "Debugging with Really Simple SSL"
+msgstr "Εντοπισμός σφαλμάτων με το Really Simple SSL"
+
+#: settings/config/menu.php:42
+msgid "The following information is attached when you send this form: license key, scan results, your domain, .htaccess file, debug log and a list of active plugins."
+msgstr "Οι ακόλουθες πληροφορίες επισυνάπτονται όταν στέλνετε αυτήν τη φόρμα: κλειδί άδειας χρήσης, αποτελέσματα σάρωσης, ο τομέας σας, το αρχείο .htaccess, το αρχείο καταγραφής εντοπισμού σφαλμάτων και μια λίστα ενεργοποιημέων πρόσθετων."
+
+#: settings/config/menu.php:11 settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/src/Settings/RiskConfiguration/VulnerabilitiesIntro.js:82
+msgid "Dashboard"
+msgstr "Πίνακας Εργαλείων"
+
+#: security/wordpress/user-enumeration.php:10
+msgid "forbidden - number in author name not allowed = %s"
+msgstr "απαγορεύεται - αριθμός στο όνομα του συντάκτη δεν επιτρέπεται = %s"
+
+#: security/wordpress/rename-admin-user.php:15
+msgid "Username 'admin' has been changed to %s"
+msgstr "Το όνομα χρήστη 'admin' έχει αλλαχθεί σε %s"
+
+#: security/wordpress/prevent-login-info-leakage.php:9
+msgid "Invalid login details."
+msgstr "Μη έγκυρα στοιχεία σύνδεσης."
+
+#: security/wordpress/block-code-execution-uploads.php:37
+msgid "The code to block code execution in the uploads folder cannot be added automatically on nginx. Add the following code to your nginx.conf file:"
+msgstr "Ο κώδικας για τον αποκλεισμό της εκτέλεσης κώδικα στον φάκελο uploads δεν μπορεί να προστεθεί αυτόματα στον nginx. Προσθέστε τον ακόλουθο κώδικα στο αρχείο nginx.conf:"
+
+#: security/wordpress/block-code-execution-uploads.php:24
+msgid "Could not copy code execution test file."
+msgstr "Δεν ήταν δυνατή η αντιγραφή αρχείου δοκιμής εκτέλεσης κώδικα."
+
+#: security/wordpress/block-code-execution-uploads.php:19
+msgid "Uploads folder not writable."
+msgstr "Ο φάκελος Uploads είναι μη εγγράψιμος."
+
+#: security/wordpress/block-code-execution-uploads.php:14
+msgid "Could not find code execution test file."
+msgstr "Δεν ήταν δυνατή η εύρεση αρχείου δοκιμής εκτέλεσης κώδικα."
+
+#: security/sync-settings.php:35
+msgid "Changed debug.log location to:"
+msgstr "Η τοποθεσία του αρχείου debug.log άλλαξε σε:"
+
+#: security/notices.php:281
+msgid "Your WordPress version is visible to others."
+msgstr "Η έκδοση του WordPress είναι ορατή σε άλλους."
+
+#: security/notices.php:267
+msgid "Anyone can register an account on your site. Consider disabling this option in the WordPress general settings."
+msgstr "Όλοι μπορούν να δημιουργήσουν λογαριασμό στον ιστότοπό σας. Εξετάστε το ενδεχόμενο να απενεργοποιήσετε αυτήν την επιλογή στις γενικές ρυθμίσεις του WordPress."
+
+#: security/notices.php:253
+msgid "The built-in file editors are accessible to others."
+msgstr "Οι ενσωματωμένοι επεξεργαστές αρχείων είναι προσβάσιμοι σε άλλους."
+
+#: security/notices.php:207
+msgid "Your database prefix is set to the default 'wp_'."
+msgstr "Το πρόθεμα (prefix) της βάσης δεδομένων έχει οριστεί στο προεπιλεγμένο 'wp_'."
+
+#: security/notices.php:202
+msgid "Your database prefix is renamed and randomized. Awesome!"
+msgstr "Το πρόθεμα (prefix) της βάσης δεδομένων σας μετονομάζεται και τυχαιοποιείται. Καταπληκτικά!"
+
+#: security/notices.php:191
+msgid "Code execution is allowed in the public 'Uploads' folder."
+msgstr "Η εκτέλεση κώδικα επιτρέπεται στον δημόσιο φάκελο 'Uploads'."
+
+#: security/notices.php:159
+msgid "Your site registered a user with the name 'admin'."
+msgstr "Ο ιστότοπός σας καταχώρησε έναν χρήστη με το όνομα 'admin'."
+
+#: security/notices.php:158 security/notices.php:175
+#: settings/config/config.php:318 settings/config/config.php:1132
+#: settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/src/Settings/LimitLoginAttempts/AddUserModal.js:53
+msgid "Username"
+msgstr "Όνομα χρήστη"
+
+#: security/notices.php:140
+msgid "Prevent user enumeration"
+msgstr "Αποτροπή απαρίθμησης χρηστών"
+
+#: security/notices.php:138
+msgid "Your site is vulnerable to user enumeration attacks."
+msgstr "Ο ιστότοπός σας είναι ευάλωτος σε επιθέσεις απαρίθμησης χρηστών."
+
+#: security/notices.php:121
+msgid "Your site logs information to a public debugging file."
+msgstr "Ο ιστότοπός σας καταγράφει πληροφορίες σε ένα δημόσιο αρχείο εντοπισμού σφαλμάτων."
+
+#: security/notices.php:120
+msgid "Debugging"
+msgstr "Εντοπισμός σφαλμάτων"
+
+#: security/notices.php:106
+msgid "We have detected administrator roles where the login and display names are the same."
+msgstr "Εντοπίσαμε ρόλους διαχειριστή όπου τα ονόματα σύνδεσης και τα εμφανιζόμενα ονόματα είναι τα ίδια."
+
+#: security/notices.php:92
+msgid "It is currently possible to create an administrator user with the same login and display name."
+msgstr "Προς το παρόν, είναι δυνατή η δημιουργία ενός διαχειριστή με τα ίδιο όνομα σύνδεσης και εμφανιζόμενο όνομα."
+
+#: security/notices.php:73
+msgid "An option that requires the .htaccess file in the uploads directory is enabled, but the file is not writable."
+msgstr "Μια επιλογή που απαιτεί το αρχείο .htaccess στον κατάλογο uploads είναι ενεργοποιημένη, αλλά το αρχείο είναι μη εγγράψιμο."
+
+#: security/notices.php:72
+msgid ".htaccess in uploads not writable"
+msgstr "Το .htaccess στον κατάλογο uploads είναι μη εγγράψιμο"
+
+#: security/notices.php:54
+msgid "An option that requires the .htaccess file is enabled, but the file does not exist."
+msgstr "Μια επιλογή που απαιτεί το αρχείο .htaccess είναι ενεργοποιημένη, αλλά το αρχείο δεν υπάρχει."
+
+#: security/notices.php:53
+msgid ".htaccess does not exist"
+msgstr "Το .htaccess δεν υπάρχει"
+
+#: security/notices.php:46 security/notices.php:54 security/notices.php:73
+msgid "Please add the following lines to your .htaccess, or set it to writable:"
+msgstr "Παρακαλώ προσθέστε τις ακόλουθες γραμμές στο .htaccess ή ορίστε το ως εγγράψιμο:"
+
+#: security/notices.php:46
+msgid "An option that requires the .htaccess file is enabled, but the file is not writable."
+msgstr "Μια επιλογή που απαιτεί το αρχείο .htaccess είναι ενεργοποιημένη, αλλά το αρχείο είναι μη εγγράψιμο."
+
+#: security/notices.php:45
+msgid ".htaccess not writable"
+msgstr ".htaccess μη εγγράψιμο"
+
+#: security/notices.php:31
+msgid "Disable application passwords."
+msgstr "Απενεργοποίηση κωδικών πρόσβασης εφαρμογών."
+
+#: security/integrations.php:69
+msgid "Block user registration when login name equals display name"
+msgstr "Αποκλεισμός εγγραφής χρήστη όταν το όνομα σύνδεσης ισούται με εμφανιζόμενο όνομα"
+
+#: security/integrations.php:62
+msgid "Do not allow users with admin username"
+msgstr "Να μην επιτρέπονται οι χρήστες με όνομα χρήστη 'admin'"
+
+#: security/integrations.php:53
+msgid "Disable directory indexing"
+msgstr "Απενεργοποίηση ευρετηρίασης καταλόγων"
+
+#: security/integrations.php:46
+msgid "Prevent login error leakage"
+msgstr "Αποτρέψτε τη διαρροή σφάλματος σύνδεσης"
+
+#: security/integrations.php:38
+msgid "Block code execution in uploads directory"
+msgstr "Αποκλεισμός εκτέλεσης κώδικα στον κατάλογο Uploads"
+
+#: security/integrations.php:30
+msgid "User Enumeration"
+msgstr "Απαρίθμηση χρηστών"
+
+#: security/integrations.php:22
+msgid "Hide WP version"
+msgstr "Απόκρυψη της έκδοσης του WP"
+
+#: security/integrations.php:14
+msgid "File editing"
+msgstr "Επεξεργασία αρχείων"
+
+#: security/firewall-manager.php:176
+msgid "Please set the wp-content folder to writable:"
+msgstr "Παρακαλώ ορίστε τον φάκελο wp-content ως εγγράψιμο:"
+
+#: security/firewall-manager.php:176
+msgid "A firewall rule was enabled, but /the wp-content/ folder is not writable."
+msgstr "Ένας κανόνας τείχους προστασίας ήταν ενεργοποιημένος, αλλά ο φάκελος /wp-content/ είναι μη εγγράψιμος."
+
+#: security/firewall-manager.php:170
+msgid "Please set the wp-config.php to writable until the rule has been written."
+msgstr "Παρακαλώ ορίστε το wp-config.php ως εγγράψιμο μέχρι να γραφτεί ο κανόνας."
+
+#: security/firewall-manager.php:170
+msgid "A firewall rule was enabled, but the wp-config.php is not writable."
+msgstr "Ένας κανόνας τείχους προστασίας ενεργοποιήθηκε, αλλά το wp-config.php είναι μη εγγράψιμο."
+
+#: security/firewall-manager.php:169 security/firewall-manager.php:175
+#: security/firewall-manager.php:191
+msgid "Firewall"
+msgstr "Τείχος προστασίας"
+
+#: rlrsssl-really-simple-ssl.php:179
+msgid "Visit the plugins overview or %srenew your license%s."
+msgstr "Επισκεφθείτε την επισκόπηση πρόσθετων ή %sανανεώστε την άδεια χρήσης σας%s."
+
+#: rlrsssl-really-simple-ssl.php:177
+msgid "Update Really Simple SSL Pro: the plugin needs to be updated to the latest version to be compatible."
+msgstr "Ενημερώστε το Really Simple SSL Pro: το πρόσθετο πρέπει να ενημερωθεί στην πιο πρόσφατη έκδοση για να είναι συμβατό."
+
+#: placeholders/class-placeholder.php:436
+msgid "Widget with mixed content"
+msgstr "Μικροεφαρμογή με μεικτό περιεχόμενο"
+
+#: placeholders/class-placeholder.php:431
+msgid "Widget area"
+msgstr "Περιοχή μικροεφαρμογών"
+
+#: placeholders/class-placeholder.php:410
+msgid "Mixed content in the postmeta table"
+msgstr "Μεικτό περιεχόμενο στον πίνακα postmeta"
+
+#: placeholders/class-placeholder.php:385
+msgid "Mixed content in post: %s"
+msgstr "Μεικτό περιεχόμενο σε άρθρο: %s"
+
+#: placeholders/class-placeholder.php:368
+msgid "Mixed content in CSS/JS file from other domain"
+msgstr "Μεικτό περιεχόμενο σε αρχείο CSS/JS από άλλο τομέα"
+
+#: placeholders/class-placeholder.php:357
+#: placeholders/class-placeholder.php:398
+#: placeholders/class-placeholder.php:424
+#: placeholders/class-placeholder.php:449
+msgid "Copyright warning!"
+msgstr "Προειδοποίηση πνευματικών δικαιωμάτων!"
+
+#: placeholders/class-placeholder.php:356
+#: placeholders/class-placeholder.php:397
+#: placeholders/class-placeholder.php:423
+#: placeholders/class-placeholder.php:448
+msgid "Import and insert file"
+msgstr "Εισαγωγή και τοποθέτηση αρχείου"
+
+#: placeholders/class-placeholder.php:343
+msgid "Mixed content in %s"
+msgstr "Μεικτό περιεχόμενο στο %s"
+
+#: placeholders/class-placeholder.php:331
+#: placeholders/class-placeholder.php:348
+#: placeholders/class-placeholder.php:372
+#: placeholders/class-placeholder.php:389
+#: placeholders/class-placeholder.php:415
+#: placeholders/class-placeholder.php:440
+#: settings/build/410.62f79f76747d73fb47e3.js:1
+#: settings/build/434.33f8fe1145ac390fb7ca.js:1
+#: settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/src/Settings/MixedContentScan/MixedContentScan.js:90
+#: settings/src/Settings/RiskConfiguration/RiskData.js:114
+msgid "Details"
+msgstr "Λεπτομέρειες"
+
+#: placeholders/class-placeholder.php:327
+msgid "Mixed content in PHP file in %s"
+msgstr "Μεικτό περιεχόμενο σε αρχείο PHP στο %s"
+
+#: onboarding/class-onboarding.php:354 settings/config/menu.php:571
+#: settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPluginsData.js:74
+#: settings/src/Settings/License/License.js:71
+msgid "Activate"
+msgstr "Ενεργοποίηση"
+
+#: onboarding/class-onboarding.php:350
+msgid "Activate our plugin %s"
+msgstr "Ενεργοποιήστε το πρόσθετο μας %s"
+
+#: onboarding/class-onboarding.php:329
+msgid "%s has been installed!"
+msgstr "Το %s έχει εγκατασταθεί!"
+
+#: onboarding/class-onboarding.php:312
+msgid "Hardening features are enabled!"
+msgstr "Οι λειτουργίες Ενδυνάμωσης είναι ενεργοποιημένες"
+
+#: onboarding/class-onboarding.php:303
+msgid "Enable recommended hardening features in Really Simple SSL"
+msgstr "Ενεργοποιήστε τις προτεινόμενες λειτουργίες ενδυνάμωσης στο Really Simple SSL"
+
+#: onboarding/class-onboarding.php:276
+msgid "SSL has been activated"
+msgstr "Το SSL έχει ενεργοποιηθεί"
+
+#: onboarding/class-onboarding.php:189
+msgid "Now have a look at our new features."
+msgstr "Τώρα ρίξτε μια ματιά στις νέες λειτουργίες μας."
+
+#: onboarding/class-onboarding.php:188
+msgid "Congratulations!"
+msgstr "Συγχαρητήρια!"
+
+#: onboarding/class-onboarding.php:188
+msgid "Thanks for updating!"
+msgstr "Σας ευχαριστούμε που πραγματοποιήσατε την ενημέρωση!"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:106
+#: lets-encrypt/integrations/cpanel/cpanel.php:190
+msgid "Your website's ip address is blocked. Please add your domain's ip address to the security policy in CPanel"
+msgstr "Η διεύθυνση IP του ιστότοπού σας έχει αποκλειστεί. Παρακαλώ προσθέστε τη διεύθυνση IP του τομέα σας στην πολιτική ασφαλείας στο CPanel"
+
+#: lets-encrypt/config/notices.php:167 lets-encrypt/config/notices.php:170
+msgid "Renew certificate"
+msgstr "Ανανέωση πιστοποιητικού"
+
+#: lets-encrypt/config/notices.php:164
+msgid "Renew installation"
+msgstr "Ανανέωση εγκατάστασης"
+
+#: lets-encrypt/config/fields.php:415
+msgid "Do you want to store these credentials for renewal purposes?"
+msgstr "Θέλετε να αποθηκεύσετε αυτά τα διαπιστευτήρια για σκοπούς ανανέωσης;"
+
+#: lets-encrypt/config/fields.php:375
+msgid "Plesk username and password"
+msgstr "Όνομα χρήστη και κωδικός πρόσβασης για το Plesk"
+
+#: lets-encrypt/config/fields.php:351
+msgid "Plesk admin URL"
+msgstr "Διεύθυνση URL διαχειριστή Plesk"
+
+#: lets-encrypt/config/fields.php:331
+msgid "CloudWays API key"
+msgstr "Κλειδί API της CloudWays"
+
+#: lets-encrypt/config/fields.php:250
+msgid "Direct Admin URL"
+msgstr "Direct Admin URL"
+
+#: lets-encrypt/config/fields.php:168
+msgid "Hosting Provider"
+msgstr "Πάροχος Φιλοξενίας"
+
+#: lets-encrypt/config/fields.php:145 lets-encrypt/config/fields.php:148
+msgid "Include alias"
+msgstr "Συμπερίληψη ψευδωνύμου"
+
+#: lets-encrypt/config/fields.php:123
+msgid "Disable OCSP stapling"
+msgstr "Απενεργοποίηση συρραφής OCSP"
+
+#: lets-encrypt/config/fields.php:110
+msgid "I agree to the Terms & Conditions from Let's Encrypt."
+msgstr "Συμφωνώ με τους Όρους και Προϋποθέσεις από το Let's Encrypt."
+
+#: lets-encrypt/class-le-restapi.php:232
+msgid "Test not found."
+msgstr "Η δοκιμή δεν βρέθηκε."
+
+#: lets-encrypt/class-le-restapi.php:163 lets-encrypt/class-le-restapi.php:224
+msgid "Permission denied."
+msgstr "Η άδεια απορρίφθηκε."
+
+#: class-site-health.php:113
+msgid "Read more about security concerns with debug display enabled"
+msgstr "Διαβάστε περισσότερα σχετικά με ζητήματα ασφαλείας με ενεργοποιημένη την εμφάνιση εντοπισμού σφαλμάτων"
+
+#: class-site-health.php:107
+msgid "The value, WP_DEBUG_DISPLAY, has either been enabled by WP_DEBUG or added to your configuration file. This will make errors display on the front end of your site."
+msgstr "Η τιμή, WP_DEBUG_DISPLAY, είτε έχει ενεργοποιηθεί από το WP_DEBUG είτε έχει προστεθεί στο αρχείο ρυθμίσεων παραμέτρων. Αυτό θα εμφανίσει σφάλματα στο front-end του ιστότοπού σας."
+
+#: class-site-health.php:99
+msgid "Your site is set to display errors on your website"
+msgstr "Έχει οριστεί ώστε να εμφανίζονται σφάλματα στον ιστότοπό σας"
+
+#. translators: Accessibility text.
+#: class-site-health.php:85 class-site-health.php:115
+msgid "(opens in a new tab)"
+msgstr "(ανοίγει σε νέα καρτέλα)"
+
+#: class-site-health.php:83
+msgid "Remove from public location with Really Simple SSL"
+msgstr "Κατάργηση από τη δημόσια τοποθεσία με το Really Simple SSL"
+
+#: class-site-health.php:77
+msgid "The value, WP_DEBUG_LOG, has been added to this website’s configuration file. This means any errors on the site will be written to a file which is potentially available to all users."
+msgstr "Η τιμή, WP_DEBUG_LOG, έχει προστεθεί στο αρχείο ρυθμίσεων παραμέτρων αυτού του ιστότοπου. Αυτό σημαίνει ότι τυχόν σφάλματα στον ιστότοπο θα εγγραφούν σε ένα αρχείο που είναι δυνητικά διαθέσιμο σε όλους τους χρήστες."
+
+#: class-site-health.php:69
+msgid "Your site is set to log errors to a potentially public file"
+msgstr "Ο ιστότοπός σας έχει ρυθμιστεί ώστε να καταγράφει σφάλματα σε ένα πιθανώς δημόσιο αρχείο"
+
+#: class-multisite.php:146
+msgid "A networkwide SSL activation process has been started, but has not been completed. Please go to the SSL settings page to complete the process."
+msgstr "Έχει ξεκινήσει μια διαδικασία ενεργοποίησης του SSL σε όλο το δίκτυο, αλλά δεν έχει ολοκληρωθεί. Παρακαλώ μεταβείτε στη σελίδα ρυθμίσεων του SSL για να ολοκληρώσετε τη διαδικασία."
+
+#: class-multisite.php:145
+msgid "SSL activation in progress"
+msgstr "Η ενεργοποίηση SSL βρίσκεται σε εξέλιξη"
+
+#: class-multisite.php:118
+msgid "SSL is not enabled on your network"
+msgstr "Το SSL δεν είναι ενεργοποιημένο στο δίκτυό σας"
+
+#: class-admin.php:2633 class-multisite.php:227
+msgid "Improve security - Upgrade"
+msgstr "Βελτίωση ασφάλειας - Αναβάθμιση"
+
+#: class-admin.php:2275
+msgid "Thanks for updating to Really Simple SSL 6.0! Check out our new features on the settings page."
+msgstr "Ευχαριστούμε για την ενημέρωση στην έκδοση Really Simple SSL 6.0! Ρίξτε μια ματιά στις νέες λειτουργίες μας στη σελίδα ρυθμίσεων."
+
+#: class-admin.php:2188
+msgid "See which recommended security headers are not present on your website."
+msgstr "Δείτε ποιες προτεινόμενες κεφαλίδες ασφαλείας δεν υπάρχουν στον ιστότοπό σας."
+
+#: class-admin.php:1872
+msgid "To safely enable SSL on your server configuration, you should add the following line of code to your wp-config.php."
+msgstr "Για να ενεργοποιήσετε με ασφάλεια το SSL στη ρύθμιση παραμέτρων του διακομιστή σας, θα πρέπει να προσθέσετε την ακόλουθη γραμμή κώδικα στο αρχείο wp-config.php."
+
+#: class-admin.php:1805 settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/build/772.82eb7af33aca2cee62c3.js:1
+#: settings/build/829.d97408105d73a09f9412.js:1
+#: settings/build/829.e5dba4df48e4760eb9b6.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPlugins.js:21
+#: settings/src/Menu/Menu.js:28
+msgid "Upgrade"
+msgstr "Αναβάθμιση"
+
+#. Description of the plugin
+msgid "Lightweight SSL & Hardening Plugin"
+msgstr "Ελαφρύ πρόσθετο για το SSL και την ενίσχυση ασφαλείας"
+
+#: onboarding/class-onboarding.php:261
+msgid "Self-hosted, Privacy-friendly analytics tool"
+msgstr "Αυτοφιλοξενούμενο εργαλείο ανάλυσης δεδομένων , με γνώμονα το απόρρητο"
+
+#: upgrade/upgrade-to-pro.php:579
+msgid "Your license key has reached its activation limit."
+msgstr "Το κλειδί άδειας χρήσης σας έχει συμπληρώσει το όριο ενεργοποιήσεών."
+
+#: upgrade/upgrade-to-pro.php:576
+msgid "This appears to be an invalid license key for this plugin."
+msgstr "Αυτό φαίνεται να είναι ένα μη έγκυρο κλειδί άδειας χρήσης για αυτό το πρόσθετο."
+
+#: upgrade/upgrade-to-pro.php:573
+msgid "Your license is not active for this URL."
+msgstr "Η άδεια χρήσης σας δεν είναι ενεργή για αυτήν τη διεύθυνση URL."
+
+#: upgrade/upgrade-to-pro.php:570
+msgid "Invalid license."
+msgstr "Μη έγκυρη άδεια χρήσης."
+
+#: upgrade/upgrade-to-pro.php:567
+msgid "Missing license."
+msgstr "Λείπει η άδεια χρήσης."
+
+#: upgrade/upgrade-to-pro.php:564
+msgid "Your license key has been disabled."
+msgstr "Το κλειδί άδειας χρήσης σας έχει απενεργοποιηθεί."
+
+#: upgrade/upgrade-to-pro.php:558
+msgid "Your license key expired on %s."
+msgstr "Το κλειδί άδειας χρήσης σας έληξε στις %s."
+
+#: upgrade/upgrade-to-pro.php:550 upgrade/upgrade-to-pro.php:582
+msgid "An error occurred, please try again."
+msgstr "Παρουσιάστηκε σφάλμα, παρακαλώ προσπαθήστε ξανά."
+
+#: upgrade/upgrade-to-pro.php:373
+msgid "Check your %slicense%s."
+msgstr "Ελέγξτε την %sάδεια χρήσης%s σας."
+
+#: upgrade/upgrade-to-pro.php:372
+msgid "Install %sManually%s."
+msgstr "Χειροκίνητη %sεγκατάσταση%s."
+
+#: upgrade/upgrade-to-pro.php:372 upgrade/upgrade-to-pro.php:373
+msgid "An Error Occurred:"
+msgstr "Παρουσιάστηκε σφάλμα:"
+
+#: upgrade/upgrade-to-pro.php:367
+msgid "Visit Dashboard"
+msgstr "Επισκεφθείτε τον Πίνακα Ελέγχου"
+
+#: upgrade/upgrade-to-pro.php:356
+msgid "Installing"
+msgstr "Πραγματοποιείται εγκατάσταση"
+
+#: upgrade/upgrade-to-pro.php:331
+msgid "Recommended by Really Simple Plugins"
+msgstr "Συνιστάται από την Really Simple Plugins"
+
+#: upgrade/upgrade-to-pro.php:233
+msgid "Installation finished"
+msgstr "Η εγκατάσταση ολοκληρώθηκε"
+
+#: upgrade/upgrade-to-pro.php:178
+msgid "Really Simple SSL automatically detects your settings and configures your website to run over HTTPS. To keep it lightweight, we kept the options to a minimum. Your website will move to SSL with one click."
+msgstr "Το πρόσθετο Really Simple SSL ανιχνεύει αυτόματα τις ρυθμίσεις σας και ρυθμίζει τις παραμέτρους του ιστότοπου σας ώστε να εκτελείται μέσω HTTPS. Για να το διατηρήσουμε ελαφρύ, περιορίσαμε τις επιλογές στο ελάχιστο. Ο ιστότοπός σας θα μεταφερθεί στο SSL με ένα κλικ."
+
+#: upgrade/upgrade-to-pro.php:174
+msgid "One click SSL optimization"
+msgstr "Βελτιστοποίηση του SSL με ένα κλικ"
+
+#: upgrade/upgrade-to-pro.php:157
+msgid "GDPR/CCPA Privacy Suite"
+msgstr "GDPR/CCPA Privacy Suite"
+
+#: upgrade/upgrade-to-pro.php:148
+msgid "Get detailed insights into visitors' behaviour with Burst Statistics, the privacy-friendly analytics dashboard from Really Simple Plugins."
+msgstr "Λάβετε σημαντικές πληροφορίες σχετικά με τη συμπεριφορά των επισκεπτών με το πρόσθετο Burst Statistics, τον πίνακα εργαλείων ανάλυσης, με γνώμονα το απόρρητο, της Really Simple Plugins."
+
+#: settings/settings.php:506 upgrade/upgrade-to-pro.php:144
+msgid "Self-hosted and privacy-friendly analytics tool."
+msgstr "Αυτοφιλοξενούμενο και με γνώμονα το απόρρητο εργαλείο ανάλυσης."
+
+#: upgrade/upgrade-to-pro.php:111
+msgid "Failed to activate plugin"
+msgstr "Απέτυχε η ενεργοποίηση του πρόσθετου"
+
+#: upgrade/upgrade-to-pro.php:110
+msgid "Plugin activated"
+msgstr "Το πρόσθετο ενεργοποιήθηκε"
+
+#: upgrade/upgrade-to-pro.php:109
+msgid "Activating plugin..."
+msgstr "Ενεργοποίηση πρόσθετου…"
+
+#: upgrade/upgrade-to-pro.php:104
+msgid "Failed to install plugin"
+msgstr "Η εγκατάσταση του πρόσθετου απέτυχε"
+
+#: upgrade/upgrade-to-pro.php:103
+msgid "Plugin installed"
+msgstr "Το πρόσθετο εγκαταστάθηκε"
+
+#: upgrade/upgrade-to-pro.php:102
+msgid "Installing plugin..."
+msgstr "Πραγματοποιείται εγκατάσταση του πρόσθετου..."
+
+#: upgrade/upgrade-to-pro.php:97
+msgid "Failed to gather package information"
+msgstr "Απέτυχε η συγκέντρωση πληροφοριών του πακέτου"
+
+#: upgrade/upgrade-to-pro.php:96
+msgid "Package information retrieved"
+msgstr "Οι πληροφορίες του πακέτου ανακτήθηκαν"
+
+#: upgrade/upgrade-to-pro.php:95
+msgid "Retrieving package information..."
+msgstr "Πραγματοποιείται ανάκτηση πληροφοριών του πακέτου..."
+
+#: upgrade/upgrade-to-pro.php:90
+msgid "License invalid"
+msgstr "Μη έγκυρη άδεια χρήσης"
+
+#: upgrade/upgrade-to-pro.php:89
+msgid "License valid"
+msgstr "Έγκυρη άδεια χρήσης"
+
+#: upgrade/upgrade-to-pro.php:88
+msgid "Validating license..."
+msgstr "Επαλήθευση άδειας χρήσης..."
+
+#: upgrade/upgrade-to-pro.php:83
+msgid "Destination folder already exists"
+msgstr "Ο φάκελος προορισμού υπάρχει ήδη"
+
+#: upgrade/upgrade-to-pro.php:82
+msgid "Able to create destination folder"
+msgstr "Δυνατότητα δημιουργίας φακέλου προορισμού"
+
+#: upgrade/upgrade-to-pro.php:81
+msgid "Checking if plugin folder exists..."
+msgstr "Έλεγχος εάν υπάρχει ο φάκελος του πρόσθετου..."
+
+#: class-admin.php:2206
+msgid "Improve security with Really Simple SSL Pro."
+msgstr "Βελτιώστε την ασφάλεια με την επέκταση Really Simple SSL Pro."
+
+#: class-admin.php:2001
+msgid "Check manually"
+msgstr "Χειροκίνητος έλεγχος"
+
+#: class-admin.php:1998
+msgid "Could not test certificate"
+msgstr "Δεν ήταν δυνατή η δοκιμή πιστοποιητικού"
+
+#: class-admin.php:1999 onboarding/class-onboarding.php:238
+msgid "Automatic certificate detection is not possible on your server."
+msgstr "Ο αυτόματος εντοπισμός πιστοποιητικού δεν είναι δυνατός στον διακομιστή σας."
+
+#: onboarding/class-onboarding.php:238
+msgid "Could not test certificate."
+msgstr "Δεν ήταν δυνατή η δοκιμή του πιστοποιητικού."
+
+#: lets-encrypt/config/fields.php:441
+msgid "Checking host..."
+msgstr "Έλεγχος εξυπηρετητή..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1132
+msgid "After completing the installation, you can let Really Simple SSL automatically configure your site for SSL by using the 'Activate SSL' button."
+msgstr "Μετά την ολοκλήρωση της εγκατάστασης, μπορείτε να αφήσετε το Really Simple SSL να ρυθμίσει αυτόματα τις παραμέτρους του ιστότοπού σας για το SSL χρησιμοποιώντας το κουμπί 'Ενεργοποίηση SSL'."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1117
+msgid "We have not detected any known hosting limitations."
+msgstr "Δεν έχουμε εντοπίσει γνωστούς περιορισμούς φιλοξενίας."
+
+#: class-admin.php:1986
+msgid "The wp-config.php file is not writable, and needs to be edited. Please set this file to writable."
+msgstr "Το αρχείο wp-config.php είναι μη εγγράψιμο και χρειάζεται επεξεργασία. Παρακαλώ ορίστε αυτό το αρχείο ως εγγράψιμο."
+
+#: class-site-health.php:151
+msgid "Your website does not send all recommended security headers."
+msgstr "Ο ιστότοπός σας δεν στέλνει όλες τις συνιστώμενες κεφαλίδες ασφαλείας."
+
+#: class-site-health.php:72 class-site-health.php:102 class-site-health.php:133
+#: class-site-health.php:173 security/wordpress/vulnerabilities.php:237
+#: security/wordpress/vulnerabilities.php:257
+msgid "Security"
+msgstr "Ασφάλεια"
+
+#: class-admin.php:2194
+msgid "Recommended security headers enabled."
+msgstr "Οι προτεινόμενες κεφαλίδες ασφαλείας είναι ενεργοποιημένες."
+
+#: lets-encrypt/config/fields.php:126
+msgid "Disable OCSP Stapling"
+msgstr "Απενεργοποίηση Συρραφής OCSP"
+
+#: lets-encrypt/config/fields.php:124
+msgid "OCSP stapling is configured as enabled by default. You can disable this option if this is not supported by your hosting provider."
+msgstr "Η συρραφή OCSP είναι ρυθμισμένη ως ενεργοποιημένη από προεπιλογή. Μπορείτε να απενεργοποιήσετε αυτήν την επιλογή εάν δεν υποστηρίζεται από τον πάροχο φιλοξενίας σας."
+
+#: lets-encrypt/functions.php:12
+msgid "For more information, please read this %sarticle%s"
+msgstr "Για περισσότερες πληροφορίες, παρακαλώ διαβάστε αυτό το %sάρθρο%s."
+
+#: class-admin.php:2259
+msgid "Black Friday sale! Get 40% Off Really Simple SSL Pro"
+msgstr "Έκπτωση Black Friday! Αποκτήστε έκπτωση 40% του Really Simple SSL Pro!"
+
+#: lets-encrypt/config/fields.php:525
+msgid "Checking if Terms & Conditions are accepted..."
+msgstr "Έλεγχος εάν οι Όροι και Προϋποθέσεις είναι αποδεκτοί..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:973
+msgid "The Terms & Conditions were not accepted. Please accept in the general settings."
+msgstr "Οι Όροι και Προϋποθέσεις δεν έγιναν αποδεκτοί. Παρακαλώ αποδεχτείτε στις γενικές ρυθμίσεις."
+
+#: lets-encrypt/class-letsencrypt-handler.php:969
+msgid "Terms & Conditions are accepted."
+msgstr "Οι Όροι και Προϋποθέσεις είναι αποδεκτοί."
+
+#: class-admin.php:2154
+msgid "HttpOnly Secure cookies have been set automatically!"
+msgstr "Η ασφάλιση των cookies με HttpOnly έχει ρυθμιστεί αυτόματα!"
+
+#: class-admin.php:2244
+msgid "As Really Simple SSL handles all the functionality this plugin provides, we recommend to disable this plugin to prevent unexpected behavior."
+msgstr "Καθώς το Really Simple SSL χειρίζεται όλες τις λειτουργίες που παρέχει αυτό το πρόσθετο, σας συνιστούμε να απενεργοποιήσετε αυτό το πρόσθετο για να αποτρέψετε απροσδόκητη συμπεριφορά."
+
+#: class-admin.php:2244
+msgid "We have detected the %s plugin on your website."
+msgstr "Εντοπίσαμε το πρόσθετο %s στον ιστότοπό σας."
+
+#: onboarding/class-onboarding.php:243
+msgid "Please refresh the SSL status if a certificate has been installed recently."
+msgstr "Παρακαλώ ανανεώστε την κατάσταση του SSL εάν έχει εγκατασταθεί πρόσφατα ένα πιστοποιητικό."
+
+#: onboarding/class-onboarding.php:243
+msgid "No SSL certificate has been detected."
+msgstr "Δεν έχει εντοπιστεί πιστοποιητικό SSL."
+
+#: lets-encrypt/config/notices.php:126
+msgid "Your server provides shell functionality, which offers additional methods to install SSL. If installing SSL using the default methods is not possible, you can install the shell add on."
+msgstr "Ο διακομιστής σας παρέχει λειτουργικότητα shell, η οποία προσφέρει πρόσθετες μεθόδους για την εγκατάσταση του SSL. Εάν η εγκατάσταση του SSL, χρησιμοποιώντας τις προεπιλεγμένες μεθόδους, δεν είναι δυνατή, μπορείτε να εγκαταστήσετε την επέκταση shell."
+
+#: lets-encrypt/class-letsencrypt-handler.php:458
+msgid "If you entered your DNS records before, they need to be changed."
+msgstr "Εάν έχετε ήδη εισαγάγει τις εγγραφές DNS, πρέπει να αλλάξουν."
+
+#: lets-encrypt/class-letsencrypt-handler.php:455
+msgid "Order ID mismatch, regenerate order."
+msgstr "Αναντιστοιχία αναγνωριστικού παραγγελίας, αναδημιουργήστε την παραγγελία."
+
+#: class-admin.php:1936
+msgid "Really Simple SSL Pro is not up to date. Update Really Simple SSL Pro to ensure compatibility."
+msgstr "Η επέκταση Really Simple SSL Pro δεν είναι ενημερωμένη. Ενημερώστε την επέκταση Really Simple SSL Pro για να διασφαλίσετε τη συμβατότητα."
+
+#: settings/config/config.php:50 settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/src/LetsEncrypt/Installation.js:95
+#: settings/src/LetsEncrypt/Installation.js:100
+#: settings/src/LetsEncrypt/Installation.js:104
+msgid "Download"
+msgstr "Λήψη"
+
+#: settings/config/menu.php:194 settings/config/menu.php:199
+#: settings/build/94.ffb935d73903bc062f01.js:1
+#: settings/build/772.82eb7af33aca2cee62c3.js:1
+#: settings/src/Settings/Settings.js:164
+msgid "Notifications"
+msgstr "Ειδοποιήσεις"
+
+#: lets-encrypt/config/notices.php:28
+msgid "Your Key and Certificate directories are not properly protected."
+msgstr "Οι κατάλογοι Key και Certificate δεν προστατεύονται σωστά."
+
+#: lets-encrypt/config/notices.php:109
+msgid "Your certificate will be renewed and installed automatically."
+msgstr "Το πιστοποιητικό σας θα ανανεωθεί και θα εγκατασταθεί αυτόματα."
+
+#: lets-encrypt/config/notices.php:102
+msgid "Automatic renewal of your certificate was not possible. The SSL certificate should be %srenewed%s manually."
+msgstr "Η αυτόματη ανανέωση του πιστοποιητικού σας δεν ήταν δυνατή. Το πιστοποιητικό SSL θα πρέπει να %sανανεωθεί%s χειροκίνητα."
+
+#: lets-encrypt/config/notices.php:95
+msgid "The SSL certificate has been renewed, and requires manual %sinstallation%s in your hosting dashboard."
+msgstr "Το πιστοποιητικό SSL έχει ανανεωθεί και απαιτεί χειροκίνητη %sεγκατάσταση%s στον πίνακα εργαλείων φιλοξενίας σας."
+
+#: lets-encrypt/config/notices.php:88
+msgid "The automatic installation of your certificate has failed. Please check your credentials, and retry the %sinstallation%s."
+msgstr "Η αυτόματη εγκατάσταση του πιστοποιητικού σας απέτυχε. Παρακαλώ ελέγξτε τα διαπιστευτήριά σας και δοκιμάστε ξανά την %sεγκατάσταση%s."
+
+#: lets-encrypt/config/notices.php:73
+msgid "Your certificate will expire on %s. You can renew it %shere%s."
+msgstr "Το πιστοποιητικό σας θα λήξει στις %s. Μπορείτε να το ανανεώσετε %sεδώ%s."
+
+#: lets-encrypt/config/notices.php:69
+msgid "Your certificate is valid until: %s"
+msgstr "Το πιστοποιητικό σας είναι έγκυρο έως: %s"
+
+#: lets-encrypt/config/notices.php:42
+msgid "The www version of your site does not point to this website. This is recommended, as it will allow you to add it to the certificate as well."
+msgstr "Η www έκδοση του ιστότοπού σας δεν παραπέμπει σε αυτόν τον ιστότοπο. Αυτό συνιστάται, καθώς θα σας επιτρέψει να την προσθέσετε και στο πιστοποιητικό."
+
+#: lets-encrypt/config/notices.php:40
+msgid "The non-www version of your site does not point to this website. This is recommended, as it will allow you to add it to the certificate as well."
+msgstr "Η άνευ www έκδοση του ιστότοπού σας δεν παραπέμπει σε αυτόν τον ιστότοπο. Αυτό συνιστάται, καθώς θα σας επιτρέψει να την προσθέσετε και στο πιστοποιητικό."
+
+#: lets-encrypt/config/fields.php:551
+msgid "Searching for link to SSL installation page on your server..."
+msgstr "Αναζήτηση συνδέσμου προς τη σελίδα εγκατάστασης SSL στον διακομιστή σας..."
+
+#: lets-encrypt/config/fields.php:29 settings/config/menu.php:566
+msgid "Installation"
+msgstr "Εγκατάσταση"
+
+#: lets-encrypt/config/fields.php:25 settings/config/menu.php:561
+msgid "Generation"
+msgstr "Δημιουργία"
+
+#: lets-encrypt/config/fields.php:499
+msgid "Retrieving DNS verification token..."
+msgstr "Ανάκτηση διακριτικού επαλήθευσης DNS..."
+
+#: lets-encrypt/config/fields.php:493 lets-encrypt/config/fields.php:531
+msgid "Creating account..."
+msgstr "Δημιουργία λογαριασμού..."
+
+#: lets-encrypt/config/fields.php:21
+msgid "DNS Verification"
+msgstr "Επαλήθευση DNS"
+
+#: lets-encrypt/config/fields.php:472
+msgid "Checking challenge directory reachable over http..."
+msgstr "Έλεγχος του καταλόγου challenge που είναι προσβάσιμος μέσω http..."
+
+#: lets-encrypt/config/fields.php:465
+msgid "Checking permissions..."
+msgstr "Έλεγχος Αδειών..."
+
+#: lets-encrypt/config/fields.php:459
+msgid "Checking certs directory..."
+msgstr "Έλεγχος καταλόγου certs..."
+
+#: lets-encrypt/config/fields.php:453
+msgid "Checking key directory..."
+msgstr "Έλεγχος καταλόγου key..."
+
+#: lets-encrypt/config/fields.php:447
+msgid "Checking challenge directory..."
+msgstr "Έλεγχος καταλόγου challenge..."
+
+#: lets-encrypt/config/fields.php:17 settings/config/menu.php:551
+msgid "Directories"
+msgstr "Κατάλογοι"
+
+#: settings/config/menu.php:546
+msgid "Below you will find the instructions for different hosting environments and configurations. If you start the process with the necessary instructions and credentials the next view steps will be done in no time."
+msgstr "Παρακάτω θα βρείτε τις οδηγίες για διαφορετικά περιβάλλοντα φιλοξενίας και ρυθμίσεων παραμέτρων. Εάν ξεκινήσετε τη διαδικασία με τις απαραίτητες οδηγίες και διαπιστευτήρια, τα επόμενα βήματα θα ολοκληρωθούν σε πολύ μικρό χρονικό διάστημα."
+
+#: settings/config/menu.php:545
+msgid "Hosting"
+msgstr "Φιλοξενία"
+
+#: settings/config/menu.php:534
+msgid "Letʼs Encrypt is a free, automated and open certificate authority brought to you by the nonprofit Internet Security Research Group (ISRG)."
+msgstr "Το Letʼs Encrypt είναι μια δωρεάν, αυτοματοποιημένη και ανοιχτή αρχή έκδοσης πιστοποιητικών, προσφορά της μη κερδοσκοπικής Ομάδας Έρευνας για την Ασφάλεια στο Διαδίκτυο (ISRG)."
+
+#: settings/config/menu.php:526
+msgid " Please note that you can always save and finish the wizard later, use our %sdocumentation%s for additional information or log a %ssupport ticket%s if you need our assistance."
+msgstr " Επισημαίνεται ότι μπορείτε ανά πάσα στιγμή να αποθηκεύσετε και να ολοκληρώσετε τον οδηγό αργότερα, να χρησιμοποιήσετε την %sτεκμηρίωσή%s μας για πρόσθετες πληροφορίες, ή να υποβάλετε ένα %sαίτημα υποστήριξης%s εάν χρειάζεστε τη βοήθειά μας."
+
+#: settings/config/menu.php:524
+msgid "We have tried to make our Wizard as simple and fast as possible. Although these questions are all necessary, if there’s any way you think we can improve the plugin, please let us %sknow%s!"
+msgstr "Προσπαθήσαμε να κάνουμε τον Οδηγό μας όσο πιο απλό και γρήγορο γίνεται. Αν και αυτές οι ερωτήσεις είναι όλες απαραίτητες, αν υπάρχει κάποιος τρόπος που νομίζετε ότι μπορούμε να βελτιώσουμε το πρόσθετο, παρακαλούμε %sενημερώστε μας%s!"
+
+#: lets-encrypt/config/fields.php:12
+msgid "General settings"
+msgstr "Γενικές ρυθμίσεις"
+
+#: lets-encrypt/config/fields.php:76
+msgid "Checking for website configuration..."
+msgstr "Έλεγχος για ρύθμιση παραμέτρων ιστότοπου..."
+
+#: lets-encrypt/config/fields.php:70
+msgid "Checking alias domain..."
+msgstr "Έλεγχος ψευδώνυμου τομέα..."
+
+#: lets-encrypt/config/fields.php:64
+msgid "Checking server software..."
+msgstr "Έλεγχος λογισμικού διακομιστή..."
+
+#: lets-encrypt/config/fields.php:58
+msgid "Checking if CURL is available..."
+msgstr "Έλεγχος αν το CURL είναι διαθέσιμο..."
+
+#: lets-encrypt/config/fields.php:52
+msgid "Checking SSL certificate..."
+msgstr "Έλεγχος πιστοποιητικού SSL..."
+
+#: lets-encrypt/config/fields.php:47
+msgid "Detected status of your setup."
+msgstr "Εντοπίστηκε η κατάσταση των ρυθμίσεών σας."
+
+#: lets-encrypt/config/fields.php:8 settings/config/menu.php:533
+msgid "System Status"
+msgstr "Κατάσταση Συστήματος"
+
+#: lets-encrypt/config/fields.php:419
+msgid "Store for renewal purposes. If not stored, renewal may need to be done manually."
+msgstr "Αποθηκεύστε για ανανέωση. Εάν δεν γίνει αποθήκευση, η ανανέωση μπορεί να χρειαστεί να γίνει χειροκίνητα."
+
+#: lets-encrypt/config/fields.php:396
+msgid "Plesk password"
+msgstr "Κωδικός πρόσβασης για το Plesk"
+
+#: lets-encrypt/config/fields.php:376
+msgid "You can find your Plesk username and password in %s"
+msgstr "Μπορείτε να βρείτε το όνομα χρήστη σας και τον κωδικό πρόσβασής για το Plesk στο %s"
+
+#: lets-encrypt/config/fields.php:372
+msgid "Plesk username"
+msgstr "Όνομα χρήστη για το Plesk"
+
+#: lets-encrypt/config/fields.php:352
+msgid "The URL you use to access your Plesk dashboard. Ends on :8443."
+msgstr "Η διεύθυνση URL που χρησιμοποιείτε για να αποκτήσετε πρόσβαση στον πίνακα εργαλείων του Plesk. Τελειώνει σε :8443."
+
+#: lets-encrypt/config/fields.php:348
+msgid "Plesk host"
+msgstr "Εξυπηρετητής Plesk"
+
+#: lets-encrypt/config/fields.php:332
+msgid "You can find your api key %shere%s (make sure you're logged in with your main account)."
+msgstr "Μπορείτε να βρείτε το κλειδί api %sεδώ%s (βεβαιωθείτε ότι είστε συνδεδεμένοι με τον κύριο λογαριασμό σας)."
+
+#: lets-encrypt/config/fields.php:326
+msgid "CloudWays api key"
+msgstr "Κλειδί API της CloudWays"
+
+#: lets-encrypt/config/fields.php:310
+msgid "CloudWays user email"
+msgstr "Ηλεκτρονικό ταχυδρομείο χρήστη CloudWays"
+
+#: lets-encrypt/config/fields.php:290
+msgid "DirectAdmin password"
+msgstr "Κωδικός πρόσβασης για το DirectAdmin"
+
+#: lets-encrypt/config/fields.php:271
+msgid "DirectAdmin username"
+msgstr "Όνομα χρήστη για το DirectAdmin"
+
+#: lets-encrypt/config/fields.php:251
+msgid "The URL you use to access your DirectAdmin dashboard. Ends on :2222."
+msgstr "Η διεύθυνση URL που χρησιμοποιείτε για να αποκτήσετε πρόσβαση στον πίνακα εργαλείων του DirectAdmin. Τελειώνει σε :2222."
+
+#: lets-encrypt/config/fields.php:247
+msgid "DirectAdmin host"
+msgstr "Εξυπηρετητής DirectAdmin"
+
+#: lets-encrypt/config/fields.php:228
+msgid "CPanel password"
+msgstr "Κωδικός πρόσβασης για το CPanel"
+
+#: lets-encrypt/config/fields.php:209
+msgid "CPanel username"
+msgstr "Όνομα χρήστη για το CPanel"
+
+#: lets-encrypt/config/fields.php:189
+msgid "The URL you use to access your cPanel dashboard. Ends on :2083."
+msgstr "Η διεύθυνση URL που χρησιμοποιείτε για να αποκτήσετε πρόσβαση στον πίνακα εργαλείων του cPanel. Τελειώνει σε :2083."
+
+#: lets-encrypt/config/fields.php:185 lets-encrypt/config/fields.php:188
+msgid "CPanel host"
+msgstr "Εξυπηρετητής CPanel"
+
+#: lets-encrypt/config/fields.php:175
+msgid "Hosting provider"
+msgstr "Πάροχος φιλοξενίας"
+
+#: lets-encrypt/config/fields.php:171
+msgid "If your hosting provider is not listed, and there's an SSL activation/installation link, please let us %sknow%s."
+msgstr "Εάν ο πάροχος φιλοξενίας σας δεν περιλαμβάνεται στη λίστα και υπάρχει ένας σύνδεσμος ενεργοποίησης / εγκατάστασης SSL, παρακαλούμε %sενημερώστε μας%s."
+
+#: lets-encrypt/config/fields.php:169
+msgid "By selecting your hosting provider we can tell you if your hosting provider already supports free SSL, and/or where you can activate it."
+msgstr "Επιλέγοντας τον πάροχο φιλοξενίας σας, μπορούμε να σας πούμε αν ο πάροχος φιλοξενίας σας υποστηρίζει ήδη δωρεάν SSL, ή / και που μπορείτε να το ενεργοποιήσετε."
+
+#: lets-encrypt/config/fields.php:150
+msgid "You should have the www domain pointed to the same website as the non-www domain."
+msgstr "Ο www τομέας θα πρέπει να παραπέμπει στον ίδιο ιστότοπο όπως ο άνευ www τομέας."
+
+#: lets-encrypt/config/fields.php:149
+msgid "This will include both the www. and non-www. version of your domain."
+msgstr "Αυτό θα περιλαμβάνει και τις δύο www. και χωρίς-www. εκδόσεις του τομέα σας."
+
+#: lets-encrypt/config/fields.php:134 lets-encrypt/config/notices.php:50
+msgid "Domain"
+msgstr "Τομέας"
+
+#: settings/settings.php:521
+msgid "Terms and Conditions"
+msgstr "Όροι και Προϋποθέσεις"
+
+#: lets-encrypt/config/fields.php:94 lets-encrypt/config/fields.php:97
+#: settings/config/config.php:176
+msgid "Email address"
+msgstr "Διεύθυνση ηλεκτρονικού ταχυδρομείου"
+
+#: lets-encrypt/config/fields.php:98
+msgid "This email address is used to create a Let's Encrypt account. This is also where you will receive renewal notifications."
+msgstr "Αυτή η διεύθυνση ηλεκτρονικού ταχυδρομείου θα χρησιμοποιηθεί για τη δημιουργία ενός λογαριασμού Let's Encrypt. Εδώ θα λαμβάνετε επίσης ειδοποιήσεις ανανέωσης."
+
+#: lets-encrypt/config/class-hosts.php:534
+msgid "I don't know, or not listed, proceed with installation"
+msgstr "Δεν γνωρίζω, ή δεν αναφέρεται, προχωρήστε στην εγκατάσταση"
+
+#: lets-encrypt/config/fields.php:569
+msgid "Checking for subdomain setup..."
+msgstr "Έλεγχος για τη ρύθμιση του υποτομέα..."
+
+#: lets-encrypt/config/fields.php:537
+msgid "Generating SSL certificate..."
+msgstr "Δημιουργία πιστοποιητικού SSL..."
+
+#: lets-encrypt/integrations/plesk/plesk.php:87
+msgid "Successfully installed SSL"
+msgstr "Επιτυχής εγκατάσταση SSL"
+
+#: lets-encrypt/integrations/plesk/functions.php:33
+msgid "Installing SSL certificate using PLESK API..."
+msgstr "Εγκατάσταση πιστοποιητικού SSL με χρήση του API της PLESK..."
+
+#: lets-encrypt/integrations/cpanel/functions.php:107
+#: lets-encrypt/integrations/directadmin/functions.php:35
+msgid "Attempting to install certificate..."
+msgstr "Προσπάθεια εγκατάστασης πιστοποιητικού..."
+
+#: lets-encrypt/integrations/cpanel/functions.php:100
+msgid "Attempting to set DNS txt record..."
+msgstr "Προσπάθεια ορισμού DNS εγγραφής ΤΧΤ..."
+
+#: lets-encrypt/integrations/cpanel/functions.php:91
+msgid "Attempting to install certificate using AutoSSL..."
+msgstr "Προσπάθεια εγκατάστασης πιστοποιητικού με AutoSSL..."
+
+#: lets-encrypt/integrations/cpanel/functions.php:63
+msgid "The system is not ready for the DNS verification yet. Please run the wizard again."
+msgstr "Το σύστημα δεν είναι ακόμα έτοιμο για την επαλήθευση DNS. Παρακαλώ εκτελέστε ξανά τον οδηγό."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:308
+#: lets-encrypt/integrations/cpanel/cpanel.php:327
+msgid "Could not automatically add TXT record. Please proceed manually, following the steps below."
+msgstr "Δεν ήταν δυνατή η αυτόματη προσθήκη εγγραφής TXT. Παρακαλώ προχωρήστε χειροκίνητα, ακολουθώντας τα παρακάτω βήματα."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:304
+#: lets-encrypt/integrations/cpanel/cpanel.php:323
+msgid "Successfully added TXT record."
+msgstr "Επιτυχής προσθήκη εγγραφής TXT."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:296
+msgid "Login credentials incorrect"
+msgstr "Τα διαπιστευτήρια σύνδεσης είναι λανθασμένα"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:292
+msgid "Unable to connect to cPanel"
+msgstr "Δεν είναι δυνατή η σύνδεση στο cPanel"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:205
+msgid "Errors were reported during installation."
+msgstr "Καταγράφηκαν σφάλματα κατά την εγκατάσταση."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:126
+msgid "Errors were reported during installation"
+msgstr "Καταγράφηκαν σφάλματα κατά την εγκατάσταση"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:121
+#: lets-encrypt/integrations/directadmin/directadmin.php:122
+msgid "SSL successfully installed on %s"
+msgstr "Το SSL εγκαταστάθηκε με επιτυχία στο %s"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:64
+#: lets-encrypt/integrations/directadmin/directadmin.php:64
+msgid "No valid list of domains."
+msgstr "Δεν υπάρχει έγκυρη λίστα τομέων."
+
+#: lets-encrypt/integrations/cloudways/functions.php:49
+msgid "Enabling auto renew..."
+msgstr "Ενεργοποίηση αυτόματης ανανέωσης..."
+
+#: lets-encrypt/integrations/cloudways/functions.php:43
+msgid "Installing SSL certificate..."
+msgstr "Εγκατάσταση πιστοποιητικού SSL..."
+
+#: lets-encrypt/integrations/cloudways/functions.php:37
+msgid "Retrieving Cloudways server data..."
+msgstr "Ανάκτηση δεδομένων διακομιστή Cloudways..."
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:248
+msgid "Could not retrieve server list"
+msgstr "Δεν ήταν δυνατή η ανάκτηση της λίστας διακομιστών"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:208
+#: lets-encrypt/integrations/cloudways/cloudways.php:241
+msgid "Successfully retrieved server id and app id"
+msgstr "Επιτυχής ανάκτηση αναγνωριστικού διακομιστή και αναγνωριστικού εφαρμογής"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:192
+msgid "Error enabling auto renew for Let's Encrypt"
+msgstr "Σφάλμα κατά την ενεργοποίηση της αυτόματης ανανέωσης για το Let's Encrypt"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:177
+#: lets-encrypt/integrations/cloudways/cloudways.php:183
+msgid "Successfully installed Let's Encrypt"
+msgstr "Επιτυχής εγκατάσταση του Let's Encrypt"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:157
+msgid "Failed retrieving access token"
+msgstr "Απέτυχε η ανάκτηση διακριτικού πρόσβασης"
+
+#: lets-encrypt/functions.php:399
+msgid "You can follow these %sinstructions%s."
+msgstr "Μπορείτε να ακολουθήσετε αυτές τις %sοδηγίες%s."
+
+#: lets-encrypt/functions.php:397
+msgid "Your hosting environment does not allow automatic SSL installation."
+msgstr "Το περιβάλλον φιλοξενίας σας δεν επιτρέπει την αυτόματη εγκατάσταση του SSL."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1124
+#: lets-encrypt/functions.php:394
+msgid "According to our information, your hosting provider does not allow any kind of SSL installation, other then their own paid certificate. For an alternative hosting provider with SSL, see this %sarticle%s."
+msgstr "Σύμφωνα με τις πληροφορίες μας, ο πάροχος φιλοξενίας σας δεν επιτρέπει κανενός είδους εγκατάσταση SSL, εκτός από το δικό του πιστοποιητικό επί πληρωμή. Για εναλλακτικό πάροχο φιλοξενίας με SSL, ανατρέξτε σε αυτό το %sάρθρο%s."
+
+#: lets-encrypt/functions.php:388
+msgid "You already have free SSL on your hosting environment."
+msgstr "Έχετε ήδη δωρεάν SSL στο περιβάλλον φιλοξενίας σας."
+
+#: lets-encrypt/functions.php:386 lets-encrypt/functions.php:390
+#: lets-encrypt/functions.php:400
+msgid "After completing the installation, you can continue to the next step to complete your configuration."
+msgstr "Μετά την ολοκλήρωση της εγκατάστασης, μπορείτε να συνεχίσετε στο επόμενο βήμα για να ολοκληρώσετε τη ρύθμιση παραμέτρων."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1131
+#: lets-encrypt/functions.php:384
+msgid "According to our information, your hosting provider supplies your account with an SSL certificate by default. Please contact your %shosting support%s if this is not the case."
+msgstr "Σύμφωνα με τις πληροφορίες μας, ο πάροχος φιλοξενίας σας προμηθεύει τον λογαριασμό σας με πιστοποιητικό SSL από προεπιλογή. Παρακαλώ επικοινωνήστε με την %sυποστήριξη του παρόχου φιλοξενίας σας%s εάν αυτό δεν συμβαίνει."
+
+#: lets-encrypt/functions.php:379
+msgid "Go to installation"
+msgstr "Μετάβαση στην εγκατάσταση"
+
+#: lets-encrypt/functions.php:378
+msgid "Go to activation"
+msgstr "Μετάβαση στην ενεργοποίηση"
+
+#: lets-encrypt/functions.php:377
+msgid "Please activate it on your dashboard %smanually%s"
+msgstr "Παρακαλώ ενεργοποιήστε το στον πίνακα εργαλείων σας %sχειροκίνητα%s"
+
+#: lets-encrypt/functions.php:376
+msgid "Please complete %smanually%s"
+msgstr "Παρακαλώ ολοκληρώστε %sχειροκίνητα%s"
+
+#: lets-encrypt/functions.php:374
+msgid "Please activate it manually on your hosting dashboard."
+msgstr "Παρακαλώ ενεργοποιήστε το χειροκίνητα στον πίνακα εργαλείων του παρόχου φιλοξενίας σας."
+
+#: lets-encrypt/functions.php:373
+msgid "Please complete manually in your hosting dashboard."
+msgstr "Παρακαλώ ολοκληρώστε χειροκίνητα στον πίνακα εργαλείων του παρόχου φιλοξενίας σας."
+
+#: lets-encrypt/download.php:49
+msgid "File missing. Please retry the previous steps."
+msgstr "Λείπει το αρχείο. Παρακακώ δοκιμάστε ξανά τα προηγούμενα βήματα."
+
+#: lets-encrypt/cron.php:84 security/cron.php:62
+msgid "Once every 5 minutes"
+msgstr "Μία φορά κάθε 5 λεπτά"
+
+#: lets-encrypt/cron.php:80 security/cron.php:66
+msgid "Once every day"
+msgstr "Μία φορά την ημέρα"
+
+#: lets-encrypt/cron.php:76 security/cron.php:74
+msgid "Once every week"
+msgstr "Μία φορά την εβδομάδα"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1747
+#: lets-encrypt/integrations/cloudways/functions.php:22
+#: lets-encrypt/integrations/cpanel/functions.php:17
+#: lets-encrypt/integrations/cpanel/functions.php:35
+#: lets-encrypt/integrations/directadmin/functions.php:16
+#: lets-encrypt/integrations/plesk/functions.php:16
+msgid "The system is not ready for the installation yet. Please run the wizard again."
+msgstr "Το σύστημα δεν είναι ακόμα έτοιμο για την εγκατάσταση. Παρακαλώ εκτελέστε ξανά τον οδηγό."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1742
+msgid "Installation failed."
+msgstr "Η εγκατάσταση απέτυχε."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1737
+msgid "Not recognized server."
+msgstr "Μη αναγνωρίσιμος διακομιστής."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1707
+msgid "The certificate installation was rate limited. Please try again later."
+msgstr "Η εγκατάσταση του πιστοποιητικού περιορίστηκε. Παρακαλώ προσπαθήστε ξανά αργότερα."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1628
+msgid "Error code %s"
+msgstr "Κωδικός σφάλματος %s"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1611
+msgid "Please create a folder 'rsssl' in the uploads directory, with 644 permissions."
+msgstr "Παρακαλώ δημιουργήστε ένα φάκελο 'rsssl' στον κάταλογο uploads με δικαιώματα γραφής 644."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1610
+msgid "Could not create test folder and file."
+msgstr "Δεν ήταν δυνατή η δημιουργία δοκιμαστικού φακέλου και αρχείου."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1581
+msgid "If this is not the case, don't add this alias to your certificate."
+msgstr "Εάν δεν συμβαίνει αυτή η περίπτωση, μην προσθέσετε αυτό το ψευδώνυμο στο πιστοποιητικό σας."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1581
+msgid "Could not verify alias domain."
+msgstr "Δεν ήταν δυνατή η επαλήθευση του τομέα ψευδωνύμου."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1579
+msgid "Please check if the www version of your site also points to this website."
+msgstr "Παρακαλώ ελέγξτε αν η www έκδοση του ιστότοπού σας παραπέμπει επίσης σε αυτόν τον ιστότοπο."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1577
+msgid "Please check if the non www version of your site also points to this website."
+msgstr "Παρακαλώ ελέγξτε αν η άνευ www έκδοση του ιστότοπού σας παραπέμπει επίσης σε αυτόν τον ιστότοπο."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1558
+msgid "Alias domain check is not relevant for a subdomain"
+msgstr "Ο έλεγχος τομέα ψευδώνυμου δεν είναι σχετικός για έναν υποτομέα"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1528
+msgid "No subdomain setup detected."
+msgstr "Δεν εντοπίστηκε ρύθμιση υποτομέα."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1290
+#: lets-encrypt/class-letsencrypt-handler.php:1588
+#: lets-encrypt/class-letsencrypt-handler.php:1639
+msgid "Successfully verified alias domain."
+msgstr "Επιτυχής επαλήθευση ψευδωνύμου τομέα."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1279
+#: lets-encrypt/class-letsencrypt-handler.php:1283
+msgid "Error code %s."
+msgstr "Κωδικός σφάλματος %s."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1265
+msgid "Challenge directory not writable."
+msgstr "Ο κατάλογος challenge είναι μη εγγράψιμος."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1259
+msgid "Could not reach challenge directory over %s."
+msgstr "Δεν ήταν δυνατή η πρόσβαση στον κατάλογο challenge μέσω %s."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1255
+#: lets-encrypt/class-letsencrypt-handler.php:1565
+msgid "no response"
+msgstr "καμία απόκριση"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1196
+msgid "The certs directory was successfully created."
+msgstr "Ο κατάλογος certs δημιουργήθηκε με επιτυχία."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1192
+msgid "The certs directory is not created yet."
+msgstr "Ο κατάλογος certs δεν έχει δημιουργηθεί ακόμα."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1177
+msgid "The key directory was successfully created."
+msgstr "Ο κατάλογος key δημιουργήθηκε με επιτυχία."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1169
+msgid "Trying to create directory in root of website."
+msgstr "Προσπάθεια δημιουργίας καταλόγου στο root του ιστότοπου."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1165
+msgid "The key directory is not created yet."
+msgstr "Ο κατάλογος key δεν έχει δημιουργηθεί ακόμα."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1152
+msgid "The challenge directory was successfully created."
+msgstr "Ο κατάλογος challenge δημιουργήθηκε με επιτυχία."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1148
+msgid "The challenge directory is not created yet."
+msgstr "Ο κατάλογος challenge δεν έχει δημιουργηθεί ακόμα."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1105
+msgid "The required directories have the necessary writing permissions."
+msgstr "Οι απαιτούμενοι κατάλογοι έχουν τα απαραίτητα δικαιώματα εγγραφής."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1098
+msgid "Set permissions to 644 to enable SSL generation."
+msgstr "Ορίστε τα δικαιώματα σε 644 για να ενεργοποιήσετε τη δημιουργία SSL."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1098
+msgid "The following directories do not have the necessary writing permissions."
+msgstr "Οι ακόλουθοι κατάλογοι δεν έχουν τα απαραίτητα δικαιώματα εγγραφής."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1082
+msgid "Please complete the following step(s) first: %s"
+msgstr "Παρακαλώ ολοκληρώστε πρώτα τα ακόλουθα βήματα: %s"
+
+#: lets-encrypt/class-letsencrypt-handler.php:817
+msgid "Order successfully retrieved."
+msgstr "Η παραγγελία ανακτήθηκε με επιτυχία."
+
+#: lets-encrypt/class-letsencrypt-handler.php:801
+msgid "Order successfully created."
+msgstr "Η παραγγελία δημιουργήθηκε με επιτυχία."
+
+#: lets-encrypt/class-letsencrypt-handler.php:743
+msgid "Bundle not available yet..."
+msgstr "Το Bundle δεν είναι διαθέσιμο ακόμα..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:735
+msgid "Files not created yet..."
+msgstr "Τα αρχεία δεν έχουν δημιουργηθεί ακόμα..."
+
+#: lets-encrypt/class-letsencrypt-handler.php:729
+msgid "Successfully generated certificate."
+msgstr "Επιτυχής δημιουργία πιστοποιητικού."
+
+#: lets-encrypt/class-letsencrypt-handler.php:692
+msgid "OCSP not supported, the certificate will be generated without OCSP."
+msgstr "Το OCSP δεν υποστηρίζεται, το πιστοποιητικό θα δημιουργηθεί χωρίς OCSP."
+
+#: lets-encrypt/class-letsencrypt-handler.php:684
+msgid "As your order will be regenerated, you'll need to update your DNS text records."
+msgstr "Καθώς η παραγγελία σας θα αναδημιουργηθεί, θα πρέπει να ενημερώσετε τις εγγραφές κειμένου DNS."
+
+#: lets-encrypt/class-letsencrypt-handler.php:451
+#: lets-encrypt/class-letsencrypt-handler.php:681
+msgid "The order is invalid, possibly due to too many failed authorization attempts. Please start at the previous step."
+msgstr "Η παραγγελία δεν είναι έγκυρη, πιθανώς λόγω πάρα πολλών αποτυχημένων προσπαθειών εξουσιοδότησης. Παρακαλώ ξεκινήστε από το προηγούμενο βήμα."
+
+#: lets-encrypt/class-letsencrypt-handler.php:666
+msgid "Authorization not completed yet."
+msgstr "Η εξουσιοδότηση δεν έχει ολοκληρωθεί ακόμα."
+
+#: lets-encrypt/class-letsencrypt-handler.php:642
+msgid "Certificate already generated. It was renewed if required."
+msgstr "Το πιστοποιητικό έχει ήδη δημιουργηθεί. Ανανεώθηκε εφόσον απαιτήθηκε."
+
+#: lets-encrypt/class-letsencrypt-handler.php:610
+msgid "DNS records were not verified yet. Please complete the previous step."
+msgstr "Οι εγγραφές DNS δεν έχουν επαληθευτεί ακόμα. Παρακαλώ ολοκληρώστε το προηγούμενο βήμα."
+
+#: lets-encrypt/class-letsencrypt-handler.php:596
+msgid "Please double check your DNS txt record."
+msgstr "παρακαλώ ελέγξτε ξανά την DNS εγγραφή ΤΧΤ."
+
+#: lets-encrypt/class-letsencrypt-handler.php:594
+msgid "The certificate generation was rate limited for 10 minutes because the authorization failed."
+msgstr "Η δημιουργία πιστοποιητικού περιορίστηκε για 10 λεπτά, επειδή η εξουσιοδότηση απέτυχε."
+
+#: lets-encrypt/class-letsencrypt-handler.php:553
+msgid "Could not verify TXT record for domain %s"
+msgstr "Δεν ήταν δυνατή η επαλήθευση της εγγραφής TXT για τον τομέα %s"
+
+#: lets-encrypt/class-letsencrypt-handler.php:544
+msgid "The DNS response for %s was %s, while it should be %s."
+msgstr "Η απόκριση DNS για το %s ήταν %s, ενώ θα έπρεπε να είναι %s."
+
+#: lets-encrypt/class-letsencrypt-handler.php:536
+msgid "Successfully verified DNS records"
+msgstr "Επιτυχής επαλήθευση εγγραφών DNS"
+
+#: lets-encrypt/class-letsencrypt-handler.php:522
+#: lets-encrypt/integrations/cpanel/functions.php:47
+msgid "Token not generated. Please complete the previous step."
+msgstr "Το διακριτικό δεν δημιουργήθηκε. Παρακαλώ ολοκληρώστε το προηγούμενο βήμα."
+
+#: lets-encrypt/class-letsencrypt-handler.php:480
+msgid "Configured for HTTP challenge"
+msgstr "Έχει ρυθμιστεί για HTTP challenge"
+
+#: lets-encrypt/class-letsencrypt-handler.php:439
+msgid "Token not received yet."
+msgstr "Το διακριτικό δεν έχει ληφθεί ακόμα."
+
+#: lets-encrypt/class-letsencrypt-handler.php:424
+#: lets-encrypt/class-letsencrypt-handler.php:432
+msgid "Token successfully retrieved."
+msgstr "Το διακριτικό ανακτήθηκε με επιτυχία."
+
+#: lets-encrypt/class-letsencrypt-handler.php:387
+msgid "The email address was not set. Please set the email address"
+msgstr "Η διεύθυνση ηλεκτρονικού ταχυδρομείου δεν ορίστηκε. Παρακαλώ ορίστε τη διεύθυνση ηλεκτρονικού ταχυδρομείου"
+
+#: lets-encrypt/class-letsencrypt-handler.php:379
+msgid "Please change your email address %shere%s and try again."
+msgstr "Παρακαλώ αλλάξτε τη διεύθυνση ηλεκτρονικού ταχυδρομείου σας %sεδώ%s και προσπαθήστε ξανά."
+
+#: lets-encrypt/class-letsencrypt-handler.php:378
+msgid "The used domain for your email address is not allowed."
+msgstr "Ο τομέας που χρησιμοποιείται για τη διεύθυνση ηλεκτρονικού ταχυδρομείου σας δεν επιτρέπεται."
+
+#: lets-encrypt/class-letsencrypt-handler.php:371
+msgid "Successfully retrieved account"
+msgstr "Επιτυχής ανάκτηση λογαριασμού"
+
+#: lets-encrypt/class-letsencrypt-handler.php:351
+msgid "The PHP function CURL has successfully been detected."
+msgstr "Η λειτουργία PHP CURL έχει εντοπιστεί με επιτυχία."
+
+#: lets-encrypt/class-letsencrypt-handler.php:347
+msgid "The PHP function CURL is not available on your server, which is required. Please contact your hosting provider."
+msgstr "Η λειτουργία PHP CURL δεν είναι διαθέσιμη στον διακομιστή σας, κάτι που απαιτείται. Παρακαλώ επικοινωνήστε με τον πάροχο φιλοξενίας σας."
+
+#: lets-encrypt/class-letsencrypt-handler.php:331
+msgid "DirectAdmin recognized. Possibly the certificate can be installed automatically."
+msgstr "Το DirectAdmin αναγνωρίστηκε. Ενδεχομένως το πιστοποιητικό μπορεί να εγκατασταθεί αυτόματα."
+
+#: lets-encrypt/class-letsencrypt-handler.php:328
+msgid "Plesk recognized. Possibly the certificate can be installed automatically."
+msgstr "Το Plesk αναγνωρίστηκε. Ενδεχομένως το πιστοποιητικό μπορεί να εγκατασταθεί αυτόματα."
+
+#: lets-encrypt/class-letsencrypt-handler.php:325
+msgid "CPanel recognized. Possibly the certificate can be installed automatically."
+msgstr "Το CPanel αναγνωρίστηκε. Ενδεχομένως το πιστοποιητικό μπορεί να εγκατασταθεί αυτόματα."
+
+#: lets-encrypt/class-letsencrypt-handler.php:321
+msgid "The Hosting Panel software was not recognized. Depending on your hosting provider, the generated certificate may need to be installed manually."
+msgstr "Το λογισμικό του Πίνακα Φιλοξενίας δεν αναγνωρίστηκε. Ανάλογα με τον πάροχο φιλοξενίας σας, το πιστοποιητικό που δημιουργείται μπορεί να χρειαστεί να εγκατασταθεί χειροκίνητα."
+
+#: lets-encrypt/class-letsencrypt-handler.php:290
+msgid "SSL certificate should be generated and installed."
+msgstr "Το πιστοποιητικό SSL πρέπει να δημιουργηθεί και να εγκατασταθεί."
+
+#: lets-encrypt/class-letsencrypt-handler.php:284
+msgid "You already have a valid SSL certificate."
+msgstr "Έχετε ήδη ένα έγκυρο πιστοποιητικό SSL."
+
+#: lets-encrypt/class-letsencrypt-handler.php:280
+msgid "Continue to renew."
+msgstr "Συνεχίστε για ανανέωση."
+
+#: lets-encrypt/class-letsencrypt-handler.php:280
+msgid "Your certificate will expire on %s."
+msgstr "Το πιστοποιητικό σας θα λήξει στις %s."
+
+#: lets-encrypt/class-letsencrypt-handler.php:274
+msgid "(unknown)"
+msgstr "(άγνωστο)"
+
+#: lets-encrypt/class-letsencrypt-handler.php:210
+msgid "Your domain meets the requirements for Let's Encrypt."
+msgstr "Ο τομέας σας πληρεί τις απαιτήσεις για το Let's Encrypt."
+
+#: lets-encrypt/class-letsencrypt-handler.php:192
+msgid "It is not possible to install Let's Encrypt on a localhost environment."
+msgstr "Δεν είναι δυνατή η εγκατάσταση του Let's Encrypt σε περιβάλλον localhost."
+
+#: lets-encrypt/class-letsencrypt-handler.php:202
+msgid "It is not possible to install Let's Encrypt on a subfolder configuration."
+msgstr "Δεν είναι δυνατή η εγκατάσταση του Let's Encrypt σε μια ρύθμιση παραμέτρων υποφακέλου."
+
+#: lets-encrypt/class-letsencrypt-handler.php:197
+msgid "It is not possible to install Let's Encrypt on a subsite. Please go to the main site of your website."
+msgstr "Δεν είναι δυνατή η εγκατάσταση του Let's Encrypt στον επιμέρους ιστοτόπο. Παρακαλώ μεταβείτε στον κυρίως ιστότοπό σας."
+
+#: class-admin.php:2233
+msgid "You have the Really Simple SSL Let's Encrypt beta add-on activated. This functionality has now been integrated in core, so you can deactivate the add-on."
+msgstr "Έχετε ενεργοποιημένη την επέκταση Really Simple SSL, Let's Encrypt beta. Αυτή η λειτουργία έχει πλέον ενσωματωθεί στον πυρήνα (core), ώστε να μπορείτε να απενεργοποιήσετε την επέκταση."
+
+#: class-admin.php:2015 settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/src/Dashboard/TaskElement.js:50
+msgid "Re-check"
+msgstr "Επανέλεγχος"
+
+#: class-admin.php:2013
+msgid "Depending on your hosting provider, %smanual installation%s may be required."
+msgstr "Ανάλογα με την υπηρεσία παρόχου φιλοξενίας σας, ενδέχεται να απαιτείται %sχειροκίνητη εγκατάσταση%s."
+
+#: class-admin.php:2012
+msgid "If your hosting provider auto-renews your certificate, no action is required. Alternatively, you have the option to generate an SSL certificate with Really Simple SSL."
+msgstr "Εάν ο πάροχος φιλοξενίας σας ανανεώσει αυτόματα το πιστοποιητικό σας, δεν απαιτείται καμία ενέργεια. Εναλλακτικά, έχετε την επιλογή να δημιουργήσετε ένα πιστοποιητικό SSL με το Really Simple SSL."
+
+#: class-admin.php:2012
+msgid "SSL certificate will expire on %s."
+msgstr "Το πιστοποιητικό SSL θα λήξει στις %s."
+
+#: class-admin.php:2011
+msgid "Your SSL certificate will expire soon."
+msgstr "Το πιστοποιητικό σας SSL θα λήξει σύντομα."
+
+#: class-admin.php:1991
+msgid "No SSL detected. Use the retry button to check again."
+msgstr "Δεν εντοπίστηκε SSL. Χρησιμοποιήστε το κουμπί επανάληψης για να ελέγξετε ξανά."
+
+#: class-admin.php:1861
+msgid "(Unknown)"
+msgstr "(άγνωστο)"
+
+#: class-admin.php:1992 class-admin.php:2000 class-admin.php:2014
+msgid "Install SSL certificate"
+msgstr "Εγκατάσταση πιστοποιητικού SSL"
+
+#: class-admin.php:1993
+msgid "Retry"
+msgstr "Εκ νέου προσπάθεια"
+
+#: onboarding/class-onboarding.php:233
+msgid "An SSL certificate has been detected"
+msgstr "Εντοπίστηκε πιστοποιητικό SSL"
+
+#: class-admin.php:2174
+msgid "Or set your wp-config.php to writable and reload this page."
+msgstr "Εναλλακτικά, ορίστε το wp-config.php σε εγγράψιμο και φορτώστε ξανά αυτήν τη σελίδα."
+
+#: class-admin.php:2166
+msgid "Add the following lines of code to your wp-config.php."
+msgstr "Προσθέστε τις ακόλουθες γραμμές κώδικα στο wp-config.php."
+
+#: class-admin.php:2166
+msgid "To set the httponly secure cookie settings, your wp-config.php has to be edited, but the file is not writable."
+msgstr "Για να ορίσετε τις ρυθμίσεις ασφάλισης των cookies με httponly, πρέπει να επεξεργαστείτε το wp-config.php, αλλά το αρχείο είναι μη εγγράψιμο."
+
+#: class-admin.php:2159
+msgid "HttpOnly Secure cookies not set."
+msgstr "Δεν έχει ρυθμιστεί η ασφάλιση των cookies με HttpOnly."
+
+#: class-admin.php:2220
+msgid "Due to a recent update by WP Engine, we have changed your settings automatically to adapt."
+msgstr "Λόγω μιας πρόσφατης ενημέρωσης από το WP Engine, αλλάξαμε αυτόματα τις ρυθμίσεις σας για προσαρμογή."
+
+#: class-admin.php:1922
+msgid "The Really Simple SSL plugin folder in the /wp-content/plugins/ directory has been renamed to %s. This might cause issues when deactivating, or with premium add-ons. To fix this you can rename the Really Simple SSL folder back to the default %s."
+msgstr "Ο φάκελος του πρόσθετου Really Simple SSL στον κατάλογο /wp-content/plugins/ έχει μετονομαστεί σε %s. Αυτό μπορεί να προκαλέσει προβλήματα κατά την απενεργοποίηση ή με επεκτάσεις premium. Για να το επιλύσετε, μπορείτε να μετονομάσετε τον φάκελο του Really Simple SSL στο προεπιλεγμένο %s."
+
+#: class-site-health.php:150
+msgid "Not all recommended security headers are installed"
+msgstr "Δεν έχουν εγκατασταθεί όλες οι προτεινόμενες κεφαλίδες ασφαλείας"
+
+#: class-site-health.php:138
+msgid "The recommended security headers are detected on your site."
+msgstr "Οι προτεινόμενες κεφαλίδες ασφαλείας εντοπίζονται στον ιστότοπό σας."
+
+#: class-site-health.php:130
+msgid "Recommended security headers installed"
+msgstr "Οι προτεινόμενες κεφαλίδες ασφαλείας είναι εγκατεστημένες"
+
+#: class-site-health.php:34
+msgid "Security Headers Test"
+msgstr "Δοκιμή Kεφαλίδων Aσφαλείας"
+
+#: class-site-health.php:29
+msgid "SSL Status Test"
+msgstr "Δοκιμή Κατάστασης SSL"
+
+#: class-admin.php:1990
+msgid "No SSL detected"
+msgstr "Δεν εντοπίστηκε SSL"
+
+#: class-site-health.php:155
+msgid "Learn more about security headers"
+msgstr "Μάθετε περισσότερα σχετικά με τις κεφαλίδες ασφαλείας"
+
+#: class-site-health.php:217
+msgid "Enable 301 redirect"
+msgstr "Ενεργοποίηση ανακατεύθυνσης 301"
+
+#: class-site-health.php:212
+msgid "To ensure all traffic passes through SSL, please enable a 301 redirect."
+msgstr "Για να εξασφαλίσετε ότι όλη η επισκεψιμότητα διέρχεται μέσω SSL, παρακαλώ ενεργοποιήστε μια ανακατεύθυνση 301."
+
+#: class-site-health.php:209
+msgid "No 301 redirect to SSL enabled."
+msgstr "Δεν έχει ενεργοποιηθεί η ανακατεύθυνση 301 προς SSL."
+
+#: class-site-health.php:203
+msgid "Really Simple SSL is installed, but no valid SSL certificate is detected."
+msgstr "Το Really Simple SSL είναι εγκατεστημένο, αλλά δεν εντοπίζεται έγκυρο πιστοποιητικό SSL."
+
+#: class-site-health.php:190
+msgid "Really Simple SSL detected an SSL certificate, but has not been configured to enforce SSL."
+msgstr "Το Really Simple SSL εντόπισε ένα πιστοποιητικό SSL, αλλά δεν έχει ρυθμιστεί για να επιβάλλει το SSL."
+
+#: class-site-health.php:187
+msgid "SSL is not enabled."
+msgstr "Το SSL δεν είναι ενεργοποιημένο."
+
+#: class-admin.php:1804 settings/config/menu.php:321
+msgid "Open"
+msgstr "Άνοιγμα"
+
+#: class-admin.php:1803 settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/src/Settings/MixedContentScan/MixedContentScan.js:58
+msgid "Warning"
+msgstr "Προειδοποίηση"
+
+#: class-admin.php:1802
+msgid "Completed"
+msgstr "Ολοκληρώθηκε"
+
+#: upgrade/upgrade-to-pro.php:190 settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPlugins.js:24
+msgid "Installed"
+msgstr "Εγκατεστημένο"
+
+#: onboarding/class-onboarding.php:344 upgrade/upgrade-to-pro.php:146
+#: upgrade/upgrade-to-pro.php:159 upgrade/upgrade-to-pro.php:176
+#: settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/src/Dashboard/OtherPlugins/OtherPluginsData.js:73
+msgid "Install"
+msgstr "Εγκατάσταση"
+
+#: class-admin.php:2138
+msgid "Your site uses Divi. This can require some additional steps before getting the secure lock."
+msgstr "Ο ιστότοπός σας χρησιμοποιεί το Divi. Αυτό μπορεί να απαιτήσει ορισμένα πρόσθετα βήματα πριν από την εμφάνιση του ασφαλούς κλειδώματος."
+
+#: class-admin.php:2124
+msgid "Your site uses Elementor. This can require some additional steps before getting the secure lock."
+msgstr "Ο ιστότοπός σας χρησιμοποιεί το Elementor. Αυτό μπορεί να απαιτήσει ορισμένα πρόσθετα βήματα πριν από την εμφάνιση του ασφαλούς κλειδώματος."
+
+#: class-admin.php:2109
+msgid "The .htaccess redirect rules selected by this plugin failed in the test. Set manually or dismiss to leave on PHP redirect."
+msgstr "Οι κανόνες ανακατεύθυνσης στο .htaccess που επιλέχθηκαν από αυτό το πρόσθετο απέτυχαν στη δοκιμή. Ρυθμίστε τους χειροκίνητα ή απορρίψτε την ανακατεύθυνση μέσω PHP."
+
+#: class-admin.php:2095
+msgid "WordPress 301 redirect enabled. We recommend to enable a 301 .htaccess redirect."
+msgstr "Η ανακατεύθυνση 301 μέσω του WordPress είναι ενεργοποιημένη. Συνιστάται να ενεργοποιήσετε μια ανακατεύθυνση 301 μέσω του .htaccess"
+
+#: class-admin.php:2050
+msgid "Mixed content fixer not enabled. Enable the option to fix mixed content on your site."
+msgstr "Ο επιδιορθωτής μεικτού περιεχομένου δεν είναι ενεργοποιημένος. Ενεργοποιήστε αυτήν τη ρύθμιση ώστε να επιδιορθώσετε το μεικτό περιεχόμενο στον ιστότοπό σας."
+
+#: class-admin.php:2039
+msgid "The mixed content fixer is active, but was not detected on the frontpage."
+msgstr "Ο επιδιορθωτής μεικτού περιεχομένου είναι ενεργός, αλλά δεν εντοπίστηκε στην αρχική σελίδα."
+
+#: class-admin.php:2032
+msgid "Really Simple SSL has received no response from the webpage."
+msgstr "Το Really Simple SSL δεν έλαβε καμία απόκριση από την ιστοσελίδα."
+
+#: class-admin.php:1969
+msgid "SSL is not enabled yet."
+msgstr "Το SSL δεν είναι ενεργοποιημένο ακόμα."
+
+#: class-admin.php:1846
+msgid "No recommended redirect rules detected."
+msgstr "Δεν εντοπίστηκαν προτεινόμενοι κανόνες ανακατεύθυνσης."
+
+#: settings/config/menu.php:23 settings/config/menu.php:29
+#: settings/config/menu.php:365
+msgid "General"
+msgstr "Γενικά"
+
+#: onboarding/class-onboarding.php:177
+msgid "Before you migrate, please check for:"
+msgstr "Πριν από τη μετεγκατάσταση, παρακαλώ ελέγξτε για:"
+
+#: class-admin.php:2628 class-multisite.php:223
+#: settings/build/index.202df5c54f79be8884ed.js:1
+#: settings/build/index.17964179f4d54ec3a576.js:1 settings/src/Header.js:36
+msgid "Support"
+msgstr "Υποστήριξη"
+
+#: class-multisite.php:114
+msgid "SSL is enabled networkwide."
+msgstr "Το SSL είναι ενεργοποιημένο σε όλο το δίκτυο."
+
+#: class-site-health.php:196 settings/build/410.62f79f76747d73fb47e3.js:1
+#: settings/build/434.33f8fe1145ac390fb7ca.js:1
+#: settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/src/Dashboard/Progress/ProgressFooter.js:24
+#: settings/src/Onboarding/OnboardingControls.js:51
+msgid "Activate SSL"
+msgstr "Ενεργοποίηση SSL"
+
+#: progress/class-progress.php:96
+msgid "SSL is not yet enabled on this site."
+msgstr "Το SSL δεν είναι ακόμα ενεργοποιημένο σε αυτόν τον ιστότοπo."
+
+#: progress/class-progress.php:90
+msgid "Basic SSL configuration finished! Improve your score with %sReally Simple SSL Pro%s."
+msgstr "Η βασική ρύθμιση παραμέτρων του SSL ολοκληρώθηκε! Βελτιώστε τη βαθμολογία σας με το %sReally Simple SSL Pro%s."
+
+#: progress/class-progress.php:85
+msgid "SSL configuration finished!"
+msgstr "Η ρύθμιση παραμέτρων του SSL ολοκληρώθηκε!"
+
+#: progress/class-progress.php:83
+msgid "You still have %s task open."
+msgid_plural "You still have %s tasks open."
+msgstr[0] "Εξακολουθείτε να έχετε ανοιχτή %s εργασία."
+msgstr[1] "Εξακολουθείτε να έχετε ανοιχτές %s εργασίες."
+
+#: progress/class-progress.php:83
+msgid "SSL is activated on your site."
+msgstr "Το SSL είναι ενεργοποιημένο στον ιστότοπό σας."
+
+#: settings/config/config.php:1643 settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/src/Dashboard/SslLabs/SslLabs.js:319
+#: settings/src/LetsEncrypt/DnsVerification.js:64
+msgid "Read more"
+msgstr "Διαβάστε περισσότερα"
+
+#. Author of the plugin
+msgid "Really Simple Plugins"
+msgstr "Really Simple Plugins"
+
+#: class-admin.php:1620
+msgid "Hi, Really Simple SSL has kept your site secure for some time now, awesome! If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it! If you have any questions or feedback, leave us a %smessage%s."
+msgstr "Γεια σας, το Really Simple SSL έχει διατηρήσει τον ιστότοπό σας ασφαλή για αρκετό καιρό, καταπληκτικά! Εάν έχετε τον χρόνο, παρακαλούμε γράψτε μια κριτική στο WordPress.org ώστε να διαδώσετε τα νέα. Θα το εκτιμούσαμε πολύ! Εάν έχετε οποιεσδήποτε ερωτήσεις ή σχόλια, γράψτε μας ένα %sμήνυμα%s."
+
+#: onboarding/class-onboarding.php:170
+msgid "Check out Really Simple SSL Pro"
+msgstr "Ρίξτε μια ματιά στο Really Simple SSL Pro"
+
+#: class-admin.php:1630
+msgid "Don't show again"
+msgstr "Να μην εμφανιστεί ξανά"
+
+#: class-admin.php:2056
+msgid "The mixed content fixer could not be detected due to a cURL error: %s. cURL errors are often caused by an outdated version of PHP or cURL and don't affect the front-end of your site. Contact your hosting provider for a fix."
+msgstr "Δεν ήταν δυνατή η ανίχνευση του επιδιορθωτή μεικτού περιεχομένου λόγω ενός σφάλματος cURL: %s. Τα σφάλματα cURL προκαλούνται συχνά λόγω παλιάς έκδοσης PHP ή cURL και δεν επηρεάζουν το front-end του ιστότοπού σας. Επικοινωνήστε με τον πάροχο φιλοξενίας σας για επιδιόρθωση."
+
+#: class-admin.php:2044
+msgid "Error occurred when retrieving the webpage."
+msgstr "Παρουσιάστηκε σφάλμα κατά την ανάκτηση της ιστοσελίδας."
+
+#: class-site-health.php:224
+msgid "The 301 .htaccess redirect is the fastest and most reliable redirect option."
+msgstr "Η ανακατεύθυνση 301 μέσω του .htaccess είναι η ταχύτερη και πιο αξιόπιστη επιλογή ανακατεύθυνσης."
+
+#: class-site-health.php:221
+msgid "301 .htaccess redirect is not enabled."
+msgstr "Η ανακατεύθυνση 301 στο .htaccess δεν είναι ενεργοποιημένη."
+
+#: class-site-health.php:178
+msgid "You have set a 301 redirect to SSL. This is important for SEO purposes"
+msgstr "Έχετε ορίσει ανακατεύθυνση 301 προς το SSL. Αυτό είναι σημαντικό για λόγους SEO"
+
+#: class-site-health.php:170
+msgid "301 SSL redirect enabled"
+msgstr "Ενεργοποιημένη SSL ανακατεύθυνση 301"
+
+#: class-admin.php:476 settings/build/410.62f79f76747d73fb47e3.js:1
+#: settings/build/434.33f8fe1145ac390fb7ca.js:1
+#: settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/src/Onboarding/OnboardingControls.js:75
+#: settings/src/Settings/RiskConfiguration/VulnerabilitiesIntro.js:89
+msgid "Dismiss"
+msgstr "Απόρριψη"
+
+#: onboarding/class-onboarding.php:289 onboarding/class-onboarding.php:308
+#: settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/src/Dashboard/Vulnerabilities/Vulnerabilities.js:116
+msgid "Enable"
+msgstr "Ενεργοποίηση"
+
+#: class-admin.php:1907
+msgid "The 'force-deactivate.php' file has to be renamed to .txt. Otherwise your ssl can be deactivated by anyone on the internet."
+msgstr "Το αρχείο «force-deactivate.php» πρέπει να μετονομαστεί σε .txt. Διαφορετικά, το SSL σας θα μπορεί να απενεργοποιηθεί από οποιονδήποτε στο Διαδίκτυο."
+
+#: class-admin.php:1629
+msgid "Maybe later"
+msgstr "Ίσως αργότερα"
+
+#: class-admin.php:1628
+msgid "Leave a review"
+msgstr "Αφήστε μια αξιολόγηση"
+
+#: class-admin.php:1622
+msgid "Hi, Really Simple SSL has kept your site secure for a month now, awesome! If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it! If you have any questions or feedback, leave us a %smessage%s."
+msgstr "Γεια σας, το Really Simple SSL έχει διατηρήσει τον ιστότοπό σας ασφαλή για ένα μήνα, καταπληκτικά! Εάν έχετε τον χρόνο, παρακαλούμε γράψτε μια κριτική στο WordPress.org ώστε να διαδώσετε τα νέα. Θα το εκτιμούσαμε πολύ! Εάν έχετε οποιεσδήποτε ερωτήσεις ή σχόλια, γράψτε μας ένα %sμήνυμα%s."
+
+#: class-multisite.php:163
+msgid "Activate SSL per site or install a wildcard certificate to fix this."
+msgstr "Ενεργοποιήστε το SSL ανά ιστότοπο ή εγκαταστήστε ένα πιστοποιητικό wildcard για να διορθώσετε αυτό το πρόβλημα."
+
+#: class-multisite.php:162
+msgid "This leads to issues when activating SSL networkwide since subdomains will be forced over SSL as well while they don't have a valid certificate."
+msgstr "Αυτό οδηγεί σε προβλήματα όταν ενεργοποιείτε το SSL σε όλο το δίκτυο καθώς και τα subdomain θα εξαναγκάζονται σε SSL ενώ δεν έχουν έγκυρο πιστοποιητικό."
+
+#: class-multisite.php:161
+msgid "You run a Multisite installation with subdomains, but your site doesn't have a wildcard certificate."
+msgstr "Έχετε μια εγκατάσταση Multisite με subdomain, αλλά ο ιστότοπός σας δεν έχει πιστοποιητικό wildcard."
+
+#: upgrade/upgrade-to-pro.php:370 modal/build/204.cd378a48efe26fc7867c.js:1
+#: modal/src/components/Modal/RssslModal.js:46
+#: settings/build/434.33f8fe1145ac390fb7ca.js:1
+#: settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/src/Settings/LimitLoginAttempts/AddIpAddressModal.js:105
+#: settings/src/Settings/LimitLoginAttempts/AddUserModal.js:83
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: class-admin.php:479 settings/build/94.ffb935d73903bc062f01.js:1
+#: settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/build/772.82eb7af33aca2cee62c3.js:1
+#: settings/src/Dashboard/TaskElement.js:49 settings/src/Settings/Help.js:23
+msgid "More info"
+msgstr "Περισσότερες πληροφορίες"
+
+#: class-admin.php:99
+msgid "Really Simple SSL and Really Simple SSL add-ons do not process any personal identifiable information, so the GDPR does not apply to these plugins or usage of these plugins on your website. You can find our privacy policy <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr "Το Really Simple SSL και οι επεκτάσεις του Really Simple SSL δεν επεξεργάζονται καμία πληροφορία προσωπικών δεδομένων, οπότε το GDPR δεν ισχύει για αυτά τα πρόσθετα ή τη χρήση αυτών των προσθέτων στον ιστότοπό σας. Μπορείτε να βρείτε την Πολιτική Απορρήτου μας <a href=\"%s\" target=\"_blank\">εδώ</a>."
+
+#. Author URI of the plugin
+msgid "https://really-simple-plugins.com"
+msgstr "https://really-simple-plugins.com"
+
+#: mailer/class-mail.php:33 mailer/class-mail.php:37
+#: settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/src/Dashboard/Vulnerabilities/Vulnerabilities.js:192
+msgid "Learn more"
+msgstr "Μάθετε περισσότερα"
+
+#: settings/config/config.php:127
+msgid "If this option is set to true, the mixed content fixer will fire on the init hook instead of the template_redirect hook. Only use this option when you experience problems with the mixed content fixer."
+msgstr "Εάν ενεργοποιηθεί αυτή η επιλογή, ο επιδιορθωτής μεικτού περιεχομένου θα εκκινείται με το hook 'init' αντί με το hook 'template_redirect'. Χρησιμοποιήστε αυτήν την επιλογή μόνο εάν αντιμετωπίζετε προβλήματα με τον επιδιορθωτή μεικτού περιεχομένου."
+
+#: onboarding/class-onboarding.php:170
+msgid "You can also let the automatic scan of the pro version handle this for you, and get premium support, increased security with HSTS and more!"
+msgstr "Μπορείτε επίσης να αφήσετε την αυτόματη σάρωση της έκδοσης Pro να το αναλάβει αυτό για εσάς, και να αποκτήσετε υποστήριξη με προτεραιότητα, αυξημένη ασφάλεια με HSTS και ακόμα περισσότερα!"
+
+#: onboarding/class-onboarding.php:226
+msgid "You may need to login in again."
+msgstr "Ίσως χρειαστεί να συνδεθείτε ξανά."
+
+#: class-site-health.php:229
+msgid "Enable 301 .htaccess redirect"
+msgstr "Ενεργοποίηση ανακατεύθυνσης 301 μέσω .htaccess"
+
+#: class-admin.php:2073
+msgid "No 301 redirect is set. Enable the WordPress 301 redirect in the settings to get a 301 permanent redirect."
+msgstr "Δεν έχει οριστεί ανακατεύθυνση 301. Ενεργοποιήστε την ανακατεύθυνση WordPress 301 στις ρυθμίσεις για να έχετε μια μόνιμη ανακατεύθυνση 301."
+
+#: class-admin.php:2102
+msgid "Enable a .htaccess redirect or PHP redirect in the settings to create a 301 redirect."
+msgstr "Ενεργοποιήστε μια ανακατεύθυνση μέσω του .htaccess ή ανακατεύθυνση μέσω PHP στις ρυθμίσεις για να δημιουργήσετε μια ανακατεύθυνση 301."
+
+#: class-admin.php:2107
+msgid ".htaccess redirect."
+msgstr "Ανακατεύθυνση στο .htaccess"
+
+#: class-admin.php:2069
+msgid "301 redirect to https set."
+msgstr "Ανακατεύθυνση 301 σε σετ των https"
+
+#: class-multisite.php:147
+msgid "View settings page"
+msgstr "Προβολή σελίδας ρυθμίσεων"
+
+#: settings/config/menu.php:41
+msgid "Premium Support"
+msgstr "Premium Υποστήριξη"
+
+#: lets-encrypt/functions.php:369 lets-encrypt/functions.php:370
+#: settings/build/94.ffb935d73903bc062f01.js:1
+#: settings/build/772.82eb7af33aca2cee62c3.js:1
+#: settings/src/Settings/SettingsGroup.js:115
+msgid "Instructions"
+msgstr "Οδηγίες"
+
+#: class-admin.php:1965
+msgid "SSL is enabled on your site."
+msgstr "Το SSL είναι ενεργοποιημένο στον ιστότοπό σας."
+
+#: class-admin.php:1870
+msgid "Your wp-config.php has to be edited, but is not writable."
+msgstr "Απαιτείται τροποποίηση του αρχείου σας wp-config.php, όμως δεν είναι εγγράψιμο."
+
+#: class-admin.php:1871 class-admin.php:1892
+msgid "Set your wp-config.php to writable and reload this page."
+msgstr "Ορίστε το wp-config.php ως εγγράψιμο και φορτώστε ξανά αυτήν τη σελίδα."
+
+#: class-admin.php:1892
+msgid "A definition of a site url or home url was detected in your wp-config.php, but the file is not writable."
+msgstr "Εντοπίστηκε ένας ορισμός του site url ή του home url στο wp-config.php, αλλά το αρχείο είναι μη εγγράψιμο."
+
+#: onboarding/class-onboarding.php:222
+msgid "Images, stylesheets or scripts from a domain without an SSL certificate: remove them or move to your own server."
+msgstr "Εικόνες, αρχεία στυλ (css) ή αρχεία εντολών από domain χωρίς πιστοποιητικό SSL: αφαιρέστε τα ή μεταφέρετέ τα στον δικό σας διακομιστή."
+
+#: onboarding/class-onboarding.php:218
+msgid "Http references in your .css and .js files: change any http:// into https://"
+msgstr "Αναφορές http στα αρχεία .css και .js: αλλάξτε οποιαδήποτε http:// σε https://"
+
+#: onboarding/class-onboarding.php:176
+msgid "Almost ready to migrate to SSL!"
+msgstr "Σχεδόν έτοιμοι για μετεγκατάσταση σε SSL!"
+
+#: class-admin.php:20 class-cache.php:10 class-certificate.php:10
+#: class-site-health.php:8 lets-encrypt/class-letsencrypt-handler.php:30
+#: onboarding/class-onboarding.php:9 security/firewall-manager.php:8
+#: security/hardening.php:9
+msgid "%s is a singleton class and you cannot create a second instance."
+msgstr "Το %s είναι μια κλάση singleton και δεν μπορείτε να δημιουργήσετε μια δεύτερη παρουσία."
+
+#: class-admin.php:2027
+msgid "Mixed content fixer was successfully detected on the front-end."
+msgstr "Ο επιδιορθωτής μεικτού περιεχομένου εντοπίστηκε με επιτυχία στο front-end."
+
+#. Plugin URI of the plugin
+msgid "https://really-simple-ssl.com"
+msgstr "https://really-simple-ssl.com"
+
+#. Plugin Name of the plugin
+msgid "Really Simple SSL"
+msgstr "Really Simple SSL"
+
+#: settings/config/config.php:159 settings/config/config.php:706
+msgid "Stop editing the .htaccess file"
+msgstr "Διακοπή επεξεργασίας του αρχείου .htaccess"
+
+#: class-admin.php:2006
+msgid "An SSL certificate was detected on your site."
+msgstr "Εντοπίστηκε πιστοποιητικό SSL στον ιστότοπό σας."
+
+#: class-site-health.php:200
+msgid "No SSL detected."
+msgstr "Δεν εντοπίστηκε SSL."
+
+#: class-admin.php:1742 class-admin.php:2620 class-admin.php:2623
+#: class-multisite.php:87 class-multisite.php:220 settings/config/menu.php:17
+#: settings/config/menu.php:375 settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/src/Dashboard/Vulnerabilities/Vulnerabilities.js:237
+#: settings/src/Dashboard/Vulnerabilities/VulnerabilitiesFooter.js:24
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: settings/config/config.php:114 modal/build/index.855f8bc8ac202db563f6.js:1
+#: modal/src/components/DeactivationModal/DeactivationModal.js:123
+msgid "Mixed content fixer"
+msgstr "Πρόγραμμα επιδιόρθωσης μεικτού περιεχομένου"
+
+#: class-multisite.php:133
+msgid "Activate networkwide to fix this."
+msgstr "Ενεργοποιήστε το σε όλο το δίκτυο για να επιλυθεί."
+
+#: class-multisite.php:132
+msgid "Because the $_SERVER[\"HTTPS\"] variable is not set, your website may experience redirect loops."
+msgstr "Καθώς δεν έχει οριστεί η μεταβλητή $_SERVER[\"HTTPS\"], μπορεί να προκύψουν προβλήματα βρόχων ανακατευθύνσεων στον ιστότοπό σας."
+
+#: class-multisite.php:131
+msgid "You run a Multisite installation with subfolders, which prevents this plugin from fixing your missing server variable in the wp-config.php."
+msgstr "Έχετε μια εγκατάσταση πολλαπλών ιστότοπων με υποφακέλους, το οποίο αποτρέπει αυτό το πρόσθετο να επιδιορθώσει την ελλιπή μεταβλητή διακομιστή στο wp-config.php."
+
+#: class-admin.php:1908
+msgid "Check again"
+msgstr "Επανέλεγχος"

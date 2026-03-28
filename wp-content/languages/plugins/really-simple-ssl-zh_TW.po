@@ -1,0 +1,214 @@
+# Translation of Plugins - Really Simple SSL - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Really Simple SSL - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-09 05:36:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Really Simple SSL - Stable (latest release)\n"
+
+#: class-admin.php:2174
+msgid "Or set your wp-config.php to writable and reload this page."
+msgstr "或將這個網站的 wp-config.php 檔案設定為可寫入，並重新載入這個頁面。"
+
+#. Author of the plugin
+msgid "Really Simple Plugins"
+msgstr "Really Simple Plugins"
+
+#: class-admin.php:1620
+msgid "Hi, Really Simple SSL has kept your site secure for some time now, awesome! If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it! If you have any questions or feedback, leave us a %smessage%s."
+msgstr "你好，Really Simple SSL 已協助維護這個網站的安全性一段時間，效果應該很不錯。如有閒暇，請至 WordPress.org 撰寫評論讓我們知道，我們對任何建議都十分感激。如有任何問題或意見反應，請%s與我們聯絡%s。"
+
+#: onboarding/class-onboarding.php:170
+msgid "Check out Really Simple SSL Pro"
+msgstr "進一步了解 Really Simple SSL Pro"
+
+#: class-admin.php:1630
+msgid "Don't show again"
+msgstr "不再顯示這項訊息"
+
+#: class-admin.php:2056
+msgid "The mixed content fixer could not be detected due to a cURL error: %s. cURL errors are often caused by an outdated version of PHP or cURL and don't affect the front-end of your site. Contact your hosting provider for a fix."
+msgstr "偵測不到混合內容修正程式。原因: cURL 錯誤 %s。cURL 錯誤通常由舊版 PHP 或 cURL 造成，但不會對網站前端產生影響。請聯絡網站主機服務提供商進行修正。"
+
+#: onboarding/class-onboarding.php:289 onboarding/class-onboarding.php:308
+#: settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/src/Dashboard/Vulnerabilities/Vulnerabilities.js:116
+msgid "Enable"
+msgstr "啟用"
+
+#: class-site-health.php:170
+msgid "301 SSL redirect enabled"
+msgstr "301 SSL 重新導向已啟用"
+
+#: class-site-health.php:178
+msgid "You have set a 301 redirect to SSL. This is important for SEO purposes"
+msgstr "這個網站已設定 301 重新導向至 SSL。這對 SEO 來說非常重要。"
+
+#: class-site-health.php:221
+msgid "301 .htaccess redirect is not enabled."
+msgstr "301 .htaccess 重新導向未啟用"
+
+#: class-admin.php:1907
+msgid "The 'force-deactivate.php' file has to be renamed to .txt. Otherwise your ssl can be deactivated by anyone on the internet."
+msgstr "force-deactivate.php 檔案已預先更名為 force-deactivate.txt，否則網際網路上任何一個人都能停用這個網站的 SSL。"
+
+#: class-admin.php:1628
+msgid "Leave a review"
+msgstr "撰寫評論"
+
+#: class-admin.php:1629
+msgid "Maybe later"
+msgstr "稍後再說"
+
+#: class-admin.php:1622
+msgid "Hi, Really Simple SSL has kept your site secure for a month now, awesome! If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it! If you have any questions or feedback, leave us a %smessage%s."
+msgstr "你好，Really Simple SSL 已協助維護這個網站的安全性月餘，效果應該很不錯。如有閒暇，請至 WordPress.org 撰寫評論讓我們知道，我們對任何建議都十分感激。如有任何問題或意見反應，請%s與我們聯絡%s。"
+
+#: class-multisite.php:163
+msgid "Activate SSL per site or install a wildcard certificate to fix this."
+msgstr "為個別網站啟用 SSL 或安裝萬用字元憑證以修正這個問題。"
+
+#: class-multisite.php:161
+msgid "You run a Multisite installation with subdomains, but your site doesn't have a wildcard certificate."
+msgstr "將多站網路以子網域方式完成安裝，但整個多站網路卻沒有萬用字元憑證。"
+
+#: class-multisite.php:162
+msgid "This leads to issues when activating SSL networkwide since subdomains will be forced over SSL as well while they don't have a valid certificate."
+msgstr "這會導致在多站網路為所有網站啟用 SSL 時發生問題，這是因為所有子網域網站全都強制使用 SSL，但卻沒有有效的憑證。"
+
+#: upgrade/upgrade-to-pro.php:370 modal/build/204.cd378a48efe26fc7867c.js:1
+#: modal/src/components/Modal/RssslModal.js:46
+#: settings/build/434.33f8fe1145ac390fb7ca.js:1
+#: settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/src/Settings/LimitLoginAttempts/AddIpAddressModal.js:105
+#: settings/src/Settings/LimitLoginAttempts/AddUserModal.js:83
+msgid "Cancel"
+msgstr "取消"
+
+#: class-admin.php:99
+msgid "Really Simple SSL and Really Simple SSL add-ons do not process any personal identifiable information, so the GDPR does not apply to these plugins or usage of these plugins on your website. You can find our privacy policy <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr "Really Simple SSL 及其附加元件不會處理任何個人可識別資訊，因此 GDPR 並不適用於目前網站上的這些外掛。如需更多資訊，請參閱我們的<a href=\"%s\" target=\"_blank\">隱私權政策</a>。"
+
+#: class-admin.php:479 settings/build/94.ffb935d73903bc062f01.js:1
+#: settings/build/641.ca2769b27ede346d0336.js:1
+#: settings/build/645.1d84a30e58f63c49b7ed.js:1
+#: settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/build/772.82eb7af33aca2cee62c3.js:1
+#: settings/src/Dashboard/TaskElement.js:49 settings/src/Settings/Help.js:23
+msgid "More info"
+msgstr "進一步了解"
+
+#. Author URI of the plugin
+msgid "https://really-simple-plugins.com"
+msgstr "https://really-simple-plugins.com"
+
+#: mailer/class-mail.php:33 mailer/class-mail.php:37
+#: settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/src/Dashboard/Vulnerabilities/Vulnerabilities.js:192
+msgid "Learn more"
+msgstr "進一步瞭解"
+
+#: onboarding/class-onboarding.php:170
+msgid "You can also let the automatic scan of the pro version handle this for you, and get premium support, increased security with HSTS and more!"
+msgstr "透過 Pro 版外掛便可進行自動掃描並處理這些問題，並且還包含付費技術支援，以及透過 HSTS 增加網站安全性等功能。"
+
+#: onboarding/class-onboarding.php:226
+msgid "You may need to login in again."
+msgstr "如遭系統登出，請再登入一次即可。"
+
+#: class-site-health.php:229
+msgid "Enable 301 .htaccess redirect"
+msgstr "啟用 301 .htaccess 重新導向"
+
+#: class-admin.php:2073
+msgid "No 301 redirect is set. Enable the WordPress 301 redirect in the settings to get a 301 permanent redirect."
+msgstr "尚未設定 301 重新導向。請在 [設定] 分頁中啟用 WordPress 301 重新導向，便能完成 301 永久重新導向設定。"
+
+#: class-multisite.php:147
+msgid "View settings page"
+msgstr "檢視設定頁面"
+
+#: settings/config/menu.php:41
+msgid "Premium Support"
+msgstr "付費技術支援"
+
+#: class-admin.php:1965
+msgid "SSL is enabled on your site."
+msgstr "這個網站已啟用 SSL。"
+
+#: lets-encrypt/functions.php:369 lets-encrypt/functions.php:370
+#: settings/build/94.ffb935d73903bc062f01.js:1
+#: settings/build/772.82eb7af33aca2cee62c3.js:1
+#: settings/src/Settings/SettingsGroup.js:115
+msgid "Instructions"
+msgstr "操作說明"
+
+#: class-admin.php:20 class-cache.php:10 class-certificate.php:10
+#: class-site-health.php:8 lets-encrypt/class-letsencrypt-handler.php:30
+#: onboarding/class-onboarding.php:9 security/firewall-manager.php:8
+#: security/hardening.php:9
+msgid "%s is a singleton class and you cannot create a second instance."
+msgstr "%s 是一個單一類別，因此無法建立次級執行個體。"
+
+#: onboarding/class-onboarding.php:176
+msgid "Almost ready to migrate to SSL!"
+msgstr "移轉至 SSL 的工作幾近就緒！"
+
+#: onboarding/class-onboarding.php:222
+msgid "Images, stylesheets or scripts from a domain without an SSL certificate: remove them or move to your own server."
+msgstr "來源為引用自未啟用 SSL 憑證的網域的圖片、樣式表或程式碼檔案: 移除這些檔案，或是將這些檔案搬移一份至自有、且已啟用 SSL 憑證的伺服器。"
+
+#: class-admin.php:1870
+msgid "Your wp-config.php has to be edited, but is not writable."
+msgstr "網站的 wp-config.php 必須進行編輯，但目前這個檔案無法寫入。"
+
+#. Plugin Name of the plugin
+msgid "Really Simple SSL"
+msgstr "Really Simple SSL"
+
+#: settings/config/config.php:159 settings/config/config.php:706
+msgid "Stop editing the .htaccess file"
+msgstr "禁止編輯 .htaccess 檔案"
+
+#: class-admin.php:2006
+msgid "An SSL certificate was detected on your site."
+msgstr "在這個網站上已偵測到 SSL 憑證。"
+
+#: class-admin.php:1742 class-admin.php:2620 class-admin.php:2623
+#: class-multisite.php:87 class-multisite.php:220 settings/config/menu.php:17
+#: settings/config/menu.php:375 settings/build/688.34c4ba56bd822867486e.js:1
+#: settings/build/688.ad442e3d828124af4fc9.js:1
+#: settings/src/Dashboard/Vulnerabilities/Vulnerabilities.js:237
+#: settings/src/Dashboard/Vulnerabilities/VulnerabilitiesFooter.js:24
+msgid "Settings"
+msgstr "設定"
+
+#: settings/config/config.php:114 modal/build/index.855f8bc8ac202db563f6.js:1
+#: modal/src/components/DeactivationModal/DeactivationModal.js:123
+msgid "Mixed content fixer"
+msgstr "混合內容修正程式"
+
+#: class-admin.php:1908
+msgid "Check again"
+msgstr "再次檢查"
+
+#: class-multisite.php:132
+msgid "Because the $_SERVER[\"HTTPS\"] variable is not set, your website may experience redirect loops."
+msgstr "由於變數 $_SERVER[\"HTTPS\"] 尚未進行設定，這個網站可能會產生重新導向迴圈。"
+
+#: class-multisite.php:131
+msgid "You run a Multisite installation with subfolders, which prevents this plugin from fixing your missing server variable in the wp-config.php."
+msgstr "目前的多站網路安裝於子資料夾中，會造成外掛無法修正 wp-config.php 中遺失的伺服器變數。"
+
+#: class-multisite.php:133
+msgid "Activate networkwide to fix this."
+msgstr "為多站網路內的所有網站啟用以修正這個問題。"

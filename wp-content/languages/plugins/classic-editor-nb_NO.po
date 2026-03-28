@@ -1,0 +1,133 @@
+# Translation of Plugins - Classic Editor - Stable (latest release) in Norwegian (Bokmål)
+# This file is distributed under the same license as the Plugins - Classic Editor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-06-09 04:53:59+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: nb_NO\n"
+"Project-Id-Version: Plugins - Classic Editor - Stable (latest release)\n"
+
+#: classic-editor.php:489
+msgctxt "Editor Name"
+msgid "Classic Editor"
+msgstr "Klassisk redigeringsverktøy"
+
+#: classic-editor.php:416 classic-editor.php:493 classic-editor.php:893
+msgctxt "Editor Name"
+msgid "Block editor"
+msgstr "Blokkredigering"
+
+#: classic-editor.php:412 classic-editor.php:893
+msgctxt "Editor Name"
+msgid "Classic editor"
+msgstr "Klassisk redigering"
+
+#: classic-editor.php:846
+msgctxt "Editor Name"
+msgid "Edit (classic editor)"
+msgstr "Rediger (klassisk redigering)"
+
+#: classic-editor.php:839
+msgctxt "Editor Name"
+msgid "Edit (block editor)"
+msgstr "Rediger (blokkredigering)"
+
+#: classic-editor.php:498
+msgid "Change settings"
+msgstr "Endre innstillinger"
+
+#: classic-editor.php:485
+msgid "Default editor for all sites"
+msgstr "Standard redigeringsverktøy for alle nettsteder"
+
+#: classic-editor.php:481
+msgid "Editor Settings"
+msgstr "Innstillinger for redigeringsverktøyet"
+
+#: classic-editor.php:465
+msgid "Default Editor"
+msgstr "Standard redigeringsverktøy"
+
+#: classic-editor.php:880
+msgctxt "Editor Name"
+msgid "block editor"
+msgstr "blokkredigering"
+
+#: classic-editor.php:877
+msgctxt "Editor Name"
+msgid "classic editor"
+msgstr "klassisk redigering"
+
+#. translators: %s: post title
+#: classic-editor.php:841
+msgid "Edit &#8220;%s&#8221; in the block editor"
+msgstr "Rediger &#8220;%s&#8221; i blokkredigeringsverktøyet"
+
+#: classic-editor.php:676
+msgid "Switch to block editor"
+msgstr "Bytt til blokkredigering"
+
+#: classic-editor.php:705
+msgid "Switch to classic editor"
+msgstr "Bytt til klassisk redigering"
+
+#: classic-editor.php:502
+msgid "By default the block editor is replaced with the classic editor and users cannot switch editors."
+msgstr "Som standard blir blokkredigering erstattet av med den klassiske redigeringen og brukere kan ikke selv bytte redigeringsverktøy."
+
+#: classic-editor.php:501
+msgid "Allow site admins to change settings"
+msgstr "Tillat nettstedsadministratorer å endre innstillingene"
+
+#: classic-editor.php:657
+msgid "Editor"
+msgstr "Redigeringsverktøy"
+
+#: classic-editor.php:440
+msgid "No"
+msgstr "Nei"
+
+#: classic-editor.php:436
+msgid "Yes"
+msgstr "Ja"
+
+#: classic-editor.php:363
+msgid "Allow users to switch editors"
+msgstr "Tillat brukere å bytte redigeringsverktøy"
+
+#: classic-editor.php:362
+msgid "Default editor for all users"
+msgstr "Standard redigeringsverktøy for alle brukere"
+
+#. Author URI of the plugin
+msgid "https://github.com/WordPress/classic-editor/"
+msgstr "https://github.com/WordPress/classic-editor/"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/classic-editor/"
+msgstr "https://nb.wordpress.org/plugins/classic-editor/"
+
+#. Author of the plugin
+msgid "WordPress Contributors"
+msgstr "Bidragsytere til WordPress"
+
+#. Description of the plugin
+msgid "Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen."
+msgstr "Aktiverer den klassiske WordPress-redigeringen og den gamle 'Rediger innlegg'-skjermen med TinyMCE, metabokser osv. Støtter de eldre utvidelsene som utvider denne skjermen."
+
+#. Plugin Name of the plugin
+msgid "Classic Editor"
+msgstr "Klassisk redigering"
+
+#. translators: %s: post title
+#: classic-editor.php:848
+msgid "Edit &#8220;%s&#8221; in the classic editor"
+msgstr "Rediger &#8220;%s&#8221; i det klassiske redigeringsverktøyet"
+
+#: classic-editor.php:724
+msgid "Settings"
+msgstr "Innstillinger"

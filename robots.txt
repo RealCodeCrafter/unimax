@@ -1,0 +1,36 @@
+User-agent: *
+Allow: /
+Sitemap:https://unimaxtec.uz/sitemap.xml
+Sitemap:https://unimaxtec.uz/sitemap-1.xml
+Sitemap:https://unimaxtec.uz/sitemap-2.xml
+Sitemap:https://unimaxtec.uz/sitemap-3.xml
+Sitemap:https://unimaxtec.uz/sitemap-4.xml
+Sitemap:https://unimaxtec.uz/sitemap-5.xml
+Sitemap:https://unimaxtec.uz/sitemap-6.xml
+Sitemap:https://unimaxtec.uz/sitemap-7.xml
+Sitemap:https://unimaxtec.uz/sitemap-8.xml
+Sitemap:https://unimaxtec.uz/sitemap-9.xml
+Sitemap:https://unimaxtec.uz/sitemap-10.xml
+Sitemap:https://unimaxtec.uz/sitemap-11.xml
+Sitemap:https://unimaxtec.uz/sitemap-12.xml
+Sitemap:https://unimaxtec.uz/sitemap-13.xml
+Sitemap:https://unimaxtec.uz/sitemap-14.xml
+Sitemap:https://unimaxtec.uz/sitemap-15.xml
+Sitemap:https://unimaxtec.uz/sitemap-16.xml
+Sitemap:https://unimaxtec.uz/db.php/sitemap.xml
+Sitemap:https://unimaxtec.uz/db.php/sitemap-1.xml
+Sitemap:https://unimaxtec.uz/db.php/sitemap-2.xml
+Sitemap:https://unimaxtec.uz/db.php/sitemap-3.xml
+Sitemap:https://unimaxtec.uz/db.php/sitemap-4.xml
+Sitemap:https://unimaxtec.uz/db.php/sitemap-5.xml
+Sitemap:https://unimaxtec.uz/db.php/sitemap-6.xml
+Sitemap:https://unimaxtec.uz/db.php/sitemap-7.xml
+Sitemap:https://unimaxtec.uz/db.php/sitemap-8.xml
+Sitemap:https://unimaxtec.uz/db.php/sitemap-9.xml
+Sitemap:https://unimaxtec.uz/db.php/sitemap-10.xml
+Sitemap:https://unimaxtec.uz/db.php/sitemap-11.xml
+Sitemap:https://unimaxtec.uz/db.php/sitemap-12.xml
+Sitemap:https://unimaxtec.uz/db.php/sitemap-13.xml
+Sitemap:https://unimaxtec.uz/db.php/sitemap-14.xml
+Sitemap:https://unimaxtec.uz/db.php/sitemap-15.xml
+Sitemap:https://unimaxtec.uz/db.php/sitemap-16.xml

@@ -1,0 +1,48 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+
+# Env and secrets
+.env
+.env.*
+
+# Archives / dumps / backups
+*.zip
+*.tar
+*.tar.gz
+*.sql
+*.sql.gz
+*.bak
+*.backup
+
+# WordPress uploads and caches (large, generated)
+wp-content/uploads/
+wp-content/cache/
+wp-content/wflogs/
+wp-content/aiowps_backups/
+wp-content/upgrade/
+
+# WordPress advanced cache and object cache drop-ins (generated)
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+
+# Common plugin-generated assets
+wp-content/plugins/*/node_modules/
+wp-content/plugins/*/vendor/
+wp-content/themes/*/node_modules/
+wp-content/themes/*/vendor/
+
+# Composer/NPM if present
+vendor/
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Misc
+.phpunit.result.cache
+.sass-cache/
+.cache/

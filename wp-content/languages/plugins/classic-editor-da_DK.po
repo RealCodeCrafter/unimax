@@ -1,0 +1,133 @@
+# Translation of Plugins - Classic Editor - Stable (latest release) in Danish
+# This file is distributed under the same license as the Plugins - Classic Editor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-09-25 12:27:07+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.7\n"
+"Language: da_DK\n"
+"Project-Id-Version: Plugins - Classic Editor - Stable (latest release)\n"
+
+#: classic-editor.php:489
+msgctxt "Editor Name"
+msgid "Classic Editor"
+msgstr "Klassisk Editor"
+
+#: classic-editor.php:416 classic-editor.php:493 classic-editor.php:893
+msgctxt "Editor Name"
+msgid "Block editor"
+msgstr "Blok Editor"
+
+#: classic-editor.php:412 classic-editor.php:893
+msgctxt "Editor Name"
+msgid "Classic editor"
+msgstr "Klassisk Editor"
+
+#: classic-editor.php:846
+msgctxt "Editor Name"
+msgid "Edit (classic editor)"
+msgstr "Rediger (klassisk editor)"
+
+#: classic-editor.php:839
+msgctxt "Editor Name"
+msgid "Edit (block editor)"
+msgstr "Rediger (blok editor)"
+
+#: classic-editor.php:498
+msgid "Change settings"
+msgstr "Ændre indstillinger"
+
+#: classic-editor.php:485
+msgid "Default editor for all sites"
+msgstr "Standard editor til alle websteder"
+
+#: classic-editor.php:481
+msgid "Editor Settings"
+msgstr "Editor indstillinger"
+
+#: classic-editor.php:465
+msgid "Default Editor"
+msgstr "Standard editor"
+
+#: classic-editor.php:880
+msgctxt "Editor Name"
+msgid "block editor"
+msgstr "blok editor"
+
+#: classic-editor.php:877
+msgctxt "Editor Name"
+msgid "classic editor"
+msgstr "klassisk editor"
+
+#. translators: %s: post title
+#: classic-editor.php:841
+msgid "Edit &#8220;%s&#8221; in the block editor"
+msgstr "Rediger &#8220;%s&#8221; i blok editoren"
+
+#: classic-editor.php:676
+msgid "Switch to block editor"
+msgstr "Skift til blok editor"
+
+#: classic-editor.php:705
+msgid "Switch to classic editor"
+msgstr "Skift til klassisk editor"
+
+#: classic-editor.php:502
+msgid "By default the block editor is replaced with the classic editor and users cannot switch editors."
+msgstr "Som standard erstattes blok editoren med den klassiske editor og brugere kan ikke skifte editorer."
+
+#: classic-editor.php:501
+msgid "Allow site admins to change settings"
+msgstr "Tillad websteds admins at ændre indstillinger"
+
+#: classic-editor.php:657
+msgid "Editor"
+msgstr "Editor"
+
+#: classic-editor.php:440
+msgid "No"
+msgstr "Nej"
+
+#: classic-editor.php:436
+msgid "Yes"
+msgstr "Ja"
+
+#: classic-editor.php:363
+msgid "Allow users to switch editors"
+msgstr "Tillad brugere at skifte editors"
+
+#: classic-editor.php:362
+msgid "Default editor for all users"
+msgstr "Standard editor for alle brugere"
+
+#. Author URI of the plugin
+msgid "https://github.com/WordPress/classic-editor/"
+msgstr "https://github.com/WordPress/classic-editor/"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/classic-editor/"
+msgstr "https://wordpress.org/plugins/classic-editor/"
+
+#. Author of the plugin
+msgid "WordPress Contributors"
+msgstr "WordPress Contributors"
+
+#. Description of the plugin
+msgid "Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen."
+msgstr "Aktivere WordPress klassiske editor og gamle stil med redigere sider og indlæg med TinyMCE, Meta bokse osv. Understøtter de ældre plugin'er som virkede med editoren."
+
+#. Plugin Name of the plugin
+msgid "Classic Editor"
+msgstr "Klassisk editor"
+
+#. translators: %s: post title
+#: classic-editor.php:848
+msgid "Edit &#8220;%s&#8221; in the classic editor"
+msgstr "Rediger &#8220;%s&#8221; i den klassiske editor"
+
+#: classic-editor.php:724
+msgid "Settings"
+msgstr "Indstillinger"
