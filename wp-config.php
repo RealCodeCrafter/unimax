@@ -26,23 +26,17 @@
 
 // ** Параметры базы данных: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-// Prefer environment variables (Railway/Render), fallback to provided Railway PUBLIC proxy as defaults
-$env_db_name = getenv('MYSQLDATABASE') ?: getenv('MYSQL_DATABASE') ?: getenv('DB_NAME') ?: 'railway';
-$env_db_user = getenv('MYSQLUSER') ?: getenv('MYSQL_USER') ?: getenv('DB_USER') ?: 'root';
-$env_db_pass = getenv('MYSQLPASSWORD') ?: getenv('MYSQL_PASSWORD') ?: getenv('DB_PASSWORD') ?: '';
-$env_db_host = getenv('MYSQLHOST') ?: getenv('MYSQL_HOST') ?: 'localhost';
-$env_db_port = getenv('MYSQLPORT') ?: getenv('MYSQL_PORT') ?: '3306'; // Prefer safe local defaults for public repos
-
-define( 'DB_NAME', $env_db_name );
+// Static Railway PUBLIC MySQL credentials (no env usage)
+define( 'DB_NAME', 'railway' );
 
 /** Имя пользователя базы данных */
-define( 'DB_USER', $env_db_user );
+define( 'DB_USER', 'root' );
 
 /** Пароль к базе данных */
-define( 'DB_PASSWORD', $env_db_pass );
+define( 'DB_PASSWORD', 'gKXnUbxCoMvHSsHSUySNbYeGYhrwLhwF' );
 
-/** Имя сервера базы данных (можно указать host:port) */
-define( 'DB_HOST', $env_db_host . ':' . $env_db_port );
+/** Имя сервера базы данных (host:port) */
+define( 'DB_HOST', 'crossover.proxy.rlwy.net:44478' );
 
 /** Кодировка базы данных для создания таблиц. */
 define( 'DB_CHARSET', 'utf8mb4' );
