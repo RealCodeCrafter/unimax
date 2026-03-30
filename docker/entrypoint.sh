@@ -158,6 +158,10 @@ rewrite_old_asset_urls() {
     -exec sed -i "s|https://www.unimaxtec.uz|${TARGET_SITE_URL}|g" {} + || true
   find "$CSS_DIR" -type f -name "*.css" \
     -exec sed -i "s|http://www.unimaxtec.uz|${TARGET_SITE_URL}|g" {} + || true
+  find "$CSS_DIR" -type f -name "*.css" \
+    -exec sed -i "s|https://new.unimaxtec.uz|${TARGET_SITE_URL}|g" {} + || true
+  find "$CSS_DIR" -type f -name "*.css" \
+    -exec sed -i "s|http://new.unimaxtec.uz|${TARGET_SITE_URL}|g" {} + || true
 }
 
 rewrite_old_urls_in_database() {
@@ -176,6 +180,27 @@ rewrite_old_urls_in_database() {
     --all-tables --allow-root --path=/var/www/html --skip-columns=guid >/dev/null 2>&1 || true
   wp search-replace 'http://www.unimaxtec.uz' "${TARGET_SITE_URL}" \
     --all-tables --allow-root --path=/var/www/html --skip-columns=guid >/dev/null 2>&1 || true
+  wp search-replace 'https://new.unimaxtec.uz' "${TARGET_SITE_URL}" \
+    --all-tables --allow-root --path=/var/www/html --skip-columns=guid >/dev/null 2>&1 || true
+  wp search-replace 'http://new.unimaxtec.uz' "${TARGET_SITE_URL}" \
+    --all-tables --allow-root --path=/var/www/html --skip-columns=guid >/dev/null 2>&1 || true
+
+  # Product flip-boxes currently use href="#!" which is a no-op.
+  # Route them to a real page so clicking "Подробнее" opens content.
+  wp search-replace 'class="elementor-flip-box__layer elementor-flip-box__back" href="#!"' \
+    'class="elementor-flip-box__layer elementor-flip-box__back" href="https://unimax-production-c86b.up.railway.app/postavshhiki/"' \
+    --all-tables --allow-root --path=/var/www/html --skip-columns=guid >/dev/null 2>&1 || true
+}
+
+force_product_background_fallbacks() {
+  # Some Elementor blocks depend on lazyload runtime vars and render blank on desktop.
+  # Convert to direct background-image URL fallback in post-20 CSS.
+  CSS_FILE="/var/www/html/wp-content/uploads/elementor/css/post-20.css"
+  if [ ! -f "$CSS_FILE" ]; then
+    return 0
+  fi
+
+  sed -E -i 's#background-image:var\(--e-bg-lazyload-loaded\);--e-bg-lazyload:url\("([^"]+)"\);#background-image:url("\1");--e-bg-lazyload:url("\1");#g' "$CSS_FILE" || true
 }
 
 echo "Waiting for MySQL..."
@@ -186,6 +211,7 @@ disable_broken_aio_security_plugin
 import_sql_every_start
 rewrite_old_urls_in_database
 rewrite_old_asset_urls
+force_product_background_fallbacks
 
 exec "$@"
 
