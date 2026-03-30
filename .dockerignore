@@ -36,6 +36,8 @@ wp-content/aiowps_backups/
 # Plugin/theme dependencies (if any)
 wp-content/plugins/*/node_modules/
 wp-content/plugins/*/vendor/
+!wp-content/plugins/all-in-one-wp-security-and-firewall/vendor/
+!wp-content/plugins/all-in-one-wp-security-and-firewall/vendor/**
 wp-content/themes/*/node_modules/
 wp-content/themes/*/vendor/
 
