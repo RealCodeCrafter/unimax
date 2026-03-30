@@ -10,11 +10,13 @@ RUN apt-get update && \
 
 RUN echo "cachebust=${CACHEBUST}"
 
-# Copy project into the web root
-COPY . /var/www/html
+# Copy only what we must override: wp-config + wp-content + SQL dump.
+# WordPress core (including wp-includes/js/dist/vendor) comes from the base image.
+COPY wp-config.php /var/www/html/wp-config.php
+COPY wp-content /var/www/html/wp-content
+COPY unimaxtecdbs.sql /var/www/html/unimaxtecdbs.sql
 
 # Seed directory for cases where Railway mounts an empty disk over /var/www/html.
-# (We copy after COPY so it includes uploads + WP core files.)
 RUN mkdir -p /opt/www-seed && cp -a /var/www/html/. /opt/www-seed/
 
 # Ensure correct ownership for WordPress to write to wp-content
@@ -22,6 +24,7 @@ RUN chown -R www-data:www-data /var/www/html
 
 # Nginx config (use envsubst to inject $PORT on container start)
 COPY docker/nginx.conf.template /etc/nginx/nginx.conf.template
+
 
 # Supervisor config to run php-fpm and nginx together
 COPY docker/supervisord.conf /etc/supervisor/conf.d/supervisord.conf

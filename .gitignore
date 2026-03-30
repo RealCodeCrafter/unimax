@@ -26,6 +26,19 @@ wp-content/wflogs/
 wp-content/aiowps_backups/
 wp-content/upgrade/
 
+# Exclude backup folder with huge media
+09.03.2024/
+
+# Re-include only the parts of uploads needed for the site to render on Railway.
+# (Prevents pushing massive mp4/files while still keeping CSS/images)
+!wp-content/uploads/elementor/
+!wp-content/uploads/elementor/css/
+!wp-content/uploads/2023/
+!wp-content/uploads/2023/04/
+!wp-content/uploads/2023/05/
+!wp-content/uploads/2024/
+!wp-content/uploads/2024/03/
+
 # WordPress advanced cache and object cache drop-ins (generated)
 wp-content/advanced-cache.php
 wp-content/object-cache.php

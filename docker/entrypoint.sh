@@ -103,6 +103,10 @@ seed_wordpress_files_if_missing() {
   fi
 
   echo "Seed result: uploads marker exists? $( [ -f "$UPLOADS_MARKER" ] && echo yes || echo no ); wp vendor marker exists? $( [ -f "$WP_VENDOR_MARKER" ] && echo yes || echo no )"
+  if [ ! -f "$UPLOADS_MARKER" ]; then
+    echo "Uploads directory snapshot:"
+    ls -la /var/www/html/wp-content/uploads/elementor/css 2>/dev/null || true
+  fi
 }
 
 echo "Waiting for MySQL..."
