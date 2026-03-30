@@ -8,6 +8,10 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/* && \
     mkdir -p /run/php /var/log/supervisor
 
+# Install WP-CLI for safe serialized search-replace after SQL import.
+RUN curl -fsSL -o /usr/local/bin/wp https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar && \
+    chmod +x /usr/local/bin/wp
+
 RUN echo "cachebust=${CACHEBUST}"
 
 # The fpm image keeps WordPress source under /usr/src/wordpress.

@@ -150,12 +150,32 @@ rewrite_old_asset_urls() {
   fi
 
   echo "Rewriting old absolute URLs inside Elementor CSS..."
-  find "$CSS_DIR" -type f -name "*.css" -print0 | while IFS= read -r -d '' f; do
-    sed -i "s|https://unimaxtec.uz|${TARGET_SITE_URL}|g" "$f" || true
-    sed -i "s|http://unimaxtec.uz|${TARGET_SITE_URL}|g" "$f" || true
-    sed -i "s|https://www.unimaxtec.uz|${TARGET_SITE_URL}|g" "$f" || true
-    sed -i "s|http://www.unimaxtec.uz|${TARGET_SITE_URL}|g" "$f" || true
-  done
+  find "$CSS_DIR" -type f -name "*.css" \
+    -exec sed -i "s|https://unimaxtec.uz|${TARGET_SITE_URL}|g" {} + || true
+  find "$CSS_DIR" -type f -name "*.css" \
+    -exec sed -i "s|http://unimaxtec.uz|${TARGET_SITE_URL}|g" {} + || true
+  find "$CSS_DIR" -type f -name "*.css" \
+    -exec sed -i "s|https://www.unimaxtec.uz|${TARGET_SITE_URL}|g" {} + || true
+  find "$CSS_DIR" -type f -name "*.css" \
+    -exec sed -i "s|http://www.unimaxtec.uz|${TARGET_SITE_URL}|g" {} + || true
+}
+
+rewrite_old_urls_in_database() {
+  # Update old-domain URLs in DB safely (handles serialized arrays/objects).
+  if ! command -v wp >/dev/null 2>&1; then
+    echo "wp-cli not found, skipping DB URL rewrite."
+    return 0
+  fi
+
+  echo "Running wp search-replace for old domain URLs..."
+  wp search-replace 'https://unimaxtec.uz' "${TARGET_SITE_URL}" \
+    --all-tables --allow-root --path=/var/www/html --skip-columns=guid >/dev/null 2>&1 || true
+  wp search-replace 'http://unimaxtec.uz' "${TARGET_SITE_URL}" \
+    --all-tables --allow-root --path=/var/www/html --skip-columns=guid >/dev/null 2>&1 || true
+  wp search-replace 'https://www.unimaxtec.uz' "${TARGET_SITE_URL}" \
+    --all-tables --allow-root --path=/var/www/html --skip-columns=guid >/dev/null 2>&1 || true
+  wp search-replace 'http://www.unimaxtec.uz' "${TARGET_SITE_URL}" \
+    --all-tables --allow-root --path=/var/www/html --skip-columns=guid >/dev/null 2>&1 || true
 }
 
 echo "Waiting for MySQL..."
@@ -164,6 +184,7 @@ ensure_wp_core_files
 seed_wordpress_files_if_missing
 disable_broken_aio_security_plugin
 import_sql_every_start
+rewrite_old_urls_in_database
 rewrite_old_asset_urls
 
 exec "$@"
