@@ -26,6 +26,7 @@ if [ -z "$DB_PORT_ONLY" ]; then
 fi
 
 TABLE_PREFIX="hihqh_" # $table_prefix in your wp-config is "hihqh_"
+TARGET_SITE_URL="https://unimax-production-c86b.up.railway.app"
 
 wait_for_mysql() {
   # Wait a bit for Railway MySQL to be reachable
@@ -38,6 +39,15 @@ wait_for_mysql() {
     sleep 2
   done
   return 1
+}
+
+ensure_wp_core_files() {
+  # Guard against empty/overwritten web root (can happen with bad mounts/copy order).
+  if [ ! -f /var/www/html/index.php ] || [ ! -f /var/www/html/wp-blog-header.php ]; then
+    echo "WordPress core files missing in /var/www/html; restoring from /usr/src/wordpress ..."
+    cp -a /usr/src/wordpress/. /var/www/html/
+    chown -R www-data:www-data /var/www/html/ 2>/dev/null || true
+  fi
 }
 
 drop_all_tables() {
@@ -66,6 +76,14 @@ import_sql_every_start() {
 
   mysql -h "$DB_HOST_ONLY" -P "$DB_PORT_ONLY" -u "$DB_USER" -p"$DB_PASSWORD" "$DB_NAME" < "$SQL_FILE"
   echo "SQL import finished."
+
+  # Keep WordPress canonical URL fixed on Railway after each destructive reset/import.
+  mysql -h "$DB_HOST_ONLY" -P "$DB_PORT_ONLY" -u "$DB_USER" -p"$DB_PASSWORD" -D "$DB_NAME" -e "
+    UPDATE ${TABLE_PREFIX}options
+    SET option_value='${TARGET_SITE_URL}'
+    WHERE option_name IN ('siteurl','home');
+  " >/dev/null 2>&1 || true
+  echo "Updated siteurl/home to ${TARGET_SITE_URL}"
 }
 
 disable_broken_aio_security_plugin() {
@@ -123,11 +141,30 @@ seed_wordpress_files_if_missing() {
   fi
 }
 
+rewrite_old_asset_urls() {
+  # Elementor-generated CSS may still contain absolute old-domain links.
+  # Rewrite those links so background images load from this Railway app.
+  CSS_DIR="/var/www/html/wp-content/uploads/elementor/css"
+  if [ ! -d "$CSS_DIR" ]; then
+    return 0
+  fi
+
+  echo "Rewriting old absolute URLs inside Elementor CSS..."
+  find "$CSS_DIR" -type f -name "*.css" -print0 | while IFS= read -r -d '' f; do
+    sed -i "s|https://unimaxtec.uz|${TARGET_SITE_URL}|g" "$f" || true
+    sed -i "s|http://unimaxtec.uz|${TARGET_SITE_URL}|g" "$f" || true
+    sed -i "s|https://www.unimaxtec.uz|${TARGET_SITE_URL}|g" "$f" || true
+    sed -i "s|http://www.unimaxtec.uz|${TARGET_SITE_URL}|g" "$f" || true
+  done
+}
+
 echo "Waiting for MySQL..."
 wait_for_mysql
+ensure_wp_core_files
 seed_wordpress_files_if_missing
 disable_broken_aio_security_plugin
 import_sql_every_start
+rewrite_old_asset_urls
 
 exec "$@"
 
