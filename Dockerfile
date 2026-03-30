@@ -1,11 +1,14 @@
 FROM wordpress:6.5-php8.2-fpm
 
 ENV PHP_FPM_LISTEN=9000
+ARG CACHEBUST=1
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends nginx supervisor gettext-base ca-certificates default-mysql-client && \
     rm -rf /var/lib/apt/lists/* && \
     mkdir -p /run/php /var/log/supervisor
+
+RUN echo "cachebust=${CACHEBUST}"
 
 # Copy project into the web root
 COPY . /var/www/html

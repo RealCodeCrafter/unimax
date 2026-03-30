@@ -68,8 +68,21 @@ import_sql_every_start() {
   echo "SQL import finished."
 }
 
+disable_broken_aio_security_plugin() {
+  # If the plugin's PHP vendor files are missing, WP will fatally crash.
+  AIO_PLUGIN_DIR="/var/www/html/wp-content/plugins/all-in-one-wp-security-and-firewall"
+  AIO_VENDOR_FILE="/var/www/html/wp-content/plugins/all-in-one-wp-security-and-firewall/vendor/team-updraft/common-libs/src/updraft-semaphore/class-updraft-semaphore.php"
+  if [ ! -f "$AIO_VENDOR_FILE" ]; then
+    if [ -d "$AIO_PLUGIN_DIR" ]; then
+      echo "AIOWPS vendor files are missing; disabling plugin to prevent 500 crash."
+      mv "$AIO_PLUGIN_DIR" "${AIO_PLUGIN_DIR}.disabled"
+    fi
+  fi
+}
+
 echo "Waiting for MySQL..."
 wait_for_mysql
+disable_broken_aio_security_plugin
 import_sql_every_start
 
 exec "$@"
