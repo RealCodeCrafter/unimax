@@ -83,7 +83,8 @@ disable_broken_aio_security_plugin() {
 seed_wordpress_files_if_missing() {
   # If Railway mounts empty disk, files disappear -> seed them back from image copy.
   UPLOADS_MARKER="/var/www/html/wp-content/uploads/elementor/css/global.css"
-  WP_VENDOR_MARKER="/var/www/html/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js"
+  # Logs show missing polyfill files under wp-includes/js/dist/vendor/.
+  WP_VENDOR_MARKER="/var/www/html/wp-includes/js/dist/vendor/wp-polyfill.min.js"
 
   echo "Seed check: uploads marker exists? $( [ -f "$UPLOADS_MARKER" ] && echo yes || echo no ); wp vendor marker exists? $( [ -f "$WP_VENDOR_MARKER" ] && echo yes || echo no )"
 
@@ -92,18 +93,27 @@ seed_wordpress_files_if_missing() {
     return 0
   fi
 
-  if [ -d "/opt/www-seed" ]; then
-    echo "Seeding missing WP files from /opt/www-seed ..."
-    # Copy WP core + uploads back into place.
-    cp -a /opt/www-seed/wp-content/. /var/www/html/wp-content/
-    if [ -d "/opt/www-seed/wp-includes" ]; then
-      cp -a /opt/www-seed/wp-includes/. /var/www/html/wp-includes/
+  # Restore uploads/wp-content if missing.
+  if [ ! -f "$UPLOADS_MARKER" ]; then
+    if [ -d "/opt/www-seed/wp-content" ]; then
+      echo "Seeding missing wp-content/uploads from /opt/www-seed ..."
+      cp -a /opt/www-seed/wp-content/. /var/www/html/wp-content/
+      chown -R www-data:www-data /var/www/html/wp-content/ 2>/dev/null || true
     else
-      echo "Seed missing wp-includes; cannot copy wp-includes from /opt/www-seed."
+      echo "No /opt/www-seed/wp-content found; cannot seed uploads."
     fi
-    chown -R www-data:www-data /var/www/html/wp-content/ /var/www/html/wp-includes/ 2>/dev/null || true
-  else
-    echo "No /opt/www-seed found; cannot seed files."
+  fi
+
+  # Restore wp-includes JS vendor if missing (from base-core snapshot).
+  if [ ! -f "$WP_VENDOR_MARKER" ]; then
+    if [ -d "/opt/base-core/wp-includes" ]; then
+      echo "Seeding missing wp-includes/js/dist/vendor from /opt/base-core ..."
+      cp -a /opt/base-core/wp-includes/. /var/www/html/wp-includes/
+      chown -R www-data:www-data /var/www/html/wp-includes/ 2>/dev/null || true
+    else
+      echo "No /opt/base-core/wp-includes found; cannot seed core vendor."
+    fi
+    echo "After seed: wp vendor marker exists? $( [ -f "$WP_VENDOR_MARKER" ] && echo yes || echo no )"
   fi
 
   echo "Seed result: uploads marker exists? $( [ -f "$UPLOADS_MARKER" ] && echo yes || echo no ); wp vendor marker exists? $( [ -f "$WP_VENDOR_MARKER" ] && echo yes || echo no )"
