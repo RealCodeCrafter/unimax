@@ -26,6 +26,13 @@ wp-content/wflogs/
 wp-content/aiowps_backups/
 wp-content/upgrade/
 
+# Prevent GitHub large-file limit issues inside uploads
+wp-content/uploads/**/*.mp4
+wp-content/uploads/**/*.zip
+wp-content/uploads/**/*.7z
+wp-content/uploads/**/*.tar
+wp-content/uploads/**/*.tar.gz
+
 # Exclude backup folder with huge media
 09.03.2024/
 
