@@ -85,18 +85,24 @@ seed_wordpress_files_if_missing() {
   UPLOADS_MARKER="/var/www/html/wp-content/uploads/elementor/css/global.css"
   WP_VENDOR_MARKER="/var/www/html/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js"
 
+  echo "Seed check: uploads marker exists? $( [ -f "$UPLOADS_MARKER" ] && echo yes || echo no ); wp vendor marker exists? $( [ -f "$WP_VENDOR_MARKER" ] && echo yes || echo no )"
+
   if [ -f "$UPLOADS_MARKER" ] && [ -f "$WP_VENDOR_MARKER" ]; then
+    echo "Seed not needed."
     return 0
   fi
 
   if [ -d "/opt/www-seed" ]; then
     echo "Seeding missing WP files from /opt/www-seed ..."
-    cp -a /opt/www-seed/wp-content/. /var/www/html/wp-content/ || true
-    cp -a /opt/www-seed/wp-includes/. /var/www/html/wp-includes/ || true
+    # Copy WP core + uploads back into place.
+    cp -a /opt/www-seed/wp-content/. /var/www/html/wp-content/
+    cp -a /opt/www-seed/wp-includes/. /var/www/html/wp-includes/
     chown -R www-data:www-data /var/www/html/wp-content/ /var/www/html/wp-includes/ 2>/dev/null || true
   else
     echo "No /opt/www-seed found; cannot seed files."
   fi
+
+  echo "Seed result: uploads marker exists? $( [ -f "$UPLOADS_MARKER" ] && echo yes || echo no ); wp vendor marker exists? $( [ -f "$WP_VENDOR_MARKER" ] && echo yes || echo no )"
 }
 
 echo "Waiting for MySQL..."
