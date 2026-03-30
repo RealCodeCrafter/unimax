@@ -13,6 +13,10 @@ RUN echo "cachebust=${CACHEBUST}"
 # Copy project into the web root
 COPY . /var/www/html
 
+# Seed directory for cases where Railway mounts an empty disk over /var/www/html.
+# (We copy after COPY so it includes uploads + WP core files.)
+RUN mkdir -p /opt/www-seed && cp -a /var/www/html/. /opt/www-seed/
+
 # Ensure correct ownership for WordPress to write to wp-content
 RUN chown -R www-data:www-data /var/www/html
 

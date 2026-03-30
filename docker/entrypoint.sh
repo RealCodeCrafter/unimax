@@ -80,8 +80,28 @@ disable_broken_aio_security_plugin() {
   fi
 }
 
+seed_wordpress_files_if_missing() {
+  # If Railway mounts empty disk, files disappear -> seed them back from image copy.
+  UPLOADS_MARKER="/var/www/html/wp-content/uploads/elementor/css/global.css"
+  WP_VENDOR_MARKER="/var/www/html/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js"
+
+  if [ -f "$UPLOADS_MARKER" ] && [ -f "$WP_VENDOR_MARKER" ]; then
+    return 0
+  fi
+
+  if [ -d "/opt/www-seed" ]; then
+    echo "Seeding missing WP files from /opt/www-seed ..."
+    cp -a /opt/www-seed/wp-content/. /var/www/html/wp-content/ || true
+    cp -a /opt/www-seed/wp-includes/. /var/www/html/wp-includes/ || true
+    chown -R www-data:www-data /var/www/html/wp-content/ /var/www/html/wp-includes/ 2>/dev/null || true
+  else
+    echo "No /opt/www-seed found; cannot seed files."
+  fi
+}
+
 echo "Waiting for MySQL..."
 wait_for_mysql
+seed_wordpress_files_if_missing
 disable_broken_aio_security_plugin
 import_sql_every_start
 
