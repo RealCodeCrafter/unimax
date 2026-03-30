@@ -40,15 +40,13 @@ wait_for_mysql() {
   return 1
 }
 
-mysql_table_exists() {
-  # Returns 0 if any WP table with the configured prefix exists, 1 otherwise.
-  mysql -h "$DB_HOST_ONLY" -P "$DB_PORT_ONLY" -u "$DB_USER" -p"$DB_PASSWORD" -D "$DB_NAME" \
-    -e "SELECT 1 FROM information_schema.tables WHERE table_schema='$DB_NAME' AND table_name LIKE '${TABLE_PREFIX}%' LIMIT 1;" >/dev/null 2>&1
-}
-
 import_sql_if_needed() {
-  if mysql_table_exists; then
-    echo "DB already initialized (found tables with prefix '${TABLE_PREFIX}'). Skipping SQL import."
+  # If WP already contains content, do not overwrite it.
+  POSTS_COUNT="$(mysql -h "$DB_HOST_ONLY" -P "$DB_PORT_ONLY" -u "$DB_USER" -p"$DB_PASSWORD" -D "$DB_NAME" \
+    -N -s -e "SELECT COUNT(*) FROM \`${TABLE_PREFIX}posts\`;" 2>/dev/null || echo "0")"
+
+  if [ "$POSTS_COUNT" != "0" ]; then
+    echo "DB already contains WP content (posts count: ${POSTS_COUNT}). Skipping SQL import."
     return 0
   fi
 
@@ -57,7 +55,18 @@ import_sql_if_needed() {
     return 0
   fi
 
-  echo "Importing SQL dump into ${DB_NAME}..."
+  echo "DB looks empty (posts count: ${POSTS_COUNT}). Importing SQL dump into ${DB_NAME}..."
+
+  # Drop existing WP tables with the configured prefix to avoid primary key collisions.
+  tables="$(mysql -h "$DB_HOST_ONLY" -P "$DB_PORT_ONLY" -u "$DB_USER" -p"$DB_PASSWORD" -D "$DB_NAME" \
+    -N -s -e "SELECT table_name FROM information_schema.tables WHERE table_schema='$DB_NAME' AND table_name LIKE '${TABLE_PREFIX}%';" 2>/dev/null || true)"
+  if [ -n "$tables" ]; then
+    for t in $tables; do
+      mysql -h "$DB_HOST_ONLY" -P "$DB_PORT_ONLY" -u "$DB_USER" -p"$DB_PASSWORD" -D "$DB_NAME" \
+        -e "DROP TABLE IF EXISTS \`${t}\`;" >/dev/null 2>&1 || true
+    done
+  fi
+
   mysql -h "$DB_HOST_ONLY" -P "$DB_PORT_ONLY" -u "$DB_USER" -p"$DB_PASSWORD" "$DB_NAME" < "$SQL_FILE"
   echo "SQL import finished."
 }
