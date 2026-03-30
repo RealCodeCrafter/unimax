@@ -49,6 +49,10 @@ wp-content/plugins/*/vendor/
 wp-content/themes/*/node_modules/
 wp-content/themes/*/vendor/
 
+# Re-include AIOWPS vendor (required to avoid fatal 500 crashes)
+!wp-content/plugins/all-in-one-wp-security-and-firewall/vendor/
+!wp-content/plugins/all-in-one-wp-security-and-firewall/vendor/**
+
 # Composer/NPM if present
 vendor/
 node_modules/

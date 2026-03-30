@@ -96,7 +96,11 @@ seed_wordpress_files_if_missing() {
     echo "Seeding missing WP files from /opt/www-seed ..."
     # Copy WP core + uploads back into place.
     cp -a /opt/www-seed/wp-content/. /var/www/html/wp-content/
-    cp -a /opt/www-seed/wp-includes/. /var/www/html/wp-includes/
+    if [ -d "/opt/www-seed/wp-includes" ]; then
+      cp -a /opt/www-seed/wp-includes/. /var/www/html/wp-includes/
+    else
+      echo "Seed missing wp-includes; cannot copy wp-includes from /opt/www-seed."
+    fi
     chown -R www-data:www-data /var/www/html/wp-content/ /var/www/html/wp-includes/ 2>/dev/null || true
   else
     echo "No /opt/www-seed found; cannot seed files."

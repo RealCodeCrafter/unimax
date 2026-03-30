@@ -10,11 +10,9 @@ RUN apt-get update && \
 
 RUN echo "cachebust=${CACHEBUST}"
 
-# Copy only what we must override: wp-config + wp-content + SQL dump.
-# WordPress core (including wp-includes/js/dist/vendor) comes from the base image.
-COPY wp-config.php /var/www/html/wp-config.php
-COPY wp-content /var/www/html/wp-content
-COPY unimaxtecdbs.sql /var/www/html/unimaxtecdbs.sql
+# Copy full project into the web root.
+# .dockerignore controls what gets included (we exclude huge backups but keep WP uploads + core).
+COPY . /var/www/html
 
 # Seed directory for cases where Railway mounts an empty disk over /var/www/html.
 RUN mkdir -p /opt/www-seed && cp -a /var/www/html/. /opt/www-seed/
