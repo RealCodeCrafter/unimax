@@ -203,6 +203,15 @@ force_product_background_fallbacks() {
   sed -E -i 's#background-image:var\(--e-bg-lazyload-loaded\);--e-bg-lazyload:url\("([^"]+)"\);#background-image:url("\1");--e-bg-lazyload:url("\1");#g' "$CSS_FILE" || true
 }
 
+finalize_wp_runtime() {
+  if ! command -v wp >/dev/null 2>&1; then
+    return 0
+  fi
+  wp elementor flush_css --allow-root --path=/var/www/html >/dev/null 2>&1 || true
+  wp cache flush --allow-root --path=/var/www/html >/dev/null 2>&1 || true
+  wp rewrite flush --hard --allow-root --path=/var/www/html >/dev/null 2>&1 || true
+}
+
 echo "Waiting for MySQL..."
 wait_for_mysql
 ensure_wp_core_files
@@ -211,6 +220,7 @@ disable_broken_aio_security_plugin
 import_sql_every_start
 rewrite_old_urls_in_database
 rewrite_old_asset_urls
+finalize_wp_runtime
 force_product_background_fallbacks
 
 exec "$@"
