@@ -84,7 +84,7 @@ seed_wordpress_files_if_missing() {
   # If Railway mounts empty disk, files disappear -> seed them back from image copy.
   UPLOADS_MARKER="/var/www/html/wp-content/uploads/elementor/css/global.css"
   # Logs show missing polyfill files under wp-includes/js/dist/vendor/.
-  WP_VENDOR_MARKER="/var/www/html/wp-includes/js/dist/vendor/wp-polyfill.min.js"
+  WP_VENDOR_MARKER="/var/www/html/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js"
 
   echo "Seed check: uploads marker exists? $( [ -f "$UPLOADS_MARKER" ] && echo yes || echo no ); wp vendor marker exists? $( [ -f "$WP_VENDOR_MARKER" ] && echo yes || echo no )"
 

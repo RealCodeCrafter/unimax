@@ -10,12 +10,20 @@ RUN apt-get update && \
 
 RUN echo "cachebust=${CACHEBUST}"
 
-# Copy full project into the web root.
-# .dockerignore controls what gets included (we exclude huge backups but keep WP uploads + core).
-COPY . /var/www/html
+# Take a reliable copy of WordPress core (wp-includes) from the base image.
+# This avoids cases where the repository content is incomplete or unsafe (e.g., repo index.php).
+RUN mkdir -p /opt/base-core/wp-includes && cp -a /var/www/html/wp-includes/. /opt/base-core/wp-includes/
 
-# Seed directory for cases where Railway mounts an empty disk over /var/www/html.
-RUN mkdir -p /opt/www-seed && cp -a /var/www/html/. /opt/www-seed/
+# Copy only the parts we actually want to override:
+# - wp-content (plugins/themes/uploads)
+# - wp-config.php (DB config)
+# - DB dump for first-run import
+COPY wp-content /var/www/html/wp-content
+COPY wp-config.php /var/www/html/wp-config.php
+COPY unimaxtecdbs.sql /var/www/html/unimaxtecdbs.sql
+
+# Seed snapshot for cases where Railway mounts an empty disk over wp-content.
+RUN mkdir -p /opt/www-seed && cp -a /var/www/html/wp-content/. /opt/www-seed/wp-content/
 
 # Ensure correct ownership for WordPress to write to wp-content
 RUN chown -R www-data:www-data /var/www/html
