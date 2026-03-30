@@ -10,7 +10,7 @@ Thumbs.db
 
 # Node / Composer (if present)
 node_modules/
-vendor/
+/vendor/
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
@@ -27,7 +27,6 @@ pnpm-lock.yaml
 09.03.2024/
 
 # WordPress generated content (will be on persistent disk)
-wp-content/uploads/
 wp-content/cache/
 wp-content/wflogs/
 wp-content/upgrade/
