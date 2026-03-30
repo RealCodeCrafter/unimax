@@ -11,8 +11,20 @@ RUN apt-get update && \
 RUN echo "cachebust=${CACHEBUST}"
 
 # Take a reliable copy of WordPress core (wp-includes) from the base image.
-# This avoids cases where the repository content is incomplete or unsafe (e.g., repo index.php).
-RUN mkdir -p /opt/base-core/wp-includes && cp -a /var/www/html/wp-includes/. /opt/base-core/wp-includes/
+# We probe possible paths because the official image layout can vary by tag.
+RUN set -eu; \
+    mkdir -p /opt/base-core; \
+    if [ -d /var/www/html/wp-includes ]; then \
+      cp -a /var/www/html/wp-includes/. /opt/base-core/wp-includes/; \
+    elif [ -d /usr/src/wordpress/wp-includes ]; then \
+      cp -a /usr/src/wordpress/wp-includes/. /opt/base-core/wp-includes/; \
+    elif [ -d /var/www/wordpress/wp-includes ]; then \
+      cp -a /var/www/wordpress/wp-includes/. /opt/base-core/wp-includes/; \
+    else \
+      echo "wp-includes not found in known locations. Listing /var/www/html:"; \
+      ls -la /var/www/html || true; \
+      exit 1; \
+    fi
 
 # Copy only the parts we actually want to override:
 # - wp-content (plugins/themes/uploads)
