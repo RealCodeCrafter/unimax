@@ -5,6 +5,16 @@
 @ini_set('session.use_only_cookies', true);
 //END Really Simple SSL cookie settings
 
+// Railway/Reverse proxy: if the outside request is HTTPS, force WordPress to treat it as HTTPS.
+if ( isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && strtolower($_SERVER['HTTP_X_FORWARDED_PROTO']) === 'https' ) {
+	define('WP_FORCE_HTTPS', true);
+	$_SERVER['HTTPS'] = 'on';
+}
+
+// Keep URL stable on Railway (no env variables).
+define('WP_HOME', 'https://unimax-production-c86b.up.railway.app');
+define('WP_SITEURL', 'https://unimax-production-c86b.up.railway.app');
+
 /**
  * Основные параметры WordPress.
  *
