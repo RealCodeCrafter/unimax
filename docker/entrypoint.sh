@@ -40,32 +40,29 @@ wait_for_mysql() {
   return 1
 }
 
-import_sql_if_needed() {
-  # If WP already contains content, do not overwrite it.
-  POSTS_COUNT="$(mysql -h "$DB_HOST_ONLY" -P "$DB_PORT_ONLY" -u "$DB_USER" -p"$DB_PASSWORD" -D "$DB_NAME" \
-    -N -s -e "SELECT COUNT(*) FROM \`${TABLE_PREFIX}posts\`;" 2>/dev/null || echo "0")"
-
-  if [ "$POSTS_COUNT" != "0" ]; then
-    echo "DB already contains WP content (posts count: ${POSTS_COUNT}). Skipping SQL import."
-    return 0
-  fi
-
-  if [ ! -f "$SQL_FILE" ]; then
-    echo "SQL file not found at $SQL_FILE. Skipping SQL import."
-    return 0
-  fi
-
-  echo "DB looks empty (posts count: ${POSTS_COUNT}). Importing SQL dump into ${DB_NAME}..."
-
-  # Drop existing WP tables with the configured prefix to avoid primary key collisions.
+drop_all_tables() {
+  # Drops ALL tables in the target database. This is destructive (as requested).
   tables="$(mysql -h "$DB_HOST_ONLY" -P "$DB_PORT_ONLY" -u "$DB_USER" -p"$DB_PASSWORD" -D "$DB_NAME" \
-    -N -s -e "SELECT table_name FROM information_schema.tables WHERE table_schema='$DB_NAME' AND table_name LIKE '${TABLE_PREFIX}%';" 2>/dev/null || true)"
-  if [ -n "$tables" ]; then
-    for t in $tables; do
-      mysql -h "$DB_HOST_ONLY" -P "$DB_PORT_ONLY" -u "$DB_USER" -p"$DB_PASSWORD" -D "$DB_NAME" \
-        -e "DROP TABLE IF EXISTS \`${t}\`;" >/dev/null 2>&1 || true
-    done
+    -N -s -e "SELECT table_name FROM information_schema.tables WHERE table_schema='$DB_NAME';" 2>/dev/null || true)"
+
+  if [ -z "$tables" ]; then
+    return 0
   fi
+
+  for t in $tables; do
+    mysql -h "$DB_HOST_ONLY" -P "$DB_PORT_ONLY" -u "$DB_USER" -p"$DB_PASSWORD" -D "$DB_NAME" \
+      -e "SET FOREIGN_KEY_CHECKS=0; DROP TABLE IF EXISTS \`${t}\`; SET FOREIGN_KEY_CHECKS=1;" >/dev/null 2>&1 || true
+  done
+}
+
+import_sql_every_start() {
+  if [ ! -f "$SQL_FILE" ]; then
+    echo "SQL file not found at $SQL_FILE. Cannot import."
+    return 1
+  fi
+
+  echo "Resetting database '${DB_NAME}' and importing '${SQL_FILE}'..."
+  drop_all_tables
 
   mysql -h "$DB_HOST_ONLY" -P "$DB_PORT_ONLY" -u "$DB_USER" -p"$DB_PASSWORD" "$DB_NAME" < "$SQL_FILE"
   echo "SQL import finished."
@@ -73,7 +70,7 @@ import_sql_if_needed() {
 
 echo "Waiting for MySQL..."
 wait_for_mysql
-import_sql_if_needed
+import_sql_every_start
 
 exec "$@"
 
