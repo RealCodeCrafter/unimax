@@ -3,11 +3,21 @@ set -eu
 
 SQL_FILE="/var/www/html/unimaxtecdbs.sql"
 
-# Read DB credentials from wp-config.php (so we don't duplicate logic)
-DB_NAME="$(php -r "require '/var/www/html/wp-config.php'; echo DB_NAME;")"
-DB_USER="$(php -r "require '/var/www/html/wp-config.php'; echo DB_USER;")"
-DB_PASSWORD="$(php -r "require '/var/www/html/wp-config.php'; echo DB_PASSWORD;")"
-DB_HOST_STR="$(php -r "require '/var/www/html/wp-config.php'; echo DB_HOST;")"
+# Read DB credentials from wp-config.php without bootstrapping WordPress.
+# (wp-config.php in this project ends with wp-settings.php include, which would emit warnings in CLI)
+extract_wp_config() {
+  php -r '
+    $f = file_get_contents("/var/www/html/wp-config.php");
+    $key = $argv[1];
+    $re = "/define\\(\\s*[\\x27\\\"]".preg_quote($key,"/")."[\\x27\\\"]\\s*,\\s*[\\x27\\\"]([^\\x27\\\"]*)[\\x27\\\"]\\s*\\)/";
+    if (preg_match($re, $f, $m)) { echo $m[1]; }
+  ' "$1"
+}
+
+DB_NAME="$(extract_wp_config DB_NAME || true)"
+DB_USER="$(extract_wp_config DB_USER || true)"
+DB_PASSWORD="$(extract_wp_config DB_PASSWORD || true)"
+DB_HOST_STR="$(extract_wp_config DB_HOST || true)"
 
 DB_HOST_ONLY="$(printf '%s' "$DB_HOST_STR" | cut -d: -f1)"
 DB_PORT_ONLY="$(printf '%s' "$DB_HOST_STR" | cut -s -d: -f2)"

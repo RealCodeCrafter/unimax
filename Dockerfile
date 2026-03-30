@@ -19,6 +19,11 @@ COPY docker/nginx.conf.template /etc/nginx/nginx.conf.template
 # Supervisor config to run php-fpm and nginx together
 COPY docker/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
+# Ensure php-fpm listens on TCP 9000 (so nginx can reach it consistently)
+RUN if [ -f /usr/local/etc/php-fpm.d/www.conf ]; then \
+      sed -i 's|^listen = .*|listen = 0.0.0.0:9000|' /usr/local/etc/php-fpm.d/www.conf; \
+    fi
+
 # Startup script: imports SQL dump into DB on first boot (idempotent)
 COPY docker/entrypoint.sh /usr/local/bin/entrypoint.sh
 RUN chmod +x /usr/local/bin/entrypoint.sh
