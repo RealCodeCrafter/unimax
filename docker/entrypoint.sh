@@ -235,5 +235,8 @@ rewrite_old_asset_urls
 finalize_wp_runtime
 force_product_background_fallbacks
 
+# Railway must match nginx listen; default if unset (local runs).
+export PORT="${PORT:-8080}"
+
 exec "$@"
 

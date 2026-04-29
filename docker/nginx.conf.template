@@ -1,5 +1,5 @@
-worker_processes auto;
-events { worker_connections 1024; }
+worker_processes 1;
+events { worker_connections 2048; multi_accept on; }
 
 http {
     include       /etc/nginx/mime.types;
@@ -9,36 +9,54 @@ http {
     client_max_body_size 64m;
 
     server {
-        listen ${PORT};
+        listen 0.0.0.0:${PORT} default_server;
         server_name _; # Railway dynamic host
         root /var/www/html;
         index index.php index.html;
 
-        # WordPress permalinks
+        # Browser noise: never hit PHP (not the root cause of edge RST, but cheaper).
+        location = /favicon.ico {
+            access_log off;
+            log_not_found off;
+            return 204;
+        }
+        location = /apple-touch-icon.png {
+            access_log off;
+            return 204;
+        }
+        location = /apple-touch-icon-precomposed.png {
+            access_log off;
+            return 204;
+        }
+
+        location = /health {
+            access_log off;
+            default_type text/plain;
+            return 200 'ok';
+        }
+
         location / {
             try_files $uri $uri/ /index.php?$args;
         }
 
-        # PHP handling
         location ~ \.php$ {
             include        fastcgi_params;
             fastcgi_param  SCRIPT_FILENAME $document_root$fastcgi_script_name;
-            fastcgi_pass   127.0.0.1:9001;
+            fastcgi_pass   unix:/var/run/php/php-fpm.sock;
+            fastcgi_connect_timeout 60s;
             fastcgi_read_timeout 300;
+            fastcgi_send_timeout 300;
             fastcgi_buffers 16 16k;
             fastcgi_buffer_size 32k;
         }
 
-        # Deny access to sensitive files
         location ~* \.(htaccess|htpasswd|ini|log|conf)$ {
             deny all;
         }
 
-        # Cache static assets (optional)
         location ~* \.(?:css|js|jpg|jpeg|gif|png|svg|ico|webp)$ {
             expires 7d;
             access_log off;
         }
     }
 }
-
