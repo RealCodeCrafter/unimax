@@ -224,6 +224,23 @@ finalize_wp_runtime() {
   wp rewrite flush --hard --allow-root --path=/var/www/html >/dev/null 2>&1 || true
 }
 
+configure_apache_port() {
+  APP_PORT="${PORT:-8080}"
+
+  if [ -f /etc/apache2/ports.conf ]; then
+    sed -i -E 's/^Listen[[:space:]]+[0-9]+$/Listen '"${APP_PORT}"'/' /etc/apache2/ports.conf || true
+    if ! grep -Eq "^Listen[[:space:]]+${APP_PORT}$" /etc/apache2/ports.conf; then
+      echo "Listen ${APP_PORT}" >> /etc/apache2/ports.conf
+    fi
+  fi
+
+  if [ -f /etc/apache2/sites-available/000-default.conf ]; then
+    sed -i -E 's/<VirtualHost[[:space:]]+\*:[0-9]+>/<VirtualHost *:'"${APP_PORT}"'>/' /etc/apache2/sites-available/000-default.conf || true
+  fi
+
+  echo "Apache will listen on port ${APP_PORT}"
+}
+
 echo "Waiting for MySQL..."
 wait_for_mysql
 ensure_wp_core_files
@@ -235,8 +252,9 @@ rewrite_old_asset_urls
 finalize_wp_runtime
 force_product_background_fallbacks
 
-# Railway must match nginx listen; default if unset (local runs).
+# Railway app port for Apache.
 export PORT="${PORT:-8080}"
+configure_apache_port
 
 exec "$@"
 
