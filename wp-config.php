@@ -11,9 +11,17 @@ if ( isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && strtolower($_SERVER['HTTP_X_FO
 	$_SERVER['HTTPS'] = 'on';
 }
 
-// Keep URL stable on Railway (no env variables).
-define('WP_HOME', 'https://unimax-production-c86b.up.railway.app');
-define('WP_SITEURL', 'https://unimax-production-c86b.up.railway.app');
+// Public URL: use Railway’s domain for this deployment (changes when you create a new service URL).
+if ( ! empty( getenv( 'RAILWAY_PUBLIC_DOMAIN' ) ) ) {
+	$_unimax_public_base = 'https://' . getenv( 'RAILWAY_PUBLIC_DOMAIN' );
+	define( 'WP_HOME', $_unimax_public_base );
+	define( 'WP_SITEURL', $_unimax_public_base );
+} else {
+	// Fallback for local / custom host (override via PUBLIC_SITE_URL in Railway if needed).
+	$_unimax_fallback = getenv( 'PUBLIC_SITE_URL' ) ?: 'https://unimax-production-0b0a.up.railway.app';
+	define( 'WP_HOME', $_unimax_fallback );
+	define( 'WP_SITEURL', $_unimax_fallback );
+}
 
 /**
  * Основные параметры WordPress.

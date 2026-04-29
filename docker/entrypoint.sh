@@ -26,7 +26,12 @@ if [ -z "$DB_PORT_ONLY" ]; then
 fi
 
 TABLE_PREFIX="hihqh_" # $table_prefix in your wp-config is "hihqh_"
-TARGET_SITE_URL="https://unimax-production-c86b.up.railway.app"
+# Canonical public URL for this container (Railway sets RAILWAY_PUBLIC_DOMAIN per deployment).
+if [ -n "${RAILWAY_PUBLIC_DOMAIN:-}" ]; then
+  TARGET_SITE_URL="https://${RAILWAY_PUBLIC_DOMAIN}"
+else
+  TARGET_SITE_URL="${PUBLIC_SITE_URL:-https://unimax-production-0b0a.up.railway.app}"
+fi
 
 wait_for_mysql() {
   # Wait a bit for Railway MySQL to be reachable
@@ -185,10 +190,17 @@ rewrite_old_urls_in_database() {
   wp search-replace 'http://new.unimaxtec.uz' "${TARGET_SITE_URL}" \
     --all-tables --allow-root --path=/var/www/html --skip-columns=guid >/dev/null 2>&1 || true
 
+  # Any URLs still pointing at an old Railway hostname from a previous service.
+  wp search-replace 'https://unimax-production-c86b.up.railway.app' "${TARGET_SITE_URL}" \
+    --all-tables --allow-root --path=/var/www/html --skip-columns=guid >/dev/null 2>&1 || true
+  wp search-replace 'http://unimax-production-c86b.up.railway.app' "${TARGET_SITE_URL}" \
+    --all-tables --allow-root --path=/var/www/html --skip-columns=guid >/dev/null 2>&1 || true
+
   # Product flip-boxes currently use href="#!" which is a no-op.
   # Route them to a real page so clicking "Подробнее" opens content.
+  FLIP_HREF="${TARGET_SITE_URL}/postavshhiki/"
   wp search-replace 'class="elementor-flip-box__layer elementor-flip-box__back" href="#!"' \
-    'class="elementor-flip-box__layer elementor-flip-box__back" href="https://unimax-production-c86b.up.railway.app/postavshhiki/"' \
+    "class=\"elementor-flip-box__layer elementor-flip-box__back\" href=\"${FLIP_HREF}\"" \
     --all-tables --allow-root --path=/var/www/html --skip-columns=guid >/dev/null 2>&1 || true
 }
 

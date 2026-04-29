@@ -42,9 +42,14 @@ COPY docker/nginx.conf.template /etc/nginx/nginx.conf.template
 # Supervisor config to run php-fpm and nginx together
 COPY docker/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
-# Ensure php-fpm listens on TCP 9000 (so nginx can reach it consistently)
+# Ensure php-fpm listens on TCP 9000 (so nginx can reach it consistently).
+# clear_env=no so PHP sees Railway vars (e.g. RAILWAY_PUBLIC_DOMAIN) in wp-config.php.
 RUN if [ -f /usr/local/etc/php-fpm.d/www.conf ]; then \
       sed -i 's|^listen = .*|listen = 0.0.0.0:9000|' /usr/local/etc/php-fpm.d/www.conf; \
+      sed -i 's/^clear_env = yes/clear_env = no/' /usr/local/etc/php-fpm.d/www.conf; \
+      sed -i 's/^;clear_env = no/clear_env = no/' /usr/local/etc/php-fpm.d/www.conf || true; \
+      grep -q '^clear_env[[:space:]]*=' /usr/local/etc/php-fpm.d/www.conf || \
+        echo 'clear_env = no' >> /usr/local/etc/php-fpm.d/www.conf; \
     fi
 
 # Startup script: imports SQL dump into DB on first boot (idempotent)
