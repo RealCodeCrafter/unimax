@@ -43,10 +43,10 @@ define( 'DB_NAME', 'railway' );
 define( 'DB_USER', 'root' );
 
 /** Пароль к базе данных */
-define( 'DB_PASSWORD', 'gKXnUbxCoMvHSsHSUySNbYeGYhrwLhwF' );
+define( 'DB_PASSWORD', 'VRDmNMvzkAoSmMjRVJCbuerGzwpdmcor' );
 
 /** Имя сервера базы данных (host:port) */
-define( 'DB_HOST', 'crossover.proxy.rlwy.net:44478' );
+define( 'DB_HOST', 'switchyard.proxy.rlwy.net:52692' );
 
 /** Кодировка базы данных для создания таблиц. */
 define( 'DB_CHARSET', 'utf8mb4' );
