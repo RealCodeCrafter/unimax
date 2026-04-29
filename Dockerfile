@@ -7,6 +7,12 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/* && \
     mkdir -p /var/log/apache2
 
+# Prevent "More than one MPM loaded" in some inherited Apache states.
+# WordPress + mod_php should run with prefork only.
+RUN a2dismod mpm_event || true && \
+    a2dismod mpm_worker || true && \
+    a2enmod mpm_prefork
+
 # Install WP-CLI for safe serialized search-replace after SQL import.
 RUN curl -fsSL -o /usr/local/bin/wp https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar && \
     chmod +x /usr/local/bin/wp

@@ -241,6 +241,15 @@ configure_apache_port() {
   echo "Apache will listen on port ${APP_PORT}"
 }
 
+enforce_single_apache_mpm() {
+  # Safety for runtime restarts: keep only one MPM loaded.
+  if command -v a2dismod >/dev/null 2>&1 && command -v a2enmod >/dev/null 2>&1; then
+    a2dismod mpm_event >/dev/null 2>&1 || true
+    a2dismod mpm_worker >/dev/null 2>&1 || true
+    a2enmod mpm_prefork >/dev/null 2>&1 || true
+  fi
+}
+
 echo "Waiting for MySQL..."
 wait_for_mysql
 ensure_wp_core_files
@@ -255,6 +264,7 @@ force_product_background_fallbacks
 # Railway app port for Apache.
 export PORT="${PORT:-8080}"
 configure_apache_port
+enforce_single_apache_mpm
 
 exec "$@"
 
