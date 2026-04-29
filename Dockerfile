@@ -1,6 +1,7 @@
 FROM wordpress:6.5-php8.2-fpm
 
-ENV PHP_FPM_LISTEN=9000
+# Internal only — must NOT match Railway $PORT (often 8080; users sometimes set 9000 for HTTP).
+ENV PHP_FPM_LISTEN=9001
 ARG CACHEBUST=1
 
 RUN apt-get update && \
@@ -42,10 +43,10 @@ COPY docker/nginx.conf.template /etc/nginx/nginx.conf.template
 # Supervisor config to run php-fpm and nginx together
 COPY docker/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
-# Ensure php-fpm listens on TCP 9000 (so nginx can reach it consistently).
+# PHP-FPM on loopback:9001 so Railway can set PORT=9000 for nginx HTTP without bind conflicts.
 # clear_env=no so PHP sees Railway vars (e.g. RAILWAY_PUBLIC_DOMAIN) in wp-config.php.
 RUN if [ -f /usr/local/etc/php-fpm.d/www.conf ]; then \
-      sed -i 's|^listen = .*|listen = 0.0.0.0:9000|' /usr/local/etc/php-fpm.d/www.conf; \
+      sed -i 's|^listen = .*|listen = 127.0.0.1:9001|' /usr/local/etc/php-fpm.d/www.conf; \
       sed -i 's/^clear_env = yes/clear_env = no/' /usr/local/etc/php-fpm.d/www.conf; \
       sed -i 's/^;clear_env = no/clear_env = no/' /usr/local/etc/php-fpm.d/www.conf || true; \
       grep -q '^clear_env[[:space:]]*=' /usr/local/etc/php-fpm.d/www.conf || \
